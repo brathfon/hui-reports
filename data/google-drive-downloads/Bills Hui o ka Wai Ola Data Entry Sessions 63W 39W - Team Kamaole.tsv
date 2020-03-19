@@ -1,0 +1,217 @@
+Copied to main database by Kim/Bill 	Checked by Dana	yes/no	yes/no	yes/no	#	R2RS, R2RN, Polanui, Olowalu	LLHS	initials	initials	initials	RCB	RCB031717	2062	Canoe Beach	03/17/17	12:00											deg C	ppt	mg/L	%								0, 1, 2, 3, 4	0-8	0-5	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	
+		Nut_Sample	Nut_Dup	Sed_Sample	Session	Team	Lab	Sampler	Sampler2	Sampler3	Station	SampleID	Location	SiteName	Date	Time	40D#	2100Q#	pHInst#	DOInst#	SalInst#	Moon	Cloud_1_8	Rain_1_4	Wind_dir	SampleID2	Temp	Salinity	DO	DO%	pH	Turb1	Turb2	Turb3	Average Turbidity	CV Turbidity		Waves	Wind	Stream	Swimmers	On Beach	Campers	Comments
+			Example:		26	R2RS	LLHS	CM	TF	MS	RCB	RCB170821	2020	Canoe Beach	2017-08-21	9:22:00	1	1	4	2	3	1	7	2		RCB170821	27.0	33.1	6.92	104.4	8.18	5.78	5.86	6.03	Calculated	Calculated		1	0		1	20		RHL no waves at collection site but waves breaking starting halfway to Lipoa Point, light rain the night before
+yes	yes	yes	no	no	1	Kamaole	NMS	MB	AQ	DH	KWP	KWP171107		Waipuilani Park	2017-11-07	8:20	1	1	1	1	1	19	0	0	Trades	KWP171107	26.1	33.7	5.47	81.5	8.19	8.31	7.70	8.58	8.20	0.055		0	1		0	0	2	
+yes	yes	yes	no	no	1	Kamaole	NMS	MB	AQ	DH	KKS	KKS171107		Kihei South	2017-11-07	9:05	1	1	1	1	1	19	0	0	Trades	KKS171107	26.8	34.7	5.97	90.5	8.22	5.14	5.12	5.25	5.17	0.014		0	1		2	8	0	
+yes	yes	yes	no	no	1	Kamaole	NMS	MB	AQ	DH	KKP	KKP171107		Kalama Park	2017-11-07	9:27	1	1	1	1	1	19	0	0	Trades	KKP171107	27.0	34.8	6.26	95.2	8.22	8.88	8.32	8.21	8.47	0.042		2	1		1	0	0	Turtles visible in the water
+yes	yes	yes	no	no	1	Kamaole	NMS	MB	AQ	DH	KCP	KCP171107		Cove park	2017-11-07	9:55	1	1	1	1	1	19	0	0	Trades	KCP171107	26.9	34.3	6.24	94.5	8.24	1.31	0.98	1.08	1.12	0.151		0	1		20+	1	0	
+yes	yes	yes	no	no	1	Kamaole	NMS	MB	AQ	DH	KKO	KKO171107		Kamaole Beach I	2017-11-07	10:23	1	1	1	1	1	19	0	0	Trades	KKO171107	27.7	35.0	6.44	98.7	8.27	0.97	0.91	1.11	1.00	0.103		0	0		20+	20+	0	
+yes	yes	yes	no	no	1	Kamaole	NMS	MB	AQ	DH	KKT	KKT171107		Kamaole Beach III	2017-11-07	10:50	1	1	1	1	1	19	0	0	Trades	KKT171107	28.0	35.6	6.36	98.9	8.26	1.10	1.43	1.22	1.25	0.134		0	1		20+	20+	0	
+yes	yes	yes	no	no	2	Kamaole	NMS	MB	SG	SP	KWP	KWP171121		Waipuilani Park	2017-11-21	8:05	2	2	2	2	2	5	0	0	Trades	KWP171121	23.6	33.6	5.97	85.4	8.13	11.10	11.30	11.30	11.23	0.010		0	2		0	2	0	
+yes	yes	yes	no	no	2	Kamaole	NMS	MB	SG	SP	KKS	KKS171121		Kihei South	2017-11-21	8:34	2	2	2	2	2	5	0	0	Trades	KKS171121	24.4	34.9	6.27	91.6	8.24	3.11	3.65	3.61	3.46	0.087		0	2		0	0	0	
+yes	yes	yes	no	no	2	Kamaole	NMS	MB	SG	SP	KKP	KKP171121		Kalama Park	2017-11-21	9:00	2	2	2	2	2	5	0	0	Trades	KKP171121	23.7	34.8	6.56	94.8	8.20	3.50	3.33	3.60	3.48	0.039		0	2		2	1	0	
+yes	yes	yes	no	no	2	Kamaole	NMS	MB	SG	SP	KCP	KCP171121		Cove park	2017-11-21	9:20	2	2	2	2	2	5	0	0	Trades	KCP171121	25.3	34.2	6.41	94.7	8.17	1.12	0.85	0.92	0.96	0.145		0	0		0	0	0	
+yes	yes	yes	no	no	2	Kamaole	NMS	MB	SG	SP	KKO	KKO171121		Kamaole Beach I	2017-11-21	9:34	2	2	2	2	2	5	0	0	Trades	KKO171121	25.7	35.6	6.58	98.4	8.22	0.69	0.79	0.69	0.72	0.080		0	0		11	20+	0	
+yes	yes	yes	no	no	2	Kamaole	NMS	MB	SG	SP	KKT	KKT171121		Kamaole Beach III	2017-11-21	10:04	2	2	2	2	2	5	0	0	Trades	KKT171121	25.7	36.1	6.50	97.7	8.21	0.45	0.55	0.49	0.50	0.101		0	1		12	20+	0	
+yes	yes	yes	no	no	3	Kamaole	NMS	SG	SP	DH	KWP	KWP171205		Waipuilani Park	2017-12-05	8:05	1	1	1	1	1	18	3	0	Trades	KWP171205	23.2	33.2	6.48	91.5	8.13	7.91	7.71	7.79	7.80	0.013		2	3		0	3	1	Occasional sprinkle
+yes	yes	yes	no	no	3	Kamaole	NMS	SG	SP	DH	KKS	KKS171205		Kihei South	2017-12-05	8:40	1	1	1	1	1	18	3	0	Trades	KKS171205	23.7	33.7	6.33	90.7	8.15	5.95	5.53	5.81	5.76	0.037		2	3		0	6	0	
+yes	yes	yes	no	no	3	Kamaole	NMS	SG	SP	DH	KKP	KKP171205		Kalama Park	2017-12-05	9:00	1	1	1	1	1	18	3	0	Trades	KKP171205	23.2	34.5	6.46	91.8	8.16	5.79	6.95	6.32	6.35	0.091		2	4		0	4	0	Very windy at the parking lot (4-5), not so much at the beach (3)
+yes	yes	yes	no	no	3	Kamaole	NMS	SG	SP	DH	KCP	KCP171205		Cove park	2017-12-05	9:20	1	1	1	1	1	18	3	0	Trades	KCP171205	24.2	33.3	6.33	91.0	8.13	1.88	1.98	2.20	2.02	0.081		1	3		0	8	0	Windchop water
+yes	yes	yes	no	no	3	Kamaole	NMS	SG	SP	DH	KKO	KKO171205		Kamaole Beach I	2017-12-05	9:40	1	1	1	1	1	18	3	0	Trades	KKO171205	24.3	35.2		97.0	8.19	2.09	2.07	2.02	2.06	0.018		2	3		0	7	0	DO value deleted
+yes	yes	yes	no	no	3	Kamaole	NMS	SG	SP	DH	KKT	KKT171205		Kamaole Beach III	2017-12-05	10:00	1	1	1	1	1	18	3	0	Trades	KKT171205	24.7	35.6	6.67	98.1	8.19	0.62	0.55	0.57	0.58	0.062		2	3		3	6	0	
+yes	yes	yes	no	no	4	Kamaole	NMS	DH	SG	AQ	KWP	KWP171219		Waipuilani Park	2017-12-19	8:13	2	2	2	2	2	3	8	0	Kona	KWP171219	24.5	34.4	6.47	94.4	8.08	20.10	20.70	19.80	20.20	0.023		2	4		0	5	2	Campfire
+yes	yes	yes	no	no	4	Kamaole	NMS	DH	SG	AQ	KKS	KKS171219		Kihei South	2017-12-19	8:35	2	2	2	2	2	3	8	0	Kona	KKS171219	25.1	34.0	6.04	88.9	8.12	7.32	7.37	7.28	7.32	0.006		0	1		0	3	0	
+yes	yes	yes	no	no	4	Kamaole	NMS	DH	SG	AQ	KKP	KKP171219		Kalama Park	2017-12-19	8:50	2	2	2	2	2	3	8	0	Kona	KKP171219	25.0	34.4	6.44	94.8	8.14	4.99	5.53	5.33	5.28	0.052		1	2		3	0	0	
+yes	yes	yes	no	no	4	Kamaole	NMS	DH	SG	AQ	KCP	KCP171219		Cove park	2017-12-19	9:05	2	2	2	2	2	3	8	0	Kona	KCP171219	25.2	32.3	6.22	90.7	8.12	3.37	4.06	3.74	3.72	0.093		1	1		10	0	0	
+yes	yes	yes	no	no	4	Kamaole	NMS	DH	SG	AQ	KKO	KKO171219		Kamaole Beach I	2017-12-19	9:29	2	2	2	2	2	3	8	0	Kona	KKO171219	25.2	34.9	6.64	98.4	8.20	1.72	1.20	1.38	1.43	0.184		1	2		5	18	0	
+yes	yes	yes	no	no	4	Kamaole	NMS	DH	SG	AQ	KKT	KKT171219		Kamaole Beach III	2017-12-19	9:45	2	2	2	2	2	3	8	0	Kona	KKT171219	25.4	35.1	6.58	98.0	8.18	0.69	0.65	0.92	0.75	0.193		1	2		18	25	0	
+yes	yes	yes	no	no	5	Kamaole	NMS	SP	AQ	MB	KWP	KWP180109		Waipuilani Park	2018-01-09	8:07	1	1	1	1	1	23	0	0	Trades	KWP180109	22.4	33.4	6.71	93.3	8.12	21.10	22.10	20.10	21.10	0.047		2	0		3	2	1	
+yes	yes	yes	no	no	5	Kamaole	NMS	SP	AQ	MB	KKS	KKS180109		Kihei South	2018-01-09	8:35	1	1	1	1	1	23	0	0	Trades	KKS180109	23.2	33.8	6.61	93.9	8.12	7.95	9.00	8.17	8.37	0.066		2	0		1	10	0	
+yes	yes	yes	no	no	5	Kamaole	NMS	SP	AQ	MB	KKP	KKP180109		Kalama Park	2018-01-09	8:50	1	1	1	1	1	23	0	0	Trades	KKP180109	23.8	34.9	6.71	96.9	8.15	20.10	21.30	19.30	20.23	0.050		2	0		20	10	0	2 dogs playing near collection site
+yes	yes	yes	no	no	5	Kamaole	NMS	SP	AQ	MB	KCP	KCP180109		Cove park	2018-01-09	9:20	1	1	1	1	1	23	0	0	Trades	KCP180109	24.5	31.4	6.57	94.0	8.12	4.90	3.76	4.39	4.35	0.131		2	0		40	10	1	
+yes	yes	yes	no	no	5	Kamaole	NMS	SP	AQ	MB	KKO	KKO180109		Kamaole Beach I	2018-01-09	9:35	1	1	1	1	1	23	0	0	Trades	KKO180109	25.2	35.1		99.2	8.18	2.05	1.80	1.96	1.94	0.065		2	0		15	70	0	2 boats, DO value deleted
+yes	yes	yes	no	no	5	Kamaole	NMS	SP	AQ	MB	KKT	KKT180109		Kamaole Beach III	2018-01-09	9:51	1	1	1	1	1	23	0	0	Trades	KKT180109	25.0	35.1	6.70	98.9	8.18	1.00	0.95	0.94	0.96	0.033		2	0		4	25	0	
+yes	yes	yes	no	no	6	Kamaole	NMS	DH	SG	SP	KWP	KWP180123		Waipuilani Park	2018-01-23	7:55	2	2	2	2	2	8	2	0	Trades	KWP180123	23.3	35.2	6.53	93.4	8.08	23.50	25.20	25.50	24.73	0.044		0	2		1	5	3	
+yes	yes	yes	no	no	6	Kamaole	NMS	DH	SG	SP	KKS	KKS180123		Kihei South	2018-01-23	8:21	2	2	2	2	2	8	2	0	Trades	KKS180123	23.4	33.8	6.26	89.1	8.13	10.10	11.30	10.50	10.63	0.057		0	1		0	8	0	
+yes	yes	yes	no	no	6	Kamaole	NMS	DH	SG	SP	KKP	KKP180123		Kalama Park	2018-01-23	8:35	2	2	2	2	2	8	2	0	Trades	KKP180123	23.9	35.2	6.76	97.7	8.15	11.10	11.30	10.90	11.10	0.018		1	0		2	6	0	Dog surfing ;)
+yes	yes	yes	no	no	6	Kamaole	NMS	DH	SG	SP	KCP	KCP180123		Cove park	2018-01-23	9:00	2	2	2	2	2	8	2	0	Trades	KCP180123	24.4	34.0	6.70	97.1	8.13	7.83	8.08	7.91	7.94	0.016		2	0		10	2	0	
+yes	yes	yes	no	no	6	Kamaole	NMS	DH	SG	SP	KKO	KKO180123		Kamaole Beach I	2018-01-23	9:15	2	2	2	2	2	8	2	0	Trades	KKO180123	24.9	35.5	6.69	98.7	8.18	2.98	2.88	3.04	2.97	0.027		0	0		8	24	0	
+yes	yes	yes	no	no	6	Kamaole	NMS	DH	SG	SP	KKT	KKT180123		Kamaole Beach III	2018-01-23	9:30	2	2	2	2	2	8	2	0	Trades	KKT180123	24.6	35.7	6.67	98.3	8.17	1.29	1.13	1.25	1.22	0.068		1	0		20	55	0	
+yes	yes	yes	no	no	7	Kamaole	NMS	DH	AQ	SG	KWP	KWP180206		Waipuilani Park	2018-02-06	7:55	1	1	1	1	1	21	0	4	Kona	KWP180206	23.7	34.9	6.63	95.9	8.11	35.00	33.10	33.70	33.93	0.029		2	1		0	4	10	
+yes	yes	yes	no	no	7	Kamaole	NMS	DH	AQ	SG	KKS	KKS180206		Kihei South	2018-02-06	8:15	1	1	1	1	1	21	0	4	Kona	KKS180206	23.7	34.1	6.73	97.0	8.11	17.70	17.30	17.40	17.47	0.012		2	0		0	5	0	
+yes	yes	yes	no	no	7	Kamaole	NMS	DH	AQ	SG	KKP	KKP180206		Kalama Park	2018-02-06	8:33	1	1	1	1	1	21	0	4	Kona	KKP180206	24.2	35.2	6.66	97.5	8.11	15.40	16.50	15.70	15.87	0.036		3	0		18	8	0	
+yes	yes	yes	no	no	7	Kamaole	NMS	DH	AQ	SG	KCP	KCP180206		Cove park	2018-02-06	8:49	1	1	1	1	1	21	0	4	Kona	KCP180206	24.2	34.3	6.80	98.6	8.14	7.51	8.33	7.92	7.92	0.052		4	0		5	0	1	
+yes	yes	yes	no	no	7	Kamaole	NMS	DH	AQ	SG	KKO	KKO180206		Kamaole Beach I	2018-02-06	9:10	1	1	1	1	1	21	0	4	Kona	KKO180206	24.8	35.4	6.72	99.6	8.18	5.79	6.30	6.17	6.09	0.044		4	1		5	30	0	
+yes	yes	yes	no	no	7	Kamaole	NMS	DH	AQ	SG	KKT	KKT180206		Kamaole Beach III	2018-02-06	9:23	1	1	1	1	1	21	0	4	Kona	KKT180206	24.7	35.4	6.71	99.3	8.18	2.74	3.26	3.26	3.09	0.097		3	6		10	47	0	Very windy
+yes	yes	yes	no	no	8	Kamaole	NMS	DH	AQ	SG	KWP	KWP180220		Waipuilani Park	2018-02-20	7:54	2	2	2	2	2	5	0	0	Trades	KWP180220	22.5	33.6	6.68	93.5	8.08	27.70	27.20	28.30	27.73	0.020		1	3		0	5	3	
+yes	yes	yes	no	no	8	Kamaole	NMS	DH	AQ	SG	KKS	KKS180220		Kihei South	2018-02-20	8:20	2	2	2	2	2	5	0	0	Trades	KKS180220	24.0	33.9	6.50	93.6	8.14	9.26	10.40	9.94	9.87	0.058		0	3		3	4	0	
+yes	yes	yes	no	no	8	Kamaole	NMS	DH	AQ	SG	KKP	KKP180220		Kalama Park	2018-02-20	8:42	2	2	2	2	2	5	0	0	Trades	KKP180220	23.8	34.5	6.77	97.5	8.17	7.72	8.00	8.48	8.07	0.048		3	0		0	0	0	
+yes	yes	yes	no	no	8	Kamaole	NMS	DH	AQ	SG	KCP	KCP180220		Cove park	2018-02-20	9:01	2	2	2	2	2	5	0	0	Trades	KCP180220	24.7	33.5	6.47	94.0	8.13	1.58	1.91	1.59	1.69	0.111		2	3		10	0	0	
+yes	yes	yes	no	no	8	Kamaole	NMS	DH	AQ	SG	KKO	KKO180220		Kamaole Beach I	2018-02-20	9:14	2	2	2	2	2	5	0	0	Trades	KKO180220	24.9	35.4	6.88	101.4	8.18	2.55	2.49	2.66	2.57	0.034		2	2	 	15	20	0	
+yes	yes	yes	no	no	8	Kamaole	NMS	DH	AQ	SG	KKT	KKT180220		Kamaole Beach III	2018-02-20	9:36	2	2	2	2	2	5	0	0	Trades	KKT180220	24.9	35.4	6.66	98.6	8.17	0.74	1.07	1.00	0.94	0.186		2	0		40	100	0	
+yes	yes	yes	no	no	9	Kamaole	NMS	MB	SP	DH	KWP	KWP180306		Waipuilani Park	2018-03-06	7:56	2	1	1	1	1	20	1	0	Trades	KWP180306	21.4	31.9	6.83	93.3	8.09	24.70	26.30	26.20	25.73	0.035		2	0		0	1	6	
+yes	yes	yes	no	no	9	Kamaole	NMS	MB	SP	DH	KKS	KKS180306		Kihei South	2018-03-06	8:15	2	1	1	1	1	20	1	0	Trades	KKS180306	23.4	32.9	6.22	87.9	8.13	7.60	7.60	7.27	7.49	0.025		1	1		1	2	0	
+yes	yes	yes	no	no	9	Kamaole	NMS	MB	SP	DH	KKP	KKP180306		Kalama Park	2018-03-06	8:33	2	1	1	1	1	20	1	0	Trades	KKP180306	23.5	34.6	6.79	97.2	8.16	9.08	10.20	10.50	9.93	0.075		3	1		4	0	0	
+yes	yes	yes	no	no	9	Kamaole	NMS	MB	SP	DH	KCP	KCP180306		Cove park	2018-03-06	8:51	2	1	1	1	1	20	1	0	Trades	KCP180306	24.4	33.3	6.50	93.8	8.14	2.65	3.22	3.94	3.27	0.198		1	0		20	0	1	
+yes	yes	yes	no	no	9	Kamaole	NMS	MB	SP	DH	KKO	KKO180306		Kamaole Beach I	2018-03-06	9:10	2	1	1	1	1	20	1	0	Trades	KKO180306	24.8	35.0	6.77	99.2	8.19	0.78	0.87	1.08	0.91	0.169		1	0		2	12	0	
+yes	yes	yes	no	no	9	Kamaole	NMS	MB	SP	DH	KKT	KKT180306		Kamaole Beach III	2018-03-06	9:30	2	1	1	1	1	20	1	0	Trades	KKT180306	24.7	34.9	6.76	99.1	8.18	1.05	0.42	0.77	0.75	0.423		0	1		10	30	6	
+yes	yes	yes	no	no	10	Kamaole	NMS	MB	AQ	DH	KWP	KWP180320		Waipuilani Park	2018-03-20	7:53	2	2	2	2	2	3	6	0	Kona	KWP180320	22.2	32.5	6.34	87.9	8.06	8.11	9.02	9.66	8.93	0.087		1	3		0	5	3	
+yes	yes	yes	no	no	10	Kamaole	NMS	MB	AQ	DH	KKS	KKS180320		Kihei South	2018-03-20	8:16	2	2	2	2	2	3	6	0	Kona	KKS180320	23.8	33.7	6.15	88.5	8.16	3.88	2.56	3.00	3.15	0.214		0	1		2	10	0	
+yes	yes	yes	no	no	10	Kamaole	NMS	MB	AQ	DH	KKP	KKP180320		Kalama Park	2018-03-20	8:45	2	2	2	2	2	3	6	0	Kona	KKP180320	23.8	33.8	5.99	86.2	8.13	3.83	3.73	3.37	3.64	0.066		2	1		0	4	0	
+yes	yes	yes	no	no	10	Kamaole	NMS	MB	AQ	DH	KCP	KCP180320		Cove park	2018-03-20	8:58	2	2	2	2	2	3	6	0	Kona	KCP180320	24.7	32.7	6.28	91.2	8.14	1.85	1.55	1.30	1.57	0.176		0	1		3	4	0	
+yes	yes	yes	no	no	10	Kamaole	NMS	MB	AQ	DH	KKO	KKO180320		Kamaole Beach I	2018-03-20	9:17	2	2	2	2	2	3	6	0	Kona	KKO180320	24.8	34.3	6.61	97.3	8.19	0.99	1.15	1.22	1.12	0.105		2	0		20	35	0	
+yes	yes	yes	no	no	10	Kamaole	NMS	MB	AQ	DH	KKT	KKT180320		Kamaole Beach III	2018-03-20	9:40	2	2	2	2	2	3	6	0	Kona	KKT180320	24.6	34.4	6.47	95.0	8.17	0.73	0.78	0.79	0.77	0.042		2	0		40	65	0	
+yes	yes	yes	no	no	11	Kamaole	NMS	MB	SP	AQ	KWP	KWP180403		Waipuilani Park	2018-04-03	8:00	1	1	1	1	1	18	4	4	Kona	KWP180403	25.2	33.9	6.40	94.6	8.08	13.00	13.80	13.70	13.50	0.032		1	2		0	20	3	
+yes	yes	yes	no	no	11	Kamaole	NMS	MB	SP	AQ	KKS	KKS180403		Kihei South	2018-04-03	8:24	1	1	1	1	1	18	4	4	Kona	KKS180403	25.2	32.6	6.35	93.1	8.10	6.79	6.18	6.46	6.48	0.047		1	2		0	15	0	
+yes	yes	yes	no	no	11	Kamaole	NMS	MB	SP	AQ	KKP	KKP180403		Kalama Park	2018-04-03	8:41	1	1	1	1	1	18	4	4	Kona	KKP180403	25.5	34.4	6.66	99.0	8.16	5.53	5.75	5.87	5.72	0.030		2	2		0	10	0	
+yes	yes	yes	no	no	11	Kamaole	NMS	MB	SP	AQ	KCP	KCP180403		Cove park	2018-04-03	9:02	1	1	1	1	1	18	4	4	Kona	KCP180403	25.8	31.7	6.67	98.2	8.13	2.63	2.80	2.87	2.77	0.045		2	2		42	5	0	
+yes	yes	yes	no	no	11	Kamaole	NMS	MB	SP	AQ	KKO	KKO180403		Kamaole Beach I	2018-04-03	9:23	1	1	1	1	1	18	4	4	Kona	KKO180403	26.3	34.3	6.62	99.3	8.18	1.07	1.47	1.48	1.34	0.175		2	2		10	80	0	
+yes	yes	yes	no	no	11	Kamaole	NMS	MB	SP	AQ	KKT	KKT180403		Kamaole Beach III	2018-04-03	9:44	1	1	1	1	1	18	4	4	Kona	KKT180403	25.8	34.5	6.59	98.8	8.17	1.28	1.59	1.61	1.49	0.124		2	2		35	80	0	
+yes	yes	yes	no	no	12	Kamaole	NMS	MB	DH	SG	KWP	KWP180417		Waipuilani Park	2018-04-17	8:02	2	2	2	2	2	2	8	0	Trades	KWP180417	24.8	33.4	6.38	92.6	8.06	11.80	11.00	11.60	11.47	0.036		0	0		0	2	4	
+yes	yes	yes	no	no	12	Kamaole	NMS	MB	DH	SG	KKS	KKS180417		Kihei South	2018-04-17	8:18	2	2	2	2	2	2	8	0	Trades	KKS180417	25.4	32.6	6.15	89.8	8.09	8.10	9.48	9.93	9.17	0.104		0	0		0	2	0	
+yes	yes	yes	no	no	12	Kamaole	NMS	MB	DH	SG	KKP	KKP180417		Kalama Park	2018-04-17	8:37	2	2	2	2	2	2	8	0	Trades	KKP180417	25.5	34.7	6.68	98.9	8.17	8.33	10.60	8.51	9.15	0.138		1	0		1	0	0	
+yes	yes	yes	no	no	12	Kamaole	NMS	MB	DH	SG	KCP	KCP180417		Cove park	2018-04-17	8:57	2	2	2	2	2	2	8	0	Trades	KCP180417	25.9	32.3	6.70	98.5	8.15	3.73	4.32	4.47	4.17	0.094		1	0		10	0	0	
+yes	yes	yes	no	no	12	Kamaole	NMS	MB	DH	SG	KKO	KKO180417		Kamaole Beach I	2018-04-17	9:13	2	2	2	2	2	2	8	0	Trades	KKO180417	25.9	34.2	6.66	98.9	8.18	1.13	1.99	0.98	1.37	0.399		1	0		3	22	0	
+yes	yes	yes	no	no	12	Kamaole	NMS	MB	DH	SG	KKT	KKT180417		Kamaole Beach III	2018-04-17	9:33	2	2	2	2	2	2	8	0	Trades	KKT180417	25.6	34.1	6.70	99.3	8.17	1.29	1.68	1.35	1.44	0.146		1	1		50	50	0	
+yes	yes	yes	no	no	13	Kamaole	NMS	AQ	MB	SG	KWP	KWP180501		Waipuilani Park	2018-05-01	7:57	1	1	1	1	1	16	1	0	Kona	KWP180501	23.4	32.3	6.25	88.0	8.07	7.23	6.72	6.83	6.93	0.039		1	1		3	8	7	
+yes	yes	yes	no	no	13	Kamaole	NMS	AQ	MB	SG	KKS	KKS180501		Kihei South	2018-05-01	8:20	1	1	1	1	1	16	1	0	Kona	KKS180501	24.7	33.7	5.94	86.4	8.13	8.83	11.10	9.50	9.81	0.119		1	1		0	4	1	
+yes	yes	yes	no	no	13	Kamaole	NMS	AQ	MB	SG	KKP	KKP180501		Kalama Park	2018-05-01	8:38	1	1	1	1	1	16	1	0	Kona	KKP180501	24.8	34.8	6.80	99.6	8.19	3.32	3.22	3.29	3.28	0.016		1	2		222	4	7	
+yes	yes	yes	no	no	13	Kamaole	NMS	AQ	MB	SG	KCP	KCP180501		Cove park	2018-05-01	8:54	1	1	1	1	1	16	1	0	Kona	KCP180501	25.1	32.9	6.82	99.4	8.17	2.52	2.41	2.05	2.33	0.106		1	0		27	2	0	
+yes	yes	yes	no	no	13	Kamaole	NMS	AQ	MB	SG	KKO	KKO180501		Kamaole Beach I	2018-05-01	9:09	1	1	1	1	1	16	1	0	Kona	KKO180501	25.3	34.0	6.74	99.1	8.20	2.52	2.98	1.64	2.38	0.286		1	1		4	12	0	
+yes	yes	yes	no	no	13	Kamaole	NMS	AQ	MB	SG	KKT	KKT180501		Kamaole Beach III	2018-05-01	9:28	1	1	1	1	1	16	1	0	Kona	KKT180501	25.0	34.1	6.76	99.0	8.18	0.67	0.70	0.93	0.77	0.186		2	0		4	24	0	
+yes	yes	yes	no	no	14	Kamaole	NMS	SG	MB	DH	KWP	KWP180515		Waipuilani Park	2018-05-15	7:45	2	2	2	2	2	1	2	0	Trades	KWP180515	24.3	33.0	5.93	85.5	8.01	5.90	5.62	5.29	5.60	0.054		1	1		5	5	6	
+yes	yes	yes	no	no	14	Kamaole	NMS	SG	MB	DH	KKS	KKS180515		Kihei South	2018-05-15	8:07	2	2	2	2	2	1	2	0	Trades	KKS180515	25.5	32.3	5.63	87.5	8.08	5.57	5.56	6.20	5.78	0.063		0	1		0	2	0	
+yes	yes	yes	no	no	14	Kamaole	NMS	SG	MB	DH	KKP	KKP180515		Kalama Park	2018-05-15	8:27	2	2	2	2	2	1	2	0	Trades	KKP180515	25.4	34.2	6.85	101.3	8.15	5.79	5.64	6.05	5.83	0.036		1	0		3	2	0	
+yes	yes	yes	no	no	14	Kamaole	NMS	SG	MB	DH	KCP	KCP180515		Cove park	2018-05-15	8:44	2	2	2	2	2	1	2	0	Trades	KCP180515	26.0	32.0	7.01	103.4	8.15	2.03	1.99	2.22	2.08	0.059		1	3		1	2	0	
+yes	yes	yes	no	no	14	Kamaole	NMS	SG	MB	DH	KKO	KKO180515		Kamaole Beach I	2018-05-15	9:00	2	2	2	2	2	1	2	0	Trades	KKO180515	26.2	33.8	6.66	99.7	8.17	0.72	1.50	0.92	1.05	0.387		2	3		15	20	0	
+yes	yes	yes	no	no	14	Kamaole	NMS	SG	MB	DH	KKT	KKT180515		Kamaole Beach III	2018-05-15	9:23	2	2	2	2	2	1	2	0	Trades	KKT180515	25.6	34.3	6.70	99.5	8.16	0.87	1.65	1.11	1.21	0.330		2	4		12	30	0	
+yes	yes	yes	no	no	15	Kamaole	NMS	SG	AQ	SP	KWP	KWP180529		Waipuilani Park	2018-05-29	7:45	1	1	1	1	1	15	7	0	Trades	KWP180529	25.5	31.8	5.71	83.3	8.08	4.54	5.09	5.37	5.00	0.084		1	0		0	0	5	lots of vog - all beaches
+yes	yes	yes	no	no	15	Kamaole	NMS	SG	AQ	SP	KKS	KKS180529		Kihei South	2018-05-29	8:00	1	1	1	1	1	15	7	0	Trades	KKS180529	26.5	32.5	5.73	85.3	8.08	4.49	4.70	4.85	4.68	0.039		1	0		0	2	0	
+yes	yes	yes	no	no	15	Kamaole	NMS	SG	AQ	SP	KKP	KKP180529		Kalama Park	2018-05-29	8:16	1	1	1	1	1	15	7	0	Trades	KKP180529	26.0	34.8	6.27	93.6	8.12	4.31	4.06	4.80	4.39	0.086		1	0		0	15	0	
+yes	yes	yes	no	no	15	Kamaole	NMS	SG	AQ	SP	KCP	KCP180529		Cove park	2018-05-29	8:30	1	1	1	1	1	15	7	0	Trades	KCP180529	25.9	33.0	6.37	94.2	8.12	1.44	2.05	2.03	1.84	0.188		1	0		40	5	0	KCP warning sign posted for bacteria
+yes	yes	yes	no	no	15	Kamaole	NMS	SG	AQ	SP	KKO	KKO180529		Kamaole Beach I	2018-05-29	8:45	1	1	1	1	1	15	7	0	Trades	KKO180529	25.7	34.1	6.48	96.2	8.16	1.43	1.49	1.51	1.48	0.028		1	0		24	45	0	
+yes	yes	yes	no	no	15	Kamaole	NMS	SG	AQ	SP	KKT	KKT180529		Kamaole Beach III	2018-05-29	8:59	1	1	1	1	1	15	7	0	Trades	KKT180529	26.0	34.7	6.44	96.4	8.15	0.70	0.95	0.69	0.78	0.189		1	0		32	30	0	
+yes	yes	yes	no	no	16	Kamaole	NMS	SG	MB	SP	NKN	NKN180619		Kalepolepo North	2018-06-19	8:01	2	2	2	2	2	7	1	0	Trades	NKN100619	26.1	33.6	5.78	86.2	8.14	2.39	2.14	2.46	2.33	0.072		1	1		0	3	0	
+yes	yes	yes	no	no	16	Kamaole	NMS	SG	MB	SP	KWP	KWP180619		Waipuilani Park	2018-06-19	8:22	2	2	2	2	2	7	1	0	Trades	KWP180619	25.2	31.7	6.30	91.6	8.10	14.70	15.50	16.20	15.47	0.049		1	1		0	1	1	
+yes	yes	yes	no	no	16	Kamaole	NMS	SG	MB	SP	KKS	KKS180619		Kihei South	2018-06-19	8:40	2	2	2	2	2	7	1	0	Trades	KKS180619	26.4	32.8	5.83	87.1	8.16	7.27	8.07	6.95	7.43	0.078		1	1		0	6	0	KKS - 1 dog in the water
+yes	yes	yes	no	no	16	Kamaole	NMS	SG	MB	SP	KKP	KKP180619		Kalama Park	2018-06-19	8:59	2	2	2	2	2	7	1	0	Trades	KKP180619	26.4	34.1	6.59	99.1	8.16	8.41	8.97	8.86	8.75	0.034		1	1		1	0	0	
+yes	yes	yes	no	no	16	Kamaole	NMS	SG	MB	SP	KCP	KCP180619		Cove park	2018-06-19	9:18	2	2	2	2	2	7	1	0	Trades	KCP180619	26.6	31.5	6.74	100.3	8.14	2.23	2.72	3.15	2.70	0.170		1	1		7	0	0	
+yes	yes	yes	no	no	17	Kamaole	NMS	SG	MB	DH	NKN	NKN180710		Kalepolepo North	2018-07-10	7:50	1	1	1	1	1	27	1	0	Trades	NKN180710	26.6	33.2	5.71	85.5	8.16	0.86	0.81	0.89	0.85	0.047		0	0		0	2	0	haze and vog
+yes	yes	yes	no	no	17	Kamaole	NMS	SG	MB	DH	KWP	KWP180710		Waipuilani Park	2018-07-10	8:15	1	1	1	1	1	27	1	0	Trades	KWP180710	26.2	32.3	4.88	72.3	8.07	2.04	2.67	2.20	2.30	0.142		0	0		0	2	2	
+yes	yes	yes	no	no	17	Kamaole	NMS	SG	MB	DH	KKS	KKS180710		Kihei South	2018-07-10	8:35	1	1	1	1	1	27	1	0	Trades	KKS180710	27.2	32.9	5.29	79.9	8.13	3.15	3.53	3.56	3.41	0.067		1	0		0	4	0	
+yes	yes	yes	no	no	17	Kamaole	NMS	SG	MB	DH	KKP	KKP180710		Kalama Park	2018-07-10	9:00	1	1	1	1	1	27	1	0	Trades	KKP180710	26.9	34.0	6.58	99.7	8.17	5.71	5.34	5.58	5.54	0.034		1	0		8	8	0	KKP - 1 turtle on the beach
+yes	yes	yes	no	no	17	Kamaole	NMS	SG	MB	DH	KCP	KCP180710		Cove park	2018-07-10	9:15	1	1	1	1	1	27	1	0	Trades	KCP180710	27.5	30.7	6.50	97.5	8.14	6.83	6.47	7.18	6.83	0.052		1	0		0	3	0	
+yes	yes	yes	no	no	18	Kamaole	NMS	SG	MB	SP	NKN	NKN180731		Kalepolepo North	2018-07-31	8:10	2	2	2	2	2	18	3	0	Trades	NKN180731	27.1	33.8	6.23	94.6	8.17	0.70	0.67	0.63	0.67	0.053		1	2		6	6	0	
+yes	yes	yes	no	no	18	Kamaole	NMS	SG	MB	SP	KWP	KWP180731		Waipuilani Park	2018-07-31	8:25	2	2	2	2	2	18	3	0	Trades	KWP180731	27.6	32.0	4.95	75.1	8.06	5.05	5.22	5.27	5.18	0.022		1	1		0	5	1	
+yes	yes	yes	no	no	18	Kamaole	NMS	SG	MB	SP	KKS	KKS180731		Kihei South	2018-07-31	8:45	2	2	2	2	2	18	3	0	Trades	KKS180731	28.5	33.7	5.56	86.2	8.14	3.53	3.89	3.84	3.75	0.052		1	1		1	0	0	
+yes	yes	yes	no	no	18	Kamaole	NMS	SG	MB	SP	KKP	KKP180731		Kalama Park	2018-07-31	9:06	2	2	2	2	2	18	3	0	Trades	KKP180731	28.3	34.4	6.29	97.8	8.14	6.38	7.59	6.78	6.92	0.089		1	1		5	6	0	
+yes	yes	yes	no	no	18	Kamaole	NMS	SG	MB	SP	KCP	KCP180731		Cove park	2018-07-31	9:20	2	2	2	2	2	18	3	0	Trades	KCP180731	28.1	32.4	6.29	96.5	8.15	1.35	1.18	1.44	1.32	0.100		0	1		0	2	0	
+yes	yes	yes	no	no	19	Kamaole	NMS	SP	MB	DH	NKN	NKN180821		Kalepolepo North	2018-08-21	7:55	1	1	1	1	1	11		0	Trades	NKN180821	26.9	31.6	5.92	88.5	8.13	1.73	1.93	1.56	1.74	0.106		1	4		2	2	0	
+yes	yes	yes	no	no	19	Kamaole	NMS	SP	MB	DH	KWP	KWP180821		Waipuilani Park	2018-08-21	8:28	1	1	1	1	1	11		0	Trades	KWP180821	26.4	31.8	5.58	83.0	8.11	5.09	4.67	5.08	4.95	0.048		0	1		0	0	0	
+yes	yes	yes	no	no	19	Kamaole	NMS	SP	MB	DH	KKS	KKS180821		Kihei South	2018-08-21	8:40	1	1	1	1	1	11		0	Trades	KKS180821	27.5	33.4	4.99	76.0	8.10	4.75	5.50	5.32	5.19	0.075		1	1		2	3	0	
+yes	yes	yes	no	no	19	Kamaole	NMS	SP	MB	DH	KKP	KKP180821		Kalama Park	2018-08-21	9:00	1	1	1	1	1	11		0	Trades	KKP180821	27.3	34.0	6.51	99.2	8.16	7.01	7.30	6.73	7.01	0.041		1	2		1	3	0	
+yes	yes	yes	no	no	19	Kamaole	NMS	SP	MB	DH	KCP	KCP180821		Cove park	2018-08-21	9:13	1	1	1	1	1	11		0	Trades	KCP180821	28.2	32.9	6.16	94.9	8.16	1.93	1.64	1.94	1.84	0.093		0	1		0	0	0	
+yes	yes	yes	no	no	20	Kamaole	NMS	AQ	SP	MB	NKN	NKN180911		Kalepolepo North	2018-09-11	8:00	2	2	2	2	2	3	1	1	Trades	NKN180911	26.8	32.9	6.35	95.7	8.14	4.13	5.68	4.37	4.73	0.177		1	1		0	0	2	
+yes	yes	yes	no	no	20	Kamaole	NMS	AQ	SP	MB	KWP	KWP180911		Waipuilani Park	2018-09-11	8:17	2	2	2	2	2	3	1	1	Trades	KWP180911	26.5	32.9	6.33	95.0	8.12	19.10	19.90	20.10	19.70	0.027		1	1		2	7	0	breezy at KWP
+yes	yes	yes	no	no	20	Kamaole	NMS	AQ	SP	MB	KKS	KKS180911		Kihei South	2018-09-11	8:37	2	2	2	2	2	3	1	1	Trades	KKS180911	27.2	33.3	6.04	92.1	8.14	4.88	5.43	5.65	5.32	0.075		1	1		2	4	0	gusty at KKS
+yes	yes	yes	no	no	20	Kamaole	NMS	AQ	SP	MB	KKP	KKP180911		Kalama Park	2018-09-11	8:52	2	2	2	2	2	3	1	1	Trades	KKP180911	27.0	33.8	6.36	96.9	8.15	5.71	5.05	5.84	5.53	0.077		1	2		0	2	0	stream was dredged, anticipating tropical storm
+yes	yes	yes	no	no	20	Kamaole	NMS	AQ	SP	MB	KCP	KCP180911		Cove park	2018-09-11	9:11	2	2	2	2	2	3	1	1	Trades	KCP180911	27.2	31.6	6.52	98.4	8.14	3.36	3.80	4.87	4.01	0.194		1	1		11	0	0	
+yes	yes	yes	no	no	21	Kamaole	NMS	SG	MB	DH	NKN	NKN181002		Kalepolepo North	2018-10-02	8:00	1	1	1	1	1					NKN181002	27.8	34.5	5.80	85.3	8.10	2.09	2.03	2.57	2.23	0.133					0	0	0	
+yes	yes	yes	no	no	21	Kamaole	NMS	SG	MB	DH	KWP	KWP181002		Waipuilani Park	2018-10-02	8:15	1	1	1	1	1					KWP181002	26.0	33.2	6.16	91.4	8.02	21.20	22.30	23.00	22.17	0.041					0	3	0	
+yes	yes	yes	no	no	21	Kamaole	NMS	SG	MB	DH	KKS	KKS181002		Kihei South	2018-10-02	8:35	1	1	1	1	1					KKS181002	27.4	33.7	5.92	90.2	8.11	8.79	9.39	10.10	9.43	0.070					0	3	0	
+yes	yes	yes	no	no	21	Kamaole	NMS	SG	MB	DH	KKP	KKP181002		Kalama Park	2018-10-02	8:55	1	1	1	1	1					KKP181002	27.3	34.1	6.61	100.6	8.14	9.91	10.40	10.00	10.10	0.026					2	2	0	2 dogs
+yes	yes	yes	no	no	21	Kamaole	NMS	SG	MB	DH	KCP	KCP181002		Cove park	2018-10-02	9:10	1	1	1	1	1					KCP181002	27.7	33.6	6.47	99.0	8.14	3.45	2.79	2.82	3.02	0.123					3	1	0	
+yes	yes	yes	no	no	22	Kamaole	NMS	SG	HH	DH	NKN	NKN181023		Kalepolepo North	2018-10-23	8:08	2	2	2	2	2					NKN181023	26.8	33.6	6.21	98.7	8.13	3.36	4.27	4.36	4.00	0.138				N	1	18	0	
+yes	yes	yes	no	no	22	Kamaole	NMS	SG	HH	DH	KWP	KWP181023		Waipuilani Park	2018-10-23	8:17	2	2	2	2	2					KWP181023	26.0	34.4	6.51	97.7	8.09	17.10	17.60	18.60	17.77	0.043					0	7	2	
+yes	yes	yes	no	no	22	Kamaole	NMS	SG	HH	DH	KKS	KKS181023		Kihei South	2018-10-23	8:38	2	2	2	2	2					KKS181023	26.6	34.1	6.58	99.3	8.09	9.64	10.90	11.70	10.75	0.097					3	10	0	
+yes	yes	yes	no	no	22	Kamaole	NMS	SG	HH	DH	KKP	KKP181023		Kalama Park	2018-10-23	8:51	2	2	2	2	2					KKP181023	27.3	35.1	6.75	103.7	8.15	5.73	7.29	9.26	7.43	0.238				N	10	2	0	
+yes	yes	yes	no	no	22	Kamaole	NMS	SG	HH	DH	KCP	KCP181023		Cove park	2018-10-23	9:08	2	2	2	2	2					KCP181023	27.4	34.3	6.80	104.0	8.14	6.97	7.45	7.80	7.41	0.056				N	50	0	0	
+yes	yes	yes	no	no	23	Kamaole	NMS	SG	HH	MB	NKN	NKN181113		Kalepolepo North	2018-11-13	8:45	1	1	1	1	1					NKN181113	26.7	34.3	5.66	85.7	8.09	1.23	1.54	1.20	1.32	0.142				N	4	1	0	
+yes	yes	yes	no	no	23	Kamaole	NMS	SG	HH	MB	KWP	KWP181113		Waipuilani Park	2018-11-13	9:05	1	1	1	1	1					KWP181113	24.0	32.4	6.23	90.5	8.08	14.20	13.10	13.20	13.50	0.045				NA	0	0	0	
+yes	yes	yes	no	no	23	Kamaole	NMS	SG	HH	MB	KKS	KKS181113		Kihei South	2018-11-13	9:26	1	1	1	1	1					KKS181113	24.4	33.5	6.60	95.7	8.21	3.84	3.66	3.50	3.67	0.046				NA	7	2	0	1 dog
+yes	yes	yes	no	no	23	Kamaole	NMS	SG	HH	MB	KKP	KKP181113		Kalama Park	2018-11-13	9:42	1	1	1	1	1					KKP181113	25.3	34.1	6.30	93.1	8.17	4.97	4.91	5.14	5.01	0.024				N	2	2	0	1 dog
+yes	yes	yes	no	no	23	Kamaole	NMS	SG	HH	MB	KCP	KCP181113		Cove park	2018-11-13	10:00	1	1	1	1	1					KCP181113	26.8	34.4	6.07	92.1	8.14	1.07	1.21	0.99	1.09	0.102				N	0	0	0	
+yes	yes	yes	no	no	24	Kamaole	NMS	SG	HH	DH	NKN	NKN181204		Kalepolepo North	2018-12-04	8:02	2	2	2	2	2					NKN181204	25.1	32.7	6.06	88.5	8.15	0.82	1.00	1.30	1.04	0.233				N	1	0	0	Raul Ruiz (NMS)  tagged along as observer
+yes	yes	yes	no	no	24	Kamaole	NMS	SG	HH	DH	KWP	KWP181204		Waipuilani Park	2018-12-04	8:36	2	2	2	2	2					KWP181204	24.4	32.5	5.94	85.6	8.12	6.36	6.58	7.29	6.74	0.072				NA	0	2	1	Multimeter was shutting off at 30% power @ KWP site, changed batteries and had no prob
+yes	yes	yes	no	no	24	Kamaole	NMS	SG	HH	DH	KKS	KKS181204		Kihei South	2018-12-04	8:54	2	2	2	2	2					KKS181204	25.3	34.5	5.77	85.3	8.16	4.53	3.55	3.59	3.89	0.143				NA	0	1	0	
+yes	yes	yes	no	no	24	Kamaole	NMS	SG	HH	DH	KKP	KKP181204		Kalama Park	2018-12-04	9:15	2	2	2	2	2					KKP181204	24.9	34.5	6.77	99.5	8.16	6.57	7.27	5.98	6.61	0.098				N	3	3	0	
+yes	yes	yes	no	no	24	Kamaole	NMS	SG	HH	DH	KCP	KCP181204		Cove park	2018-12-04	9:30	2	2	2	2	2					KCP181204	26.1	33.7	5.84	87.2	8.13	1.73	1.45	1.73	1.64	0.099				N	12	6	0	
+yes	yes	yes	no	no	25	Kamaole	NMS	SG	DH	GB	NKN	NKN181218		Kalepolepo North	2018-12-18	8:00	1	1	1	1	1					NKN181218	24.8	33.8	5.74	83.2	8.11	2.13	1.93	1.81	1.96	0.083				N	0	2	0	
+yes	yes	yes	no	no	25	Kamaole	NMS	SG	DH	GB	KWP	KWP181218		Waipuilani Park	2018-12-18	8:14	1	1	1	1	1					KWP181218	22.7	31.8	6.45	89.1	8.13	11.00	11.60	11.70	11.43	0.033				NA	0	3	0	
+yes	yes	yes	no	no	25	Kamaole	NMS	SG	DH	GB	KKS	KKS181218		Kihei South	2018-12-18	8:30	1	1	1	1	1					KKS181218	23.6	33.4	6.05	85.9	8.15	5.36	6.22	5.86	5.81	0.074				NA	0	2	0	
+yes	yes	yes	no	no	25	Kamaole	NMS	SG	DH	GB	KKP	KKP181218		Kalama Park	2018-12-18	8:46	1	1	1	1	1					KKP181218	23.5	34.0	6.87	97.6	8.15	3.89	4.24	3.79	3.97	0.059				N	0	2	0	
+yes	yes	yes	no	no	25	Kamaole	NMS	SG	DH	GB	KCP	KCP181218		Cove park	2018-12-18	9:02	1	1	1	1	1					KCP181218	24.9	32.5	6.25	90.2	8.11	2.15	2.29	2.14	2.19	0.038				N	2	0	0	
+yes	yes	yes	no	no	26	Kamaole	NMS	MB	DH		NKN	NKN190115		Kalepolepo North	2019-01-15	8:04	1	3	5	1	3					NKN190115	23.8	33.4	6.72	96.0	8.20	4.56	4.97	4.97	4.83	0.049				N	0	1	0	West Maui equip used
+yes	yes	yes	no	no	26	Kamaole	NMS	MB	DH		KWP	KWP190115		Waipuilani Park	2019-01-15	8:40	1	3	5	1	3					KWP190115	23.4	34.1	6.29	89.6	8.10	10.80	11.80	12.10	11.57	0.059				NA	0	3	0	West Maui equip used
+yes	yes	yes	no	no	26	Kamaole	NMS	MB	DH		KKS	KKS190115		Kihei South	2019-01-15	9:05	1	3	5	1	3					KKS190115	24.2	34.1	6.52	94.1	8.17	9.54	8.63	8.66	8.94	0.058				NA	0	2	0	West Maui equip used
+yes	yes	yes	no	no	26	Kamaole	NMS	MB	DH		KKP	KKP190115		Kalama Park	2019-01-15	9:30	1	3	5	1	3					KKP190115	24.4	34.4	6.65	96.5	8.16	8.76	8.69	9.11	8.85	0.025				N	7	5	0	West Maui equip used
+yes	yes	yes	no	no	26	Kamaole	NMS	MB	DH		KCP	KCP190115		Cove park	2019-01-15	10:00	1	3	5	1	3					KCP190115	24.6	32.6	6.90	99.7	8.17	3.30	4.14	4.17	3.87	0.128				NA	4	2	0	West Maui equip used
+yes	yes	yes	no	no	27	Kamaole	NMS	MB	DH	SG	NKN	NKN190205		Kalepolepo North	2019-02-05	8:00	1	1	1	1	1					NKN190205	23.4	35.7	6.33	91.1	8.13	1.35	2.34	1.65	1.78	0.285				N	0	0	0	
+yes	yes	yes	no	no	27	Kamaole	NMS	MB	DH	SG	KWP	KWP190205		Waipuilani Park	2019-02-05	8:15	1	1	1	1	1					KWP190205	21.4	33.7	6.84	94.1	8.11	19.20	20.50	19.70	19.80	0.033				NA	0	0	0	
+yes	yes	yes	no	no	27	Kamaole	NMS	MB	DH	SG	KKS	KKS190205		Kihei South	2019-02-05	8:33	1	1	1	1	1					KKS190205	23.1	34.7	6.24	89.0	8.15	6.10	6.85	7.69	6.88	0.116				NA	0	0	0	
+yes	yes	yes	no	no	27	Kamaole	NMS	MB	DH	SG	KKP	KKP190205		Kalama Park	2019-02-05	8:52	1	1	1	1	1					KKP190205	22.5	35.3	6.85	96.9	8.18	5.57	5.02	5.73	5.44	0.068				N	0	2	0	took 4th reading at KKP
+yes	yes	yes	no	no	27	Kamaole	NMS	MB	DH	SG	KCP	KCP190205		Cove park	2019-02-05	9:07	1	1	1	1	1					KCP190205	23.1	35.1	6.71	96.2	8.14	4.48	4.54	4.81	4.61	0.038				NA	2	0	0	
+yes	yes	yes	no	no	28	Kamaole	NMS	MB	DH		NKN	NKN190226		Kalepolepo North	2019-02-26	8:00	2	2	2	2	2					NKN190226	24.1	33.5	6.08	87.5	8.11	0.52	0.68	0.74	0.65	0.176				N	0	4	0	
+yes	yes	yes	no	no	28	Kamaole	NMS	MB	DH		KWP	KWP190226		Waipuilani Park	2019-02-26	8:30	2	2	2	2	2					KWP190226	23.4	31.9	6.11	86.0	8.10	6.16	7.09	6.88	6.71	0.073				NA	0	2	0	
+yes	yes	yes	no	no	28	Kamaole	NMS	MB	DH		KKS	KKS190226		Kihei South	2019-02-26	8:55	2	2	2	2	2					KKS190226	24.1	33.0	6.35	91.1	8.19	4.44	4.77	4.71	4.64	0.038				NA	0	8	0	
+yes	yes	yes	no	no	28	Kamaole	NMS	MB	DH		KKP	KKP190226		Kalama Park	2019-02-26	9:15	2	2	2	2	2					KKP190226	23.6	34.5	6.72	96.4	8.18	7.81	8.34	8.79	8.31	0.059				N	2	3	0	2 in the water were dogs
+yes	yes	yes	no	no	28	Kamaole	NMS	MB	DH		KCP	KCP190226		Cove park	2019-02-26	9:40	2	2	2	2	2					KCP190226	24.6	31.1	6.64	95.0	8.13	1.15	1.20	1.38	1.24	0.097				N	2	0	0	
+yes	yes	yes	no	no	29	Kamaole	NMS	MB	HH	SG	NKN	NKN190319		Kalepolepo North	2019-03-19	8:05	1	1	1	1	1					NKN190319	22.9	32.9	6.58	92.2	8.11	1.29	1.66	1.87	1.61	0.183				N	0	4	0	
+yes	yes	yes	no	no	29	Kamaole	NMS	MB	HH	SG	KWP	KWP190319		Waipuilani Park	2019-03-19	8:30	1	1	1	1	1					KWP190319	22.8	33.7	6.53	91.7	8.07	6.19	7.43	7.57	7.06	0.108				NA	8	4	0	
+yes	yes	yes	no	no	29	Kamaole	NMS	MB	HH	SG	KKS	KKS190319		Kihei South	2019-03-19	8:50	1	1	1	1	1					KKS190319	23.1	32.6	6.62	93.0	8.13	7.99	6.13	8.73	7.62	0.176				NA	0	9	0	
+yes	yes	yes	no	no	29	Kamaole	NMS	MB	HH	SG	KKP	KKP190319		Kalama Park	2019-03-19	9:13	1	1	1	1	1					KKP190319	23.3	34.4	7.35	104.5	8.17	3.20	3.85	4.43	3.83	0.161				N	0	7	0	
+yes	yes	yes	no	no	29	Kamaole	NMS	MB	HH	SG	KCP	KCP190319		Cove park	2019-03-19	9:31	1	1	1	1	1					KCP190319	23.6	32.5	7.25	102.6	8.13	3.52	5.28	5.14	4.65	0.211				N	50	6	0	50 swimmers were surfers
+yes	yes	yes	no	no	30	Kamaole	NMS	JS	HH	SG	NKN	NKN190409		Kalepolepo North	2019-04-09	7:56	2	2	2	2	2					NKN190409	24.7	33.9	6.72	97.6	8.13	1.43	1.46	1.60	1.50	0.061				N	0	0	0	
+yes	yes	yes	no	no	30	Kamaole	NMS	JS	HH	SG	KWP	KWP190409		Waipuilani Park	2019-04-09	8:24	2	2	2	2	2					KWP190409	24.2	32.3	6.45	92.2	8.05	12.00	12.30	12.90	12.40	0.037				NA	0	4	0	
+yes	yes	yes	no	no	30	Kamaole	NMS	JS	HH	SG	KKS	KKS190409		Kihei South	2019-04-09	8:40	2	2	2	2	2					KKS190409	26.3	32.3	6.23	90.8	8.10	6.76	6.41	6.68	6.62	0.028				NA	0	0	0	
+yes	yes	yes	no	no	30	Kamaole	NMS	JS	HH	SG	KKP	KKP190409		Kalama Park	2019-04-09	9:01	2	2	2	2	2					KKP190409	25.3	34.8	6.74	99.5	8.15	7.49	6.97	7.38	7.28	0.038				N	0	3	0	
+yes	yes	yes	no	no	30	Kamaole	NMS	JS	HH	SG	KCP	KCP190409		Cove park	2019-04-09	9:20	2	2	2	2	2					KCP190409	25.7	31.3	7.09	103.2	8.14	2.86	3.04	3.15	3.02	0.049				N	2	0	0	
+yes	yes	yes	no	no	31	Kamaole	NMS	MB		SG	NKN	NKN190430		Kalepolepo North	2019-04-30	8:00	1	1	1	1	1					NKN190430	24.9	30.1	6.70	95.6	8.11	4.89	6.80	6.20	5.96	0.164				N	0	2	0	
+yes	yes	yes	no	no	31	Kamaole	NMS	MB		SG	KWP	KWP190430		Waipuilani Park	2019-04-30	8:24	1	1	1	1	1					KWP190430	24.2	30.3	6.16	87.0	8.04	10.30	10.00	10.00	10.10	0.017				NA	0	1	0	took 4th reading of NTU
+yes	yes	yes	no	no	31	Kamaole	NMS	MB		SG	KKS	KKS190430		Kihei South	2019-04-30	8:47	1	1	1	1	1					KKS190430	25.5	32.9	6.20	90.9	8.10	3.93	4.45	4.25	4.21	0.062				NA	0	3	0	
+yes	yes	yes	no	no	31	Kamaole	NMS	MB		SG	KKP	KKP190430		Kalama Park	2019-04-30	9:10	1	1	1	1	1					KKP190430	25.8	34.2	6.87	102.0	8.13	10.80	11.60	12.40	11.60	0.069				N	4	5	0	4 in the water were surfers
+yes	yes	yes	no	no	31	Kamaole	NMS	MB		SG	KCP	KCP190430		Cove park	2019-04-30	9:35	1	1	1	1	1					KCP190430	26.0	31.5	7.12	104.6	8.12	10.40	9.32	7.77	9.16	0.144				N	0	1	0	took 4th reading of NTU
+yes	yes	yes	no	no	32	Kamaole	NMS	SG	DH		NKN	NKN190521		Kalepolepo North	2019-05-21	8:05	2	1	1	1	1					NKN190521	26.7	32.6	5.71	85.4	8.05	2.43	3.46	3.87	3.25	0.228				N	0	3	0	
+yes	yes	yes	no	no	32	Kamaole	NMS	SG	DH		KWP	KWP190521		Waipuilani Park	2019-05-21	8:40	2	1	1	1	1					KWP190521	26.8	33.1	6.05	91.1	8.01	11.00	11.50	11.40	11.30	0.023				NA	0	2	0	
+yes	yes	yes	no	no	32	Kamaole	NMS	SG	DH		KKS	KKS190521		Kihei South	2019-05-21	8:55	2	1	1	1	1					KKS190521	27.5	31.3	6.20	93.4	8.07	4.90	5.88	5.99	5.59	0.107				NA	4	0	0	
+yes	yes	yes	no	no	32	Kamaole	NMS	SG	DH		KKP	KKP190521		Kalama Park	2019-05-21	9:15	2	1	1	1	1					KKP190521	27.5	34.2	7.01	107.2	8.17	5.58	6.03	6.22	5.94	0.055				N	4	1	0	
+yes	yes	yes	no	no	32	Kamaole	NMS	SG	DHJ		KCP	KCP190521		Cove park	2019-05-21	9:35	2	1	1	1	1					KCP190521	28.0	31.0	6.94	105.3	8.13	3.86	5.21	5.92	5.00	0.209				N	5	1	0	took 4th reading of NTU
+yes	yes	yes	no	no	33	Kamaole	NMS	MB	TS	JK	NKN	NKN190611		Kalepolepo North	2019-06-11	7:55	1	1	1	1	1					NKN190611	26.5	32.8	5.76	85.8	8.09	2.35	3.25	2.61	2.74	0.169				N	0	3	0	
+yes	yes	yes	no	no	33	Kamaole	NMS	MB	TS	JK	KWP	KWP190611		Waipuilani Park	2019-06-11	8:22	1	1	1	1	1					KWP190611	25.6	30.3	5.26	76.3	8.00	4.41	4.84	5.40	4.88	0.102				NA	0	3	0	
+yes	yes	yes	no	no	33	Kamaole	NMS	MB	TS	JK	KKS	KKS190611		Kihei South	2019-06-11	8:40	1	1	1	1	1					KKS190611	26.7	31.9	6.28	93.6	8.10	3.74	4.37	3.56	3.89	0.109				NA	4	2	0	
+yes	yes	yes	no	no	33	Kamaole	NMS	MB	TS	JK	KKP	KKP190611		Kalama Park	2019-06-11	9:00	1	1	1	1	1					KKP190611	27.4	33.8	6.56	100.0	8.13	9.96	11.70	11.30	10.99	0.083				N	3	1	0	
+yes	yes	yes	no	no	33	Kamaole	NMS	MB	TS	JK	KCP	KCP190611		Cove park	2019-06-11	9:19	1	1	1	1	1					KCP19061	27.7	31.1	6.70	101.1	8.12	3.92	3.92	3.05	3.63	0.138				N	20	0	0	Took 4th reading, 20 in water were surfers
+yes	yes	yes	no	no	34	Kamaole	NMS	SG	TS	JK	NKN	NKN190702		Kalepolepo North	2019-07-02	8:02	1	2	2	2	2					NKN190702	27.3	32.4	6.18	93.5		7.36	8.38	9.71	8.48	0.139				N	0	0	0	Took 4th reading, 
+yes	yes	yes	no	no	34	Kamaole	NMS	SG	TS	JK	KWP	KWP190702		Waipuilani Park	2019-07-02	8:20	1	2	2	2	2					KWP190702	27.4	34.0	5.87	89.7		9.03	10.20	10.50	9.91	0.078				NA	0	1	0	
+yes	yes	yes	no	no	34	Kamaole	NMS	SG	TS	JK	KKS	KKS190702		Kihei South	2019-07-02	8:36	1	2	2	2	2					KKS190702	27.8	33.1	6.21	95.0		6.84	7.63	8.44	7.64	0.105				NA	2	1	0	plus 1 dog on beach
+yes	yes	yes	no	no	34	Kamaole	NMS	SG	TS	JK	KKP	KKP190702		Kalama Park	2019-07-02	8:55	1	2	2	2	2					KKP190702	28.0	35.0	6.69	103.9		11.40	10.70	11.00	11.03	0.032				N	2	4	0	
+yes	yes	yes	no	no	34	Kamaole	NMS	SG	TS	JK	KCP	KCP190702		Cove park	2019-07-02	9:10	1	2	2	2	2					KCP190702	28.2	33.4	7.00	108.1		5.37	5.61	5.69	5.56	0.030				N	0	0	0	Took 4th reading, 
+yes	yes	yes	no	no	35	Kamaole	NMS	MB	DH		NKN	NKN190723		Kalepolepo North	2019-07-23	8:00	2	2	2	2	2					NKN190723	27.5	33.7	5.50	83.9	8.07	1.76	2.03	1.78	1.86	0.081				N	0	0	0	
+yes	yes	yes	no	no	35	Kamaole	NMS	MB	DH		KWP	KWP190723		Waipuilani Park	2019-07-23	8:20	2	2	2	2	2					KWP190723	26.9	32.9	6.16	93.0	8.05	10.30	10.80	11.50	10.87	0.055				NA	0	1	0	
+yes	yes	yes	no	no	35	Kamaole	NMS	MB	DH		KKS	KKS190723		Kihei South	2019-07-23	8:42	2	2	2	2	2					KKS190723	27.9	33.5	5.74	88.4	8.09	5.96	7.60	6.53	6.70	0.124				NA	6	4	0	
+yes	yes	yes	no	no	35	Kamaole	NMS	MB	DH		KKP	KKP190723		Kalama Park	2019-07-23	9:03	2	2	2	2	2					KKP190723	28.3	34.6	6.65	103.5	8.17	9.12	9.73	10.20	9.68	0.056				N	2	3	0	
+yes	yes	yes	no	no	35	Kamaole	NMS	MB	DH		KCP	KCP190723		Cove park	2019-07-23	9:25	2	2	2	2	2					KCP190723	28.5	32.8	6.53	101.0	8.12	2.69	3.44	3.23	3.12	0.124				N	0	0	0	
+yes	yes	yes	no	no	36	Kamaole	NMS	MB	SG		NKN	NKN190813		Kalepolepo North	2019-08-13	8:00	2	2	2	2	2					NKN190813	27.4	31.9	6.37	96.2	8.09	6.09	6.44	6.94	6.49	0.066				N	0	2	0	took 4th reading 6.44
+yes	yes	yes	no	no	36	Kamaole	NMS	MB	DH		KWP	KWP190813		Waipuilani Park	2019-08-13	8:30	2	2	2	2	2					KWP190813	27.3	34.1	5.95	91.0	8.03	8.53	10.10	10.30	9.64	0.101				NA	0	2	0	
+yes	yes	yes	no	no	36	Kamaole	NMS	MB	DH		KKS	KKS190813		Kihei South	2019-08-13	8:50	2	2	2	2	2					KKS190813	28.0	34.0	6.44	99.3	8.05	8.17	12.90	12.40	11.16	0.233				NA	6	5	0	took 4th reading 15.8
+yes	yes	yes	no	no	36	Kamaole	NMS	MB	DH		KKP	KKP190813		Kalama Park	2019-08-13	9:10	2	2	2	2	2					KKP190813	28.4	35.1	6.68	104.5	8.13	7.13	8.79	6.57	7.50	0.154				N	0	0	0	
+yes	yes	yes	no	no	36	Kamaole	NMS	MB	DH		KCP	KCP190813		Cove park	2019-08-13	9:30	2	2	2	2	2					KCP190813	28.3	34.2	6.68	102.7	8.12	6.59	5.35	6.27	6.07	0.106				N	4	4	0	
+yes	yes	yes	no	no	36	Kamaole	NMS	MB	DH		NMP	NMP190813		Mai Poina Oe Iau	2019-08-13	9:55	2	2	2	2	2					   NMP190813	29.0	33.6	6.54	102.7	8.08	2.94	3.39	2.68	3.00	0.120				NA	0	0	0	
+yes	yes	yes	no	no	37	Kamaole	NMS	HH	SG	MC	NKN	NKN190903		Kalepolepo North	2019-09-03	8:07	1	1	3	1	1					NKN190903	28.3			83.6	8.12	1.29	1.47	1.36	1.37	0.066				N	0	1	0	
+yes	yes	yes	no	no	37	Kamaole	NMS	HH	SG	MC	KWP	KWP190903		Waipuilani Park	2019-09-03	8:28	1	1	3	1	1					KWP190903	26.3	32.4	5.65	84.3	8.05	12.60	13.80	13.50	13.30	0.047				NA	0	0	0	
+yes	yes	yes	no	no	37	Kamaole	NMS	HH	SG	MC	KKS	KKS190903		Kihei South	2019-09-03	8:50	1	1	3	1	1					KKS190903	27.8	33.0	6.05	92.6	8.11	4.65	4.94	4.85	4.81	0.031				NA	1	5	0	
+yes	yes	yes	no	no	37	Kamaole	NMS	HH	SG	MC	KKP	KKP190903		Kalama Park	2019-09-03	9:10	1	1	3	1	1					KKP190903	28.0	33.6	5.71	88.0	8.11	10.30	11.10	10.90	10.77	0.039				N	1	2	0	
+yes	yes	yes	no	no	37	Kamaole	NMS	HH	SG	MC	KCP	KCP190903		Cove park	2019-09-03	9:30	1	1	3	1	1					KCP190903	28.8	33.4	6.16	95.9	8.13	2.51	3.22	3.50	3.08	0.166				N	0	0	0	
+yes	yes	yes	no	no	37	Kamaole	NMS	HH	SG	MC	NMP	NMP190903		Mai Poina Oe Iau	2019-09-03	10:04	1	1	3	1	1					   NMP190903	29.2	34.0	6.10	96.2	8.11	3.90	3.62	4.33	3.95	0.091				NA	0	3	0	
+yes	yes	yes	no	no	38	Kamaole	NMS	HH	MC	RC	NKN	NKN190924		Kalepolepo North	2019-09-24	8:10	2	2	4	2	2					NKN190924	28.1	33.5	6.24	96.3	8.13	2.53	3.49	3.03	3.02	0.159				N	0	1	0	
+yes	yes	yes	no	no	38	Kamaole	NMS	HH	MC	RC	KWP	KWP190924		Waipuilani Park	2019-09-24	8:42	2	2	4	2	2					KWP190924	27.4	33.8	5.82	89.3	8.00	10.80	12.90	12.90	12.20	0.099				NA	0	2	1	
+yes	yes	yes	no	no	38	Kamaole	NMS	HH	MC	RC	KKS	KKS190924		Kihei South	2019-09-24	9:05	2	2	4	2	2					KKS190924	28.3	34.0	6.14	95.5	8.07	13.70	14.50	13.90	14.03	0.030				NA	0	8	0	
+yes	yes	yes	no	no	38	Kamaole	NMS	HH	MC	RC	KKP	KKP190924		Kalama Park	2019-09-24	9:26	2	2	4	2	2					KKP190924	28.8	35.0	6.44	101.4	8.15	6.21	6.79	7.52	6.84	0.096				N	10	4	0	
+yes	yes	yes	no	no	38	Kamaole	NMS	HH	MC	RC	KCP	KCP190924		Cove park	2019-09-24	9:45	2	2	4	2	2					KCP190924	28.8	32.4	6.70	104.0	8.14	2.71	3.38	3.90	3.33	0.179				N	2	0	0	
+yes	yes	yes	no	no	38	Kamaole	NMS	HH	MC	RC	NMP	NMP190924		Mai Poina Oe Iau	2019-09-24	10:13	2	2	4	2	2					   NMP190924	28.9	34.1	6.48	101.8	8.11	3.34	3.21	3.44	3.33	0.035				NA	0	1	0	
+yes	yes	yes	no	no	39	Kamaole	NMS	DH	MC	RC	NKN	NKN191015		Kalepolepo North	2019-10-15	7:50	1	1	3	1	1					NKN191015	27.3	33.4	6.20	94.1	8.12	6.28	6.41	6.50	6.40	0.017				N	0	1	0	heavy trades at all sites
+yes	yes	yes	no	no	39	Kamaole	NMS	DH	MC	RC	KWP	KWP191015		Waipuilani Park	2019-10-15	8:15	1	1	3	1	1					KWP191015	26.6	32.8	6.14	92.0	8.12	21.60	22.80	22.10	22.17	0.027				NA	0	0	0	
+yes	yes	yes	no	no	39	Kamaole	NMS	DH	MC	RC	KKS	KKS191015		Kihei South	2019-10-15	8:32	1	1	3	1	1					KKS191015	27.3	33.8	6.09	93.0	8.13	9.33	11.00	11.20	10.51	0.098				NA	0	4	0	
+yes	yes	yes	no	no	39	Kamaole	NMS	DH	MC	RC	KKP	KKP191015		Kalama Park	2019-10-15	8:53	1	1	3	1	1					KKP191015	27.7	34.6	6.33	97.6	8.12	12.50	12.90	13.40	12.93	0.035				N	18	6	0	
+yes	yes	yes	no	no	39	Kamaole	NMS	DH	MC	RC	KCP	KCP191015		Cove park	2019-10-15	9:08	1	1	3	1	1					KCP191015	28.0	32.6	6.01	92.0	8.10	6.71	7.93	9.07	7.90	0.149				N	6	0	0	
+yes	yes	yes	no	no	39	Kamaole	NMS	DH	MC	RC	NMP	NMP191015		Mai Poina Oe Iau	2019-10-15	9:33	1	1	3	1	1					   NMP191015	28.2	33.4	6.24	96.3	8.12	4.15	8.34	5.98	6.16	0.341				NA	0	2	0	took 4th reading-9.46

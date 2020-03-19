@@ -1,0 +1,171 @@
+Copied to main database by Kim/Bill 	Checked by Dana	yes/no	yes/no	yes/no	#	R2RS, R2RN, Polanui, Olowalu	LLHS	initials	initials	initials	RCB	RCB031717	2062	Canoe Beach	03/17/17	12:00											deg C	ppt	mg/L	%								0, 1, 2, 3, 4	0-8	0-5	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	
+		Nut_Sample	Nut_Dup	Sed_Sample	Session	Team	Lab	Sampler	Sampler2	Sampler3	Station	SampleID	Location	SiteName	Date	Time	40D#	2100Q#	pHInst#	DOInst#	SalInst#	Moon	Cloud_1_8	Rain_1_4	Wind_dir	SampleID2	Temp	Salinity	DO	DO%	pH	Turb1	Turb2	Turb3	Average Turbidity	CV Turbidity		Waves	Wind	Stream	Swimmers	On Beach	Campers	Comments
+			Example:		26	R2RS	LLHS	CM	TF	MS	RCB	RCB170821	2020	Canoe Beach	2017-08-21	9:22:00	1	1	4	2	3	1	7	2		RCB170821	27.0	33.1	6.92	104.4	8.18	5.78	5.86	6.03	Calculated	Calculated		1	0		1	20		RHL no waves at collection site but waves breaking starting halfway to Lipoa Point, light rain the night before
+yes	yes	yes	no	no	8	Wailea	NMS	HH	DM	JJ	WKD	WKD180223		Kilohana Dr	2018-02-23	8:05	2	2	2	2	2	9	7	2	Trades	WKD180223	24.3	35.7	6.87	100.5	8.18	0.68	0.73	0.73	0.71	0.040		1	0		2	20	0	
+yes	yes	yes	no	no	8	Wailea	NMS	HH	DM	JJ	WKB	WKB180223		Keawakapu Beach	2018-02-23	8:42	2	2	2	2	2	9	7	2	Trades	WKB180223	24.6	35.6	6.87	100.9	8.16	0.87	0.96	0.98	0.94	0.063		1	0		8	25	0	
+yes	yes	yes	no	no	8	Wailea	NMS	HH	DM	JJ	WUL	WUL180223		Ulua Beach	2018-02-23	9:15	2	2	2	2	2	9	7	2	Trades	WUL180223	24.9	35.3	6.92	102.1	8.16	1.45	1.65	1.58	1.56	0.065		1	1		30	35	0	
+yes	yes	yes	no	no	8	Wailea	NMS	HH	DM	JJ	WWA	WWA180223		Wailea Beach	2018-02-23	9:47	2	2	2	2	2	9	7	2	Trades	WWA180223	24.9	35.7	6.90	101.9	8.17	1.52	1.63	1.64	1.60	0.042		2	1		14	60	0	
+yes	yes	yes	no	no	8	Wailea	NMS	HH	DM	JJ	WPL	WPL180223		Palauea Beach	2018-02-23	10:19	2	2	2	2	2	9	7	2	Trades	WPL180223	24.7	35.7	6.91	101.5	8.17	1.85	2.22	2.29	2.12	0.112		3	1		3	11	0	
+yes	yes	no	no	no	8	Wailea	NMS	HH	DM	JJ	WPO	WPO180223		Poolenalena Beach	2018-02-23	10:40	2	2	2	2	2	9	7	2	Trades	WPO180223	24.9	35.6	6.90	101.7	8.20	0.60	0.63	0.69	0.64	0.072		3	1		0	8	1	Sample not sent to SOEST lab
+yes	yes	yes	no	no	9	Wailea	NMS	JJ	SD		WKD	WKD180309		Kilohana Dr	2018-03-09	7:57	1	1	1	1	1	22	8	0	Trades	WKD180309	22.1	35.3	7.00	98.0	8.18	0.60	0.63	0.59	0.61	0.034		1	2		0	3	0	
+yes	yes	yes	no	no	9	Wailea	NMS	JJ	SD		WKB	WKB180309		Keawakapu Beach	2018-03-09	8:20	1	1	1	1	1	22	8	0	Trades	WKB180309	22.3	34.8	6.94	97.2	8.17	0.98	1.57	1.01	1.19	0.280		1	2		0	12	0	
+yes	yes	yes	no	no	9	Wailea	NMS	JJ	SD		WUL	WUL180309		Ulua Beach	2018-03-09	8:37	1	1	1	1	1	22	8	0	Trades	WUL180309	22.7	34.6	6.93	97.6	8.15	1.00	1.41	1.15	1.19	0.175		1	0		4	12	0	
+yes	yes	yes	no	no	9	Wailea	NMS	JJ	SD		WWA	WWA180309		Wailea Beach	2018-03-09	9:13	1	1	1	1	1	22	8	0	Trades	WWA180309	22.8	35.3	6.93	98.3	8.18	1.07	0.98	0.81	0.95	0.138		2	4		2	17	0	
+yes	yes	yes	no	no	9	Wailea	NMS	JJ	SD		WPL	WPL180309		Palauea Beach	2018-03-09	9:36	1	1	1	1	1	22	8	0	Trades	WPL180309	22.7	35.4	6.88	97.6	8.17	1.12	1.10	1.08	1.10	0.018		2	3		0	10	0	
+yes	yes	yes	no	no	9	Wailea	NMS	JJ	SD		WPO	WPO180309		Poolenalena Beach	2018-03-09	10:00	1	1	1	1	1	22	8	0	Trades	WPO180309	23.6	35.2	6.91	99.4	8.20	0.31	0.33	0.37	0.34	0.091		3	4		1	1	0	
+yes	yes	yes	no	no	10	Wailea	NMS	JJ	SD		WKD	WKD180323		Kilohana Dr	2018-03-23	8:05	2	2	2	2	2	8	2	0	Trades	WKD180323	24.3	34.4	6.79	98.5	8.17	0.96	1.21	0.82	1.00	0.198		0	0		0	10	0	
+yes	yes	yes	no	no	10	Wailea	NMS	JJ	SD		WKB	WKB180323		Keawakapu Beach	2018-03-23	8:20	2	2	2	2	2	8	2	0	Trades	WKB180323	24.7	34.9	6.85	100.1	8.20	0.35	0.40	0.31	0.35	0.128		1	0		1	9	0	
+yes	yes	yes	no	no	10	Wailea	NMS	JJ	SD		WUL	WUL180323		Ulua Beach	2018-03-23	8:45	2	2	2	2	2	8	2	0	Trades	WUL180323	24.8	34.4	6.77	99.2	8.15	1.11	1.52	1.70	1.44	0.210		1	0		15	15	0	
+yes	yes	yes	no	no	10	Wailea	NMS	JJ	SD		WWA	WWA180323		Wailea Beach	2018-03-23	9:10	2	2	2	2	2	8	2	0	Trades	WWA180323	24.9	34.6	6.78	99.5	8.20	0.51	0.83	0.51	0.62	0.300		2	0		10	20+	0	
+yes	yes	yes	no	no	10	Wailea	NMS	JJ	SD		WPL	WPL180323		Palauea Beach	2018-03-23	9:50	2	2	2	2	2	8	2	0	Trades	WPL180323	25.6	34.7	6.77	100.6	8.21	0.77	0.86	0.74	0.79	0.079		2	0		5	10	0	
+yes	yes	yes	no	no	10	Wailea	NMS	JJ	SD		WPO	WPO180323		Poolenalena Beach	2018-03-23	9:30	2	2	2	2	2	8	2	0	Trades	WPO180323	25.3	34.7	6.88	101.8	8.22	0.55	0.64	0.63	0.61	0.081		1	0		7	20+	2	We sampled WPO first, and WPL last. Therefore, lines/data in the field datasheet are inverted.
+yes	yes	yes	no	no	11	Wailea	NMS	HH	GB	AW	WKD	WKD180406		Kilohana Dr	2018-04-06	7:55	1	1	1	1	1	20	1	2	Trades	WKD180406	25.6	35	6.75	100.3	8.18	0.80	0.65	0.78	0.74	0.110		1	2		1	4	0	
+yes	yes	yes	no	no	11	Wailea	NMS	HH	GB	AW	WKB	WKB180406		Keawakapu Beach	2018-04-06	8:20	1	1	1	1	1	20	1	2	Trades	WKB180406	25.7	35.1	6.72	100.1	8.18	0.65	0.57	0.60	0.61	0.067		1	1		2	20	0	
+yes	yes	yes	no	no	11	Wailea	NMS	HH	GB	AW	WUL	WUL180406		Ulua Beach	2018-04-06	8:45	1	1	1	1	1	20	1	2	Trades	WUL180406	25.7	34.9	6.77	100.8	8.17	0.64	0.74	0.66	0.68	0.078		1	0		20	20	0	
+yes	yes	yes	no	no	11	Wailea	NMS	HH	GB	AW	WWA	WWA180406		Wailea Beach	2018-04-06	9:08	1	1	1	1	1	20	1	2	Trades	WWA180406	26.1	35.2	6.70	100.6	8.19	0.47	0.50	0.54	0.50	0.070		2	3		20	20	0	
+yes	yes	yes	no	no	11	Wailea	NMS	HH	GB	AW	WPL	WPL180406		Palauea Beach	2018-04-06	9:32	1	1	1	1	1	20	1	2	Trades	WPL180406	26.1	35.1	6.72	100.7	8.18	1.02	1.18	1.84	1.35	0.323		2	1		8	20	0	
+yes	yes	yes	no	no	11	Wailea	NMS	HH	GB	AW	WPO	WPO180406		Poolenalena Beach	2018-04-06	9:52	1	1	1	1	1	20	1	2	Trades	WPO180406	26.1	35	6.76	101.4	8.20	0.44	0.41	0.73	0.53	0.336		2	2		10	20	2	
+yes	yes	yes	no	no	12	Wailea	NMS	HH	AW	JJ	WKD	WKD180420		Kilohana Dr	2018-04-20	7:57	2	2	2	2	2	5	8	0	Trades	WKD180420	25.5	34.7	6.67	98.9	8.17	1.81	0.65	0.71	1.06	0.618		1	0		0	12	0	
+yes	yes	yes	no	no	12	Wailea	NMS	HH	AW	JJ	WKB	WKB180420		Keawakapu Beach	2018-04-20	8:23	2	2	2	2	2	5	8	0	Trades	WKB180420	25.7	35	6.69	99.6	8.19	0.79	0.98	0.83	0.87	0.116		1	0		2	8	0	
+yes	yes	yes	no	no	12	Wailea	NMS	HH	AW	JJ	WUL	WUL180420		Ulua Beach	2018-04-20	8:42	2	2	2	2	2	5	8	0	Trades	WUL180420	25.6	34.2	6.71	99.5	8.15	0.99	1.22	1.30	1.17	0.138		1	0		12	14	0	
+yes	yes	yes	no	no	12	Wailea	NMS	HH	AW	JJ	WWA	WWA180420		Wailea Beach	2018-04-20	8:55	2	2	2	2	2	5	8	0	Trades	WWA180420	25.6	34.7	6.71	99.8	8.19	1.02	1.13	1.01	1.05	0.063		1	0		3	17	0	
+yes	yes	yes	no	no	12	Wailea	NMS	HH	AW	JJ	WPL	WPL180420		Palauea Beach	2018-04-20	9:30	2	2	2	2	2	5	8	0	Trades	WPL180420	25.7	34.7	6.68	99.6	8.18	1.04	0.95	0.92	0.97	0.064		1	0		1	4	0	
+yes	yes	yes	no	no	12	Wailea	NMS	HH	AW	JJ	WPO	WPO180420		Poolenalena Beach	2018-04-20	9:48	2	2	2	2	2	5	8	0	Trades	WPO180420	26.1	34.7	6.72	100.8	8.21	0.54	0.53	0.56	0.54	0.028		1	0		5	9	0	
+yes	yes	yes	no	no	13	Wailea	NMS	DH	AW	JJ	WKD	WKD180504		Kilohana Dr	2018-05-04	8:10	1	1	1	1	1	19	1	1	Trades	WKD180504	25.4	35.2	6.59	97.9	8.18	0.65	0.51	0.56	0.57	0.124		0	0		0	8	0	
+yes	yes	yes	no	no	13	Wailea	NMS	DH	AW	JJ	WKB	WKB180504		Keawakapu Beach	2018-05-04	8:30	1	1	1	1	1	19	1	1	Trades	WKB180504	25.7	35.3	6.68	99.6	8.18	0.62	0.58	0.56	0.59	0.052		1	0		9	15	0	
+yes	yes	yes	no	no	13	Wailea	NMS	DH	AW	JJ	WUL	WUL180504		Ulua Beach	2018-05-04	8:38	1	1	1	1	1	19	1	1	Trades	WUL180504	25.9	34.8	6.47	96.7	8.15	1.59	2.09	1.20	1.63	0.274		1	0		5	15	0	
+yes	yes	yes	no	no	13	Wailea	NMS	DH	AW	JJ	WWA	WWA180504		Wailea Beach	2018-05-04	9:05	1	1	1	1	1	19	1	1	Trades	WWA180504	26.1	35.1	6.64	99.7	8.19	0.78	0.74	0.92	0.81	0.116		1	1		4	15	0	
+yes	yes	yes	no	no	13	Wailea	NMS	DH	AW	JJ	WPL	WPL180504		Palauea Beach	2018-05-04	9:30	1	1	1	1	1	19	1	1	Trades	WPL180504	26	35	6.68	100.1	8.20	0.77	1.16	0.93	0.95	0.206		2	0		13	12	0	
+yes	yes	yes	no	no	13	Wailea	NMS	DH	AW	JJ	WPO	WPO180504		Poolenalena Beach	2018-05-04	9:45	1	1	1	1	1	19	1	1	Trades	WPO180504	26	35	6.67	99.9	8.21	0.40	0.40	0.36	0.39	0.060		2	1		1	20	2	
+yes	yes	yes	no	no	14	Wailea	NMS	HR	AW	JJ	WKD	WKD180518		Kilohana Dr	2018-05-18	8:10	2	2	2	2	2	5	4	0	Trades	WKD180518	25.7	35.1	6.60	98.4	8.15	0.84	0.59	0.43	0.62	0.333		1	1		2	2	0	
+yes	yes	yes	no	no	14	Wailea	NMS	HR	AW	JJ	WKB	WKB180518		Keawakapu Beach	2018-05-18	8:30	2	2	2	2	2	5	4	0	Trades	WKB180518	25.9	35.1	6.73	100.6	8.19	0.29	0.24	0.27	0.27	0.094		1	1		8	15	0	
+yes	yes	yes	no	no	14	Wailea	NMS	HR	AW	JJ	WUL	WUL180518		Ulua Beach	2018-05-18	8:55	2	2	2	2	2	5	4	0	Trades	WUL180518	26.3	34.3	6.76	101.3	8.14	1.20	1.13	1.13	1.15	0.035		1	1		3	35	0	
+yes	yes	yes	no	no	14	Wailea	NMS	HR	AW	JJ	WWA	WWA180518		Wailea Beach	2018-05-18	9:21	2	2	2	2	2	5	4	0	Trades	WWA180518	26.4	34.6	6.76	101.7	8.18	0.47	0.59	0.62	0.56	0.142		1	1		5	14	0	Leaf in sample bucket while taking measurements
+yes	yes	yes	no	no	14	Wailea	NMS	HR	AW	JJ	WPL	WPL180518		Palauea Beach	2018-05-18	9:41	2	2	2	2	2	5	4	0	Trades	WPL180518	26.6	34.8	6.74	101.8	8.20	1.10	1.80	1.14	1.35	0.292		1	2		0	2	0	
+yes	yes	yes	no	no	14	Wailea	NMS	HR	AW	JJ	WPO	WPO180518		Poolenalena Beach	2018-05-18	10:01	2	2	2	2	2	5	4	0	Trades	WPO180518	26.5	34.8	6.71	101.4	8.22	0.66	0.74	0.99	0.80	0.216		2	2		2	15	0	
+yes	yes	yes	no	no	15	Wailea	NMS	JJ	GB		WKD	WKD180601		Kilohana Dr	2018-06-01	8:00	1	1	1	1	1	18	6	0	Trades	WKD180601	25.6	35.3	6.67	99.4	8.15	0.84	1.44	1.24	1.17	0.260		1	0		0	3	0	Some vog
+yes	yes	yes	no	no	15	Wailea	NMS	JJ	GB		WKB	WKB180601		Keawakapu Beach	2018-06-01	8:35	1	1	1	1	1	18	6	0	Trades	WKB180601	25.7	35.7	6.75	101.1	8.18	0.25	0.30	0.39	0.31	0.226		1	0		5	11	0	
+yes	yes	yes	no	no	15	Wailea	NMS	JJ	GB		WUL	WUL180601		Ulua Beach	2018-06-01	8:55	1	1	1	1	1	18	6	0	Trades	WUL180601	25.9	34.8	6.59	98.6	8.14	0.83	1.09	1.07	1.00	0.145		2	1		20	20	0	
+yes	yes	yes	no	no	15	Wailea	NMS	JJ	GB		WWA	WWA180601		Wailea Beach	2018-06-01	9:25	1	1	1	1	1	18	6	0	Trades	WWA180601	26.1	35.5	6.58	99.2	8.19	0.44	0.50	0.50	0.48	0.072		1	0		12	30	0	
+yes	yes	yes	no	no	15	Wailea	NMS	JJ	GB		WPL	WPL180601		Palauea Beach	2018-06-01	9:55	1	1	1	1	1	18	6	0	Trades	WPL180601	26.1	35.2	6.67	100.3	8.18	0.95	1.39	1.05	1.13	0.204		1	1		6	14	0	
+yes	yes	yes	no	no	15	Wailea	NMS	JJ	GB		WPO	WPO180601		Poolenalena Beach	2018-06-01	10:15	1	1	1	1	1	18	6	0	Trades	WPO180601	25.9	35.2	6.68	100.1	8.19	0.85	0.81	1.13	0.93	0.187		1	0		8	14	2	
+yes	yes	yes	no	no	16	Wailea	NMS	HR	AW	HH	WKD	WKD180622		Kilohana Dr	2018-06-22	7:59	2	2	2	2	2	9	0	0	Trades	WKD180622	26.5	34.9	6.53	98.7	8.16	0.56	0.95	0.61	0.71	0.300		0	0		2	12	0	
+yes	yes	yes	no	no	16	Wailea	NMS	HR	AW	HH	WKB	WKB180622		Keawakapu Beach	2018-06-22	8:25	2	2	2	2	2	9	0	0	Trades	WKB180622	26.6	35.1	6.65	100.6	8.16	0.67	0.64	0.47	0.59	0.182		1	0		12	12	0	
+yes	yes	yes	no	no	16	Wailea	NMS	HR	AW	HH	WUL	WUL180622		Ulua Beach	2018-06-22	8:55	2	2	2	2	2	9	0	0	Trades	WUL180622	26.7	34.5	6.61	100.6	8.14	0.98	0.90	0.88	0.92	0.058		1	0		35	18	0	
+yes	yes	yes	no	no	16	Wailea	NMS	HR	AW	HH	WPL	WPL180622		Palauea Beach	2018-06-22	9:10	2	2	2	2	2	9	0	0	Trades	WPL180622	26.8	35	6.61	100.4	8.19	0.40	0.39	0.41	0.40	0.025		1	1		3	7	0	
+yes	yes	yes	no	no	16	Wailea	NMS	HR	AW	HH	WPO	WPO180622		Poolenalena Beach	2018-06-22	9:30	2	2	2	2	2	9	0	0	Trades	WPO180622	27.3	35.1	6.64	101.8	8.20	0.34	0.34	0.31	0.33	0.052		1	1		1	5	6	
+yes	yes	yes	no	no	17	Wailea	NMS	HR	AW	SD	WKD	WKD180713		Kilohana Dr	2018-07-13	7:55	1	1	1	1	1	2	2	0	Kona	WKD180713	26.5	34.8	6.55	99.0	8.18	1.32	1.36	1.20	1.29	0.064		0	0		1	8	0	Nutrient sample bottle was dipped in the ocean water by mistake. Thoroughly rinsed before sample filtered (with tap and distilled water)
+yes	yes	yes	no	no	17	Wailea	NMS	HR	AW	SD	WKB	WKB180713		Keawakapu Beach	2018-07-13	8:18	1	1	1	1	1	2	2	0	Kona	WKB180713	26.5	35.1	6.48	98.2	8.19	0.57	0.57	0.54	0.56	0.031		1	0		3	15	0	
+yes	yes	yes	no	no	17	Wailea	NMS	HR	AW	SD	WUL	WUL180713		Ulua Beach	2018-07-13	8:36	1	1	1	1	1	2	2	0	Kona	WUL180713	26.7	34.5	6.47	97.9	8.16	1.28	1.19	1.45	1.31	0.101		1	0		19	50	0	
+yes	yes	yes	no	no	17	Wailea	NMS	HR	AW	SD	WPL	WPL180713		Palauea Beach	2018-07-13	9:00	1	1	1	1	1	2	2	0	Kona	WPL180713	26.9	34.7	6.53	99.4	8.16	1.10	1.19	1.18	1.16	0.043		1	0		2	4	0	
+yes	yes	yes	no	no	17	Wailea	NMS	HR	AW	SD	WPO	WPO180713		Poolenalena Beach	2018-07-13	9:13	1	1	1	1	1	2	2	0	Kona	WPO180713	26.8	35.1		99.9	8.22	0.87	0.44	0.41	0.57	0.449		1	0		2	6	3	
+yes	yes	yes	no	no	18	Wailea	NMS	HR	AW	SD	WKD	WKD180803		Kilohana Dr	2018-08-03	7:53	2	2	2	2	2	22	1	0	Trades	WKD180803	26.6	35.3	6.58	100.0	8.20	1.66	1.13	1.29	1.36	0.200		1	0		0	13	0	
+yes	yes	yes	no	no	18	Wailea	NMS	HR	AW	SD	WKB	WKB180803		Keawakapu Beach	2018-08-03	8:12	2	2	2	2	2	22	1	0	Trades	WKB180803	26.8	35.2	6.56	99.8	8.19	1.42	1.08	1.18	1.23	0.142		1	0		14	22	0	
+yes	yes	yes	no	no	18	Wailea	NMS	HR	AW	SD	WUL	WUL180803		Ulua Beach	2018-08-03	8:32	2	2	2	2	2	22	1	0	Trades	WUL180803	27	35.4	6.56	100.3	8.20	0.89	0.88	0.77	0.85	0.079		1	0		18	35	0	
+yes	yes	yes	no	no	18	Wailea	NMS	HR	AW	SD	WPL	WPL180803		Palauea Beach	2018-08-03	8:55	2	2	2	2	2	22	1	0	Trades	WPL180803	27.4	35.4	6.54	100.5	8.20	1.72	1.68	1.58	1.66	0.043		1	1		4	9	0	
+yes	yes	yes	no	no	18	Wailea	NMS	HR	AW	SD	WPO	WPO180803		Poolenalena Beach	2018-08-03	9:12	2	2	2	2	2	22	1	0	Trades	WPO180803	27.5	35.4	6.56	101.3	8.22	0.27	0.23	0.25	0.25	0.080		1	1		1	22	0	
+yes	yes	yes	no	no	19	Wailea	NMS	HR	AW	SD	WKD	WKD180824		Kilohana Dr	2018-08-24											WKD180824																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	19	Wailea	NMS	HR	AW	SD	WKB	WKB180824		Keawakapu Beach	2018-08-24											WKB180824																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	19	Wailea	NMS	HR	AW	SD	WUL	WUL180824		Ulua Beach	2018-08-24											WUL180824																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	19	Wailea	NMS	HR	AW	SD	WPL	WPL180824		Palauea Beach	2018-08-24											WPL180824																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	19	Wailea	NMS	HR	AW	SD	WPO	WPO180824		Poolenalena Beach	2018-08-24											WPO180824																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	20	Wailea	NMS	HR	AW	SD	WKD	WKD180914		Kilohana Dr	2018-09-14	7:52	2	2	2	2	2	5	0	0		WKD180914	27.2	35.6	6.41	98.8	8.20	0.72	0.77	0.75	0.75	0.034		0	0		1	8	0	
+yes	yes	yes	no	no	20	Wailea	NMS	HR	AW	SD	WKB	WKB180914		Keawakapu Beach	2018-09-14	8:18	2	2	2	2	2	5	0	0		WKB180914	27.6	35.2	6.48	99.9	8.15	0.65	0.80	0.83	0.76	0.127		1	0		3	11	0	Re-used syringe from last site
+yes	yes	yes	no	no	20	Wailea	NMS	HR	AW	SD	WUL	WUL180914		Ulua Beach	2018-09-14	8:37	2	2	2	2	2	5	0	0		WUL180914	27.5	35.3	6.47	99.8	8.18	0.68	1.10	0.78	0.85	0.257		1	0		14	14	0	Re-used syringe from last site
+yes	yes	yes	no	no	20	Wailea	NMS	HR	AW	SD	WPL	WPL180914		Palauea Beach	2018-09-14	8:58	2	2	2	2	2	5	0	0		WPL180914	27.6	35.4	6.46	99.9	8.18	0.79	0.85	0.96	0.87	0.099		1	0		0	7	8	campers were turtle watch volunteers
+yes	yes	yes	no	no	20	Wailea	NMS	HR	AW	SD	WPO	WPO180914		Poolenalena Beach	2018-09-14	9:25	2	2	2	2	2	5	0	0		WPO180914	28.2	35.5	6.47	101.1	8.21	0.30	0.32	0.48	0.37	0.269		1	0		0	2	1	
+yes	yes	yes	no	no	21	Wailea	NMS	HR	AW	JJ	WKD	WKD181005		Kilohana Dr	2018-10-05	9:27	1	1	1	1	1					WKD181005	28.1	35.4	6.60	102.8	8.16	3.37	3.72	3.60	3.56	0.050					2	18	0	
+yes	yes	yes	no	no	21	Wailea	NMS	HR	AW	JJ	WKB	WKB181005		Keawakapu Beach	2018-10-05	9:10	1	1	1	1	1					WKB181005	27.9	35.3	6.62	102.8	8.18	4.71	4.75	4.57	4.68	0.020					9	7	0	
+yes	yes	yes	no	no	21	Wailea	NMS	HR	AW	JJ	WUL	WUL181005		Ulua Beach	2018-10-05	8:50	1	1	1	1	1					WUL181005	27.8	35.1	6.66	103.1	8.17	5.81	6.36	6.49	6.22	0.058					7	11	0	
+yes	yes	yes	no	no	21	Wailea	NMS	HR	AW	JJ	WPL	WPL181005		Palauea Beach	2018-10-05	8:12	1	1	1	1	1					WPL181005	27.5	26.6	6.98	103.0	8.17	5.08	4.96	5.03	5.02	0.012					0	20	8	
+yes	yes	yes	no	no	21	Wailea	NMS	HR	AW	JJ	WPO	WPO181005		Poolenalena Beach	2018-10-05	8:30	1	1	1	1	1					WPO181005	27.9	27.1	6.92	103.1	8.19	3.60	3.89	4.13	3.87	0.069					0	0	0	
+yes	yes	yes	no	no	22	Wailea	NMS	HR	AW	JJ	WKD	WKD181026		Kilohana Dr	2018-10-26	7:55	2	2	2	2	2					WKD181026	26.9	35.4	6.72	103.0	8.17	0.90	0.90	0.90	0.90	0.000				N	3	3	0	
+yes	yes	yes	no	no	22	Wailea	NMS	HR	AW	JJ	WKB	WKB181026		Keawakapu Beach	2018-10-26	8:14	2	2	2	2	2					WKB181026	27.2	35.4	6.73	103.6	8.18	0.62	0.60	0.66	0.63	0.049				N	4	7	0	
+yes	yes	yes	no	no	22	Wailea	NMS	HR	AW	JJ	WUL	WUL181026		Ulua Beach	2018-10-26	8:34	2	2	2	2	2					WUL181026	27.1	35.3	6.73	103.3	8.16	1.77	2.10	1.72	1.86	0.111				N	9	17	0	
+yes	yes	yes	no	no	22	Wailea	NMS	HR	AW	JJ	WPL	WPL181026		Palauea Beach	2018-10-26	8:55	2	2	2	2	2					WPL181026	27.4	35.4	6.74	103.7	8.17	2.40	2.47	2.39	2.42	0.018				N	0	6	0	
+yes	yes	yes	no	no	22	Wailea	NMS	HR	AW	JJ	WPO	WPO181026		Poolenalena Beach	2018-10-26	9:11	2	2	2	2	2					WPO181026	27.7	35.4	6.68	103.5	8.19	0.81	0.92	0.88	0.87	0.064				N	3	6	1	
+yes	yes	yes	no	no	23	Wailea	NMS	HR	AW	SD	WKD	WKD181116		Kilohana Dr	2018-11-16	7:53	1	1	1	1	1					WKD181116	25.9	35.1	6.36	95.3	8.15	0.79	0.77	0.86	0.81	0.059				N	0	7	0	
+yes	yes	yes	no	no	23	Wailea	NMS	HR	AW	SD	WKB	WKB181116		Keawakapu Beach	2018-11-16	8:14	1	1	1	1	1					WKB181116	26.1	34.9	6.44	96.5	8.10	0.76	0.83	0.82	0.80	0.047				N	0	10	0	
+yes	yes	yes	no	no	23	Wailea	NMS	HR	AW	SD	WUL	WUL181116		Ulua Beach	2018-11-16	8:33	1	1	1	1	1					WUL181116	26.4	34.9	6.47	97.7	8.13	1.57	1.38	1.77	1.57	0.124				N	1	12	0	
+yes	yes	yes	no	no	23	Wailea	NMS	HR	AW	SD	WPL	WPL181116		Palauea Beach	2018-11-16	8:56	1	1	1	1	1					WPL181116	26.4	35.2	6.62	100.1	8.16	1.08	1.01	0.99	1.03	0.046				N	0	1	0	
+yes	yes	yes	no	no	23	Wailea	NMS	HR	AW	SD	WPO	WPO181116		Poolenalena Beach	2018-11-16	9:10	1	1	1	1	1					WPO181116	26.6	35.2	6.61	100.6	8.18	0.63	0.60	0.93	0.72	0.253				N	0	0	0	
+yes	yes	yes	no	no	24	Wailea	NMS	HR	AW	JJ	WKD	WKD181207		Kilohana Dr	2018-12-07	7:50	2	2	2	2	2					WKD181207	24.9	35.4	6.80	100.2	8.18	1.08	1.36	1.17	1.20	0.119				NA	1	7	0	
+yes	yes	yes	no	no	24	Wailea	NMS	HR	AW	JJ	WKB	WKB181207		Keawakapu Beach	2018-12-07	8:21	2	2	2	2	2					WKB181207	25.3	35.4	6.75	100.1	8.15	0.60	0.60	0.78	0.66	0.157				NA	1	3	0	
+yes	yes	yes	no	no	24	Wailea	NMS	HR	AW	JJ	WUL	WUL181207		Ulua Beach	2018-12-07	8:40	2	2	2	2	2					WUL181207	25.6	35.3	6.75	100.7	8.15	1.03	0.98	0.92	0.98	0.056				NA	6	8	0	
+yes	yes	yes	no	no	24	Wailea	NMS	HR	AW	JJ	WPL	WPL181207		Palauea Beach	2018-12-07	9:05	2	2	2	2	2					WPL181207	25.8	35.4	6.81	101.8	8.17	0.71	0.86	0.79	0.79	0.095				NA	0	8	0	
+yes	yes	yes	no	no	24	Wailea	NMS	HR	AW	JJ	WPO	WPO181207		Poolenalena Beach	2018-12-07	9:22	2	2	2	2	2					WPO181207	25.9	35.3	6.84	102.3	8.20	0.43	0.43	0.39	0.42	0.055				NA	4	2	0	
+yes	yes	yes	no	no	25	Wailea	NMS	SD	AW	JJ	WKD	WKD181221		Kilohana Dr	2018-12-21	7:54	1	1	1	1	1					WKD181221	24.1	35.2	6.89	99.7	8.15	0.56	0.53	0.61	0.57	0.071				NA	0	2	0	
+yes	yes	yes	no	no	25	Wailea	NMS	SD	AW	JJ	WKB	WKB181221		Keawakapu Beach	2018-12-21	8:17	1	1	1	1	1					WKB181221	24.6	35.3	6.74	98.4	8.17	0.27	0.30	0.30	0.29	0.060				NA	0	5	0	
+yes	yes	yes	no	no	25	Wailea	NMS	SD	AW	JJ	WUL	WUL181221		Ulua Beach	2018-12-21	8:37	1	1	1	1	1					WUL181221	24.3	35.1	6.89	100.1	8.13	0.98	0.83	0.90	0.90	0.083				NA	11	8	0	
+yes	yes	yes	no	no	25	Wailea	NMS	SD	AW	JJ	WPL	WPL181221		Palauea Beach	2018-12-21	8:58	1	1	1	1	1					WPL181221	24.9	35.3	6.79	99.5	8.19	0.35	0.50	0.32	0.39	0.247				NA	0	4	0	
+yes	yes	yes	no	no	25	Wailea	NMS	SD	AW	JJ	WPO	WPO181221		Poolenalena Beach	2018-12-21	9:13	1	1	1	1	1					WPO181221	25.1	35.3	6.77	99.7	8.19	0.23	0.23	0.44	0.30	0.404				NA	0	4	2	
+yes	yes	yes	no	no	26	Wailea	NMS	CL	AW	JJ	WKD	WKD190118		Kilohana Dr	2019-01-18	8:00	1	3	5	1	3					WKD190118	23.4	34.8	6.85	98.1	8.19	1.19	1.24	1.32	1.25	0.052				NA	0	10	0	
+yes	yes	yes	no	no	26	Wailea	NMS	CL	AW	JJ	WKB	WKB190118		Keawakapu Beach	2019-01-18	8:20	1	3	5	1	3					WKB190118	23.8	34.6	6.85	98.5	8.20	0.80	0.91	0.82	0.84	0.069				NA	0	2	0	
+yes	yes	yes	no	no	26	Wailea	NMS	CL	AW	JJ	WUL	WUL190118		Ulua Beach	2019-01-18	8:40	1	3	5	1	3					WUL190118	24.2	34.4	6.84	99.0	8.20	0.60	0.62	0.60	0.61	0.019				NA	11	3	0	
+yes	yes	yes	no	no	26	Wailea	NMS	CL	AW	JJ	WPL	WPL190118		Palauea Beach	2019-01-18	9:10	1	3	5	1	3					WPL190118	24.1	34.6	6.86	99.0	8.20	1.24	1.00	1.16	1.13	0.108				NA	2	2	0	
+yes	yes	yes	no	no	26	Wailea	NMS	CL	AW	JJ	WPO	WPO190118		Poolenalena Beach	2019-01-18	9:35	1	3	5	1	3					WPO190118	24.3	34.4	6.84	99.1	8.22	0.55	0.63	0.52	0.57	0.100				NA	1	1	0	
+yes	yes	yes	no	no	27	Wailea	NMS	CL	AW	JJ	WKD	WKD190208		Kilohana Dr	2019-02-08	8:00	1	1	1	1	1					WKD190208	23.3	36.9	6.87	99.4	8.15	0.80	0.66	0.68	0.71	0.106				NA	1	5	0	
+yes	yes	yes	no	no	27	Wailea	NMS	CL	AW	JJ	WKB	WKB190208		Keawakapu Beach	2019-02-08	8:25	1	1	1	1	1					WKB190208	23.5	36.9	6.92	100.6	8.16	0.95	0.74	0.77	0.82	0.139				NA	0	12	0	
+yes	yes	yes	no	no	27	Wailea	NMS	CL	AW	JJ	WUL	WUL190208		Ulua Beach	2019-02-08	8:46	1	1	1	1	1					WUL190208	24	36.8	6.92	101.3	8.15	0.64	0.62	0.65	0.64	0.024				NA	4	1	0	
+yes	yes	yes	no	no	27	Wailea	NMS	CL	AW	JJ	WPL	WPL190208		Palauea Beach	2019-02-08	9:12	1	1	1	1	1					WPL190208	23.8	36.9	6.96	101.5	8.17	0.89	0.89	0.92	0.90	0.019				NA	0	5	0	
+yes	yes	yes	no	no	27	Wailea	NMS	CL	AW	JJ	WPO	WPO190208		Poolenalena Beach	2019-02-08	9:31	1	1	1	1	1					WPO190208	23.9	36.9	6.97	101.8	8.18	0.64	0.71	0.55	0.63	0.127				NA	0	2	2	
+yes	yes	yes	no	no	28	Wailea	NMS	SD	AW		WKD	WKD190301		Kilohana Dr	2019-03-01	7:50	2	2	2	2	2					WKD190301	22.1	34.7	7.18	100.2	8.17	0.88	0.72	0.74	0.78	0.112				NA	0	8	0	
+yes	yes	yes	no	no	28	Wailea	NMS	SD	AW		WKB	WKB190301		Keawakapu Beach	2019-03-01	8:11	2	2	2	2	2					WKB190301	22.3	34.8	7.06	99.0	8.16	0.69	0.72	0.61	0.67	0.084				NA	1	2	0	
+yes	yes	yes	no	no	28	Wailea	NMS	SD	AW		WUL	WUL190301		Ulua Beach	2019-03-01	8:37	2	2	2	2	2					WUL190301	23	33.9	6.89	97.2	8.14	0.88	0.77	0.75	0.80	0.088				NA	4	9	0	re-took 1st & 3rd reading due to odd values
+yes	yes	yes	no	no	28	Wailea	NMS	SD	AW		WPL	WPL190301		Palauea Beach	2019-03-01	8:53	2	2	2	2	2					WPL190301	22.8	34.7	7.11	100.4	8.19	1.21	1.13	1.12	1.15	0.043				NA	0	0	0	
+yes	yes	yes	no	no	28	Wailea	NMS	SD	AW		WPO	WPO190301		Poolenalena Beach	2019-03-01	9:08	2	2	2	2	2					WPO190301	23.4	34.5	7.11	101.3	8.20	1.11	1.18	1.18	1.16	0.035				NA	1	9	0	
+yes	yes	yes	no	no	29	Wailea	NMS	SD	AW	JJ	WKD	WKD190322		Kilohana Dr	2019-03-22	7:54	1	1	1	1	1					WKD190322	23.4	35	7.08	101.0	8.13	1.07	1.16	1.11	1.11	0.041				NA	0	7	0	
+yes	yes	yes	no	no	29	Wailea	NMS	SD	AW	JJ	WKB	WKB190322		Keawakapu Beach	2019-03-22	8:15	1	1	1	1	1					WKB190322	23.9	35.1	6.95	100.2	8.13	0.69	0.75	0.47	0.64	0.232				NA	1	4	0	
+yes	yes	yes	no	no	29	Wailea	NMS	SD	AW	JJ	WUL	WUL190322		Ulua Beach	2019-03-22	8:39	1	1	1	1	1					WUL190322	23.8	34.5	6.84	98.1	8.11	1.19	1.53	1.46	1.39	0.129				NA	25	18	0	
+yes	yes	yes	no	no	29	Wailea	NMS	SD	AW	JJ	WPL	WPL190322		Palauea Beach	2019-03-22	9:01	1	1	1	1	1					WPL190322	24.3	34.9	6.97	100.9	8.16	0.53	0.91	0.54	0.66	0.328				NA	0	9	0	
+yes	yes	yes	no	no	29	Wailea	NMS	SD	AW	JJ	WPO	WPO190322		Poolenalena Beach	2019-03-22	9:19	1	1	1	1	1					WPO190322	24.3	35.1	6.99	101.2	8.16	0.94	0.85	0.87	0.89	0.053				NA	3	10	0	
+yes	yes	yes	no	no	30	Wailea	NMS	MB	AW	SD	WKD	WKD190412		Kilohana Dr	2019-04-12	8:03	2	2	2	2	2					WKD190412	25.1	35	6.75	99.5	8.15	0.54	0.76	0.60	0.63	0.180				NA	0	12	2	
+yes	yes	yes	no	no	30	Wailea	NMS	MB	AW	SD	WKB	WKB190412		Keawakapu Beach	2019-04-12	8:26	2	2	2	2	2					WKB190412	25.3	34.8	6.87	101.3	8.12	0.86	1.29	1.33	1.16	0.225				NA	3	24	0	
+yes	yes	yes	no	no	30	Wailea	NMS	MB	AW	SD	WUL	WUL190412		Ulua Beach	2019-04-12	8:50	2	2	2	2	2					WUL190412	25.4	34.5	6.58	97.3	8.11	1.15	1.31	1.42	1.29	0.105				NA	14	25	0	
+yes	yes	yes	no	no	30	Wailea	NMS	MB	AW	SD	WPL	WPL190412		Palauea Beach	2019-04-12	9:15	2	2	2	2	2					WPL190412	25.9	34.8	6.85	102.4	8.18	0.78	1.04	0.94	0.92	0.143				NA	0	19	0	
+yes	yes	yes	no	no	30	Wailea	NMS	MB	AW	SD	WPO	WPO190412		Poolenalena Beach	2019-04-12	9:32	2	2	2	2	2					WPO190412	25.9	34.9	6.87	102.8	8.19	1.34	1.25	1.20	1.26	0.056				NA	5	14	0	
+yes	yes	yes	no	no	31	Wailea	NMS	SD	TS, JK	JJ, JS	WKD	WKD190503		Kilohana Dr	2019-05-03	8:09	1	1	1	1	1					WKD190503	25.4	34.4	6.80	100.7	8.12	1.58	1.29	1.26	1.38	0.128				NA	1	6	0	First time out as being trained for new volunteers Jody and Taylor.
+yes	yes	yes	no	no	31	Wailea	NMS	SD	TS, JK	JJ, JS	WKB	WKB190503		Keawakapu Beach	2019-05-03	8:32	1	1	1	1	1					WKB190503	25.8	35	6.73	100.9	8.14	0.50	0.49	0.45	0.48	0.055				NA	4	12	0	
+yes	yes	yes	no	no	31	Wailea	NMS	SD	TS, JK	JJ, JS	WUL	WUL190503		Ulua Beach	2019-05-03	8:57	1	1	1	1	1					WUL190503	26.3	34.3	6.68	100.8	8.10	1.51	1.46	1.45	1.47	0.022				NA	20	30	0	
+yes	yes	yes	no	no	31	Wailea	NMS	SD	TS, JK	JJ, JS	WPL	WPL190503		Palauea Beach	2019-05-03	9:28	1	1	1	1	1					WPL190503	26.6	34.4	6.87	104.4	8.17	1.07	1.62	1.84	1.51	0.263				NA	2	6	0	
+yes	yes	yes	no	no	31	Wailea	NMS	SD	TS, JK	JJ, JS	WPO	WPO190503		Poolenalena Beach	2019-05-03	9:48	1	1	1	1	1					WPO190503	26.4	34.6	6.78	102.4	8.17	0.84	0.83	0.84	0.84	0.007				NA	3	5 + dog	0	
+yes	yes	yes	no	no	32	Wailea	NMS	MB	AW	JJ	WKD	WKD190524		Kilohana Dr	2019-05-24	8:01	2	1	1	1	1					WKD190524	26.9	34.3	6.70	101.4	8.10	1.81	1.63	1.88	1.77	0.073				NA	2	5	0	
+yes	yes	yes	no	no	32	Wailea	NMS	MB	AW	JJ	WKB	WKB190524		Keawakapu Beach	2019-05-24	8:20	2	1	1	1	1					WKB190524	27.1	34.8	6.66	101.5	8.14	0.73	0.71	0.78	0.74	0.049				NA	6	9	0	
+yes	yes	yes	no	no	32	Wailea	NMS	MB	AW	JJ	WUL	WUL190524		Ulua Beach	2019-05-24	8:40	2	1	1	1	1					WUL190524	27.1	34.4	6.66	101.3	8.11	1.28	1.39	1.41	1.36	0.051				NA	25	27	0	
+yes	yes	yes	no	no	32	Wailea	NMS	MB	AW	JJ	WPL	WPL190524		Palauea Beach	2019-05-24	9:00	2	1	1	1	1					WPL190524	27.3	34.5	6.67	101.8	8.17	2.37	2.38	2.27	2.34	0.026				NA	3	4	0	
+yes	yes	yes	no	no	32	Wailea	NMS	MB	AW	JJ	WPO	WPO190524		Poolenalena Beach	2019-05-24	9:15	2	1	1	1	1					WPO190524	27.6	34.7	6.61	101.8	8.17	0.73	0.69	0.59	0.67	0.108				NA	0	15	0	
+yes	yes	yes	no	no	33	Wailea	NMS	JJ	AW	TS	WKD	WKD190614		Kilohana Dr	2019-06-14	7:55	1	1	1	1	1					WKD190614	26.5	34.5	6.62	99.8	8.11	1.61	1.64	1.66	1.64	0.015				N	1	8	0	
+yes	yes	yes	no	no	33	Wailea	NMS	JJ	AW	TS	WKB	WKB190614		Keawakapu Beach	2019-06-14	8:20	1	1	1	1	1					WKB190614	27.1	34.9	6.58	100.3	8.14	1.23	1.37	1.46	1.35	0.086				N	0	21	0	
+yes	yes	yes	no	no	33	Wailea	NMS	JJ	AW	TS	WUL	WUL190614		Ulua Beach	2019-06-14	8:42	1	1	1	1	1					WUL190614	26.9	34.4	6.61	100.4	8.12	1.99	2.99	2.33	2.44	0.209				N	22	25	0	
+yes	yes	yes	no	no	33	Wailea	NMS	JJ	AW	TS	WPL	WPL190614		Palauea Beach	2019-06-14	9:06	1	1	1	1	1					WPL190614	27.6	34.5	6.59	101.2	8.14	3.90	3.75	3.46	3.70	0.060				N	2	30	0	
+yes	yes	yes	no	no	33	Wailea	NMS	JJ	AW	TS	WPO	WPO190614		Poolenalena Beach	2019-06-14	9:25	1	1	1	1	1					WPO190614	27.5	34.8	6.58	101.2	8.18	1.08	1.29	1.16	1.18	0.090				N	1	8	0	high surf (5')
+yes	yes	yes	no	no	34	Wailea	NMS	JJ	AW	SD	WKD	WKD190705		Kilohana Dr	2019-07-05	7:54	1	2	2	2	2					WKD190705	27.7	35.1	6.59	101.9		1.25	1.44	1.42	1.37	0.076				N	0	1	0	Re: Pre-sampling Lost turbidity: I called Alfred and he said blank cell was poured out before reading it - J.S.  
+yes	yes	yes	no	no	34	Wailea	NMS	JJ	AW	SD	WKB	WKB190705		Keawakapu Beach	2019-07-05	8:20	1	2	2	2	2					WKB190705	28	35.4	6.54	101.8		1.22	1.05	0.96	1.08	0.123				N	3	9	0	
+yes	yes	yes	no	no	34	Wailea	NMS	JJ	AW	SD	WUL	WUL190705		Ulua Beach	2019-07-05	8:42	1	2	2	2	2					WUL190705	28.1	35.2	6.63	103.7		1.02	1.29	0.99	1.10	0.150				N	35	21	0	
+yes	yes	yes	no	no	34	Wailea	NMS	JJ	AW	SD	WPL	WPL190705		Palauea Beach	2019-07-05	9:05	1	2	2	2	2					WPL190705	28.1	35	6.57	102.2		2.78	3.30	3.18	3.09	0.088				N	1	8	0	
+yes	yes	yes	no	no	34	Wailea	NMS	JJ	AW	SD	WPO	WPO190705		Poolenalena Beach	2019-07-05	9:25	1	2	2	2	2					WPO190705	28.5	35.1	6.54	103.6		0.80	0.77	0.80	0.79	0.022				N	6	7	4	
+yes	yes	yes	no	no	35	Wailea	NMS	BC	AA	JJ	WKD	WKD190726		Kilohana Dr	2019-07-26	8:00	2	2	2	2	2					WKD190726	27.7	35	6.49	100.2	8.13	1.35	0.82	0.76	0.98	0.332				N	0	8	0	Other: Judy J. not available after 8/9 for TBD; nutrient bottle holder needs glue (James has since said we have a new nutrient syringe holder)
+yes	yes	yes	no	no	35	Wailea	NMS	BC	AA	JJ	WKB	WKB190726		Keawakapu Beach	2019-07-26	8:21	2	2	2	2	2					WKB190726	27.9	35.2	6.61	102.6	8.15	1.54	0.71	0.71	0.99	0.486				N	20	11	0	double checked high salinity above normal range, 2nd value was same
+yes	yes	yes	no	no	35	Wailea	NMS	BC	AA	JJ	WUL	WUL190726		Ulua Beach	2019-07-26	8:44	2	2	2	2	2					WUL190726	27.8	35	6.66	103.1	8.15	1.06	1.38	1.68	1.37	0.226				N	12	15	0	
+yes	yes	yes	no	no	35	Wailea	NMS	BC	AA	JJ	WPL	WPL190726		Palauea Beach	2019-07-26	9:09	2	2	2	2	2					WPL190726	28.3	34.9	6.56	102.3	8.17	1.79	1.42	1.48	1.56	0.127				N	0	8	0	Boogie boarders in front of samplers
+yes	yes	yes	no	no	35	Wailea	NMS	BC	AA	JJ	WPO	WPO190726		Poolenalena Beach	2019-07-26	9:25	2	2	2	2	2					WPO190726	28.6	35.3	6.64	104.2	8.19	1.19	1.27	0.72	1.06	0.280				N	11	10	0	double checked high salinity above normal range, 2nd value was same
+yes	yes	yes	no	no	36	Wailea	NMS	BC	AA	AW	WKD	WKD190816		Kilohana Dr	2019-08-16	7:54	2	2	2	2	2					WKD190816	28.1	35	6.63	102.9	8.12	1.17	1.68	1.34	1.40	0.186				N	0	10	0	
+yes	yes	yes	no	no	36	Wailea	NMS	BC	AA	AW	WKB	WKB190816		Keawakapu Beach	2019-08-16	8:20	2	2	2	2	2					WKB190816	28.4	35.2	6.62	103.3	8.13	0.79	0.52	0.54	0.62	0.244				N	12	10	0	
+yes	yes	yes	no	no	36	Wailea	NMS	BC	AA	AW	WUL	WUL190816		Ulua Beach	2019-08-16	8:41	2	2	2	2	2					WUL190816	28.6	35.1	6.71	105.0	8.15	0.58	1.30	0.82	0.90	0.407				N	10	9	0	3 scuba divers near entry
+yes	yes	yes	no	no	36	Wailea	NMS	BC	AA	AW	WPL	WPL190816		Palauea Beach	2019-08-16	9:03	2	2	2	2	2					WPL190816	28.8	34.7	6.61	103.4	8.14	1.87	2.34	2.15	2.12	0.112				N	0	5	0	vehicle was not parked in the shade- none available
+yes	yes	yes	no	no	36	Wailea	NMS	BC	AA	AW	WPO	WPO190816		Poolenalena Beach	2019-08-16	9:19	2	2	2	2	2					WPO190816	28.8	35	6.61	104.0	8.16	0.46	0.72	0.58	0.59	0.222				N	7	1	0	
+yes	yes	yes	no	no	37	Wailea	NMS	AA	JS	AW	WKD	WKD190906		Kilohana Dr	2019-09-06	7:59	1	1	3	1	1					WKD190906	28.3	26.5	7.85	100.7	8.14	2.10	2.40	2.34	2.28	0.070				N	1	5	0	
+yes	yes	yes	no	no	37	Wailea	NMS	AA	JS	AW	WKB	WKB190906		Keawakapu Beach	2019-09-06	8:22	1	1	3	1	1					WKB190906	28.7	35.2	6.44	101.2	8.15	1.77	1.86	2.08	1.90	0.084				N	2	9	0	
+yes	yes	yes	no	no	37	Wailea	NMS	AA	JS	AW	WUL	WUL190906		Ulua Beach	2019-09-06	8:43	1	1	3	1	1					WUL190906	28.7	35.2	6.44	101.1	8.18	1.91	2.28	2.46	2.22	0.127				N	10	14	0	
+yes	yes	yes	no	no	37	Wailea	NMS	AA	JS	AW	WPL	WPL190906		Palauea Beach	2019-09-06	9:07	1	1	3	1	1					WPL190906	28.7	35.1	6.55	102.5	8.18	2.67	2.84	2.79	2.77	0.032				N	1	2	0	
+yes	yes	yes	no	no	37	Wailea	NMS	AA	JS	AW	WPO	WPO190906		Poolenalena Beach	2019-09-06	9:27	1	1	3	1	1					WPO190906	28.9	35.1	6.45	101.5	8.19	1.07	1.27	1.21	1.18	0.087				N	4	5	0	
+yes	yes	yes	no	no	38	Wailea	NMS	AA	SD	AW	WKD	WKD190927		Kilohana Dr	2019-09-27	8:07	2	2	4	2	2					WKD190927	28.2	35.3	6.52	102.2	8.14	2.65	1.91	2.52	2.36	0.167				N	3	9	0	
+yes	yes	yes	no	no	38	Wailea	NMS	AA	SD	AW	WKB	WKB190927		Keawakapu Beach	2019-09-27	8:30	2	2	4	2	2					WKB190927	28.5	35.4	6.54	102.7	8.16	0.98	0.96	1.31	1.08	0.181				N	2	7	0	3rd turbidity reading: "3x due to rapid turnover"
+yes	yes	yes	no	no	38	Wailea	NMS	AA	SD	AW	WUL	WUL190927		Ulua Beach	2019-09-27	8:50	2	2	4	2	2					WUL190927	28.6	35.3	6.69	105.4	8.17	1.39	2.25	2.68	2.11	0.312				N	19	9	0	
+yes	yes	yes	no	no	38	Wailea	NMS	AA	SD	AW	WPL	WPL190927		Palauea Beach	2019-09-27	9:15	2	2	4	2	2					WPL190927	28.5	35.3	6.54	102.7	8.17	6.23	8.53	7.28	7.35	0.157				N	0	5	0	
+yes	yes	yes	no	no	38	Wailea	NMS	AA	SD	AW	WPO	WPO190927		Poolenalena Beach	2019-09-27	9:29	2	2	4	2	2					WPO190927	28.6	35.2	6.55	103.0	8.19	0.83	0.81	0.82	0.82	0.012				N	0	5	0	
+yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WKD	WKD191018		Kilohana Dr	2019-10-18	7:59	1	1	3	1	1					WKD191018	27.4	35	6.71	97.8	8.15	1.07	0.99	0.96	1.01	0.056				N	0	8	0	
+yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WKB	WKB191018		Keawakapu Beach	2019-10-18	8:18	1	1	3	1	1					WKB191018	27.6	35.1	6.39	98.2	8.13	0.75	0.86	0.79	0.80	0.070				N	7	8	0	
+yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WUL	WUL191018		Ulua Beach	2019-10-18	8:36	1	1	3	1	1					WUL191018	27.7	35	6.43	99.1	8.15	1.17	1.21	1.01	1.13	0.094				N	8	20	0	
+yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WPL	WPL191018		Palauea Beach	2019-10-18	8:56	1	1	3	1	1					WPL191018	28	35.1	6.24	96.5	8.15	1.02	1.12	1.11	1.08	0.051				N	7	15	0	
+yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WPO	WPO191018		Poolenalena Beach	2019-10-18	9:09	1	1	3	1	1					WPO191018	28.4	35.1	6.42	100.1	8.19	0.64	0.61	0.59	0.61	0.041				N	9	13	0	

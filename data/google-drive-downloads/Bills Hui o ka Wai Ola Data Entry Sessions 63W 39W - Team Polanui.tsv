@@ -1,0 +1,324 @@
+Copied to main database by Kim/Bill 	Checked by Dana	yes/no	yes/no	yes/no	#	R2RS, R2RN, Polanui, Olowalu	LLHS	initials	initials	initials	RCB	RCB031717	2062	Canoe Beach	03/17/17	12:00											deg C	ppt	mg/L	%								0, 1, 2, 3, 4	0-8	0-5	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	
+		Nut_Sample	Nut_Dup	Sed_Sample	Session	Team	Lab	Sampler	Sampler2	Sampler3	Station	SampleID	Location	SiteName	Date	Time	40D#	2100Q#	pHInst#	DOInst#	SalInst#	Moon	Cloud_1_8	Rain_1_4	Wind_dir	SampleID2	Temp	Salinity	DO	DO%	pH	Turb1	Turb2	Turb3	Average Turbidity	CV Turbidity		Waves	Wind	Stream	Swimmers	On Beach	Campers	Comments
+			Example:		26	R2RS	LLHS	CM	TF	MS	RCB	RCB170821	2020	Canoe Beach	2017-08-21	9:22:00	1	1	4	2	3	1	7	2		RCB170821	27.0	33.1	6.92	104.4	8.18	5.78	5.86	6.03	Calculated	Calculated		1	0		1	20		
+yes	yes	yes	no	no	1	Polanui	LLHS				PFF	PFF160615	2022	505 Front St	2016-06-15	7:37										PFF160615	26.7	27.8	6.27	94.7	8.05	2.89	2.89	2.89										
+yes	yes	yes	no	no	1	Polanui	LLHS				PLH	PLH160615	2023	Lindsey Hale	2016-06-15	8:28										PLH160615	26.8	28.1	6.57	99.6	7.99	2.8	2.8	2.8										
+yes	yes	yes	no	no	1	Polanui	LLHS				PLT	PLT160615	2024	Lahaina Town	2016-06-15	8:59										PLT160615	27.2	28.2	6.72	102.4	8.09	2.91	2.91	2.91										
+yes	yes	yes	no	no	1	Polanui	LLHS				OSF	OSF160615	2027	Olowalu Pier	2016-06-15	10:42										OSF160615	27.4	29.6	6.94	106.1	8.11	1.19	1.19	1.19										
+yes	yes	yes	no	no	2	Polanui	LLHS				PFF	PFF160629	2022	505 Front St	2016-06-29	7:43										PFF160629	27	30.1	6.34	96.5	7.98	1.65	1.65	1.65										
+yes	yes	yes	no	no	2	Polanui	LLHS				PLH	PLH160629	2023	Lindsey Hale	2016-06-29	8:24										PLH160629	27.2	29.1	6.29	96	8.04	3.43	3.43	3.43										
+yes	yes	yes	no	no	2	Polanui	LLHS				PLT	PLT160629	2024	Lahaina Town	2016-06-29	8:50										PLT160629	27.3	28.9	6.21	95	8.02	1.98	1.98	1.98										
+yes	yes	yes	no	no	2	Polanui	LLHS				OLP	OLP160629	2072	Launiupoko	2016-06-29	10:04										OLP160629	28.5	29.9	6.6	102.1	8.07	4.53	4.53	4.53										
+yes	yes	yes	no	no	2	Polanui	LLHS				OSF	OSF160629	2027	Olowalu Pier	2016-06-29	10:39										OSF160629	28	29.3	7.17	111.1	8.1	1.07	1.07	1.07										
+yes	yes	yes	no	no	3	Polanui	LLHS				PFF	PFF160713	2022	505 Front St	2016-07-13	7:35										PFF160713	26.9	36.2	5.9	90.6	8.04	2.64	2.64	2.64										
+yes	yes	yes	no	no	3	Polanui	LLHS				PLH	PLH160713	2023	Lindsey Hale	2016-07-13	8:07										PLH160713	27	36	5.49	84.5	8.01	2.01	2.01	2.01										
+yes	yes	yes	no	no	3	Polanui	LLHS				PLT	PLT160713	2024	Lahaina Town	2016-07-13	8:29										PLT160713	27.4	36	5.39	83.3	8	4.96	4.96	4.96										
+yes	yes	yes	no	no	3	Polanui	LLHS				OLP	OLP160713	2072	Launiupoko	2016-07-13	9:20										OLP160713	28.1	37.8	6.56	103.6	8.1	2.57	2.57	2.57										
+yes	yes	yes	no	no	3	Polanui	LLHS				OSF	OSF160713	2027	Olowalu Pier	2016-07-13	9:48										OSF160713	28	37.4	6.98	109.8	8.04	1.86	1.86	1.86										
+yes	yes	yes	no	no	4	Polanui	LLHS				PFF	PFF160727	2022	505 Front St	2016-07-27	7:28										PFF160727	27.4	34.7	5.9	90.2	8.04	#N/A	#N/A	#N/A										
+yes	yes	yes	no	no	4	Polanui	LLHS				PLH	PLH160727	2023	Lindsey Hale	2016-07-27	8:05										PLH160727	27.4	35	5.9	90.5	8.02	8.05	8.05	8.05										
+yes	yes	yes	no	no	4	Polanui	LLHS				PLT	PLT160727	2024	Lahaina Town	2016-07-27	8:28										PLT160727	27.6	35.2	5.65	87	8	3.7	3.7	3.7										
+yes	yes	yes	no	no	4	Polanui	LLHS				OLP	OLP160727	2072	Launiupoko	2016-07-27	9:09										OLP160727	28.1	35.6	6.52	101.4	8.13	0.88	0.88	0.88										
+yes	yes	yes	no	no	4	Polanui	LLHS				OSF	OSF160727	2027	Olowalu Pier	2016-07-27	9:39										OSF160727	27.8	35.5	6.89	106.6	8.12	0.98	0.98	0.98										
+yes	yes	yes	no	no	5	Polanui	LLHS				PFF	PFF160810	2022	505 Front St	2016-08-10	7:26										PFF160810	27	34.6	5.87	89	8.06	0.96	0.96	0.96										
+yes	yes	yes	no	no	5	Polanui	LLHS				PLH	PLH160810	2023	Lindsey Hale	2016-08-10	7:52										PLH160810	27.3	35	5.53	84.5	8.02	5.5	5.5	5.5										
+yes	yes	yes	no	no	5	Polanui	LLHS				PLT	PLT160810	2024	Lahaina Town	2016-08-10	8:15										PLT160810	27.5	35.1	5.74	88.1	8.04	4.34	4.34	4.34										
+yes	yes	yes	no	no	5	Polanui	LLHS				OLP	OLP160810	2072	Launiupoko	2016-08-10	8:56										OLP160810	28.2	35.8	6.57	102.2	8.1	4.02	4.02	4.02										
+yes	yes	yes	no	no	5	Polanui	LLHS				OSF	OSF160810	2027	Olowalu Pier	2016-08-10	9:19										OSF160810	27.9	35.8	6.78	105.1	8.07	1.45	1.45	1.45										
+yes	yes	yes	no	no	6	Polanui	LLHS				PFF	PFF160824	2022	505 Front St	2016-08-24	7:32										PFF160824	27.9	35	6.12	94.6	8.05	4.43	4.43	4.43										
+yes	yes	yes	no	no	6	Polanui	LLHS				PLH	PLH160824	2023	Lindsey Hale	2016-08-24	8:20										PLH160824	28.4	35.2	5.44	85	8.01	25.4	25.4	25.4										
+yes	yes	yes	no	no	6	Polanui	LLHS				PLT	PLT160824	2024	Lahaina Town	2016-08-24	8:42										PLT160824	28.3	35.7	5.84	91.3	8.03	6.57	6.57	6.57										
+yes	yes	yes	no	no	6	Polanui	LLHS				PPU	PPU160824	2025	Puamana	2016-08-24	9:13										PPU160824	28.4	35.5	6.44	100.7	8.09	#N/A	#N/A	#N/A										
+yes	yes	yes	no	no	6	Polanui	LLHS				OLP	OLP160824	2072	Launiupoko	2016-08-24	9:38										OLP160824	28.6	36.1	6.39	100.6	8.13	3.77	3.77	3.77										
+yes	yes	yes	no	no	6	Polanui	LLHS				OSF	OSF160824	2027	Olowalu Pier	2016-08-24	10:00										OSF160824	29	36	6.85	108.5	8.1	1.3	1.3	1.3										
+yes	yes	yes	no	no	7	Polanui	LLHS				PFF	PFF160907	2022	505 Front St	2016-09-07	7:48										PFF160907	27.1	34.5	6.18	94.1	8	6.47	6.47	6.47										
+yes	yes	yes	no	no	7	Polanui	LLHS				PLT	PLT160907	2024	Lahaina Town	2016-09-07	8:19										PLT160907	27.5	36.6	6.06	94	8.01	4.33	4.33	4.33										
+yes	yes	yes	no	no	7	Polanui	LLHS				PLH	PLH160907	2023	Lindsey Hale	2016-09-07	8:46										PLH160907	27.5	36.5	6.07	94.2	7.96	6.77	6.77	6.77										
+yes	yes	yes	no	no	7	Polanui	LLHS				OLP	OLP160907	2072	Launiupoko	2016-09-07	9:10										OLP160907	27.8	36.7	6.26	97.8	7.97	2.31	2.31	2.31										
+yes	yes	yes	no	no	7	Polanui	LLHS				OSF	OSF160907	2027	Olowalu Pier	2016-09-07	9:39										OSF160907	28.4	37	6.55	103.3	8.06	1.12	1.12	1.12										
+yes	yes	yes	no	no	8	Polanui	LLHS				PFF	PFF160921	2022	505 Front St	2016-09-21	7:22										PFF160921	27	33.1	6.31	94.9	8.04	12.37	12.37	12.37										
+yes	yes	yes	no	no	8	Polanui	LLHS				PLH	PLH160921	2023	Lindsey Hale	2016-09-21	7:52										PLH160921	27.1	34.4	6.08	92.3	8.03	40.1	40.1	40.1										
+yes	yes	yes	no	no	8	Polanui	LLHS				PLT	PLT160921	2024	Lahaina Town	2016-09-21	8:20										PLT160921	26.9	34.3	6	90.8	7.98	45.33	45.33	45.33										
+yes	yes	yes	no	no	8	Polanui	LLHS				OLP	OLP160921	2072	Launiupoko	2016-09-21	9:05										OLP160921	27.7	34.9	6.36	97.8	8.11	10.26	10.26	10.26										
+yes	yes	yes	no	no	8	Polanui	LLHS				OSF	OSF160921	2027	Olowalu Pier	2016-09-21	9:36										OSF160921	27.6	34.8	6.58	101.2	8.17	2.35	2.35	2.35										
+yes	yes	yes	no	no	9	Polanui	LLHS				PFF	PFF161005	2022	505 Front St	2016-10-05	8:16										PFF161005	27.6	35.5	5.9	91.3	7.79	3.32	3.32	3.32										
+yes	yes	yes	no	no	9	Polanui	LLHS				PLH	PLH161005	2023	Lindsey Hale	2016-10-05	8:48										PLH161005	27.8	35.4	5.44	84.3	7.89	14.73	14.73	14.73										
+yes	yes	yes	no	no	9	Polanui	LLHS				PLT	PLT161005	2024	Lahaina Town	2016-10-05	9:10										PLT161005	28.2	36	5.53	86.4	7.87	20.37	20.37	20.37										
+yes	yes	yes	no	no	9	Polanui	LLHS				PPU	PPU161005	2025	Puamana	2016-10-05	9:35										PPU161005	28.3	36.5	6.42	100.6	8.11	2.61	2.61	2.61										
+yes	yes	yes	no	no	9	Polanui	LLHS				OLP	OLP161005	2072	Launiupoko	2016-10-05	10:00										OLP161005	28.8	37.3	6.45	102.4	7.97	3.36	3.36	3.36										
+yes	yes	yes	no	no	9	Polanui	LLHS				OSF	OSF161005	2027	Olowalu Pier	2016-10-05	10:23										OSF161005	28.8	37.2	6.73	106.9	7.99	2.07	2.07	2.07										
+yes	yes	yes	no	no	10	Polanui	LLHS				PFF	PFF161019	2022	505 Front St	2016-10-19	8:21										PFF161019	27.1	33.5	6.26	94.5	8.09	8.22	8.22	8.22										
+yes	yes	yes	no	no	10	Polanui	LLHS				PLH	PLH161019	2023	Lindsey Hale	2016-10-19	8:51										PLH161019	27.2	34	6.12	92.9	8.03	40.7	40.7	40.7										
+yes	yes	yes	no	no	10	Polanui	LLHS				PLT	PLT161019	2024	Lahaina Town	2016-10-19	9:13										PLT161019	27.5	33.9	6	91.5	7.98	43.67	43.67	43.67										
+yes	yes	yes	no	no	10	Polanui	LLHS				PPU	PPU161019	2025	Puamana	2016-10-19	9:40										PPU161019	27.7	34.6	6.49	99.7	8.15	6.04	6.04	6.04										
+yes	yes	yes	no	no	10	Polanui	LLHS				OLP	OLP161019	2072	Launiupoko	2016-10-19	10:01										OLP161019	27.7	35	6.28	96.7	8.06	4.35	4.35	4.35										
+yes	yes	yes	no	no	10	Polanui	LLHS				OSF	OSF161019	2027	Olowalu Pier	2016-10-19	10:37										OSF161019	27.4	34.9	6.65	102	8.12	2.94	2.94	2.94										
+yes	yes	yes	no	no	11	Polanui	LLHS				PFF	PFF161102	2022	505 Front St	2016-11-02	8:20										PFF161102	25.6	32.8	5.88	86	7.99	5.64	5.64	5.64										
+yes	yes	yes	no	no	11	Polanui	LLHS				PLH	PLH161102	2023	Lindsey Hale	2016-11-02	8:56										PLH161102	26.2	34	5.52	82.2	8.02	12.7	12.7	12.7										
+yes	yes	yes	no	no	11	Polanui	LLHS				PLT	PLT161102	2024	Lahaina Town	2016-11-02	9:17										PLT161102	26.8	33.7	5.38	80.9	7.98	4.18	4.18	4.18										
+yes	yes	yes	no	no	11	Polanui	LLHS				PPU	PPU161102	2025	Puamana	2016-11-02	9:52										PPU161102	26.7	34.5	6.83	103	8.17	1.86	1.86	1.86										
+yes	yes	yes	no	no	11	Polanui	LLHS				OLP	OLP161102	2072	Launiupoko	2016-11-02	10:17										OLP161102	26.5	34.5	6.9	103.8	8.13	1.62	1.62	1.62										
+yes	yes	yes	no	no	11	Polanui	LLHS				OSF	OSF161102	2027	Olowalu Pier	2016-11-02	10:46										OSF161102	26.3	34.8	6.83	102.6	8.07	1.75	1.75	1.75										
+yes	yes	yes	no	no	12	Polanui	LLHS				PFF	PFF161116	2022	505 Front St	2016-11-16	8:16										PFF161116	26.1	33.7	6.2	92.1	8.05	7.39	7.39	7.39										
+yes	yes	yes	no	no	12	Polanui	LLHS				PLH	PLH161116	2023	Lindsey Hale	2016-11-16	8:45										PLH161116	26.4	34.1	5.53	82.9	7.98	14.03	14.03	14.03										
+yes	yes	yes	no	no	12	Polanui	LLHS				PLT	PLT161116	2024	Lahaina Town	2016-11-16	9:06										PLT161116	26.5	34.3	5.6	84	8.03	10.87	10.87	10.87										
+yes	yes	yes	no	no	12	Polanui	LLHS				PPU	PPU161116	2025	Puamana	2016-11-16	9:30										PPU161116	26.6	34.4	6.73	101.2	8.16	2.04	2.04	2.04										
+yes	yes	yes	no	no	12	Polanui	LLHS				OLP	OLP161116	2072	Launiupoko	2016-11-16	9:52										OLP161116	26.7	34.7	6.67	100.7	8.11	3.33	3.33	3.33										
+yes	yes	yes	no	no	12	Polanui	LLHS				OSF	OSF161116	2027	Olowalu Pier	2016-11-16	10:15										OSF161116	26.8	34.7	#N/A	106.9	8.11	4.37	4.37	4.37										
+yes	yes	yes	no	no	13	Polanui	LLHS				PFF	PFF161130	2022	505 Front St	2016-11-30	8:24										PFF161130	25	34	6.35	92.8	8.07	9.3	9.3	9.3										
+yes	yes	yes	no	no	13	Polanui	LLHS				PLH	PLH161130	2023	Lindsey Hale	2016-11-30	8:51										PLH161130	25	33.9	6.24	91.2	8.01	9.44	9.44	9.44										
+yes	yes	yes	no	no	13	Polanui	LLHS				PLT	PLT161130	2024	Lahaina Town	2016-11-30	9:12										PLT161130	25	34	6.2	90.5	7.95	12.5	12.5	12.5										
+yes	yes	yes	no	no	13	Polanui	LLHS				PPU	PPU161130	2025	Puamana	2016-11-30	9:40										PPU161130	25.4	33.9	6.84	100.6	8.1	2.02	2.02	2.02										
+yes	yes	yes	no	no	13	Polanui	LLHS				OLP	OLP161130	2072	Launiupoko	2016-11-30	10:01										OLP161130	24.5	34.5	7.13	103.6	8.04	1.51	1.51	1.51										
+yes	yes	yes	no	no	13	Polanui	LLHS				OSF	OSF161130	2027	Olowalu Pier	2016-11-30	10:25										OSF161130	24.7	34.8	7.37	108	8.13	2.42	2.42	2.42										
+yes	yes	yes	no	no	14	Polanui	LLHS				PFF	PFF161214	2022	505 Front St	2016-12-14	8:16										PFF161214	24.2	34.8	6.56	95.1	8.03	4.31	4.31	4.31										
+yes	yes	yes	no	no	14	Polanui	LLHS				PLH	PLH161214	2023	Lindsey Hale	2016-12-14	8:45										PLH161214	23.7	33.1	6.65	94.7	7.96	14.27	14.27	14.27										
+yes	yes	yes	no	no	14	Polanui	LLHS				PLT	PLT161214	2024	Lahaina Town	2016-12-14	9:18										PLT161214	24	33.8	5.93	85.3	7.94	7.5	7.5	7.5										
+yes	yes	yes	no	no	14	Polanui	LLHS				PPU	PPU161214	2025	Puamana	2016-12-14	9:35										PPU161214	24.9	34.4	6.95	101.8	8.08	2.72	2.72	2.72										
+yes	yes	yes	no	no	14	Polanui	LLHS				OLP	OLP161214	2072	Launiupoko	2016-12-14	9:54										OLP161214	24.9	34.6	7.02	103	8.13	1.99	1.99	1.99										
+yes	yes	yes	no	no	14	Polanui	LLHS				OSF	OSF161214	2027	Olowalu Pier	2016-12-14	10:16										OSF161214	24.7	34.8	6.68	97.7	8.08	4.1	4.1	4.1										
+yes	yes	yes	no	no	15	Polanui	LLHS				PFF	PFF170104	2022	505 Front St	2017-01-04	8:15										PFF170104	23.4	34.1	6.72	95.6	8.08	5.57	5.57	5.57										
+yes	yes	yes	no	no	15	Polanui	LLHS				PLH	PLH170104	2023	Lindsey Hale	2017-01-04	8:42										PLH170104	23.3	34.7	6.77	96.4	8.07	8.92	8.92	8.92										
+yes	yes	yes	no	no	15	Polanui	LLHS				PLT	PLT170104	2024	Lahaina Town	2017-01-04	9:03										PLT170104	23.7	34.6	6.22	89.4	8.05	35.3	35.3	35.3										
+yes	yes	yes	no	no	15	Polanui	LLHS				PPU	PPU170104	2025	Puamana	2017-01-04	9:32										PPU170104	24.1	34.9	6.85	99.2	8.11	2.7	2.7	2.7										
+yes	yes	yes	no	no	15	Polanui	LLHS				OLP	OLP170104	2072	Launiupoko	2017-01-04	9:58										OLP170104	24.3	35.1	6.92	100.6	8.12	5.01	5.01	5.01										
+yes	yes	yes	no	no	15	Polanui	LLHS				OSF	OSF170104	2027	Olowalu Pier	2017-01-04	10:24										OSF170104	24.3	35	7.46	108.5	8.13	2.18	2.18	2.18										
+yes	yes	yes	no	no	16	Polanui	LLHS				PFF	PFF170125	2022	505 Front St	2017-01-25	8:22										PFF170125	23.8	35.2	6.16	88.5	7.87	6.31	6.31	6.31										
+yes	yes	yes	no	no	16	Polanui	LLHS				PLH	PLH170125	2023	Lindsey Hale	2017-01-25	8:50										PLH170125	23.8	34.8	6.22	89.5	7.96	3.53	3.53	3.53										
+yes	yes	yes	no	no	16	Polanui	LLHS				PLT	PLT170125	2024	Lahaina Town	2017-01-25	9:16										PLT170125	24.3	34.9	6.47	93.7	8	1.7	1.7	1.7										
+yes	yes	yes	no	no	16	Polanui	LLHS				PPU	PPU170125	2025	Puamana	2017-01-25	9:45										PPU170125	24.8	34.9	6.79	99.1	8.06	1.92	1.92	1.92										
+yes	yes	yes	no	no	16	Polanui	LLHS				OLP	OLP170125	2072	Launiupoko	2017-01-25	10:07										OLP170125	24.6	35.1	6.79	98.9	8.04	2.06	2.06	2.06										
+yes	yes	yes	no	no	16	Polanui	LLHS				OSF	OSF170125	2027	Olowalu Pier	2017-01-25	10:30										OSF170125	24.7	35.2	6.46	94.3	7.9	1.21	1.21	1.21										
+yes	yes	yes	no	no	17	Polanui	LLHS				PFF	PFF170215	2022	505 Front St	2017-02-15	8:33										PFF170215	24.9	33.8	6.38	93.1	8.1	4.18	4.18	4.18										
+yes	yes	yes	no	no	17	Polanui	LLHS				PLH	PLH170215	2023	Lindsey Hale	2017-02-15	8:45										PLH170215	24.9	34.1	6.2	90.5	8.07	10.7	10.7	10.7										
+yes	yes	yes	no	no	17	Polanui	LLHS				PLT	PLT170215	2024	Lahaina Town	2017-02-15	9:03										PLT170215	24.9	34.4	5.93	86.7	8.07	8.65	8.65	8.65										
+yes	yes	yes	no	no	17	Polanui	LLHS				PPU	PPU170215	2025	Puamana	2017-02-15	9:30										PPU170215	25.1	34.9	6.86	100.8	8.19	3.12	3.12	3.12										
+yes	yes	yes	no	no	17	Polanui	LLHS				OLP	OLP170215	2072	Launiupoko	2017-02-15	9:47										OLP170215	25.2	34.9	6.79	100	8.13	5.91	5.91	5.91										
+yes	yes	yes	no	no	17	Polanui	LLHS				OSF	OSF170215	2027	Olowalu Pier	2017-02-15	10:11										OSF170215	25.1	34.9	6.59	96.8	8.1	4.16	4.16	4.16										
+yes	yes	yes	no	no	18	Polanui	LLHS				PFF	PFF170308	2022	505 Front St	2017-03-08	8:30										PFF170308	24.5	34	6.33	91.8	8.1	1.81	1.81	1.81										
+yes	yes	yes	no	no	18	Polanui	LLHS				PLH	PLH170308	2023	Lindsey Hale	2017-03-08	8:59										PLH170308	24.6	33.9	6.13	88.8	8.1	7.56	7.56	7.56										
+yes	yes	yes	no	no	18	Polanui	LLHS				PLT	PLT170308	2024	Lahaina Town	2017-03-08	9:24										PLT170308	24.6	34.2	6.42	93.4	8.11	3.03	3.03	3.03										
+yes	yes	yes	no	no	18	Polanui	LLHS				PPU	PPU170308	2025	Puamana	2017-03-08	9:54										PPU170308	25.2	34.5	6.93	102.1	8.2	2.18	2.18	2.18										
+yes	yes	yes	no	no	18	Polanui	LLHS				OLP	OLP170308	2072	Launiupoko	2017-03-08	10:24										OLP170308	25.7	34.5	7.07	104.9	8.21	1.68	1.68	1.68										
+yes	yes	yes	no	no	18	Polanui	LLHS				OSF	OSF170308	2027	Olowalu Pier	2017-03-08	11:00										OSF170308	26	34.5	7.35	109.4	8.13	1.67	1.67	1.67										
+yes	yes	yes	no	no	19	Polanui	LLHS				PFF	PFF170329	2022	505 Front St	2017-03-29	8:21										PFF170329	25.4	33.1	6.23	90.8	8.07	11.33	11.33	11.33										
+yes	yes	yes	no	no	19	Polanui	LLHS				PLH	PLH170329	2023	Lindsey Hale	2017-03-29	8:50										PLH170329	26	33.4	5.72	84.5	8.06	7.19	7.19	7.19										
+yes	yes	yes	no	no	19	Polanui	LLHS				PLT	PLT170329	2024	Lahaina Town	2017-03-29	9:10										PLT170329	26.3	33.1	5.93	87.9	8.07	7.53	7.53	7.53										
+yes	yes	yes	no	no	19	Polanui	LLHS				PPU	PPU170329	2025	Puamana	2017-03-29	9:36										PPU170329	26.2	33.9	6.78	100.8	8.18	2.5	2.5	2.5										
+yes	yes	yes	no	no	19	Polanui	LLHS				OLP	OLP170329	2072	Launiupoko	2017-03-29	10:10										OLP170329	27.3	34.3	6.7	101.8	8.16	3.99	3.99	3.99										
+yes	yes	yes	no	no	19	Polanui	LLHS				OSF	OSF170329	2027	Olowalu Pier	2017-03-29	10:36										OSF170329	26.8	34	6.95	104.5	8.13	2.18	2.18	2.18										
+yes	yes	yes	no	no	20	Polanui	LLHS				PFF	PFF170419	2022	505 Front St	2017-04-19	8:18										PFF170419	25.8	32.7	6.44	94.7	8.12	2.18	2.18	2.18										
+yes	yes	yes	no	no	20	Polanui	LLHS				PLH	PLH170419	2023	Lindsey Hale	2017-04-19	8:45										PLH170419	25.9	33.7	6.43	95.3	8.11	9.15	9.15	9.15										
+yes	yes	yes	no	no	20	Polanui	LLHS				PLT	PLT170419	2024	Lahaina Town	2017-04-19	9:06										PLT170419	26.2	33	6.24	92.6	8.1	11.37	11.37	11.37										
+yes	yes	yes	no	no	20	Polanui	LLHS				PPU	PPU170419	2025	Puamana	2017-04-19	9:30										PPU170419	26.1	34.1	6.63	99	8.18	1.64	1.64	1.64										
+yes	yes	yes	no	no	20	Polanui	LLHS				OLP	OLP170419	2072	Launiupoko	2017-04-19	10:00										OLP170419	26.7	34.4	6.74	101.8	8.18	2.53	2.53	2.53										
+yes	yes	yes	no	no	20	Polanui	LLHS				OSF	OSF170419	2027	Olowalu Pier	2017-04-19	10:25										OSF170419	27	34.3	6.97	105.7	8.15	1.5	1.5	1.5										
+yes	yes	yes	no	no	21	Polanui	LLHS				PFF	PFF170510	2022	505 Front St	2017-05-10	8:17										PFF170510	25.5	34.2	6.46	95.6	8.14	2.24	2.24	2.24										
+yes	yes	yes	no	no	21	Polanui	LLHS				PLH	PLH170510	2023	Lindsey Hale	2017-05-10	8:40										PLH170510	25.8	33.9	6.24	92.7	8.14	2	2	2										
+yes	yes	yes	no	no	21	Polanui	LLHS				PLT	PLT170510	2024	Lahaina Town	2017-05-10	8:59										PLT170510	25.9	34.7	6.33	94.4	8.14	1.57	1.57	1.57										
+yes	yes	yes	no	no	21	Polanui	LLHS				PPU	PPU170510	2025	Puamana	2017-05-10	9:31										PPU170510	26.1	34.3	6.91	103.2	8.23	1.67	1.67	1.67										
+yes	yes	yes	no	no	21	Polanui	LLHS				OLP	OLP170510	2072	Launiupoko	2017-05-10	9:53										OLP170510	26.8	34.6	6.94	105	8.18	2.19	2.19	2.19										
+yes	yes	yes	no	no	21	Polanui	LLHS				OSF	OSF170510	2027	Olowalu Pier	2017-05-10	10:19										OSF170510	26.8	34.4	7.23	109.7	8.18	1.74	1.74	1.74										
+yes	yes	yes	no	no	22	Polanui	LLHS				PFF	PFF170531	2022	505 Front St	2017-05-31	8:12										PFF170531	26.4	34	6.21	92.8	8.07	3.94	3.94	3.94										
+yes	yes	yes	no	no	22	Polanui	LLHS				PLH	PLH170531	2023	Lindsey Hale	2017-05-31	8:41										PLH170531	26.5	34.4	6.32	94.9	8.06	5.14	5.14	5.14										
+yes	yes	yes	no	no	22	Polanui	LLHS				PLT	PLT170531	2024	Lahaina Town	2017-05-31	9:02										PLT170531	26.8	33.7	6.01	90.3	8.05	13.23	13.23	13.23										
+yes	yes	yes	no	no	22	Polanui	LLHS				PPU	PPU170531	2025	Puamana	2017-05-31	9:25										PPU170531	26.9	34.6	6.73	101.8	8.15	3.1	3.1	3.1										
+yes	yes	yes	no	no	22	Polanui	LLHS				OLP	OLP170531	2072	Launiupoko	2017-05-31	9:48										OLP170531	26.9	34.8	6.8	103.2	8.12	2.59	2.59	2.59										
+yes	yes	yes	no	no	22	Polanui	LLHS				OSF	OSF170531	2027	Olowalu Pier	2017-05-31	10:10										OSF170531	27.1	34.7	7.27	110.5	8.1	2.31	2.31	2.31										
+yes	yes	yes	no	no	23	Polanui	LLHS				PFF	PFF170621	2022	505 Front St	2017-06-21	8:15										PFF170621	26.9	33.4	6.47	97.6	8.08	4.88	4.88	4.88										
+yes	yes	yes	no	no	23	Polanui	LLHS				PLH	PLH170621	2023	Lindsey Hale	2017-06-21	8:43										PLH170621	26.7	33.9	6.32	95.2	8.08	2.45	2.45	2.45										
+yes	yes	yes	no	no	23	Polanui	LLHS				PLT	PLT170621	2024	Lahaina Town	2017-06-21	9:03										PLT170621	27.3	34.5	6.85	104.6	8.1	2.24	2.24	2.24										
+yes	yes	yes	no	no	23	Polanui	LLHS				PPU	PPU170621	2025	Puamana	2017-06-21	9:30										PPU170621	27.3	34.5	6.69	102.2	8.17	3.96	3.96	3.96										
+yes	yes	yes	no	no	23	Polanui	LLHS				OLP	OLP170621	2072	Launiupoko	2017-06-21	9:50										OLP170621	27.4	34.5	6.86	104.9	8.2	1.8	1.8	1.8										
+yes	yes	yes	no	no	23	Polanui	LLHS				OSF	OSF170621	2027	Olowalu Pier	2017-06-21	10:12										OSF170621	27.6	34.6	6.94	106.5	8.16	3.59	3.59	3.59										
+yes	yes	yes	no	no	24	Polanui	LLHS				PFF	PFF170712	2022	505 Front St	2017-07-12	8:15										PFF170712	27.1	34.5	5.66	86.1	8.06	2.14	2.14	2.14										
+yes	yes	yes	no	no	24	Polanui	LLHS				PLH	PLH170712	2023	Lindsey Hale	2017-07-12	8:35										PLH170712	27.1	34.1	5.47	82.9	8.06	4.57	4.57	4.57										
+yes	yes	yes	no	no	24	Polanui	LLHS				PLT	PLT170712	2024	Lahaina Town	2017-07-12	8:55										PLT170712	28.2	33.7	5.26	81.1	8.04	6.11	6.11	6.11										
+yes	yes	yes	no	no	24	Polanui	LLHS				PPU	PPU170712	2025	Puamana	2017-07-12	9:20										PPU170712	27.6	34.3	6.5	99.5	8.16	1.14	1.14	1.14										
+yes	yes	yes	no	no	24	Polanui	LLHS				OLP	OLP170712	2072	Launiupoko	2017-07-12	9:40										OLP170712	27.8	34.5	6.53	100.5	8.11	2.12	2.12	2.12										
+yes	yes	yes	no	no	24	Polanui	LLHS				OSF	OSF170712	2027	Olowalu Pier	2017-07-12	10:00										OSF170712	27.8	34.4	6.24	95.9	8.07	1.65	1.65	1.65										
+yes	yes	yes	no	no	25	Polanui	LLHS				PFF	PFF170802	2022	505 Front St	2017-08-02	8:17										PFF170802	27.5	34.3	6.09	93.2	8.03	1.24	1.24	1.24										
+yes	yes	yes	no	no	25	Polanui	LLHS				PLH	PLH170802	2023	Lindsey Hale	2017-08-02	8:40										PLH170802	27.4	34.3	6.28	96	8.06	6.2	6.2	6.2										
+yes	yes	yes	no	no	25	Polanui	LLHS				PLT	PLT170802	2024	Lahaina Town	2017-08-02	9:02										PLT170802	27.8	33.9	5.99	91.9	8.06	6.45	6.45	6.45										
+yes	yes	yes	no	no	25	Polanui	LLHS				PPU	PPU170802	2025	Puamana	2017-08-02	9:26										PPU170802	28	34.3	6.7	103.6	8.18	1.29	1.29	1.29										
+yes	yes	yes	no	no	25	Polanui	LLHS				OLP	OLP170802	2072	Launiupoko	2017-08-02	9:47										OLP170802	28.4	34.4	6.75	104.9	8.14	1.76	1.76	1.76										
+yes	yes	yes	no	no	25	Polanui	LLHS				OSF	OSF170802	2027	Olowalu Pier	2017-08-02	10:10										OSF170802	28.3	34.6	6.65	103.3	8.03	1.34	1.34	1.34										
+yes	yes	yes	no	no	26	Polanui	LLHS				PFF	PFF170823	2022	505 Front St	2017-08-23	8:17										PFF170823	27.1	34.9	6.37	97.3	8.05	2.15	2.15	2.15										
+yes	yes	yes	no	no	26	Polanui	LLHS				PLH	PLH170823	2023	Lindsey Hale	2017-08-23	8:47										PLH170823	27.2	34.3	6.43	97.9	8.08	7.56	7.56	7.56										
+yes	yes	yes	no	no	26	Polanui	LLHS				PLT	PLT170823	2024	Lahaina Town	2017-08-23	9:10										PLT170823	27.6	34.2	6.37	97.7	8.07	3.74	3.74	3.74										
+yes	yes	yes	no	no	26	Polanui	LLHS				PPU	PPU170823	2025	Puamana	2017-08-23	9:38										PPU170823	27.4	34.5	6.64	101.6	8.17	5.13	5.13	5.13										
+yes	yes	yes	no	no	26	Polanui	LLHS				OLP	OLP170823	2072	Launiupoko	2017-08-23	10:01										OLP170823	28.1	35.1	6.63	103.3	8.17	3.78	3.78	3.78										
+yes	yes	yes	no	no	26	Polanui	LLHS				OSF	OSF170823	2027	Olowalu Pier	2017-08-23	10:25										OSF170823	27.8	35	7.06	109.2	8.09	1.62	1.62	1.62										
+yes	yes	yes	no	no	27	Polanui	LLHS				PFF	PFF170913	2022	505 Front St	2017-09-13	8:11										PFF170913	28	34.9	6.38	99	8.08	4.2	4.2	4.2										
+yes	yes	yes	no	no	27	Polanui	LLHS				PLH	PLH170913	2023	Lindsey Hale	2017-09-13	8:43										PLH170913	27.9	34.5	6.36	99.3	8.11	8.29	8.29	8.29										
+yes	yes	yes	no	no	27	Polanui	LLHS				PLT	PLT170913	2024	Lahaina Town	2017-09-13	10:14										PLT170913	27.7	33.8	6.51	99.9	8.08	19.2	19.2	19.2										
+yes	yes	yes	no	no	27	Polanui	LLHS				OLP	OLP170913	2072	Launiupoko	2017-09-13	9:15										OLP170913	28	34.9	6.4	99.1	8.11	2.43	2.43	2.43										
+yes	yes	yes	no	no	27	Polanui	LLHS				OSF	OSF170913	2027	Olowalu Pier	2017-09-13	9:33										OSF170913	28.3	34.9	6.15	95.9	8.04	1.15	1.15	1.15										
+yes	yes	yes	no	no	28	Polanui	LLHS	JM	RB	MB	PFF	PFF171004	2022	505 Front St	2017-10-04	8:20	1	1	4	2	3	14	0		trades	PFF171004	27.6	34.0	5.54	84.9	8.04	10.10	10.30	10.60	10.33	0.024		0	1		0	1	0	PFF stream flowing
+yes	yes	yes	no	no	28	Polanui	LLHS	JM	RB	MB	PLH	PLH171004	2023	Lindsey Hale	2017-10-04	8:40	1	1	4	2	3	14	0		trades	PLH171004	27.8	33.8	5.64	86.7	8.03	4.04	4.14	4.08	4.09	0.012		0	1		0	4	0	PLH stream no flow
+yes	yes	yes	no	no	28	Polanui	LLHS	JM	RB	MB	PLT	PLT171004	2024	Lahaina Town	2017-10-04	9:00	1	1	4	2	3	14	0		trades	PLT171004	29.3	33.7	5.67	87.7	8.05	3.29	4.30	4.79	4.13	0.185		0	2		0	1	0	
+yes	yes	yes	no	no	28	Polanui	LLHS	JM	RB	MB	PPU	PPU171004	2025	Puamana	2017-10-04	9:25	1	1	4	2	3	14	0		trades	PPU171004	28.1	34.5	6.46	100.1	8.18	2.24	2.65	2.42	2.44	0.084		1	2		0	0	0	
+yes	yes	yes	no	no	28	Polanui	LLHS	JM	RB	MB	OLP	OLP171004	2072	Launiupoko	2017-10-04	9:42	1	1	4	2	3	14	0		trades	OLP171004	28.4	34.6	6.52	101.4	8.14	1.51	1.94	1.55	1.67	0.143		1	2		3	6	0	
+yes	yes	yes	no	no	28	Polanui	LLHS	JM	RB	MB	OSF	OSF171004	2027	Olowalu Pier	2017-10-04	10:10	1	1	4	2	3	14	0		trades	OSF171004	27.9	34.6	6.81	105.3	8.15	1.02	1.43	1.23	1.23	0.167		0	1		1	1	0	
+yes	yes	yes	no	no	29	Polanui	LLHS	JM	RB	MB	PFF	PFF171025	2022	505 Front St	2017-10-25	8:22	2	3	3	1	2	5	8		trades	PFF171025	26.7	34.7	6.58	99.6	8.06	6.63	7.11	8.14	7.29	0.106		0	0		0	2	0	PFF stream flowing, drain pipe flow
+yes	yes	yes	no	yes	29	Polanui	LLHS	JM	RB	MB	PLH	PLH171025	2023	Lindsey Hale	2017-10-25	8:47	2	3	3	1	2	5	8		trades	PLH171025	26.7	34.1	6.50	98.2	8.07	19.20	19.10	19.40	19.23	0.008		1	1		0	4	0	PLH stream flowing, some erosion
+yes	yes	yes	no	yes	29	Polanui	LLHS	JM	RB	MB	PLT	PLT171025	2024	Lahaina Town	2017-10-25	9:10	2	3	3	1	2	5	8		trades	PLT171025	26.8	34.2	6.39	96.7	8.07	15.00	15.90	15.20	15.37	0.031		0	1		0	0	0	PLT very little beach
+yes	yes	yes	no	no	29	Polanui	LLHS	JM	RB	MB	PPU	PPU171025	2025	Puamana	2017-10-25	9:35	2	3	3	1	2	5	8		trades	PPU171025	27.2	34.7	6.65	101.6	8.14	13.00	13.80	13.60	13.47	0.031		2	1		0	0	0	PPU very high tide and waves
+yes	yes	yes	no	no	29	Polanui	LLHS	JM	RB	MB	OLP	OLP171025	2072	Launiupoko	2017-10-25	9:55	2	3	3	1	2	5	8		trades	OLP171025	27.9	34.4	6.60	100.5	8.09	11.70	11.10	11.30	11.37	0.027		2	1		1	5	0	
+yes	yes	yes	no	no	29	Polanui	LLHS	JM	RB	MB	OSF	OSF171025	2027	Olowalu Pier	2017-10-25	10:15	2	3	3	1	2	5	8		trades	OSF171025	27.1	34.6	6.59	100.5	8.10	1.47	1.63	1.82	1.64	0.107		0	1		0	0	0	
+yes	yes	yes	no	no	30	Polanui	LLHS	GB	JM	KH	PFF	PFF171115	2022	505 Front St	2017-11-15	8:10	1	1	4	2	3	27	2	2	trades	PFF171115	25.9	35.2	6.46	96.7	8.11	4.31	4.89	4.68	4.63	0.063		0	0	3	4	2	0	PFF - moderate stream flow
+yes	yes	yes	no	no	30	Polanui	LLHS	GB	JM	KH	PLH	PLH171115	2023	Lindsey Hale	2017-11-15	8:35	1	1	4	2	3	27	2	2	trades	PLH171115	26.0	34.5	6.37	95.2	8.11	3.16	3.65	3.84	3.55	0.099		0	0	0	0	5	0	PLH - no stream flow
+yes	yes	yes	no	no	30	Polanui	LLHS	GB	JM	KH	PLT	PLT171115	2024	Lahaina Town	2017-11-15	8:55	1	1	4	2	3	27	2	2	trades	PLT171115	26.2	34.6	6.30	94.6	8.11	2.39	2.61	2.47	2.49	0.045		0	1		0	3	0	
+yes	yes	yes	no	no	30	Polanui	LLHS	GB	JM	KH	PPU	PPU171115	2025	Puamana	2017-11-15	9:15	1	1	4	2	3	27	2	2	trades	PPU171115	26.7	34.7	6.71	101.6	8.19	1.27	1.66	1.36	1.43	0.143		2	1		0	0	0	
+yes	yes	yes	no	no	30	Polanui	LLHS	GB	JM	KH	OLP	OLP171115	2072	Launiupoko	2017-11-15	9:40	1	1	4	2	3	27	2	2	trades	OLP171115	26.5	35.0	6.74	102	8.15	2.41	2.04	2.00	2.15	0.105		2	2		3	5	0	
+yes	yes	yes	no	no	30	Polanui	LLHS	GB	JM	KH	OSF	OSF171115	2027	Olowalu Pier	2017-11-15	10:05	1	1	4	2	3	27	2	2	trades	OSF171115	25.5	35.0	6.62	98.4	8.09	1.34	1.32	1.55	1.40	0.091		0	2		0	0	3	pH probe not placed in KCL leaving OLP
+yes	yes	yes	no	no	31	Polanui	LLHS	JM	RB	KH	PFF	PFF171206	2022	505 Front St	2017-12-06	8:15	2	3	3	1	2	19	2	2	trades	PFF171206	24.5	35.0	6.72	97.8	8.17	3.48	3.54	3.67	3.56	0.027		1	0	1	1	3	0	
+yes	yes	yes	no	yes	31	Polanui	LLHS	JM	RB	KH	PLH	PLH171206	2023	Lindsey Hale	2017-12-06	8:35	2	3	3	1	2	19	2	2	trades	PLH171206	23.8	34.6	6.67	95.7	8.15	11.90	12.00	12.90	12.27	0.045		1	0	0	0	0	0	
+yes	yes	yes	no	yes	31	Polanui	LLHS	JM	RB	KH	PLT	PLT171206	2024	Lahaina Town	2017-12-06	8:55	2	3	3	1	2	19	2	2	trades	PLT171206	23.6	34.3	6.59	94.2	8.13	15.90	16.90	16.00	16.27	0.034		0	1		0	1	0	
+yes	yes	yes	no	no	31	Polanui	LLHS	JM	RB	KH	PPU	PPU171206	2025	Puamana	2017-12-06	9:20	2	3	3	1	2	19	2	2	trades	PPU171206	24.6	34.6	6.98	101.5	8.21	1.78	2.26	2.10	2.05	0.119		1	1		0	5	0	
+yes	yes	yes	no	no	31	Polanui	LLHS	JM	RB	KH	OLP	OLP171206	2072	Launiupoko	2017-12-06	9:45	2	3	3	1	2	19	2	2	trades	OLP171206	24.7	34.9	6.95	101.6	8.19	1.86	1.69	1.85	1.80	0.053		1	0		9	17	0	
+yes	yes	yes	no	no	31	Polanui	LLHS	JM	RB	KH	OSF	OSF171206	2027	Olowalu Pier	2017-12-06	10:08	2	3	3	1	2	19	2	2	trades	OSF171206	24.6	34.8	6.96	101.4	8.16	1.39	1.41	1.33	1.38	0.030		0	1		0	3	0	
+yes	yes	yes	no	no	32	Polanui	LLHS	DR	RB	KH	PFF	PFF171220	2022	505 Front St	2017-12-20	8:20	1	1	4	2	3	3	8	2	undetermined	PFF171220	24.0	35.4	6.68	97.2	8.15	5.42	5.43	5.33	5.39	0.010		0	0	1	0	0	0	PFF - normal stream flow
+yes	yes	yes	no	yes	32	Polanui	LLHS	DR	RB	KH	PLH	PLH171220	2023	Lindsey Hale	2017-12-20	8:41	1	1	4	2	3	3	8	2	undetermined	PLH171220	24.1	34.9	6.59	96	8.14	7.31	6.83	6.69	6.94	0.047		0	1		0	3	0	PLH - no entry for flow
+yes	yes	yes	no	yes	32	Polanui	LLHS	DR	RB	KH	PLT	PLT171220	2024	Lahaina Town	2017-12-20	9:05	1	1	4	2	3	3	8	2	undetermined	PLT171220	23.9	34.5	6.61	95.5	8.13	10.30	10.00	9.88	10.06	0.022		0	0		7	1	0	
+yes	yes	yes	no	no	32	Polanui	LLHS	DR	RB	KH	PPU	PPU171220	2025	Puamana	2017-12-20	9:35	1	1	4	2	3	3	8	2	undetermined	PPU171220	24.4	34.9	6.85	100.2	8.17	5.09	5.19	5.75	5.34	0.067		2	1		0	0	0	
+yes	yes	yes	no	no	32	Polanui	LLHS	DR	RB	KH	OLP	OLP171220	2072	Launiupoko	2017-12-20	9:55	1	1	4	2	3	3	8	2	undetermined	OLP171220	24.6	35.0	6.77	99.5	8.13	4.96	4.59	4.94	4.83	0.043		1	0		2	1	0	OLP baby pond - people surveying
+yes	yes	yes	no	no	32	Polanui	LLHS	DR	RB	KH	OSF	OSF171220	2027	Olowalu Pier	2017-12-20	10:15	1	1	4	2	3	3	8	2	undetermined	OSF171220	24.6	35.0	6.35	93.2	8.08	2.48	2.89	2.56	2.64	0.082		0	1		0	0	0	
+yes	yes	yes	no	no	33	Polanui	LLHS	RB	KH	MB	PFF	PFF180110	2022	505 Front St	2018-01-10	8:27	2	3	3	1	2	24	0	0	trades	PFF180110	23.9	34.7	5.85	84.1	8.07	1.46	1.68	1.59	1.58	0.070		0	0	3	0	0	0	PFF - strong stream flow
+yes	yes	yes	no	no	33	Polanui	LLHS	RB	KH	MB	PLH	PLH180110	2023	Lindsey Hale	2018-01-10	8:45	2	3	3	1	2	24	0	0	trades	PLH180110	24.0	34.1	6.10	87.7	8.07	2.38	3.00	2.55	2.64	0.121		0	0	0	1	4	0	2 dogs
+yes	yes	yes	no	no	33	Polanui	LLHS	RB	KH	MB	PLT	PLT180110	2024	Lahaina Town	2018-01-10	9:07	2	3	3	1	2	24	0	0	trades	PLT180110	24.0	34.2	6.03	86.6	8.06	2.57	2.34	2.49	2.47	0.047		0	2		0	1	0	
+yes	yes	yes	no	no	33	Polanui	LLHS	RB	KH	MB	PPU	PPU180110	2025	Puamana	2018-01-10	9:33	2	3	3	1	2	24	0	0	trades	PPU180110	24.3	34.2	7.03	101.5	8.14	1.24	1.41	1.31	1.32	0.065		0	2		0	0	0	
+yes	yes	yes	no	no	33	Polanui	LLHS	RB	KH	MB	OLP	OLP180110	2072	Launiupoko	2018-01-10	9:52	2	3	3	1	2	24	0	0	trades	OLP180110	25.0	34.5	7.11	104	8.15	1.02	1.03	1.18	1.08	0.083		1	4		0	0	0	
+yes	yes	yes	no	no	33	Polanui	LLHS	RB	KH	MB	OSF	OSF180110	2027	Olowalu Pier	2018-01-10	10:19	2	3	3	1	2	24	0	0	trades	OSF180110	24.5	34.5	7.38	107.2	8.13	2.92	2.37	2.75	2.68	0.105		0	4		0	0	0	
+yes	yes	yes	no	no	34	Polanui	LLHS	JM	RB	KH	PFF	PFF180131	2022	505 Front St	2018-01-31	8:07	1	1	4	2	3	15	2	0	kona	PFF180131	23.8	33.4	6.38	91.8	8.09	10.50	11.40	11.50	11.13	0.049		1	2	3	0	5	0	PFF - moderate stream flow
+yes	yes	yes	no	yes	34	Polanui	LLHS	JM	RB	KH	PLH	PLH180131	2023	Lindsey Hale	2018-01-31	8:30	1	1	4	2	3	15	2	0	kona	PLH180131	23.8	33.8	6.31	91	8.09	11.80	12.20	12.90	12.30	0.045		0	1	0	0	2	0	PLH - had been flowing but stopped
+yes	yes	yes	no	no	34	Polanui	LLHS	JM	RB	KH	PLT	PLT180131	2024	Lahaina Town	2018-01-31	8:50	1	1	4	2	3	15	2	0	kona	PLT180131	24.0	34.1	6.60	95.7	8.13	4.15	4.83	4.74	4.57	0.081		0	3		0	1	0	
+yes	yes	yes	no	no	34	Polanui	LLHS	JM	RB	KH	PPU	PPU180131	2025	Puamana	2018-01-31	9:12	1	1	4	2	3	15	2	0	kona	PPU180131	24.1	34.1	6.94	100.6	8.18	3.79	4.31	4.61	4.24	0.098		1	2		0	4	0	
+yes	yes	yes	no	no	34	Polanui	LLHS	JM	RB	KH	OLP	OLP180131	2072	Launiupoko	2018-01-31	9:32	1	1	4	2	3	15	2	0	kona	OLP180131	24.7	34.7	6.85	100.7	8.15	3.35	3.17	4.45	3.66	0.189		1	2		0	4	0	
+yes	yes	yes	no	no	34	Polanui	LLHS	JM	RB	KH	OSF	OSF180131	2027	Olowalu Pier	2018-01-31	9:55	1	1	4	2	3	15	2	0	kona	OSF180131	24.6	34.6	6.92	101.5	8.07	4.46	5.28	4.69	4.81	0.088		0	2		0	0	0	
+yes	yes	yes	no	no	35	Polanui	LLHS	JM	RB	MB	PFF	PFF180221	2022	505 Front St	2018-02-21	8:10	2	3	3	2	2	6	8	0	neither	PFF180221	23.7	34.2	6.11	87.3	8.04	1.23	1.20	0.94	1.12	0.142		0	0	2	0	1	0	PFF - moderate flow 40 ft north of usual location
+yes	yes	yes	no	no	35	Polanui	LLHS	JM	RB	MB	PLH	PLH180221	2023	Lindsey Hale	2018-02-21	8:38	2	3	3	2	2	6	8	0	neither	PLH180221	23.8	34.1	6.49	93.1	8.07	3.39	4.58	3.19	3.72	0.202		0	0	0	0	7	0	PLH small amount standing water
+yes	yes	yes	no	no	35	Polanui	LLHS	JM	RB	MB	PLT	PLT180221	2024	Lahaina Town	2018-02-21	9:00	2	3	3	2	2	6	8	0	neither	PLT180221	24.3	33.9	6.28	90.8	8.08	5.88	5.36	5.01	5.42	0.081		0	1		4	4	0	PLT 1.5 inch of mucky silt on bottom
+yes	yes	yes	no	no	35	Polanui	LLHS	JM	RB	MB	PPU	PPU180221	2025	Puamana	2018-02-21	9:25	2	3	3	2	2	6	8	0	neither	PPU180221	24.4	33.4	7.10	102.5	8.19	3.12	3.53	4.67	3.77	0.213		3	1		0	5	0	
+yes	yes	yes	no	no	35	Polanui	LLHS	JM	RB	MB	OLP	OLP180221	2072	Launiupoko	2018-02-21	9:41	2	3	3	2	2	6	8	0	neither	OLP180221	24.7	34.5	7.08	103.4	8.15	2.62	2.89	2.76	2.76	0.049		1	0		0	7	0	
+yes	yes	yes	no	no	35	Polanui	LLHS	JM	RB	MB	OSF	OSF180221	2027	Olowalu Pier	2018-02-21	10:00	2	3	3	2	2	6	8	0	neither	OSF180221	24.7	34.6	6.92	101.3	8.07	2.33	2.64	2.83	2.60	0.097		1	1		0	2	0	
+yes	yes	yes	no	no	36	Polanui	LLHS	RB	MB	KH	PFF	PFF180314	2022	505 Front St	2018-03-14	8:15	2	1	3	2	2	27	8	0	neither	PFF180314	24.1	34.0	5.84	84.2	8.06	3.96	4.82	4.92	4.57	0.116		0	0	2	3	10	0	PFF - moderate flow, 2 dogs
+yes	yes	yes	no	yes	36	Polanui	LLHS	RB	MB	KH	PLH	PLH180314	2023	Lindsey Hale	2018-03-14	8:38	2	1	3	2	2	27	8	0	neither	PLH180314	24.2	33.7	5.97	86.1	8.04	6.34	5.25	7.82	6.47	0.199		0	0	0	3	7	0	PLH - no flow, 4 dogs
+yes	yes	yes	no	no	36	Polanui	LLHS	RB	MB	KH	PLT	PLT180314	2024	Lahaina Town	2018-03-14	9:00	2	1	3	2	2	27	8	0	neither	PLT180314	24.5	33.3	5.91	85.6	8.03	1.86	1.91	2.07	1.95	0.056		0	0		0	3	0	1 dog
+yes	yes	yes	no	no	36	Polanui	LLHS	RB	MB	KH	PPU	PPU180314	2025	Puamana	2018-03-14	9:36	2	1	3	2	2	27	8	0	neither	PPU180314	24.4	34.1	6.97	101.2	8.18	3.19	4.28	4.48	3.98	0.174		1	0		2	0	0	
+yes	yes	yes	no	no	36	Polanui	LLHS	RB	MB	KH	OLP	OLP180314	2072	Launiupoko	2018-03-14	9:54	2	1	3	2	2	27	8	0	neither	OLP180314	24.9	34.6	7.07	103.7	8.16	3.57	2.51	3.29	3.12	0.176		1	0		6	3	0	
+yes	yes	yes	no	no	36	Polanui	LLHS	RB	MB	KH	OSF	OSF180314	2027	Olowalu Pier	2018-03-14	10:23	2	1	3	2	2	27	8	0	neither	OSF180314	24.8	34.5	6.89	100.9	8.11	4.06	5.16	4.72	4.65	0.119		0	0		0	0	0	Increasing amounts of a brown algae on rocks in water surrounding pier
+yes	yes	yes	no	no	37	Polanui	LLHS	JM	RB	KH	PFF	PFF180404	2022	505 Front St	2018-04-04	8:25	1	3	4	1	3	19	8	2	Kona	PFF180404	25.5	32.3	6.38	93.7	8.05	10.70	11.60	10.90	11.07	0.043		0	3	1	0	1	0	Stream flowing
+yes	yes	yes	no	yes	37	Polanui	LLHS	JM	RB	KH	PLH	PLH180404	2023	Lindsey Hale	2018-04-04	8:45	1	3	4	1	3	19	8	2	Kona	PLH180404	25.5	32.5	6.26	91.9	8.09	14.90	15.80	14.50	15.07	0.044		0	4	1	2	2	0	Heavy rains carved sand by culvert and there was still a light flow 
+yes	yes	yes	no	yes	37	Polanui	LLHS	JM	RB	KH	PLT	PLT180404	2024	Lahaina Town	2018-04-04	9:05	1	3	4	1	3	19	8	2	Kona	PLT180404	25.9	33.1	6.41	95.2	8.10	8.30	9.30	9.41	9.00	0.068		0	4		0	0	0	
+yes	yes	yes	no	no	37	Polanui	LLHS	JM	RB	KH	PPU	PPU180404	2025	Puamana	2018-04-04	9:33	1	3	4	1	3	19	8	2	Kona	PPU180404	25.6	33.6	6.81	100.9	8.16	16.30	14.50	15.90	15.57	0.061		1	1		0	2	0	
+yes	yes	yes	no	no	37	Polanui	LLHS	JM	RB	KH	OLP	OLP180404	2072	Launiupoko	2018-04-04	9:55	1	3	4	1	3	19	8	2	Kona	OLP180404	25.7	34.2	6.80	101.1	8.12	8.09	7.86	8.97	8.31	0.071		1	3		0	11	0	
+yes	yes	yes	no	no	37	Polanui	LLHS	JM	RB	KH	OSF	OSF180404	2027	Olowalu Pier	2018-04-04	10:20	1	3	4	1	3	19	8	2	Kona	OSF180404	26.3	34.2	6.66	100.2	8.09	5.16	4.53	4.07	4.59	0.119		0	2		0	0	0	
+yes	yes	yes	no	no	38	Polanui	LLHS	MB			PFF	PFF180425	2022	505 Front St	2018-04-25	8:20	2	1	3	2	2	10	1	0	Trades	PFF180425	25.0	34.1	6.66	97.3	8.07	1.05	0.97	1.04	1.02	0.043		2	0		0	3	0	MB sampled all 6 sites, CM sampled only OLP and OSF, No rain in last 24 hours, stream flowing
+yes	yes	yes	no	no	38	Polanui	LLHS	MB			PLH	PLH180425	2023	Lindsey Hale	2018-04-25	8:45	2	1	3	2	2	10	1	0	Trades	PLH180425	25.4	33.7	6.60	96.8	8.09	2.21	2.13	2.03	2.12	0.042		1	0		3	2	0	MB sampled all 6 sites, CM sampled only OLP and OSF, No rain in last 24 hours, water flowing through tube from street forming 'pond' on beach but not going into ocean
+yes	yes	yes	no	no	38	Polanui	LLHS	MB			PLT	PLT180425	2024	Lahaina Town	2018-04-25	9:10	2	1	3	2	2	10	1	0	Trades	PLT180425	25.5	34.2	6.73	99.4	8.11	1.56	1.52	1.48	1.52	0.026		1	0		2	0	0	MB sampled all 6 sites, CM sampled only OLP and OSF, No rain in last 24 hours
+yes	yes	yes	no	no	38	Polanui	LLHS	MB			PPU	PPU180425	2025	Puamana	2018-04-25	9:45	2	1	3	2	2	10	1	0	Trades	PPU180425	25.7	33.4	6.94	102.2	8.19	1.73	1.54	1.81	1.69	0.082		3	0		1	0	0	MB sampled all 6 sites, CM sampled only OLP and OSF, No rain in last 24 hours
+yes	yes	yes	no	no	38	Polanui	LLHS	MB	CM		OLP	OLP180425	2072	Launiupoko	2018-04-25	10:19	2	1	3	2	2	10	1	0	Trades	OLP180425	26.3	34.1	6.95	103.9	8.18	5.16	5.37	4.59	5.04	0.080		1	1		30	23	0	MB sampled all 6 sites, CM sampled only OLP and OSF, No rain in last 24 hours
+yes	yes	yes	no	no	38	Polanui	LLHS	MB	CM		OSF	OSF180425	2027	Olowalu Pier	2018-04-25	10:50	2	1	3	2	2	10	1	0	Trades	OSF180425	26.3	33.6	7.30	108.3	8.20	3.09	2.99	2.96	3.01	0.023		0	3		1	0	0	MB sampled all 6 sites, CM sampled only OLP and OSF, No rain in last 24 hours
+yes	yes	yes	no	no	39	Polanui	LLHS	JM	RB	DR	PFF	PFF180516	2022	505 Front St	2018-05-16	8:20	1	3	4	1	3	3	3	0	Still	PFF180516	25.7	34.0	6.52	96.6	8.12	3.32	2.75	3.15	3.07	0.095		0	0	1	0	0	0	Moderate flow in stream
+yes	yes	yes	no	no	39	Polanui	LLHS	JM	RB	DR	PLH	PLH180516	2023	Lindsey Hale	2018-05-16	8:43	1	3	4	1	3	3	3	0	Still	PLH180516	26.5	34.1	6.77	101.6	8.07	1.09	1.24	1.18	1.17	0.065		0	0		5	7	0	storm drain not flowing. Lots of dogs on beach
+yes	yes	yes	no	no	39	Polanui	LLHS	JM	RB	DR	PLT	PLT180516	2024	Lahaina Town	2018-05-16	9:03	1	3	4	1	3	3	3	0	Still	PLT180516	27.0	34.3	7.05	106.8	8.10	1.70	2.58	2.12	2.13	0.206		0	0		2	3	0	Had to walk out very far to get knee deep - 2 dogs in water
+yes	yes	yes	no	no	39	Polanui	LLHS	JM	RB	DR	OLP	OLP180516	2072	Launiupoko	2018-05-16	9:33	1	3	4	1	3	3	3	0	Still	OLP180516	28.3	34.4	7.16	111.0	8.19	1.99	2.11	1.86	1.99	0.063		1	0		0	5	0	Aldo jumped in next to sampler to take pictures
+yes	yes	yes	no	no	39	Polanui	LLHS	JM	RB	DR	OSF	OSF180516	2027	Olowalu Pier	2018-05-16	9:59	1	3	4	1	3	3	3	0	Still	OSF180516	27.6	34.4	7.04	107.9	8.15	3.04	3.61	3.41	3.35	0.086		0	0		0	0	0	Very low tide, hard to sample without kicking up sediment
+yes	yes	yes	no	no	40	Polanui	LLHS	RB	KH		PFF	PFF180606	2022	505 Front St	2018-06-06	8:12	2	1	3	2	2	23	4	0	Still	PFF180606	26.2	33.6	6.26	93.2	8.02	2.02	2.13	2.42	2.19	0.094		0	0	1	0	11	0	light flow at PFF
+yes	yes	yes	no	no	40	Polanui	LLHS	RB	KH		PLH	PLH180606	2023	Lindsey Hale	2018-06-06	8:45	2	1	3	2	2	23	4	0	Still	PLH180606	26.0	34.0	6.08	90.4	8.06	2.45	2.78	2.81	2.68	0.075		0	0		3	3	0	
+yes	yes	yes	no	no	40	Polanui	LLHS	RB	KH		PLT	PLT180606	2024	Lahaina Town	2018-06-06	8:57	2	1	3	2	2	23	4	0	Still	PLT180606	26.4	34.1	6.21	93.1	8.03	1.61	1.52	1.56	1.56	0.029		0	0		14	2	0	
+yes	yes	yes	no	no	40	Polanui	LLHS	RB	KH		OLP	OLP180606	2072	Launiupoko	2018-06-06	9:25	2	1	3	2	2	23	4	0	Still	OLP180606	26.6	34.3	6.77	102.1	8.12	1.25	1.30	1.35	1.30	0.038		1	1		12	3	0	
+yes	yes	yes	no	no	40	Polanui	LLHS	RB	KH		OSF	OSF180606	2027	Olowalu Pier	2018-06-06	9:56	2	1	3	2	2	23	4	0	Still	OSF180606	26.4	34.2	7.21	108.1	8.08	2.14	2.20	2.04	2.13	0.038		1	2		2	2	0	
+yes	yes	yes	no	no	41	Polanui	LLHS	RB	KH	MB	PFF	PFF180627	2022	505 Front St	2018-06-27	8:10	1	3	4	1	3	14	0	0	Trades	PFF180627	26.0	34.3	6.31	94.4	8.09	2.31	2.86	2.85	2.67	0.118		0	0	1	0	12	0	
+yes	yes	yes	no	no	41	Polanui	LLHS	RB	KH	MB	PLH	PLH180627	2023	Lindsey Hale	2018-06-27	8:31	1	3	4	1	3	14	0	0	Trades	PLH180627	26.1	34.2	6.32	94.6	8.09	1.64	2.12	1.91	1.89	0.127		0	0		4	1	0	
+yes	yes	yes	no	no	41	Polanui	LLHS	RB	KH	MB	PLT	PLT180627	2024	Lahaina Town	2018-06-27	8:59	1	3	4	1	3	14	0	0	Trades	PLT180627	26.4	34.6	6.63	101.1	8.10	2.19	2.27	2.31	2.26	0.027		0	0		0	0	0	
+yes	yes	yes	no	no	41	Polanui	LLHS	RB	KH	MB	OSF	OSF180627	2027	Olowalu Pier	2018-06-27	9:30	1	3	4	1	3	14	0	0	Trades	OSF180627	26.0	34.6	6.55	98.2	8.11	4.67	4.77	5.66	5.03	0.108		0	0		0	0	0	
+yes	yes	yes	no	no	42	Polanui	LLHS	JM	RB	KH	PFF	PFF180718	2022	505 Front St	2018-07-18	8:15	2	1	3	2	2	6	2	0	Trades	PFF180718	27.0	33.6	6.33	95.6	8.08	5.74	6.57	5.96	6.09	0.071		1	0	1	0	0	0	
+yes	yes	yes	no	no	42	Polanui	LLHS	JM	RB	KH	PLH	PLH180718	2023	Lindsey Hale	2018-07-18	8:40	2	1	3	2	2	6	2	0	Trades	PLH180718	27.2	33.7	6.18	93.8	8.10	20.00	22.20	20.30	20.83	0.057		0	0		0	3	0	
+yes	yes	yes	no	no	42	Polanui	LLHS	JM	RB	KH	PLT	PLT180718	2024	Lahaina Town	2018-07-18	9:00	2	1	3	2	2	6	2	0	Trades	PLT180718	27.4	33.9	6.05	92.3	8.13	14.10	17.80	20.30	17.40	0.179		0	0		1	0	0	
+yes	yes	yes	no	no	42	Polanui	LLHS	JM	RB	KH	OSF	OSF180718	2027	Olowalu Pier	2018-07-18	9:35	2	1	3	2	2	6	3	0	Trades	OSF180718	27.3	34.3	6.80	103.7	8.15	2.20	2.93	2.19	2.44	0.174		0	1		0	1	0	
+yes	yes	yes	no	no	43	Polanui	LLHS	JM	MB		PFF	PFF180808	2022	505 Front St	2018-08-08	8:30	1	3	5	1	3	27	0	0	Trades	PFF180808	26.5	34.0	6.33	95.8	8.09	1.76	2.11	2.30	2.06	0.133		0	0	1	0	0	0	
+yes	yes	yes	no	no	43	Polanui	LLHS	JM	MB		PLH	PLH180808	2023	Lindsey Hale	2018-08-08	8:55	1	3	5	1	3	27	0	0	Trades	PLH180808	26.6	34.3	6.41	97.1	8.10	2.34	2.34	2.12	2.27	0.056		0	0		0	1	0	
+yes	yes	yes	no	no	43	Polanui	LLHS	JM	MB		PLT	PLT180808	2024	Lahaina Town	2018-08-08	9:19	1	3	5	1	3	27	0	0	Trades	PLT180808	26.9	34.6	6.56	100.2	8.12	2.15	2.31	2.20	2.22	0.037		0	2		1	1	0	
+yes	yes	yes	no	no	43	Polanui	LLHS	JM	MB		OSF	OSF180808	2027	Olowalu Pier	2018-08-08	9:55	1	3	5	1	3	27	0	0	Trades	OSF180808	27.2	34.6	6.92	106.3	8.14	2.14	2.04	2.15	2.11	0.029		0	0		0	0	0	
+yes	yes	yes	no	no	44	Polanui	LLHS	JM	KH	JS	PFF	PFF180829	2022	505 Front St	2018-08-29	8:10	2	1	6	2	2	19	0	0	Trades	PFF180829	27.5	32.5	6.10	92.3	8.09	4.06	3.90	4.38	4.11	0.059		0	0	1	0	1	0	Seal nearby
+yes	yes	yes	no	no	44	Polanui	LLHS	JM	KH	JS	PLH	PLH180829	2023	Lindsey Hale	2018-08-29	8:43	2	1	6	2	2	19	0	0	Trades	PLH180829	27.6	33.5	5.87	89.6	8.09	9.50	9.85	11.10	10.15	0.083		0	0		0	1	0	First turbidity reading was low and group took 4 more readings.
+yes	yes	yes	no	no	44	Polanui	LLHS	JM	KH	JS	PLT	PLT180829	2024	Lahaina Town	2018-08-29	9:10	2	1	6	2	2	19	0	0	Trades	PLT180829	27.8	33.6	6.05	92.9	8.11	4.03	3.81	3.90	3.91	0.028		0	0		1	0	0	
+yes	yes	yes	no	no	44	Polanui	LLHS	JM	KH	JS	OSF	OSF180829	2027	Olowalu Pier	2018-08-29	9:45	2	1	6	2	2	19	0	0	Trades	OSF180829	27.9	34.0	6.65	102.3	8.16	3.49	3.76	3.31	3.52	0.064		1	5		0	0	0	
+yes	yes	yes	no	no	45	Polanui	LLHS	JM	KH	RB	PFF	PFF180919	2022	505 Front St	2018-09-19	8:11	1	3	5	1	3	10	3	0	0	PFF180919	26.9	33.7	6.02	91.2	8.05	5.73	5.08	5.12	5.31	0.069		0	0	1	0	1	0	no rain in last 24 hours
+yes	yes	yes	no	no	45	Polanui	LLHS	JM	KH	RB	PLH	PLH180919	2023	Lindsey Hale	2018-09-19	8:37	1	3	5	1	3	10	3	0	0	PLH180919	27.2	34.4	6.10	93.4	8.06	3.14	2.98	2.80	2.97	0.057		0	2		0	1	0	no rain in last 24 hours
+yes	yes	yes	no	no	45	Polanui	LLHS	JM	KH	RB	PLT	PLT180919	2024	Lahaina Town	2018-09-19	8:55	1	3	5	1	3	10	3	0	0	PLT180919	27.3	31.4	6.05	92.6	8.07	3.70	3.41	3.32	3.48	0.057		0	3		3	2	0	no rain in last 24 hours
+yes	yes	yes	no	no	45	Polanui	LLHS	JM	KH	RB	OSF	OSF180919	2027	Olowalu Pier	2018-09-19	9:26	1	3	5	1	3	10	3	0	0	OSF180919	27.4	34.5	6.47	99.3	8.10	1.33	1.53	1.71	1.52	0.125		0	3		0	0	0	no rain in last 24 hours
+yes	yes	yes	no	no	46	Polanui	LLHS	MB	KH	JS	PFF	PFF181010	2022	505 Front St	2018-10-10	8:18	2	1	6	2	2					PFF181010	27.1	32.9	6.48	97.7	8.11	14.90	15.50	15.00	15.13	0.021					0	9	0	Seal nearby; Stream stonger than usual
+yes	yes	yes	no	no	46	Polanui	LLHS	MB	KH	JS	PLH	PLH181010	2023	Lindsey Hale	2018-10-10	8:47	2	1	6	2	2					PLH181010	27.5	33.8	6.11	93.3	8.11	16.20	18.60	19.50	18.10	0.094					0	4	0	
+yes	yes	yes	no	no	46	Polanui	LLHS	MB	KH	JS	PLT	PLT181010	2024	Lahaina Town	2018-10-10	9:09	2	1	6	2	2					PLT181010	27.5	34.0	6.04	92.4	8.10	5.82	7.49	7.19	6.83	0.130					1	2	0	
+yes	yes	yes	no	no	46	Polanui	LLHS	MB	KH	JS	OSF	OSF181010	2027	Olowalu Pier	2018-10-10	9:44	2	1	6	2	2					OSF181010	28.2	34.5	6.76	104.8	8.19	3.94	4.29	4.29	4.17	0.048					0	0	0	Water not clear
+yes	yes	yes	no	no	47	Polanui	LLHS	JM	KH	RB	PFF	PFF181031	2022	505 Front St	2018-10-31	8:11	1	3	5	1	3					PFF181031	26.8	32.6	6.39	96	8.10	4.42	4.82	3.74	4.33	0.126					0	1	0	Drainage by PLH was more than 3/4 filled with large sticks and derbies.  (see photos - James has photos)
+yes	yes	yes	no	no	47	Polanui	LLHS	JM	KH	RB	PLH	PLH181031	2023	Lindsey Hale	2018-10-31	8:35	1	3	5	1	3					PLH181031	26.7	34.0	6.24	94.5	8.14	6.29	5.76	6.24	6.10	0.048					0	6	0	
+yes	yes	yes	no	no	47	Polanui	LLHS	JM	KH	RB	PLT	PLT181031	2024	Lahaina Town	2018-10-31	8:52	1	3	5	1	3					PLT181031	26.7	33.1	6.20	93.2	8.13	39.10	37.70	39.70	38.83	0.026					0	0	0	
+yes	yes	yes	no	no	47	Polanui	LLHS	JM	KH	RB	OSF	OSF181031	2027	Olowalu Pier	2018-10-31	9:23	1	3	5	1	3					OSF181031	27.0	34.3	6.36	96.9	8.11	3.30	2.74	3.06	3.03	0.093					0	0	0	
+yes	yes	yes	no	no	48	Polanui	LLHS	JM	KH	RB	PFF	PFF181128	2022	505 Front St	2018-11-28	8:12	2	1	6	2	2					PFF181128	25.6	33.8	6.24	92	8.13	5.38	5.42	5.48	5.43	0.009					0	3	0	PFF stream flowing steadily
+yes	yes	yes	no	no	48	Polanui	LLHS	JM	KH	RB	PLH	PLH181128	2023	Lindsey Hale	2018-11-28	8:35	2	1	6	2	2					PLH181128	25.3	34.5	6.49	95.6	8.14	7.16	7.32	7.72	7.40	0.039					0	2	1	
+yes	yes	yes	no	no	48	Polanui	LLHS	JM	KH	RB	PLT	PLT181128	2024	Lahaina Town	2018-11-28	8:55	2	1	6	2	2					PLT181128	25.5	34.5	5.89	87	8.11	20.80	19.50	20.10	20.13	0.032					0	1	0	
+yes	yes	yes	no	no	48	Polanui	LLHS	JM	KH	RB	OSF	OSF181128	2027	Olowalu Pier	2018-11-28	9:25	2	1	6	2	2					OSF181128	25.0	34.8	6.80	99.8	8.16	2.77	2.57	2.49	2.61	0.055					0	5	0	
+yes	yes	yes	no	no	49	Polanui	LLHS	JS	KH	RB	PFF	PFF181212	2022	505 Front St	2018-12-12	8:15	1	3	5	1	3					PFF181212	25.0	34.7	5.64	82.7	8.10	2.32	1.77	2.25	2.11	0.142					5	0	0	
+yes	yes	yes	no	no	49	Polanui	LLHS	JS	KH	RB	PLH	PLH181212	2023	Lindsey Hale	2018-12-12	8:33	1	3	5	1	3					PLH181212	24.6	34.2	6.00	86.9	8.09	8.25	7.78	8.01	8.01	0.029					3	0	0	
+yes	yes	yes	no	no	49	Polanui	LLHS	JS	KH	RB	PLT	PLT181212	2024	Lahaina Town	2018-12-12	8:50	1	3	5	1	3					PLT181212	25.3	34.3	5.82	85.5	8.06	7.99	7.65	7.93	7.86	0.023					0	0	0	
+yes	yes	yes	no	no	49	Polanui	LLHS	JS	KH	RB	OSF	OSF181212	2027	Olowalu Pier	2018-12-12	9:20	1	3	5	1	3					OSF181212	24.1	34.9	6.52	94.2	8.14	1.21	1.47	1.27	1.32	0.103					0	0	0	
+yes	yes	yes	no	no	50	Polanui	LLHS	JM	KH	RB	PFF	PFF190109	2022	505 Front St	2019-01-09	8:13	2	3	6	2	2					PFF190109	24.5	34.6	6.74	97.6	8.19	3.38	3.38	3.47	3.41	0.015					0	3	0	
+yes	yes	yes	no	no	50	Polanui	LLHS	JM	KH	RB	PLH	PLH190109	2023	Lindsey Hale	2019-01-09	8:35	2	3	6	2	2					PLH190109	24.2	34.1	6.74	97	8.16	10.60	10.60	10.60	10.60	0.000					0	0	0	
+yes	yes	yes	no	no	50	Polanui	LLHS	JM	KH	RB	PLT	PLT190109	2024	Lahaina Town	2019-01-09	8:52	2	3	6	2	2					PLT190109	23.8	33.7	6.34	90.4	8.08	14.30	14.60	13.70	14.20	0.032					0	5	0	
+yes	yes	yes	no	no	50	Polanui	LLHS	JM	KH	RB	OSF	OSF190109	2027	Olowalu Pier	2019-01-09	9:20	2	3	6	2	2					OSF190109	23.9	34.4	6.28	90	8.08	3.48	3.46	3.56	3.50	0.015					0	0	0	
+yes	yes	yes	no	no	51	Polanui	LLHS	JM	KH	RB	PFF	PFF190130	2022	505 Front St	2019-01-30	8:10	1	1	5	1	3					PFF190130	22.6	34.2	6.61	93.3	8.13	1.92	1.67	1.58	1.72	0.102					0	2	0	
+yes	yes	yes	no	no	51	Polanui	LLHS	JM	KH	RB	PLH	PLH190130	2023	Lindsey Hale	2019-01-30	8:30	1	1	5	1	3					PLH190130	22.4	34.0	6.47	90.9	8.14	4.13	4.28	3.89	4.10	0.048					5	2	0	
+yes	yes	yes	no	no	51	Polanui	LLHS	JM	KH	RB	PLT	PLT190130	2024	Lahaina Town	2019-01-30	8:50	1	1	5	1	3					PLT190130	22.2	33.8	6.50	90.9	8.16	3.78	3.68	3.03	3.50	0.116					5	0	0	
+yes	yes	yes	no	no	51	Polanui	LLHS	JM	KH	RB	OSF	OSF190130	2027	Olowalu Pier	2019-01-30	9:17	1	1	5	1	3					OSF190130	23.6	34.5	6.32	90.9	8.12	1.60	1.66	1.72	1.66	0.036					0	0	0	
+yes	yes	yes	no	no	52	Polanui	LLHS	JM	KH	RB	PFF	PFF190220	2022	505 Front St	2019-02-20	8:07	2	3	6	2	2					PFF190220	23.1	33.9	6.31	89.3	8.14	6.18	5.36	4.76	5.43	0.131					1	5	0	The san in teh water is unusually loose which allowed Rich to sink 6 or so inches at PLH and PLT.
+yes	yes	yes	no	no	52	Polanui	LLHS	JM	KH	RB	PLH	PLH190220	2023	Lindsey Hale	2019-02-20	8:30	2	3	6	2	2					PLH190220	23.0	33.7	5.98	84.5	8.12	26.30	25.00	26.10	25.80	0.027					1	1	0	HQ4D-2 - 50% battery
+yes	yes	yes	no	no	52	Polanui	LLHS	JM	KH	RB	PLT	PLT190220	2024	Lahaina Town	2019-02-20	8:42	2	3	6	2	2					PLT190220	23.4	33.2	5.93	84.1	8.11	16.00	14.90	16.00	15.63	0.041					1	2	0	
+yes	yes	yes	no	no	52	Polanui	LLHS	JM	KH	RB	OSF	OSF190220	2027	Olowalu Pier	2019-02-20	9:30	2	3	6	2	2					OSF190220	24.2	34.2	6.74	97.4	8.15	6.68	7.22	6.31	6.74	0.068					0	0	0	
+yes	yes	yes	no	no	53	Polanui	LLHS	JM	KH	RB	PFF	PFF190313	2022	505 Front St	2019-03-13	8:14	1	3	5	1	3					PFF190313	23.4	35.1	6.26	89.7	8.11	1.85	2.53	2.63	2.34	0.182					4	18	0	18 on beach for PFF is approx number.
+yes	yes	yes	no	no	53	Polanui	LLHS	JM	KH	RB	PLH	PLH190313	2023	Lindsey Hale	2019-03-13	8:32	1	3	5	1	3					PLH190313	23.5	35.1	6.02	86.5	8.10	3.58	4.72	3.78	4.03	0.151					0	8	0	PFF stream path is about 30ft north of the normal path
+yes	yes	yes	no	no	53	Polanui	LLHS	JM	KH	RB	PLT	PLT190313	2024	Lahaina Town	2019-03-13	8:49	1	3	5	1	3					PLT190313	24.2	35.0	6.02	87.4	8.09	7.21	7.11	7.09	7.14	0.009					3	3	0	PLT - 2 monk seals were frolicking approx. 40ft to the right of our sample path.  Rich had to walk about 90ft from shore and 30ft beyond the seals.
+yes	yes	yes	no	no	53	Polanui	LLHS	JM	KH	RB	OSF	OSF190313	2027	Olowalu Pier	2019-03-13	9:19	1	3	5	1	3					OSF190313	23.8	35.6	6.61	95.6	8.11	7.15	6.91	6.20	6.75	0.073					0	0	0	
+yes	yes	yes	no	no	54	Polanui	LLHS	JM	KH	RB	PFF	PFF190403	2022	505 Front St	2019-04-03	8:09	1	3	5	1	3					PFF190403	24.3	35.8	6.51	94.9	8.09	1.78	1.69	1.37	1.61	0.134					0	5	0	
+yes	yes	yes	no	no	54	Polanui	LLHS	JM	KH	RB	PLH	PLH190403	2023	Lindsey Hale	2019-04-03	8:30	1	3	5	1	3					PLH190403	24.5	35.2	6.20	90.4	8.10	3.94	3.83	4.52	4.10	0.090					2	0	0	
+yes	yes	yes	no	no	54	Polanui	LLHS	JM	KH	RB	PLT	PLT190403	2024	Lahaina Town	2019-04-03	8:47	1	3	5	1	3					PLT190403	24.9	35.7	6.34	93.3	8.13	1.54	1.26	1.37	1.39	0.101					2	0	0	
+yes	yes	yes	no	no	54	Polanui	LLHS	JM	KH	RB	OSF	OSF190403	2027	Olowalu Pier	2019-04-03	9:24	1	3	5	1	3					OSF190403	25.1	35.7	6.75	99.8	8.14	5.37	6.27	4.91	5.52	0.125					0	0	0	
+yes	yes	yes	no	no	55	Polanui	LLHS	JM	KH	RB	PFF	PFF190424	2022	505 Front St	2019-04-24	8:20	2	2	6	2	2					PFF190424	24.9	35.3	6.39	93.9	8.13	2.80	2.70	3.30	2.93	0.110					0	1	0	PFF - Stream flowing straight down
+yes	yes	yes	no	no	55	Polanui	LLHS	JM	KH	RB	PLH	PLH190424	2023	Lindsey Hale	2019-04-24	8:37	2	2	6	2	2					PLH190424	25.1	35.8	6.46	95.6	8.11	1.68	1.24	1.41	1.44	0.154					1	8	0	
+yes	yes	yes	no	no	55	Polanui	LLHS	JM	KH	RB	PLT	PLT190424	2024	Lahaina Town	2019-04-24	8:55	2	2	6	2	2					PLT190424	25.6	34.8	5.94	88.1	8.11	4.64	4.52	4.45	4.54	0.021					2	2	0	
+yes	yes	yes	no	no	55	Polanui	LLHS	JM	KH	RB	OSF	OSF190424	2027	Olowalu Pier	2019-04-24	9:29	2	2	6	2	2					OSF190424	26.2	35.9	6.86	103.4	8.18	3.18	3.38	3.34	3.30	0.032					0	0	0	
+yes	yes	yes	no	no	56	Polanui	LLHS	JM	KH	RB	PFF	PFF190515	2022	505 Front St	2019-05-15	8:14	1	3	5	1	3					PFF190515	25.7	35.6	6.22	93.1	8.09	2.02	2.00	1.89	1.97	0.036				Y	1	3	0	Low tide
+yes	yes	yes	no	no	56	Polanui	LLHS	JM	KH	RB	PLH	PLH190515	2023	Lindsey Hale	2019-05-15	8:35	1	3	5	1	3					PLH190515	26.0	35.3	6.00	90	8.08	1.80	1.51	1.41	1.57	0.129				N/A	0	15	0	
+yes	yes	yes	no	no	56	Polanui	LLHS	JM	KH	RB	PLT	PLT190515	2024	Lahaina Town	2019-05-15	8:53	1	3	5	1	3					PLT190515	26.2	35.1	6.50	97.8	8.14	2.02	1.80	2.17	2.00	0.093				N/A	2	4	0	
+yes	yes	yes	no	no	56	Polanui	LLHS	JM	KH	RB	OSF	OSF190515	2027	Olowalu Pier	2019-05-15	9:24	1	3	5	1	3					OSF190515	26.4	35.9	6.71	101.6	8.13	3.86	4.75	4.87	4.49	0.123				N/A	0	0	0	
+yes	yes	yes	no	no	57	Polanui	LLHS	JM	KH	RB	PFF	PFF190605	2022	505 Front St	2019-06-05	8:10	2	NBBF	6	2	2					PFF190605	27.1	35.4	5.79	88.3	8.14	1.72	1.70	1.75	1.72	0.015				Y	0	12	0	Extreme Low Tide
+yes	yes	yes	no	no	57	Polanui	LLHS	JM	KH	RB	PLH	PLH190605	2023	Lindsey Hale	2019-06-05	8:32	2	NBBF	6	2	2					PLH190605	27.5	35.6	5.12	78.6	8.09	2.27	2.25	2.52	2.35	0.064				N	0	3	0	
+yes	yes	yes	no	no	57	Polanui	LLHS	JM	KH	RB	PLT	PLT190605	2024	Lahaina Town	2019-06-05	8:48	2	NBBF	6	2	2					PLT190605	27.5	35.8	6.14	94.5	8.14	2.35	2.05	2.65	2.35	0.128					0	0	0	
+yes	yes	no	no	no	57	Polanui	LLHS	JM	KH	RB	OSF	OSF190605	2027	Olowalu Pier	2019-06-05	9:25	2	NBBF	6	2	2					OSF190605	28.0	36.0	6.14	95.6	8.14	6.95	5.46	5.42	5.94	0.147					0	2	0	
+yes	yes	yes	no	no	58	Polanui	LLHS	RB	KH	BB	PFF	PFF190626	2022	505 Front St	2019-06-26	8:16	1	3	5	1	3					PFF190626	26.5	32.2	6.07	92.4	8.03	6.54	6.84	7.38	6.92	0.062				Y	0	24	0	
+yes	yes	yes	no	no	58	Polanui	LLHS	RB	KH	BB	PLH	PLH190626	2023	Lindsey Hale	2019-06-26	8:39	1	3	5	1	3					PLH190626	26.7	34.7	5.98	91.1	8.06	13.50	11.60	9.95	11.68	0.152				N	0	0	0	
+yes	yes	yes	no	no	58	Polanui	LLHS	RB	KH	BB	PLT	PLT190626	2024	Lahaina Town	2019-06-26	8:59	1	3	5	1	3					PLT190626	26.5	34.5	5.98	90.8	8.10	5.27	6.50	5.67	5.81	0.108					0	1	0	
+yes	yes	no	no	no	58	Polanui	LLHS	RB	KH	BB	OSF	OSF190626	2027	Olowalu Pier	2019-06-26	9:32	1	3	5	1	3					OSF190626	27.2	35.9	7.06	109	8.07	5.56	5.53	5.73	5.61	0.019					0	3	0	
+yes	yes	yes	no	no	59	Polanui	LLHS	JM	KH	RB	PFF	PFF190717	2022	505 Front St	2019-07-17	8:09	2	NBBF	6	2	2					PFF190717	27.8	35.8	6.19	96.3	8.09	3.14	4.01	3.04	3.40	0.157				Y	3	14	0	
+yes	yes	yes	no	no	59	Polanui	LLHS	JM	KH	RB	PLH	PLH190717	2023	Lindsey Hale	2019-07-17	8:38	2	NBBF	6	2	2					PLH190717	27.9	35.3	5.78	89.7	8.10	2.34	2.31	2.35	2.33	0.009				N	0	6	0	
+yes	yes	yes	no	no	59	Polanui	LLHS	JM	KH	RB	PLT	PLT190717	2024	Lahaina Town	2019-07-17	8:58	2	NBBF	6	2	2					PLT190717	28.1	36.1	6.09	95.3	8.09	1.02	1.47	1.43	1.31	0.191					8	3	0	
+yes	yes	yes	no	no	59	Polanui	LLHS	JM	KH	RB	OSF	OSF190717	2027	Olowalu Pier	2019-07-17	9:32	2	NBBF	6	2	2					OSF190717	28.4	36.2	6.32	99.4	8.11	3.26	3.18	3.43	3.29	0.039					0	0	0	
+yes	yes	yes	no	no	60	Polanui	LLHS	RB	KH	LT	PFF	PFF190807	2022	505 Front St	2019-08-07	8:15	1	3	5	1	3					PFF190807	28.1	35.7	6.42	100.2	8.10	2.21	2.43	1.83	2.16	0.141				Y	10	25	1	
+yes	yes	yes	no	no	60	Polanui	LLHS	RB	KH	LT	PLH	PLH190807	2023	Lindsey Hale	2019-08-07	8:50	1	3	5	1	3					PLH190807	28.2	35.9	6.42	100.5	8.07	9.71	9.46	9.23	9.47	0.025				N	0	4	0	
+yes	yes	yes	no	no	60	Polanui	LLHS	RB	KH	LT	PLT	PLT190807	2024	Lahaina Town	2019-08-07	9:07	1	3	5	1	3					PLT190807	28.2	35.5	6.16	96.1	8.08	28.10	27.50	26.20	27.27	0.036				N	0	1	0	
+yes	yes	no	no	no	60	Polanui	LLHS				OSF	OSF190807	2027	Olowalu Pier	2019-08-07											OSF190807																		Olowalu Pier not sampled at all due to miscommunication
+yes	yes	yes	no	no	61	Polanui	LLHS	JM	RB	LT	PFF	PFF190828	2022	505 Front St	2019-08-28	8:10	2	NBBF	6	2	2					PFF190828	28.7	35.7	5.25	82.7	8.06	1.52	1.63	1.76	1.64	0.073				Y	0	6	0	PFF - light stream flow
+yes	yes	yes	no	no	61	Polanui	LLHS	JM	RB	LT	PLH	PLH190828	2023	Lindsey Hale	2019-08-28	8:40	2	NBBF	6	2	2					PLH190828	28.9	36.0	5.39	85.3	8.06	2.76	2.70	2.59	2.68	0.032				N	9	3	0	
+yes	yes	yes	no	no	61	Polanui	LLHS	JM	RB	LT	PLT	PLT190828	2024	Lahaina Town	2019-08-28	9:05	2	NBBF	6	2	2					PLT190828	29.2	35.6	5.57	88.5	8.09	2.13	2.27	2.32	2.24	0.044					9	1	0	
+yes	yes	no	no	no	61	Polanui	LLHS	JM	RB	LT	OSF	OSF190828	2027	Olowalu Pier	2019-08-28	9:25	2	NBBF	6	2	2					OSF190828	29.6	36.3	6.36	102.1	8.15	1.73	2.22	2.19	2.05	0.134					0	3	0	OSF - low DO reading - rechecked meter log
+yes	yes	yes	no	no	62	Polanui	LLHS	RB	JM	LT	PFF	PFF190918	2022	505 Front St	2019-09-18	8:15	1	3	5	1	3					PFF190918	28.2	35.5	6.46	101	8.08	4.50	4.54	4.91	4.65	0.049				Y	8	0	0	PFF - steady flow of stream at 505 Front St (regular)
+yes	yes	yes	no	no	62	Polanui	LLHS	RB	JM	LT	PLH	PLH190918	2023	Lindsey Hale	2019-09-18	8:45	1	3	5	1	3					PLH190918	27.8	35.8	6.40	99.7	8.11	24.5	25.40	24.90	24.93	0.018				N	0	8	0	PLH - culvert blocked by sand, 5% cloud cover, no wind
+yes	yes	yes	no	no	62	Polanui	LLHS	RB	JM	LT	PLT	PLT190918	2024	Lahaina Town	2019-09-18	9:05	1	3	5	1	3					PLT190918	28.1	35.5	5.90	92.2	8.07	11.50	11.50	11.80	11.60	0.015				NA	0	2	0	
+yes	yes	no	no	no	62	Polanui	LLHS	RB	JM	LT	OSF	OSF190918	2027	Olowalu Pier	2019-09-18	9:37	1	3	5	1	3					OSF190918	28.4	36.4	7.17	113.1	8.18	1.27	1.57	1.40	1.41	0.106				NA	0	0	0	OSF - waves (0.5') passing over reef because of high tide
+yes	yes	yes	no	no	63	Polanui	LLHS	KH	RB	LT	PFF	PFF191009	2022	505 Front St	2019-10-09	8:10	2	NBBF	6	2	2					PFF191009	27.6	33.4	5.75	88	8.03	5.31	5.71	5.74	5.59	0.043				Y	0	10	0	PFF - stream flowing
+yes	yes	yes	no	no	63	Polanui	LLHS	KH	RB	LT	PLH	PLH191009	2023	Lindsey Hale	2019-10-09	8:34	2	NBBF	6	2	2					PLH191009	27.7	35.8	5.70	88.6	8.05	6.08	6.04	5.88	6.00	0.018				N	0	2	0	PLH - drainage is still totally covered,  outrigger in water w/5 people
+yes	yes	yes	no	no	63	Polanui	LLHS	KH	RB	LT	PLT	PLT191009	2024	Lahaina Town	2019-10-09	8:53	2	NBBF	6	2	2					PLT191009	28.1	36.2	5.92	92.7	8.07	1.92	1.71	1.50	1.71	0.123					5	2	0	PLT - 4th tubidity reading 1.82,  1 possibly 2 monk seals in water, high cirrus clouds, steady Kona wind
+yes	yes	yes	no	no	63	Polanui	LLHS	KH	RB	LT	OSF	OSF191009	2027	Olowalu Pier	2019-10-09	9:21	2	NBBF	6	2	2					OSF191009	28.3	36.3	6.07	95.5	8.07	0.93	1.04	0.99	0.99	0.056					0	4	0	

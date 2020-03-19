@@ -1,0 +1,55 @@
++---------+---------+-------------+-----------------------------+--------+--------------------+------------------------+-----------+-----------+-------------+--------+-------------+
+| site_id | hui_abv | storet_code | long_name                   | lab_id | default_sample_day | default_sampling_order | geo_order | lat       | lon         | active | description |
++---------+---------+-------------+-----------------------------+--------+--------------------+------------------------+-----------+-----------+-------------+--------+-------------+
+|       1 | RNS     | 000723      | Napili                      |      1 |                  1 |                      1 |      NULL | 20.994222 | -156.667417 |      1 | NULL        |
+|       2 | RPO     | 000724      | Pohaku                      |      1 |                  1 |                      2 |      NULL | 20.967083 |  -156.68139 |      1 | NULL        |
+|       3 | RKS     | NULL        | Kaanapali Shores            |      1 |                  1 |                      3 |      NULL | 20.949331 | -156.691124 |      1 | NULL        |
+|       4 | RAB     | 000695      | Airport Beach               |      1 |                  1 |                   NULL |      NULL | 20.936669 |  -156.69278 |      0 | NULL        |
+|       5 | RCB     | 000693      | Canoe Beach                 |      1 |                  1 |                      4 |      NULL | 20.910347 | -156.689382 |      1 | NULL        |
+|       6 | RWA     | 000678      | Wahikuli                    |      1 |                  1 |                      5 |      NULL | 20.904476 | -156.685931 |      1 | NULL        |
+|       7 | PFF     | NULL        | 505 Front Street            |      1 |                  2 |                      1 |      NULL |  20.86732 |  -156.67605 |      1 | NULL        |
+|       8 | PLH     | NULL        | Lindsey Hale                |      1 |                  2 |                      2 |      NULL |  20.86485 |  -156.67374 |      1 | NULL        |
+|       9 | PLT     | 000726      | Lahaina Town                |      1 |                  2 |                      3 |      NULL |  20.86356 |  -156.67297 |      1 | NULL        |
+|      10 | PPU     | NULL        | Makila Point                |      1 |                  2 |                   NULL |      NULL | 20.859233 | -156.669442 |      0 | NULL        |
+|      11 | OLP     | NULL        | Launiupoko                  |      1 |                  2 |                   NULL |      NULL |  20.84236 | -156.653035 |      0 | NULL        |
+|      12 | OSF     | 000663      | Olowalu Shore Front         |      1 |                  2 |                      4 |      NULL |  20.80916 |  -156.62289 |      1 | NULL        |
+|      13 | OPM     | NULL        | Peter Martin Hale           |      1 |                  3 |                      1 |      NULL | 20.808444 | -156.619697 |      1 | NULL        |
+|      14 | OCO     | NULL        | Camp Olowalu                |      1 |                  3 |                      2 |      NULL |  20.80986 |  -156.61369 |      1 | NULL        |
+|      15 | OMM     | NULL        | Mile Marker 14              |      1 |                  3 |                   NULL |      NULL |  20.80915 |  -156.60661 |      0 | NULL        |
+|      16 | OUB     | 000698      | Ukumehame Beach             |      1 |                  3 |                      3 |      NULL |  20.79448 |  -156.58142 |      1 | NULL        |
+|      17 | OPB     | 000728      | Papalaua                    |      1 |                  3 |                      4 |      NULL | 20.793809 | -156.575211 |      1 | NULL        |
+|      18 | OPP     | NULL        | Papalaua Pali               |      1 |                  3 |                      5 |      NULL | 20.792747 | -156.567326 |      1 | NULL        |
+|      19 | RHL     | 000707      | Honolua                     |      1 |                  4 |                      1 |      NULL | 21.013058 |  -156.63834 |      1 | NULL        |
+|      20 | RMO     | 000721      | Mokuleia                    |      1 |                  4 |                   NULL |      NULL | 21.011352 |  -156.64227 |      0 | NULL        |
+|      21 | RFN     | 000674      | DT Beach (Fleming N)        |      1 |                  4 |                   NULL |      NULL |    21.005 |  -156.65084 |      0 | NULL        |
+|      22 | RON     | 000722      | Oneloa                      |      1 |                  4 |                      2 |      NULL | 21.004056 |  -156.65894 |      1 | NULL        |
+|      23 | RFS     | 000650      | Kapalua Bay (Fleming S)     |      1 |                  4 |                      3 |      NULL | 20.998924 | -156.666746 |      1 | NULL        |
+|      24 | RKO     | 000692      | Ka'opala                    |      1 |                  4 |                      4 |      NULL | 20.982074 | -156.673398 |      1 | NULL        |
+|      25 | RKV     | NULL        | Kahana Village              |      1 |                  4 |                      5 |      NULL | 20.976561 |    -156.678 |      1 | NULL        |
+|      26 | KWP     | 000713      | Waipuilani Park             |      2 |                  1 |                      2 |      NULL | 20.755056 | -156.459602 |      1 | NULL        |
+|      27 | KKS     | 000676      | Kihei South (Lipoa)         |      2 |                  1 |                      3 |      NULL | 20.747334 | -156.457881 |      1 | NULL        |
+|      28 | KKP     | 000679      | Kalama Park                 |      2 |                  1 |                      4 |      NULL | 20.730973 |  -156.45372 |      1 | NULL        |
+|      29 | KCP     | 000703      | Cove Park                   |      2 |                  1 |                      5 |      NULL | 20.727434 | -156.450077 |      1 | NULL        |
+|      30 | KKO     | 000681      | Kamaole Beach I             |      2 |                  1 |                   NULL |      NULL | 20.721985 | -156.448183 |      0 | NULL        |
+|      31 | KKT     | 000683      | Kamaole Beach III           |      2 |                  1 |                   NULL |      NULL | 20.712908 | -156.446596 |      0 | NULL        |
+|      32 | MML     | NULL        | Makena Landing              |      2 |                  2 |                      1 |      NULL | 20.653913 | -156.441174 |      1 | NULL        |
+|      33 | MMB     | NULL        | Maluaka Beach               |      2 |                  2 |                      2 |      NULL | 20.645598 | -156.443859 |      1 | NULL        |
+|      34 | MON     | NULL        | Oneuli                      |      2 |                  2 |                      3 |      NULL | 20.639866 | -156.447406 |      1 | NULL        |
+|      35 | MBS     | NULL        | Makena Beach Shoreline      |      2 |                  2 |                   NULL |      NULL |  20.63061 | -156.446183 |      0 | NULL        |
+|      36 | MAN     | NULL        | Ahihi North                 |      2 |                  2 |                      4 |      NULL | 20.618366 | -156.437572 |      1 | NULL        |
+|      37 | MAS     | NULL        | Ahihi South                 |      2 |                  2 |                      5 |      NULL |   20.6138 | -156.436853 |      1 | NULL        |
+|      38 | NHP     | 000687      | Haycraft Park               |      2 |                  3 |                      3 |      NULL | 20.796414 | -156.503198 |      1 | NULL        |
+|      39 | NKP     | 000711      | Kealia Pond                 |      2 |                  3 |                      4 |      NULL | 20.794936 | -156.485587 |      1 | NULL        |
+|      40 | NSB     | NULL        | Sugar Beach                 |      2 |                  3 |                      5 |      NULL | 20.784204 | -156.466463 |      1 | NULL        |
+|      41 | NKC     | 000671      | Kihei Canoe Club            |      2 |                  3 |                      6 |      NULL | 20.781403 | -156.463176 |      1 | NULL        |
+|      42 | NMP     | 000702      | Mai Poina 'Oe Ia'u          |      2 |                  1 |                      6 |      NULL | 20.774894 | -156.460776 |      1 | NULL        |
+|      43 | NKN     | NULL        | Kalepolepo North            |      2 |                  1 |                      1 |      NULL | 20.765132 | -156.459344 |      1 | NULL        |
+|      44 | WKD     | 000704      | Kilohana Dr                 |      2 |                  4 |                      1 |      NULL | 20.702214 | -156.445921 |      1 | NULL        |
+|      45 | WKB     | 000685      | Keawekapu Beach             |      2 |                  4 |                      2 |      NULL | 20.695939 | -156.444632 |      1 | NULL        |
+|      46 | WUL     | 000686      | Ulua Beach                  |      2 |                  4 |                      3 |      NULL |  20.69112 | -156.444201 |      1 | NULL        |
+|      47 | WWA     | 000691      | Wailea Beach                |      2 |                  4 |                   NULL |      NULL |  20.68156 | -156.443524 |      0 | NULL        |
+|      48 | WPL     | 000715      | Palauea                     |      2 |                  4 |                      4 |      NULL | 20.669565 | -156.442907 |      1 | NULL        |
+|      49 | WPO     | 000716      | Poolenalena (Chang's Beach) |      2 |                  4 |                      5 |      NULL |  20.66339 | -156.441968 |      1 | NULL        |
+|      50 | NMH     | NULL        | Maalaea Harbor              |      2 |                  3 |                      1 |      NULL | 20.790305 | -156.510825 |      1 | NULL        |
+|      51 | NMC     | NULL        | Maalaea Condos              |      2 |                  3 |                      2 |      NULL | 20.794917 | -156.506735 |      1 | NULL        |
++---------+---------+-------------+-----------------------------+--------+--------------------+------------------------+-----------+-----------+-------------+--------+-------------+

@@ -1,0 +1,175 @@
+Copied to main database by Kim/Bill 	Checked by Dana	yes/no	yes/no	yes/no	#	R2RS, R2RN, Polanui, Olowalu	LLHS	initials	initials	initials	RCB	RCB031717	2062	Canoe Beach	2017-03-17	12:00											deg C	ppt	mg/L	%								0, 1, 2, 3, 4	0-8	0-5	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	
+		Nut_Sample	Nut_Dup	Sed_Sample	Session	Team	Lab	Sampler	Sampler2	Sampler3	Station	SampleID	Location	SiteName	Date	Time	40D#	2100Q#	pHInst#	DOInst#	SalInst#	Moon	Cloud_1_8	Rain_1_4	Wind_dir	SampleID2	Temp	Salinity	DO	DO%	pH	Turb1	Turb2	Turb3	Average Turbidity	CV Turbidity		Waves	Wind	Stream	Swimmers	On Beach	Campers	Comments
+			Example:		26	R2RS	LLHS	CM	TF	MS	RCB	RCB170821	2020	Canoe Beach	2017-08-21	9:22:00	1	1	4	2	3	1	7	2		RCB170821	27.0	33.1	6.92	104.4	8.18	5.78	5.86	6.03	Calculated	Calculated		1	0		1	20	0	RHL no waves at collection site but waves breaking starting halfway to Lipoa Point, light rain the night before
+yes	yes	yes	no	no	8	North Kihei	NMS	KT	BC	NG	NHP	NHP180222		Haycraft Park	2018-02-22	8:30	2	2	2	2	2	8	8	0	0	NHP180222	24.4	34.7	6.70	97.5	8.14	6.05	6.02	6.09	6.05	0.006		0.5	0		0	9	0	
+yes	yes	yes	no	no	8	North Kihei	NMS	KT	BC	NG	NKP	NKP180222		Kealia Pond	2018-02-22	9:00	2	2	2	2	2	8	8	0	0	NKP180222	24.4	35.7	6.84	100.0	8.18	3.55	3.63	4.06	3.75	0.073		1	1		0	7	0	
+yes	yes	yes	no	no	8	North Kihei	NMS	KT	BC	NG	NSB	NSB180222		Sugar Beach	2018-02-22	9:25	2	2	2	2	2	8	8	0	0	NSB180222	24.6	35.5	6.78	99.3	8.17	6.34	6.34	6.92	6.53	0.051		0.5	1		0	8	0	
+yes	yes	yes	no	no	8	North Kihei	NMS	KT	BC	NG	NKC	NKC180222		Kihei Canoe Club	2018-02-22	9:48	2	2	2	2	2	8	8	0	0	NKC180222	24.8	34.9	6.72	98.5	8.14	3.00	3.69	3.55	3.41	0.107		0.5	0		0	7	0	
+yes	yes	yes	no	no	8	North Kihei	NMS	KT	BC	NG	NMP	NMP180222		Mai Poina Oe Iau	2018-02-22	10:00	2	2	2	2	2	8	8	0	0	NMP180222	24.7	34.3	6.65	97.1	8.14	4.62	4.34	5.12	4.69	0.084		0	0		0	6	0	
+yes	yes	yes	no	no	8	North Kihei	NMS	KT	BC	NG	NKN	NKN180222		Kalepolepo North	2018-02-22	10:21	2	2	2	2	2	8	8	0	0	NKN180222	24.7	33.1	6.55	95.02	8.14	14.60	15.9	13.40	14.63	0.085		0.5	1		0	2	0	
+yes	yes	yes	no	no	9	North Kihei	NMS	RR	KT	BC	NHP	NHP180308		Haycraft Park	2018-03-08	8:06	1	1	1	1	1	21	7	1	Trades	NHP180308	22.9	34.5	6.79	96.1	8.14	5.56	5.47	5.61	5.55	0.013		0	2		0	0	0	
+yes	yes	yes	no	no	9	North Kihei	NMS	RR	KT	BC	NKP	NKP180308		Kealia Pond	2018-03-08	8:30	1	1	1	1	1	21	7	1	Trades	NKP180308	23.0	35.7	6.92	98.5	8.19	0.93	1.37	1.01	1.10	0.212		1	1		0	0	0	
+yes	yes	yes	no	no	9	North Kihei	NMS	RR	KT	BC	NSB	NSB180308		Sugar Beach	2018-03-08	8:50	1	1	1	1	1	21	7	1	Trades	NSB180308	23.6	35.3	6.88	98.0	8.17	1.62	1.89	1.73	1.75	0.078		0	0		0	2	0	
+yes	yes	yes	no	no	9	North Kihei	NMS	RR	KT	BC	NKC	NKC180308		Kihei Canoe Club	2018-03-08	9:10	1	1	1	1	1	21	7	1	Trades	NKC180308	23.9	35.1	6.72	96.9	8.15	1.57	1.82	1.90	1.76	0.098		0	1		0	3	0	
+yes	yes	yes	no	no	9	North Kihei	NMS	RR	KT	BC	NMP	NMP180308		Mai Poina Oe Iau	2018-03-08	9:27	1	1	1	1	1	21	7	1	Trades	NMP180308	23.3	34.0	6.71	95.8	8.13	3.60	4.21	3.75	3.85	0.082		0	1		0	2	0	
+yes	yes	yes	no	no	9	North Kihei	NMS	RR	KT	BC	NKN	NKN180308		Kalepolepo North	2018-03-08	9:47	1	1	1	1	1	21	7	1	Trades	NKN180308	23.3	32.1	6.96	97.7	8.16	4.45	5.17	5.85	5.16	0.136		0	2		0	0	1	
+yes	yes	yes	no	no	10	North Kihei	NMS	BC	KT	FB	NHP	NHP180322		Haycraft Park	2018-03-22	8:20	2	2	2	2	2	7	6	0	Trades	NHP180322	23.7	34.3	6.86	98.5	8.16	5.63	6.21	5.92	5.92	0.049		1	1		4	2	8	
+yes	yes	yes	no	no	10	North Kihei	NMS	BC	KT	FB	NKP	NKP180322		Kealia Pond	2018-03-22	8:43	2	2	2	2	2	7	6	0	Trades	NKP180322	23.9	34.8	6.84	98.9	8.21	4.39	4.2	4.41	4.33	0.027		1	2		0	3	0	
+yes	yes	yes	no	no	10	North Kihei	NMS	BC	KT	FB	NSB	NSB180322		Sugar Beach	2018-03-22	9:10	2	2	2	2	2	7	6	0	Trades	NSB180322	24.6	34.7	6.83	100.0	8.2	2.85	3.68	3.33	3.29	0.127		1	1		2	0	0	
+yes	yes	yes	no	no	10	North Kihei	NMS	BC	KT	FB	NKC	NKC180322		Kihei Canoe Club	2018-03-22	9:25	2	2	2	2	2	7	6	0	Trades	NKC180322	24.7	34.3	6.80	99.5	8.19	3.95	3.93	4.40	4.09	0.065		1	0		1	20	0	
+yes	yes	yes	no	no	10	North Kihei	NMS	BC	KT	FB	NMP	NMP180322		Mai Poina Oe Iau	2018-03-22	9:45	2	2	2	2	2	7	6	0	Trades	NMP180322	24.6	32.9	6.85	99.0	8.16	2.79	3.98	3.24	3.34	0.180		1	3		0	2	0	
+yes	yes	yes	no	no	10	North Kihei	NMS	BC	KT	FB	NKN	NKN180322		Kalepolepo North	2018-03-22	10:00	2	2	2	2	2	7	6	0	Trades	NKN180322	24.3	31.4	6.95	99.2	8.2	4.26	4.79	4.31	4.45	0.066		1	3		2	7	0	
+yes	yes	yes	no	no	11	North Kihei	NMS	RR	NG	FB	NHP	NHP180405		Haycraft Park	2018-04-05	8:13	1	1	1	1	1	19	8	4	Kona	NHP180405	25.4	32.7	6.53	95.5	8.04	6.73	5.14	6.09	5.99	0.134		1	6		3	7	0	
+yes	yes	yes	no	no	11	North Kihei	NMS	RR	NG	FB	NKP	NKP180405		Kealia Pond	2018-04-05	8:42	1	1	1	1	1	19	8	4	Kona	NKP180405	25.7	33.9	6.74	99.8	8.14	5.38	6.18	5.72	5.76	0.070		2	5		0	0	0	
+yes	yes	yes	no	no	11	North Kihei	NMS	RR	NG	FB	NSB	NSB180405		Sugar Beach	2018-04-05	9:00	1	1	1	1	1	19	8	4	Kona	NSB180405	26.0	34.3	6.67	99.6	8.14	5.69	5.7	5.87	5.75	0.018		2	4		0	1	0	
+yes	yes	yes	no	no	11	North Kihei	NMS	RR	NG	FB	NKC	NKC180405		Kihei Canoe Club	2018-04-05	9:22	1	1	1	1	1	19	8	4	Kona	NKC180405	26.3	34.0	6.69	100.3	8.15	5.40	5.97	5.77	5.71	0.051		3	4		4	0	0	
+yes	yes	yes	no	no	11	North Kihei	NMS	RR	NG	FB	NMP	NMP180405		Mai Poina Oe Iau	2018-04-05	9:35	1	1	1	1	1	19	8	4	Kona	NMP180405	26.8	32.8	6.61	99.3	8.12	28.50	28.8	27.60	28.30	0.022		2	3		0	9	0	
+yes	yes	yes	no	no	11	North Kihei	NMS	RR	NG	FB	NKN	NKN180405		Kalepolepo North	2018-04-05	9:51	1	1	1	1	1	19	8	4	Kona	NKN180405	27.0	32.5	6.32	95.0	8.12	34.80	32.4	32.00	33.07	0.046		2	3		6	2	0	
+yes	yes	yes	no	no	12	North Kihei	NMS	RR	KT	FB	NHP	NHP180419		Haycraft Park	2018-04-19	8:10	2	2	2	2	2	4	7	1	Trades	NHP180419	24.8	34.6	6.76	99.2	8.14	2.26	3.04	2.68	2.66	0.147		1	2		0	1	0	
+yes	yes	yes	no	no	12	North Kihei	NMS	RR	KT	FB	NKP	NKP180419		Kealia Pond	2018-04-19	8:40	2	2	2	2	2	4	7	1	Trades	NKP180419	24.8	35.0	6.74	98.9	8.18	2.82	3.96	2.77	3.18	0.211		1	2		0	1	0	
+yes	yes	yes	no	no	12	North Kihei	NMS	RR	KT	FB	NSB	NSB180419		Sugar Beach	2018-04-19	9:05	2	2	2	2	2	4	7	1	Trades	NSB180419	25.4	34.7	6.65	98.5	8.16	3.62	4.16	3.92	3.90	0.069		1	2		3	14	0	
+yes	yes	yes	no	no	12	North Kihei	NMS	RR	KT	FB	NKC	NKC180419		Kihei Canoe Club	2018-04-19	9:20	2	2	2	2	2	4	7	1	Trades	NKC180419	25.8	34.2	6.68	99.3	8.15	2.37	3.3	2.31	2.66	0.209		1	2		0	8	0	
+yes	yes	yes	no	no	12	North Kihei	NMS	RR	KT	FB	NMP	NMP180419		Mai Poina Oe Iau	2018-04-19	9:40	2	2	2	2	2	4	7	1	Trades	NMP180419	25.5	33.2	6.60	97.2	8.13	3.27	3.05	3.18	3.17	0.035		1	3		0	3	0	
+yes	yes	yes	no	no	12	North Kihei	NMS	RR	KT	FB	NKN	NKN180419		Kalepolepo North	2018-04-19	10:00	2	2	2	2	2	4	7	1	Trades	NKN180419	25.6	30.1	6.84	99.1	8.16	10.20	11.7	11.80	11.23	0.080		1	3		0	7	0	
+yes	yes	yes	no	no	13	North Kihei	NMS	RR	KT	FB	NHP	NHP180503		Haycraft Park	2018-05-03	8:20	1	1	1	1	1	18	6	0	Trades	NHP180503	25.7	34.4	6.78	100.6	8.14	7.79	7.93	7.47	7.73	0.031		1	1		3	3	0	HQ40d #1 turned off by itself twice during sampling - loose batteries?
+yes	yes	yes	no	no	13	North Kihei	NMS	RR	KT	FB	NKP	NKP180503		Kealia Pond	2018-05-03	8:55	1	1	1	1	1	18	6	0	Trades	NKP180503	25.6	35.6	6.69	99.6	8.18	1.08	1.15	1.41	1.21	0.143		1	3		0	2	0	
+yes	yes	yes	no	no	13	North Kihei	NMS	RR	KT	FB	NSB	NSB180503		Sugar Beach	2018-05-03	9:20	1	1	1	1	1	18	6	0	Trades	NSB180503	25.8	35.0	6.67	99.5	8.16	4.42	4.48	4.28	4.39	0.023		1	1		3	3	0	
+yes	yes	yes	no	no	13	North Kihei	NMS	RR	KT	FB	NKC	NKC180503		Kihei Canoe Club	2018-05-03	9:33	1	1	1	1	1	18	6	0	Trades	NKC180503	25.9	34.3	6.67	99.2	8.15	1.36	2.16	1.91	1.81	0.226		2	1		5	3	1	
+yes	yes	yes	no	no	13	North Kihei	NMS	RR	KT	FB	NMP	NMP180503		Mai Poina Oe Iau	2018-05-03	9:55	1	1	1	1	1	18	6	0	Trades	NMP180503	26.2	32.3	6.72	99.3	8.11	5.48	6.65	5.87	6.00	0.099		2	2		0	1	0	
+yes	yes	yes	no	no	13	North Kihei	NMS	RR	KT	FB	NKN	NKN180503		Kalepolepo North	2018-05-03	10:15	1	1	1	1	1	18	6	0	Trades	NKN180503	26.6	29.9	6.74	99.3	8.18	3.35	3.44	3.43	3.41	0.014		1	3		0	2	0	
+yes	yes	yes	no	no	14	North Kihei	NMS	RR	KT		NHP	NHP180517		Haycraft Park	2018-05-17	8:15	2	2	2	2	2	4	7	0	Trades	NHP180517	25.5	34.1	6.69	98.7	8.13	4.92	5.66	5.07	5.22	0.075		1	1		0	6	0	
+yes	yes	yes	no	no	14	North Kihei	NMS	RR	KT		NKP	NKP180517		Kealia Pond	2018-05-17	8:45	2	2	2	2	2	4	7	0	Trades	NKP180517	25.7	35.2	6.74	100.0	8.2	2.16	2.05	1.69	1.97	0.125		1	2		0	6	0	
+yes	yes	yes	no	no	14	North Kihei	NMS	RR	KT		NSB	NSB180517		Sugar Beach	2018-05-17	9:03	2	2	2	2	2	4	7	0	Trades	NSB180517	26.1	34.7	6.75	101.1	8.17	2.97	4.88	4.13	3.99	0.241		1	1		0	9	0	
+yes	yes	yes	no	no	14	North Kihei	NMS	RR	KT		NKC	NKC180517		Kihei Canoe Club	2018-05-17	9:20	2	2	2	2	2	4	7	0	Trades	NKC180517	26.4	34.0	6.71	100.8	8.13	2.67	4.02	3.17	3.29	0.208		1	0		0	5	0	
+yes	yes	yes	no	no	14	North Kihei	NMS	RR	KT		NMP	NMP180517		Mai Poina Oe Iau	2018-05-17	9:35	2	2	2	2	2	4	7	0	Trades	NMP180517	26.7	32.0	6.71	100.2	8.1	3.92	4.78	5.00	4.57	0.125		1	0		2	8	0	
+yes	yes	yes	no	no	14	North Kihei	NMS	RR	KT		NKN	NKN180517		Kalepolepo North	2018-05-17	9:56	2	2	2	2	2	4	7	0	Trades	NKN180517	26.6	29.5	6.73	98.7	8.2	4.05	4.17	4.34	4.19	0.035		1	0		0	1	0	
+yes	yes	yes	no	no	15	North Kihei	NMS	RR	SS	FB	NHP	NHP180531		Haycraft Park	2018-05-31	8:20	1	1	1	1	1	17	1	0	Trades	NHP180531	25.1	35.2	6.73	99.3	8.15	4.91	5.55	5.51	5.32	0.067		3	3		0	3	0	Took field duplicates (Turb, Sal, DO, pH and Temp)
+yes	yes	yes	no	no	15	North Kihei	NMS	RR	SS	FB	NKP	NKP180531		Kealia Pond	2018-05-31	8:45	1	1	1	1	1	17	1	0	Trades	NKP180531	25.2	35.7	6.71	99.4	8.15	7.77	6.96	8.12	7.62	0.078		3	3		0	4	0	Took field duplicates (Turb, Sal, DO, pH and Temp)
+yes	yes	yes	no	no	15	North Kihei	NMS	RR	SS	FB	NSB	NSB180531		Sugar Beach	2018-05-31	9:08	1	1	1	1	1	17	1	0	Trades	NSB180531	26.3	35.7	6.56	99.0	8.14	4.74	5.75	4.82	5.10	0.110		2	3		2	3	0	Took field duplicates (Turb, Sal, DO, pH and Temp)
+yes	yes	yes	no	no	15	North Kihei	NMS	RR	SS	FB	NKC	NKC180531		Kihei Canoe Club	2018-05-31	9:30	1	1	1	1	1	17	1	0	Trades	NKC180531	26.2	35.0	6.55	98.4	8.11	6.25	7.94	8.22	7.47	0.143		3	0		0	0	0	
+yes	yes	yes	no	no	15	North Kihei	NMS	RR	SS	FB	NMP	NMP180531		Mai Poina Oe Iau	2018-05-31	9:51	1	1	1	1	1	17	1	0	Trades	NMP180531	26.2	35.1	6.69	100.7	8.14	4.33	4.97	4.12	4.47	0.099		2	1		0	2	0	
+yes	yes	yes	no	no	15	North Kihei	NMS	RR	SS	FB	NKN	NKN180531		Kalepolepo North	2018-05-31	10:05	1	1	1	1	1	17	1	0	Trades	NKN180531	26.4	32.8	6.69	99.8	8.15	13.50	14	11.90	13.13	0.084		3	0		0	0	0	
+yes	yes	yes	no	no	16	North Kihei	NMS	KT	FB		NHP	NHP180621		Haycraft Park	2018-06-21	8:12	2	2	2	2	2	8	0	0	Trades	NHP180621	26.3	34.7	6.72	101.2	8.15	2.69	2.54	2.23	2.49	0.094		1	0		0	1	0	
+yes	yes	yes	no	no	16	North Kihei	NMS	KT	FB		NKP	NKP180621		Kealia Pond	2018-06-21	8:38	2	2	2	2	2	8	0	0	Trades	NKP180621	25.9	35.2	6.72	100.6	8.18	1.16	1.26	1.07	1.16	0.082		1	0		0	2	0	
+yes	yes	yes	no	no	16	North Kihei	NMS	KT	FB		NSB	NSB180621		Sugar Beach	2018-06-21	9:00	2	2	2	2	2	8	0	0	Trades	NSB180621	26.9	35.1	6.66	101.5	8.18	4.30	5.05	4.42	4.59	0.088		0	0		1	7	0	
+yes	yes	yes	no	no	16	North Kihei	NMS	KT	FB		NKC	NKC180621		Kihei Canoe Club	2018-06-21	9:17	2	2	2	2	2	8	0	0	Trades	NKC180621	26.6	34.7	6.66	100.8	8.16	4.58	4.92	4.75	4.75	0.036		0	0		0	0	0	
+yes	yes	yes	no	no	16	North Kihei	NMS	KT	FB		NMP	NMP180621		Mai Poina Oe Iau	2018-06-21	9:32	2	2	2	2	2	8	0	0	Trades	NMP180621	27.2	33.5	6.55	99.4	8.14	2.25	2.01	1.94	2.07	0.079		0	0		3	2	0	
+yes	yes	yes	no	no	17	North Kihei	NMS	SS	FB	RR	NHP	NHP180712		Haycraft Park	2018-07-12	8:15	1	1	1	1	1	29	1	0	Trades	NHP180712	25.9	34.3	6.66	99.3	8.13	5.54	5.06	5.18	5.26	0.047		1	3		2	1	20+	6 tents - appears to be a homeless encampment
+yes	yes	yes	no	no	17	North Kihei	NMS	SS	FB	RR	NKP	NKP180712		Kealia Pond	2018-07-12	8:40	1	1	1	1	1	29	1	0	Trades	NKP180712	25.8	35.4	6.52	97.4	8.2	1.23	1.25	1.31	1.26	0.033		1	4		0	0	0	
+yes	yes	yes	no	no	17	North Kihei	NMS	SS	FB	RR	NSB	NSB180712		Sugar Beach	2018-07-12	8:55	1	1	1	1	1	29	1	0	Trades	NSB180712	26.4	35.1	6.52	98.4	8.19	4.97	4.04	4.70	4.57	0.105		2	3		1	4	0	
+yes	yes	yes	no	no	17	North Kihei	NMS	SS	FB	RR	NKC	NKC180712		Kihei Canoe Club	2018-07-12	9:15	1	1	1	1	1	29	1	0	Trades	NKC180712	26.8	34.3	6.47	98.0	8.11	5.23	5.94	4.85	5.34	0.104		1	2		1	3	0	
+yes	yes	yes	no	no	17	North Kihei	NMS	SS	FB	RR	NMP	NMP180712		Mai Poina Oe Iau	2018-07-12	9:30	1	1	1	1	1	29	1	0	Trades	NMP180712	26.8	32.1	6.65	99.6	8.13	2.03	2.8	2.64	2.49	0.163		1	4		1	2	0	
+yes	yes	yes	no	no	18	North Kihei	NMS	SS	FB	LC	NHP	NHP180802		Haycraft Park	2018-08-02	8:15	2	2	2	2	2	21	1	0	Trades	NHP180802	26.2	34.7	6.47	97.2	8.13	3.62	3.47	3.56	3.55	0.021		2	3		3	2	0	
+yes	yes	yes	no	no	18	North Kihei	NMS	SS	FB	LC	NKP	NKP180802		Kealia Pond	2018-08-02	8:45	2	2	2	2	2	21	1	0	Trades	NKP180802	26.7	35.6	6.54	99.6	8.2	1.20	1.22	1.27	1.23	0.029		2	5		0	2	0	
+yes	yes	yes	no	no	18	North Kihei	NMS	SS	FB	LC	NSB	NSB180802		Sugar Beach	2018-08-02	9:05	2	2	2	2	2	21	1	0	Trades	NSB180802	27.4	35.4	6.48	99.6	8.18	3.52	3.88	3.40	3.60	0.069		1	2		0	6	0	
+yes	yes	yes	no	no	18	North Kihei	NMS	SS	FB	LC	NKC	NKC180802		Kihei Canoe Club	2018-08-02	9:20	2	2	2	2	2	21	1	0	Trades	NKC180802	27.5	35.1	6.45	99.2	8.18	3.45	3.57	3.97	3.66	0.074		2	3		0	20	0	
+yes	yes	yes	no	no	18	North Kihei	NMS	SS	FB	LC	NMP	NMP180802		Mai Poina Oe Iau	2018-08-02	9:39	2	2	2	2	2	21	1	0	Trades	NMP180802	27.4	33.2	6.42	97.6	8.13	1.96	2.22	2.21	2.13	0.069		1	2		0	1	0	
+yes	yes	yes	no	no	19	North Kihei	NMS				NHP	NHP180823		Haycraft Park	2018-08-23											NHP180823																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	19	North Kihei	NMS				NKP	NKP180823		Kealia Pond	2018-08-23											NKP180823																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	19	North Kihei	NMS				NSB	NSB180823		Sugar Beach	2018-08-23											NSB180823																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	19	North Kihei	NMS				NKC	NKC180823		Kihei Canoe Club	2018-08-23											NKC180823																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	19	North Kihei	NMS				NMP	NMP180823		Mai Poina Oe Iau	2018-08-23											NMP180823																		Cancelled sampling session due to hurricane Lane
+yes	yes	yes	no	no	20	North Kihei	NMS	GB	JS		NHP	NHP180913		Haycraft Park	2018-09-13	8:25	2	2	2	2	2	4	4	3	Trades	NHP180913	26.8	34.8	6.44	98.0	8.17	8.67	8.88	8.69	8.75	0.013		1	2		0	6	0	
+yes	yes	yes	no	no	20	North Kihei	NMS	GB	JS		NKP	NKP180913		Kealia Pond	2018-09-13	8:50	2	2	2	2	2	4	4	3	Trades	NKP180913	27.0	35.4	6.44	98.5	8.2	1.33	1.39	1.67	1.46	0.124		1	4		0	1	0	
+yes	yes	yes	no	no	20	North Kihei	NMS	GB	JS		NSB	NSB180913		Sugar Beach	2018-09-13	9:20	2	2	2	2	2	4	4	3	Trades	NSB180913	28.0	35.3	6.44	100.4	8.19	2.61	2.03	2.49	2.38	0.129		1	0		0	3	0	NSB - spilled nutrient bottle, resampled with spare bottle & syringe
+yes	yes	yes	no	no	20	North Kihei	NMS	GB	JS		NKC	NKC180913		Kihei Canoe Club	2018-09-13	9:50	2	2	2	2	2	4	4	3	Trades	NKC180913	28.1	34.9	6.41	99.9	8.18	2.17	2.36	2.93	2.49	0.159		1	1		0	0	0	
+yes	yes	yes	no	no	20	North Kihei	NMS	GB	JS		NMP	NMP180913		Mai Poina Oe Iau	2018-09-13	10:11	2	2	2	2	2	4	4	3	Trades	NMP180913	27.7	34.1	6.46	99.7	8.17	3.05	3.07	3.12	3.08	0.012		1	2		0	0	0	
+yes	yes	yes	no	no	21	North Kihei	NMS	FB	RR	GB	NHP	NHP181004		Haycraft Park	2018-10-04	8:20	1	1	1	1	1					NHP181004	27.4	35.0	6.69	103.0	8.15	4.33	4.76	4.32	4.47	0.056					1	4	5	
+yes	yes	yes	no	no	21	North Kihei	NMS	FB	RR	GB	NKP	NKP181004		Kealia Pond	2018-10-04	8:46	1	1	1	1	1					NKP181004	27.5	35.3	6.74	104.0	8.17	3.08	3.5	2.93	3.17	0.093				0	0	0	0	
+yes	yes	yes	no	no	21	North Kihei	NMS	FB	RR	GB	NSB	NSB181004		Sugar Beach	2018-10-04	9:10	1	1	1	1	1					NSB181004																		beach not sampled due to high surf
+yes	yes	yes	no	no	21	North Kihei	NMS	FB	RR	GB	NKC	NKC181004		Kihei Canoe Club	2018-10-04	9:25	1	1	1	1	1					NKC181004																		beach not sampled due to high surf
+yes	yes	yes	no	no	21	North Kihei	NMS	FB	RR	GB	NMP	NMP181004		Mai Poina Oe Iau	2018-10-04	9:37	1	1	1	1	1					NMP181004	28.1	35.1	6.58	102.6	8.17	4.91	4.91	5.03	4.95	0.014					3	1	0	
+yes	yes	yes	no	no	22	North Kihei	NMS	RR	SS	GB	NHP	NHP181025		Haycraft Park	2018-10-25	8:16	2	2	2	2	2					NHP181025																		not sampled due to high surf  4-6 feet
+yes	yes	yes	no	no	22	North Kihei	NMS	RR	SS	GB	NKP	NKP181025		Kealia Pond	2018-10-25	8:30	2	2	2	2	2					NKP181025	27.1	35.2	6.72	103.0	8.19	2.89	2.86	2.73	2.83	0.030				N	0	2	0	
+yes	yes	yes	no	no	22	North Kihei	NMS	RR	SS	GB	NSB	NSB181025		Sugar Beach	2018-10-25	8:50	2	2	2	2	2					NSB181025	27.1	35.0	6.62	101.3	8.15	3.64	3.15	3.60	3.46	0.079					3	5	0	
+yes	yes	yes	no	no	22	North Kihei	NMS	RR	SS	GB	NKC	NKC181025		Kihei Canoe Club	2018-10-25	9:15	2	2	2	2	2					NKC181025	27.6	34.7	6.68	102.9	8.15	16.40	15.7	16.40	16.17	0.025					0	14	0	
+yes	yes	yes	no	no	22	North Kihei	NMS	RR	SS	GB	NMP	NMP181025		Mai Poina Oe Iau	2018-10-25	9:33	2	2	2	2	2					NMP181025	27.8	34.9	6.67	103.3	8.18	1.82	1.89	1.71	1.81	0.050					4	5	0	
+yes	yes	yes	no	no	23	North Kihei	NMS	FB	SS	BC	NHP	NHP181115		Haycraft Park	2018-11-15	8:25	1	1	1	1	1					NHP181115	26.5	34.5	6.51	98.0	8.14	2.26	2.35	2.28	2.30	0.021					0	8	1	
+yes	yes	yes	no	no	23	North Kihei	NMS	FB	SS	BC	NKP	NKP181115		Kealia Pond	2018-11-15	8:50	1	1	1	1	1					NKP181115	26.4	35.3	6.65	100.5	8.18	1.11	0.92	0.93	0.99	0.108				N	0	0	0	
+yes	yes	yes	no	no	23	North Kihei	NMS	FB	SS	BC	NSB	NSB181115		Sugar Beach	2018-11-15	9:10	1	1	1	1	1					NSB181115	26.7	35.2	6.68	101.4	8.17	2.12	2.13	1.95	2.07	0.049					2	8	0	
+yes	yes	yes	no	no	23	North Kihei	NMS	FB	SS	BC	NKC	NKC181115		Kihei Canoe Club	2018-11-15	9:25	1	1	1	1	1					NKC181115	27.6	34.9	6.59	101.4	8.15	1.75	1.87	1.88	1.83	0.039					0	1	0	
+yes	yes	yes	no	no	23	North Kihei	NMS	FB	SS	BC	NMP	NMP181115		Mai Poina Oe Iau	2018-11-15	9:50	1	1	1	1	1					NMP181115	27.4	34.5	6.53	100.0	8.16	1.64	1.35	1.25	1.41	0.143					0	3	0	
+yes	yes	yes	no	no	24	North Kihei	NMS	BC	GB		NHP	NHP181206		Haycraft Park	2018-12-06	8:20	2	2	2	2	2					NHP181206	24.6	34.7	6.72	98.1	8.13	8.44	8.81	8.41	8.55	0.026					0	0	0	new volunteer Bob Sousa was training
+yes	yes	yes	no	no	24	North Kihei	NMS	BC	GB		NKP	NKP181206		Kealia Pond	2018-12-06	8:45	2	2	2	2	2					NKP181206	24.9	35.5	6.80	101.1	8.2	0.34	0.55	0.45	0.45	0.235				N	0	0	0	new volunteer Bob Sousa was training
+yes	yes	yes	no	no	24	North Kihei	NMS	BC	GB		NSB	NSB181206		Sugar Beach	2018-12-06	9:10	2	2	2	2	2					NSB181206	25.0	35.1	6.84	100.8	8.18	1.34	1.49	1.45	1.43	0.054					0	0	0	new volunteer Bob Sousa was training
+yes	yes	yes	no	no	24	North Kihei	NMS	BC	GB		NKC	NKC181206		Kihei Canoe Club	2018-12-06	9:28	2	2	2	2	2					NKC181206	25.5	34.4	6.77	100.3	8.15	1.63	1.74	1.74	1.70	0.037					0	0	0	new volunteer Bob Sousa was training
+yes	yes	yes	no	no	24	North Kihei	NMS	BC	GB		NMP	NMP181206		Mai Poina Oe Iau	2018-12-06	9:45	2	2	2	2	2					NMP181206	25.6	33.4	6.57	97.0	8.14	2.20	2.67	2.68	2.52	0.109					0	0	0	new volunteer Bob Sousa was training
+yes	yes	yes	no	no	25	North Kihei	NMS	KT	SS	MB	NHP	NHP181220		Haycraft Park	2018-12-20	8:25	1	1	1	1	1					NHP181220	23.7	33.9	6.63	94.4	8.1	4.33	4.9	4.55	4.59	0.063					2	10	0	
+yes	yes	yes	no	no	25	North Kihei	NMS	KT	SS	MB	NKP	NKP181220		Kealia Pond	2018-12-20	8:55	1	1	1	1	1					NKP181220	24.1	35.5	6.86	99.4	8.17	0.71	0.7	0.77	0.73	0.052				N	0	0	0	
+yes	yes	yes	no	no	25	North Kihei	NMS	KT	SS	MB	NSB	NSB181220		Sugar Beach	2018-12-20	9:15	1	1	1	1	1					NSB181220	24.0	35.0	6.94	100.1	8.15	2.34	2.54	2.61	2.50	0.056					0	3	0	
+yes	yes	yes	no	no	25	North Kihei	NMS	KT	SS	MB	NKC	NKC181220		Kihei Canoe Club	2018-12-20	9:30	1	1	1	1	1					NKC181220	24.4	34.9	6.90	100.0	8.15	1.71	1.71	1.76	1.73	0.017					0	0	0	
+yes	yes	yes	no	no	25	North Kihei	NMS	KT	SS	MB	NMP	NMP181220		Mai Poina Oe Iau	2018-12-20	9:47	1	1	1	1	1					NMP181220	24.7	32.5	6.85	98.7	8.12	1.38	1.69	1.69	1.59	0.113					0	3	0	
+yes	yes	yes	no	no	26	North Kihei	NMS	BC	KT	FB	NHP	NHP190117		Haycraft Park	2019-01-17		1	3	5	1	3					NHP190117																		Stopped at Haycarft Park and water was too rough. Stopped at each other site and found it too rough
+yes	yes	yes	no	no	26	North Kihei	NMS	BC	KT	FB	NKP	NKP190117		Kealia Pond	2019-01-17		1	3	5	1	3					NKP190117																		Canoes did not even go out today.  No sampling due to high surf
+yes	yes	yes	no	no	26	North Kihei	NMS	BC	KT	FB	NSB	NSB190117		Sugar Beach	2019-01-17		1	3	5	1	3					NSB190117																		No sampling due to high surf
+yes	yes	yes	no	no	26	North Kihei	NMS	BC	KT	FB	NKC	NKC190117		Kihei Canoe Club	2019-01-17		1	3	5	1	3					NKC190117									#REF!									No sampling due to high surf
+yes	yes	yes	no	no	26	North Kihei	NMS	BC	KT	FB	NMP	NMP190117		Mai Poina Oe Iau	2019-01-17		1	3	5	1	3					NMP190117									#REF!									No sampling due to high surf
+yes	yes	yes	no	no	27	North Kihei	NMS	MB	KT	RR	NHP	NHP190207		Haycraft Park	2019-02-07	8:16	1	1	1	1	1					NHP190207	23.4	34.5	6.91	99.0	8.08	7.46	9.12	7.57	8.05	0.115					0	3	1	
+yes	yes	yes	no	no	27	North Kihei	NMS	MB	KT	RR	NKP	NKP190207		Kealia Pond	2019-02-07	8:50	1	1	1	1	1					NKP190207	23.6	30.1	7.16	100.3	8.16	16.90	19.6	20.00	18.83	0.090					0	2	0	
+yes	yes	yes	no	no	27	North Kihei	NMS	MB	KT	RR	NSB	NSB190207		Sugar Beach	2019-02-07	9:09	1	1	1	1	1					NSB190207	23.9	35.6	6.89	100.2	8.15	3.31	3.86	4.26	3.81	0.125					0	2	0	
+yes	yes	yes	no	no	27	North Kihei	NMS	MB	KT	RR	NKC	NKC190207		Kihei Canoe Club	2019-02-07	9:29	1	1	1	1	1					NKC190207	24.3	35.0	6.86	100.1	8.12	13.60	14.2	9.88	12.56	0.186					0	3	0	took a 4th reading on Turbidity 
+yes	yes	yes	no	no	27	North Kihei	NMS	MB	KT	RR	NMP	NMP190207		Mai Poina Oe Iau	2019-02-07	9:50	1	1	1	1	1					NMP190207	24.3	34.6	6.86	99.9	8.13	4.09	5.71	6.04	5.28	0.198					0	2	0	
+yes	yes	yes	no	no	28	North Kihei	NMS	MB		RR	NHP	NHP190228		Haycraft Park	2019-02-28	8:10	2	2	2	2	2					NHP190228	22.0	33.3	6.43	88.9	8.06	2.23	2.13	1.75	2.04	0.124					0	6	1	saw drops on outside of vial, blotted off, took 3 new readings
+yes	yes	yes	no	no	28	North Kihei	NMS	MB		RR	NKP	NKP190228		Kealia Pond	2019-02-28	8:40	2	2	2	2	2					NKP190228	22.7	35.0	7.05	99.3	8.2	0.47	0.49	0.48	0.48	0.021					0	1	0	
+yes	yes	yes	no	no	28	North Kihei	NMS	MB		RR	NSB	NSB190228		Sugar Beach	2019-02-28	9:00	2	2	2	2	2					NSB190228	22.6	34.7	6.98	98.1	8.19	1.85	2.16	1.75	1.92	0.111					0	9	0	
+yes	yes	yes	no	no	28	North Kihei	NMS	MB		RR	NKC	NKC190228		Kihei Canoe Club	2019-02-28	9:20	2	2	2	2	2					NKC190228	23.3	34.1	6.85	97.5	8.16	3.61	4.49	6.59	4.90	0.313					0	35	0	
+yes	yes	yes	no	no	28	North Kihei	NMS	MB		RR	NMP	NMP190228		Mai Poina Oe Iau	2019-02-28	9:40	2	2	2	2	2					NMP190228	23.6	33.1	6.83	97.3	8.15	3.25	2.23	2.46	2.65	0.202					0	5	0	
+yes	yes	yes	no	no	29	North Kihei	NMS	KT	FB	RR	NHP	NHP190321		Haycraft Park	2019-03-21	8:15	1	1	1	1	1					NHP190321	23.6	33.8	6.70	95.8	8.11	2.97	3.52	3.44	3.31	0.090					0	4	7	
+yes	yes	yes	no	no	29	North Kihei	NMS	KT	FB	RR	NKP	NKP190321		Kealia Pond	2019-03-21	8:45	1	1	1	1	1					NKP190321	23.7	35.2	6.99	100.9	8.19	0.83	0.88	0.78	0.83	0.060					1	2	0	
+yes	yes	yes	no	no	29	North Kihei	NMS	KT	FB	RR	NSB	NSB190321		Sugar Beach	2019-03-21	9:00	1	1	1	1	1					NSB190321	23.6	34.8	6.90	99.1	8.16	1.49	1.5	1.87	1.62	0.134					1	12	0	
+yes	yes	yes	no	no	29	North Kihei	NMS	KT	FB	RR	NKC	NKC190321		Kihei Canoe Club	2019-03-21	9:20	1	1	1	1	1					NKC190321	24.6	33.5	6.88	99.9	8.08	5.08	5.97	5.09	5.38	0.095					0	15	0	
+yes	yes	yes	no	no	29	North Kihei	NMS	KT	FB	RR	NMP	NMP190321		Mai Poina Oe Iau	2019-03-21	9:35	1	1	1	1	1					NMP190321	24.3	32.5	6.75	97.1	8.09	4.03	3.67	3.27	3.66	0.104					5	9	0	
+yes	yes	yes	no	no	30	North Kihei	NMS	MB	FB		NHP	NHP190411		Haycraft Park	2019-04-11	8:30	2	2	2	2	2					NHP190411	24.4	34.2	6.83	99.2	8.12	2.82	2.72	3.23	2.92	0.092					0	3	0	
+yes	yes	yes	no	no	30	North Kihei	NMS	MB	FB		NKP	NKP190411		Kealia Pond	2019-04-11	8:52	2	2	2	2	2					NKP190411	24.8	35.4	6.91	101.4	8.18	1.06	0.95	1.05	1.02	0.060					0	4	0	
+yes	yes	yes	no	no	30	North Kihei	NMS	MB	FB		NSB	NSB190411		Sugar Beach	2019-04-11	9:18	2	2	2	2	2					NSB190411	25.2	34.9	6.88	101.5	8.15	2.52	3.69	3.93	3.38	0.223					0	7	0	
+yes	yes	yes	no	no	30	North Kihei	NMS	MB	FB		NKC	NKC190411		Kihei Canoe Club	2019-04-11	9:40	2	2	2	2	2					NKC190411	26.1	34.4	6.76	101.2	8.12	1.20	1.32	1.62	1.38	0.157					1	9	0	
+yes	yes	yes	no	no	30	North Kihei	NMS	MB	FB		NMP	NMP190411		Mai Poina Oe Iau	2019-04-11	9:55	2	2	2	2	2					NMP190411	25.9	32.8	6.81	100.8	8.11	2.60	2.52	2.48	2.53	0.024					0	8	0	
+yes	yes	yes	no	no	31	North Kihei	NMS	DR	FB	MR, JS	NHP	NHP190502		Haycraft Park	2019-05-02	8:20	1	1	1	1	1					NHP190502	24.9	34.4	6.96	102.0	8.09	2.54	3.38	4.17	3.36	0.242					0	3	0	NHP - 4th turbidity reading 5.87 NTU
+yes	yes	yes	no	no	31	North Kihei	NMS	DR	FB	MR, JS	NKP	NKP190502		Kealia Pond	2019-05-02	8:52	1	1	1	1	1					NKP190502	25.0	35.1	6.78	100.0	8.15	0.89	0.91	1.03	0.94	0.080					0	3	0	NKC - 4th turbidity reading 14.2 NTU - The sample cell cap was leaking into the machine. We dried it and redid the test and it came out 7.78 NTU. The 5th and 6th readings were 12.6 and 12.9 NTU.
+yes	yes	yes	no	no	31	North Kihei	NMS	DR	FB	MR, JS	NSB	NSB190502		Sugar Beach	2019-05-02	9:20	1	1	1	1	1					NSB190502	25.6	34.6	6.75	100.5	8.12	5.18	5.07	5.10	5.12	0.011					2	3	0	NKC - there is an unidentified leak (300 gal/hr) at the canoe club according to a club member on the beach.
+yes	yes	yes	no	no	31	North Kihei	NMS	DR	FB	MR, JS	NKC	NKC190502		Kihei Canoe Club	2019-05-02	9:40	1	1	1	1	1					NKC190502	25.9	34.0	6.73	100.3	8.09	7.79	12.8	12.50	11.03	0.255					0	1	0	First time out as trained for new volunteers Deborah and Michael.
+yes	yes	yes	no	no	31	North Kihei	NMS	DR	FB	MR, JS	NMP	NMP190502		Mai Poina Oe Iau	2019-05-02	10:01	1	1	1	1	1					NMP190502	25.6	32.2	6.59	96.9	8.07	5.54	6.05	6.42	6.00	0.074					0	0	0	James Strickland also went out with team.
+yes	yes	yes	no	no	32	North Kihei	NMS	DR	MR	KT	NHP	NHP190523		Haycraft Park	2019-05-23	8:20	2	1	1	1	1					NHP190523	26.9	34.6	6.71	102.0	8.14	4.90	5.07	5.34	5.10	0.043					4	8	1	
+yes	yes	yes	no	no	32	North Kihei	NMS	DR	MR	KT	NKP	NKP190523		Kealia Pond	2019-05-23	8:50	2	1	1	1	1					NKP190523	27.2	35.0	6.58	100.7	8.15	1.81	1.83	1.57	1.74	0.083					1	4	0	2 dogs
+yes	yes	yes	no	no	32	North Kihei	NMS	DR	MR	KT	NSB	NSB190523		Sugar Beach	2019-05-23	9:15	2	1	1	1	1					NSB190523	27.4	34.5	6.62	101.4	8.12	4.95	5.23	4.91	5.03	0.035					3	3	0	NKC - there was a water leak for 2 weeks that has been fixed b=now at the Kihei Canoe Club
+yes	yes	yes	no	no	32	North Kihei	NMS	DR	MR	KT	NKC	NKC190523		Kihei Canoe Club	2019-05-23	9:40	2	1	1	1	1					NKC190523	28.1	34.4	6.58	102.2	8.11	6.39	7.91	7.49	7.26	0.108					0	10	0	
+yes	yes	yes	no	no	32	North Kihei	NMS	DR	MR	KT	NMP	NMP190523		Mai Poina Oe Iau	2019-05-23	9:58	2	1	1	1	1					NMP190523	27.7	34.1	6.68	103.0	8.15	1.67	2.17	2.19	2.01	0.147					0	8	0	
+yes	yes	yes	no	no	33	North Kihei	NMS	TS	KT	RR	NHP	NHP190613		Haycraft Park	2019-06-13	8:15	1	1	1	1	1					NHP190613	26.2	33.9	6.71	100.2	8.09	4.18	4.44	4.04	4.22	0.048					0	3	0	low tide; we didnt hold the probes up so we did it again (referring to temp, salinity, & DO)
+yes	yes	yes	no	no	33	North Kihei	NMS	TS	KT	RR	NKP	NKP190613		Kealia Pond	2019-06-13	8:45	1	1	1	1	1					NKP190613	26.6	35.1	6.56	99.3	8.17	1.08	1.12	1.01	1.07	0.052					0	0	0	we did salinity 2x, both 35.1 (above normal range)
+yes	yes	yes	no	no	33	North Kihei	NMS	TS	KT	RR	NSB	NSB190613		Sugar Beach	2019-06-13	9:06	1	1	1	1	1					NSB190613	26.8	34.9	6.16	100.7	8.13	2.12	2.37	2.36	2.28	0.062					0	8	0	dog present
+yes	yes	yes	no	no	33	North Kihei	NMS	TS	KT	RR	NKC	NKC190613		Kihei Canoe Club	2019-06-13	9:25	1	1	1	1	1					NKC190613	27.0	34.2	6.53	99.5	8.12	2.73	2.85	3.18	2.92	0.080					3	5	0	~50 kids by canoe club building, not near water yet; turbidity checked 3.18 2x and same 
+yes	yes	yes	no	no	33	North Kihei	NMS	TS	KT	RR	NMP	NMP190613		Mai Poina Oe Iau	2019-06-13	9:40	1	1	1	1	1					NMP190613	27.5	32.1	6.40	97.0	8.02	4.83	4.8	4.98	4.87	0.020					3	3	0	1 dog; could smell the sunblock 
+yes	yes	yes	no	no	34	North Kihei	NMS	MB	JS		NHP	NHP190703		Haycraft Park	2019-07-03	8:39	WM2	1	1	1	1					NHP190703	27.6	34.4	6.55	100.7		5.20	6.22	6.20	5.87	0.099					1	4	15	
+yes	yes	yes	no	no	34	North Kihei	NMS	MB	JS		NKP	NKP190703		Kealia Pond	2019-07-03	9:19	WM2	1	1	1	1					NKP190703	27.8	35.1	6.45	100.0		2.19	2.53	2.57	2.43	0.086					0	4	0	Big south swell all sites
+yes	yes	yes	no	no	34	North Kihei	NMS	MB	JS		NSB	NSB190703		Sugar Beach	2019-07-03	9:46	WM2	1	1	1	1					NSB190703	28.3	34.9	6.43	100.6		2.24	3.12	3.63	3.00	0.235					0	5	0	
+yes	yes	yes	no	no	34	North Kihei	NMS	MB	JS		NKC	NKC190703		Kihei Canoe Club	2019-07-03	10:08	WM2	1	1	1	1					NKC190703	28.4	34.3	6.48	101.1		11.20	11.3	11.00	11.17	0.014					0	4	0	
+yes	yes	yes	no	no	34	North Kihei	NMS	MB	JS		NMP	NMP190703		Mai Poina Oe Iau	2019-07-03	10:29	WM2	1	1	1	1					NMP190703	29.0	34.2	6.38	100.4		1.56	2.58	2.44	2.19	0.252					0	1	0	
+yes	yes	yes	no	no	35	North Kihei	NMS	RC	MC	RR	NHP	NHP190725		Haycraft Park	2019-07-25	8:30	2	2	2	2	2					NHP190725	27.5	34.9	6.66	102.4	8.14	5.65	7.19	6.42	6.42	0.120					0	1	0	1 dog
+yes	yes	yes	no	no	35	North Kihei	NMS	RC	MC	RR	NKP	NKP190725		Kealia Pond	2019-07-25	8:50	2	2	2	2	2					NKP190725	27.4	35.3	6.63	102.1	8.19	0.67	0.76	0.86	0.76	0.125					0	4	0	2 dogs; did salinity 2x because 1st reading was above the normal range - 2nd reading was 35.3
+yes	yes	yes	no	no	35	North Kihei	NMS	RC	MC	RR	NSB	NSB190725		Sugar Beach	2019-07-25	9:20	2	2	2	2	2					NSB190725	28.0	35.1	6.54	103.2	8.18	2.42	2.08	2.18	2.23	0.078					4	5	0	
+yes	yes	yes	no	no	35	North Kihei	NMS	RC	MC	RR	NKC	NKC190725		Kihei Canoe Club	2019-07-25	9:40	2	2	2	2	2					NKC190725	28.5	35.0	6.65	104.3	8.17	4.03	5.86	6.79	5.56	0.253					2	10	0	1 dog; Turbidity had abnormal readings (2nd reading = 7.33, 3rd = 3.60, 4th = 5.60)- believe it was due to heavy wind and leaning on the car. Normally we do not read it this much, but the jump from 4.03 to 7.33 to 3.60 was so great we werent sure what was happenning until we noticed the car moving. 
+yes	yes	yes	no	no	35	North Kihei	NMS	RC	MC	RR	NMP	NMP190725		Mai Poina Oe Iau	2019-07-25	10:06	2	2	2	2	2					NMP190725	28.5	33.1	6.62	102.8	8.12	7.41	7.9	7.81	7.71	0.034					2	0	0	Did salinity and DO 2x because probes were resting on the bottom of the bucket during 1st reading. 
+yes	yes	yes	no	no	36	North Kihei	NMS	RR	MC	RC	NMH	NMH190815		Maalaea Harbor	2019-08-15	8:10	2	2	2	2	2					NMH190815	27.4	34.9	6.25	96.1	8.11	1.51	1.67	2.04	1.74	0.156					0	0	0	
+yes	yes	yes	no	no	36	North Kihei	NMS	RR	MC	RC	NMC	NMC190815		Maalaea Condos	2019-08-15	8:40	2	2	2	2	2					NMC190815	28.1	33.6	7.59	116.9	8.18	0.79	1.15	0.78	0.91	0.232					0	0	0	water running over rocks-possibly explain high O2 level
+yes	yes	yes	no	no	36	North Kihei	NMS	RR	MC	RC	NHP	NHP190815		Haycraft Park	2019-08-15	9:00	2	2	2	2	2					NHP190815	28.3	34.4	6.73	104.6	8.13	3.62	3.69	3.83	3.71	0.029					8	10	0	
+yes	yes	yes	no	no	36	North Kihei	NMS	RR	MC	RC	NKP	NKP190815		Kealia Pond	2019-08-15	9:25	2	2	2	2	2					NKP190815	28.4	35.3	6.58	103.1	8.13	1.55	1.81	1.70	1.69	0.077					0	1	0	
+yes	yes	yes	no	no	36	North Kihei	NMS	RR	MC	RC	NSB	NSB190815		Sugar Beach	2019-08-15	9:43	2	2	2	2	2					NSB190815	28.7	35.0	6.66	104.6	8.14	2.74	2.69	3.08	2.84	0.075					3	5	0	
+yes	yes	yes	no	no	36	North Kihei	NMS	RR	MC	RC	NKC	NKC190815		Kihei Canoe Club	2019-08-15	9:55	2	2	2	2	2					NKC190815	29.0	34.6	6.57	103.7	8.11	5.24	5.32	7.32	5.96	0.198					0	2	0	4th turbidity reading for NTU was 7.36 - we dried everything several times
+yes	yes	yes	no	no	37	North Kihei	NMS	RR	FL		NMH	NMH190905		Maalaea Harbor	2019-09-05	7:42	1	1	3	1	1					NMH190905	27.5	34.5	6.32	92.5	8.12	2.68	2.45	2.47	2.53	0.050					0	0	0	windy, ocean water splashing over the wall
+yes	yes	yes	no	no	37	North Kihei	NMS	RR	FL		NMC	NMC190905		Maalaea Condos	2019-09-05	8:09	1	1	3	1	1					NMC190905	27.6	34.3	6.55	100.5	8.08	2.29	2.49	2.47	2.42	0.046					0	0	0	
+yes	yes	yes	no	no	37	North Kihei	NMS	RR	FL		NHP	NHP190905		Haycraft Park	2019-09-05	8:25	1	1	3	1	1					NHP190905	27.9	35.0	6.50	100.7	8.15	3.24	3.72	3.73	3.56	0.079					4	2	0	
+yes	yes	yes	no	no	37	North Kihei	NMS	RR	FL		NKP	NKP190905		Kealia Pond	2019-09-05	8:55	1	1	3	1	1					NKP190905	28.1	35.3	6.46	100.6	8.18	2.38	3.2	2.89	2.82	0.147					2	1	0	
+yes	yes	yes	no	no	37	North Kihei	NMS	RR	FL		NSB	NSB190905		Sugar Beach	2019-09-05	9:15	1	1	3	1	1					NSB190905	28.7	35.2	6.39	100.5	8.14	2.58	2.64	2.72	2.65	0.027					7	4	0	
+yes	yes	yes	no	no	37	North Kihei	NMS	RR	FL		NKC	NKC190905		Kihei Canoe Club	2019-09-05	9:30	1	1	3	1	1					NKC190905	29.0	35.1	6.36	100.4	8.17	1.66	1.79	1.57	1.67	0.066					0	5	0	2 vans of homeless parking
+yes	yes	yes	no	no	38	North Kihei	NMS	RR	FL	KT	NMH	NMH190926		Maalaea Harbor	2019-09-26	7:20	2	2	4	2	2					NMH190926	28.1	34.8	6.03	93.7	8.14	3.10	2.98	2.96	3.01	0.025					0	0	0	Difficult to collect water with Entero bag in bucket without bringing the bag up and out of the water- was able to get water but only a little bit. 
+yes	yes	yes	no	no	38	North Kihei	NMS	RR	FL	KT	NMC	NMC190926		Maalaea Condos	2019-09-26	7:55	2	2	4	2	2					NMC190926	28.0	33.8	6.80	104.8	8.14	1.21	1.35	1.31	1.29	0.056					0	0	0	
+yes	yes	yes	no	no	38	North Kihei	NMS	RR	FL	KT	NHP	NHP190926		Haycraft Park	2019-09-26	8:15	2	2	4	2	2					NHP190926	28.0	34.6	6.60	102.4	8.13	3.98	4.22	3.98	4.06	0.034					2	3	1	Big shore break
+yes	yes	yes	no	no	38	North Kihei	NMS	RR	FL	KT	NKP	NKP190926		Kealia Pond	2019-09-26	8:40	2	2	4	2	2					NKP190926	28.2	35.2	6.58	102.7	8.15	2.43	2.68	3.01	2.71	0.107					0	4	0	
+yes	yes	yes	no	no	38	North Kihei	NMS	RR	FL	KT	NSB	NSB190926		Sugar Beach	2019-09-26	9:00	2	2	4	2	2					NSB190926	28.5	35.2	6.44	101.1	8.15	2.22	1.69	1.83	1.91	0.144					5	8	0	
+yes	yes	yes	no	no	38	North Kihei	NMS	RR	FL	KT	NKC	NKC190926		Kihei Canoe Club	2019-09-26	9:20	2	2	4	2	2					NKC190926	28.9	34.9	6.52	103.0	8.13	3.27	4.27	3.94	3.83	0.133					1	5	0	Pygmy false killer whales in water, close to shore
+yes	yes	yes	no	no	39	North Kihei	NMS	RR	FL	KT	NMH	NMH191017		Maalaea Harbor	2019-10-17	7:15	1	1	3	1	1					NMH191017	26.6	34.6	5.85	88.3	8.11	1.08	1.04	1.13	1.08	0.042					0	3	0	Very rocky and slippery! COuld we take samples from the sliff shore with the bucket?
+yes	yes	yes	no	no	39	North Kihei	NMS	RR	FL	KT	NMC	NMC191017		Maalaea Condos	2019-10-17	7:45	1	1	3	1	1					NMC191017	26.9	34.4	6.32	95.7	8.05	3.34	3.35	3.66	3.45	0.053					0	2	0	We need more distilled water.The base of the pusher needs glue. 
+yes	yes	yes	no	no	39	North Kihei	NMS	RR	FL	KT	NHP	NHP191017		Haycraft Park	2019-10-17	8:00	1	1	3	1	1					NHP191017	27.2	34.6	6.09	92.9	8.12	1.70	1.74	1.64	1.69	0.030					3	2	0	
+yes	yes	yes	no	no	39	North Kihei	NMS	RR	FL	KT	NKP	NKP191017		Kealia Pond	2019-10-17	8:30	1	1	3	1	1					NKP191017	27.5	35.1	6.49	99.8	8.16	0.74	0.6	0.64	0.66	0.109					0	1	0	
+yes	yes	yes	no	no	39	North Kihei	NMS	RR	FL	KT	NSB	NSB191017		Sugar Beach	2019-10-17	8:50	1	1	3	1	1					NSB191017	27.9	35.0	6.42	99.2	8.17	1.75	1.86	1.93	1.85	0.049					8	2	0	
+yes	yes	yes	no	no	39	North Kihei	NMS	RR	FL	KT	NKC	NKC191017		Kihei Canoe Club	2019-10-17	9:10	1	1	3	1	1					NKC191017	29.3	34.3	6.27	98.6	8.17	1.17	1.7	1.47	1.45	0.184					0	12	0	Has two car campers. 
