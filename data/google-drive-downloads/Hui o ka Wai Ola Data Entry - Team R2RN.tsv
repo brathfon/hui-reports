@@ -1,36 +1,36 @@
 Copied to main database by Kim/Bill 	Checked by Dana	yes/no	yes/no	yes/no	#	R2RS, R2RN, Polanui, Olowalu	LLHS	initials	initials	initials	RCB	RCB031717	2062	Canoe Beach	03/17/17	12:00											deg C	ppt	mg/L	%								0, 1, 2, 3, 4	0-8	0-5	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	
 		Nut_Sample	Nut_Dup	Sed_Sample	Session	Team	Lab	Sampler	Sampler2	Sampler3	Station	SampleID	Location	SiteName	Date	Time	40D#	2100Q#	pHInst#	DOInst#	SalInst#	Moon	Cloud_1_8	Rain_1_4	Wind_dir	SampleID2	Temp	Salinity	DO	DO%	pH	Turb1	Turb2	Turb3	Average Turbidity	CV Turbidity		Waves	Wind	Stream	Swimmers	On Beach	Campers	Comments
 			Example:		26	R2RS	LLHS	CM	TF	MS	RCB	RCB170821	2020	Canoe Beach	2017-08-21	9:22:00	1	1	4	2	3	1	7	2		RCB170821	27.0	33.1	6.92	104.4	8.18	5.78	5.86	6.03	Calculated	Calculated		1	0		1	20		
-yes	yes	yes	no	no	23	R2RN	LLHS				RHL	RHL170623	2001	Honolua Bay	2017-06-23	7:25										RHL170623	25.5	33.3	5.8	85.6	8.08	0.93	0.93	0.93										
-yes	yes	yes	no	no	23	R2RN	LLHS				RMO	RMO170623	2002	Mokuleia	2017-06-23	8:05										RMO170623	26	32.3	6.56	97.2	8.18	2.18	2.18	2.18										
-yes	yes	yes	no	no	23	R2RN	LLHS				RFN	RFN170623	2003	Fleming North	2017-06-23	8:40										RFN170623	26.4	33.8	6.44	96.8	8.13	1.4	1.4	1.4										
-yes	yes	yes	no	no	23	R2RN	LLHS				RON	RON170623	2004	Oneloa Bay	2017-06-23	9:14										RON170623	26.7	34.2	6.72	102	8.2	0.43	0.43	0.43										
-yes	yes	yes	no	no	23	R2RN	LLHS				RFS	RFS170623	2005	Kapalua Bay	2017-06-23	9:50										RFS170623	26.3	31.7	6.5	96.4	8.08	1.22	1.22	1.22										
-yes	yes	yes	no	no	23	R2RN	LLHS				RKO	RKO170623	2008	Ka'opala Bay	2017-06-23	10:20										RKO170623	26.7	33.1	6.59	99.2	8.1	8.26	8.26	8.26										
-yes	yes	yes	no	no	24	R2RN	LLHS				RHL	RHL170714	2001	Honolua Bay	2017-07-14	8:00										RHL170714	26.4	33.8	6.4	96.2	8.13	0.63	0.63	0.63										
-yes	yes	yes	no	no	24	R2RN	LLHS				RFN	RFN170714	2003	Fleming North	2017-07-14	8:41										RFN170714	26.5	34.3	6.74	101.3	8.15	1.54	1.54	1.54										
-yes	yes	yes	no	no	24	R2RN	LLHS				RON	RON170714	2004	Oneloa Bay	2017-07-14	9:10										RON170714	26.4	34.6	6.73	101.5	8.16	0.89	0.89	0.89										
-yes	yes	yes	no	no	24	R2RN	LLHS				RFS	RFS170714	2005	Kapalua Bay	2017-07-14	9:32										RFS170714	27.4	31.4	6.51	97.9	8.08	0.6	0.6	0.6										
-yes	yes	yes	no	no	24	R2RN	LLHS				RKO	RKO170714	2008	Ka'opala Bay	2017-07-14	9:59										RKO170714	27.3	34.3	5.85	89.4	8.09	1.7	1.7	1.7										
-yes	yes	yes	no	no	24	R2RN	LLHS				RKV	RKV170714	2074	Kahana Village	2017-07-14	10:25										RKV170714	27.7	33.9	5.31	81.3	8.05	1.83	1.83	1.83										
-yes	yes	yes	no	no	25	R2RN	LLHS				RHL	RHL170804	2001	Honolua Bay	2017-08-04	8:05										RHL170804	26.7	33.5	5.68	85.2	8.09	1.25	1.25	1.25										
-yes	yes	yes	no	no	25	R2RN	LLHS				RFN	RFN170804	2003	Fleming North	2017-08-04	8:49										RFN170804	27.3	34.3	6.7	102	8.17	2.89	2.89	2.89										
-yes	yes	yes	no	no	25	R2RN	LLHS				RON	RON170804	2004	Oneloa Bay	2017-08-04	9:22										RON170804	27.2	34.4	6.75	102.7	8.16	0.66	0.66	0.66										
-yes	yes	yes	no	no	25	R2RN	LLHS				RFS	RFS170804	2005	Kapalua Bay	2017-08-04	9:50										RFS170804	27.8	33.4	6.49	99.1	8.09	1.03	1.03	1.03										
-yes	yes	yes	no	no	25	R2RN	LLHS				RKO	RKO170804	2008	Ka'opala Bay	2017-08-04	10:25										RKO170804	27.7	34	6.33	96.8	8.12	4.6	4.6	4.6										
-yes	yes	yes	no	no	25	R2RN	LLHS				RKV	RKV170804	2074	Kahana Village	2017-08-04	10:48										RKV170804	28.2	34.1	7.08	109.3	8.15	7.57	7.57	7.57										
-yes	yes	yes	no	no	26	R2RN	LLHS				RHL	RHL170825	2001	Honolua Bay	2017-08-25	7:53										RHL170825	25.6	34.6	6.31	93.9	8.12	1.29	1.29	1.29										
-yes	yes	yes	no	no	26	R2RN	LLHS				RFN	RFN170825	2003	Fleming North	2017-08-25	8:34										RFN170825	26.3	34.9	6.6	99.5	8.12	1.18	1.18	1.18										
-yes	yes	yes	no	no	26	R2RN	LLHS				RON	RON170825	2004	Oneloa Bay	2017-08-25	9:15										RON170825	26.5	35.2	6.72	102.1	8.17	1.26	1.26	1.26										
-yes	yes	yes	no	no	26	R2RN	LLHS				RFS	RFS170825	2005	Kapalua Bay	2017-08-25	9:38										RFS170825	27	33.6	6.56	99.4	8.09	1.28	1.28	1.28										
-yes	yes	yes	no	no	26	R2RN	LLHS				RKO	RKO170825	2008	Ka'opala Bay	2017-08-25	10:10										RKO170825	26.9	34.9	6.09	92.8	8.09	3.29	3.29	3.29										
-yes	yes	yes	no	no	26	R2RN	LLHS				RKV	RKV170825	2074	Kahana Village	2017-08-25	10:30										RKV170825	26.8	34.5	6.29	95.4	8.07	6.98	6.98	6.98										
-yes	yes	yes	no	no	27	R2RN	LLHS				RHL	RHL170915	2001	Honolua Bay	2017-09-15	8:00										RHL170915	26.9	34.1	5.5	83.4	8.07	6.46	6.46	6.46										
-yes	yes	yes	no	no	27	R2RN	LLHS				RFN	RFN170915	2003	Fleming North	2017-09-15	8:45										RFN170915	27.5	34.7	6.61	101.4	8.16	0.96	0.96	0.96										
-yes	yes	yes	no	no	27	R2RN	LLHS				RON	RON170915	2004	Oneloa Bay	2017-09-15	9:20										RON170915	27.6	34.8	6.69	103	8.17	0.5	0.5	0.5										
-yes	yes	yes	no	no	27	R2RN	LLHS				RFS	RFS170915	2005	Kapalua Bay	2017-09-15	9:55										RFS170915	28.5	34.4	6.73	104.9	8.15	1.49	1.49	1.49										
-yes	yes	yes	no	no	27	R2RN	LLHS				RKO	RKO170915	2008	Ka'opala Bay	2017-09-15	10:27										RKO170915	28.4	34.5	6.66	103.6	8.14	6.68	6.68	6.68										
-yes	yes	yes	no	no	27	R2RN	LLHS				RKV	RKV170915	2074	Kahana Village	2017-09-15	10:57										RKV170915	28.3	34.4	6.97	108.3	8.13	10.18	10.18	10.18										
+yes	yes	yes	no	no	23	R2RN	LLHS				RHL	RHL170623	2001	Honolua Bay	2017-06-23	7:25										RHL170623	25.5	33.3	5.80	85.6	8.08	0.93	0.93	0.93	0.93	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RMO	RMO170623	2002	Mokuleia	2017-06-23	8:05										RMO170623	26.0	32.3	6.56	97.2	8.18	2.18	2.18	2.18	2.18	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RFN	RFN170623	2003	Fleming North	2017-06-23	8:40										RFN170623	26.4	33.8	6.44	96.8	8.13	1.40	1.40	1.40	1.40	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RON	RON170623	2004	Oneloa Bay	2017-06-23	9:14										RON170623	26.7	34.2	6.72	102.0	8.20	0.43	0.43	0.43	0.43	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RFS	RFS170623	2005	Kapalua Bay	2017-06-23	9:50										RFS170623	26.3	31.7	6.50	96.4	8.08	1.22	1.22	1.22	1.22	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RKO	RKO170623	2008	Ka'opala Bay	2017-06-23	10:20										RKO170623	26.7	33.1	6.59	99.2	8.10	8.26	8.26	8.26	8.26	0.000								
+yes	yes	yes	no	no	24	R2RN	LLHS				RHL	RHL170714	2001	Honolua Bay	2017-07-14	8:00										RHL170714	26.4	33.8	6.40	96.2	8.13	0.63	0.63	0.63	0.63	0.000								
+yes	yes	yes	no	no	24	R2RN	LLHS				RFN	RFN170714	2003	Fleming North	2017-07-14	8:41										RFN170714	26.5	34.3	6.74	101.3	8.15	1.54	1.54	1.54	1.54	0.000								
+yes	yes	yes	no	no	24	R2RN	LLHS				RON	RON170714	2004	Oneloa Bay	2017-07-14	9:10										RON170714	26.4	34.6	6.73	101.5	8.16	0.89	0.89	0.89	0.89	0.000								
+yes	yes	yes	no	no	24	R2RN	LLHS				RFS	RFS170714	2005	Kapalua Bay	2017-07-14	9:32										RFS170714	27.4	31.4	6.51	97.9	8.08	0.60	0.60	0.60	0.60	0.000								
+yes	yes	yes	no	no	24	R2RN	LLHS				RKO	RKO170714	2008	Ka'opala Bay	2017-07-14	9:59										RKO170714	27.3	34.3	5.85	89.4	8.09	1.70	1.70	1.70	1.70	0.000								
+yes	yes	yes	no	no	24	R2RN	LLHS				RKV	RKV170714	2074	Kahana Village	2017-07-14	10:25										RKV170714	27.7	33.9	5.31	81.3	8.05	1.83	1.83	1.83	1.83	0.000								
+yes	yes	yes	no	no	25	R2RN	LLHS				RHL	RHL170804	2001	Honolua Bay	2017-08-04	8:05										RHL170804	26.7	33.5	5.68	85.2	8.09	1.25	1.25	1.25	1.25	0.000								
+yes	yes	yes	no	no	25	R2RN	LLHS				RFN	RFN170804	2003	Fleming North	2017-08-04	8:49										RFN170804	27.3	34.3	6.70	102.0	8.17	2.89	2.89	2.89	2.89	0.000								
+yes	yes	yes	no	no	25	R2RN	LLHS				RON	RON170804	2004	Oneloa Bay	2017-08-04	9:22										RON170804	27.2	34.4	6.75	102.7	8.16	0.66	0.66	0.66	0.66	0.000								
+yes	yes	yes	no	no	25	R2RN	LLHS				RFS	RFS170804	2005	Kapalua Bay	2017-08-04	9:50										RFS170804	27.8	33.4	6.49	99.1	8.09	1.03	1.03	1.03	1.03	0.000								
+yes	yes	yes	no	no	25	R2RN	LLHS				RKO	RKO170804	2008	Ka'opala Bay	2017-08-04	10:25										RKO170804	27.7	34.0	6.33	96.8	8.12	4.60	4.60	4.60	4.60	0.000								
+yes	yes	yes	no	no	25	R2RN	LLHS				RKV	RKV170804	2074	Kahana Village	2017-08-04	10:48										RKV170804	28.2	34.1	7.08	109.3	8.15	7.57	7.57	7.57	7.57	0.000								
+yes	yes	yes	no	no	26	R2RN	LLHS				RHL	RHL170825	2001	Honolua Bay	2017-08-25	7:53										RHL170825	25.6	34.6	6.31	93.9	8.12	1.29	1.29	1.29	1.29	0.000								
+yes	yes	yes	no	no	26	R2RN	LLHS				RFN	RFN170825	2003	Fleming North	2017-08-25	8:34										RFN170825	26.3	34.9	6.60	99.5	8.12	1.18	1.18	1.18	1.18	0.000								
+yes	yes	yes	no	no	26	R2RN	LLHS				RON	RON170825	2004	Oneloa Bay	2017-08-25	9:15										RON170825	26.5	35.2	6.72	102.1	8.17	1.26	1.26	1.26	1.26	0.000								
+yes	yes	yes	no	no	26	R2RN	LLHS				RFS	RFS170825	2005	Kapalua Bay	2017-08-25	9:38										RFS170825	27.0	33.6	6.56	99.4	8.09	1.28	1.28	1.28	1.28	0.000								
+yes	yes	yes	no	no	26	R2RN	LLHS				RKO	RKO170825	2008	Ka'opala Bay	2017-08-25	10:10										RKO170825	26.9	34.9	6.09	92.8	8.09	3.29	3.29	3.29	3.29	0.000								
+yes	yes	yes	no	no	26	R2RN	LLHS				RKV	RKV170825	2074	Kahana Village	2017-08-25	10:30										RKV170825	26.8	34.5	6.29	95.4	8.07	6.98	6.98	6.98	6.98	0.000								
+yes	yes	yes	no	no	27	R2RN	LLHS				RHL	RHL170915	2001	Honolua Bay	2017-09-15	8:00										RHL170915	26.9	34.1	5.50	83.4	8.07	6.46	6.46	6.46	6.46	0.000								
+yes	yes	yes	no	no	27	R2RN	LLHS				RFN	RFN170915	2003	Fleming North	2017-09-15	8:45										RFN170915	27.5	34.7	6.61	101.4	8.16	0.96	0.96	0.96	0.96	0.000								
+yes	yes	yes	no	no	27	R2RN	LLHS				RON	RON170915	2004	Oneloa Bay	2017-09-15	9:20										RON170915	27.6	34.8	6.69	103.0	8.17	0.50	0.50	0.50	0.50	0.000								
+yes	yes	yes	no	no	27	R2RN	LLHS				RFS	RFS170915	2005	Kapalua Bay	2017-09-15	9:55										RFS170915	28.5	34.4	6.73	104.9	8.15	1.49	1.49	1.49	1.49	0.000								
+yes	yes	yes	no	no	27	R2RN	LLHS				RKO	RKO170915	2008	Ka'opala Bay	2017-09-15	10:27										RKO170915	28.4	34.5	6.66	103.6	8.14	6.68	6.68	6.68	6.68	0.000								
+yes	yes	yes	no	no	27	R2RN	LLHS				RKV	RKV170915	2074	Kahana Village	2017-09-15	10:57										RKV170915	28.3	34.4	6.97	108.3	8.13	10.18	10.18	10.18	10.18	0.000								
 yes	yes	yes	no	yes	28	R2RN	LLHS	BB	AS	LH	RHL	RHL171006	2001	Honolua Bay	2017-10-06	7:56	1	1	4	2	3	17	1	1	Trades	RHL171006	25.3	33.7	6.32	93.2	8.10	37.20	37.90	40.50	38.53	0.045		0	1	0	0	6	0	RHL no waves at collection site but waves breaking starting halfway to Lipoa Point, light rain the night before
 yes	yes	yes	no	no	28	R2RN	LLHS	BB	AS	LH	RFN	RFN171006	2003	Fleming North	2017-10-06	8:40	1	1	4	2	3	17	1	1	Trades	RFN171006	26.4	34.1	6.64	99.9	8.16	2.65	1.82	2.26	2.24	0.185		3	1	0	6	5	0	light rain the night before
 yes	yes	yes	no	no	28	R2RN	LLHS	BB	AS	LH	RON	RON171006	2004	Oneloa Bay	2017-10-06	9:15	1	1	4	2	3	17	1	1	Trades	RON171006	27.0	34.6	6.60	100.9	8.19	0.65	0.65	0.61	0.64	0.036		3	4	0	1	9	0	light rain the night before
@@ -214,7 +214,7 @@ yes	yes	yes	no	no	61	R2RN	LLHS	CH	LH	BB	RON	RON190830	2004	Oneloa Bay	2019-08-30
 yes	yes	yes	no	no	61	R2RN	LLHS	CH	LH	BB	RFS	RFS190830	2005	Kapalua Bay	2019-08-30	8:55	2	NBBF	6	2	2					RFS190830	27.8	32.3	6.16	93.7	8.08	1.69	1.99	1.14	1.61	0.268					13	15	0	
 yes	yes	yes	no	no	61	R2RN	LLHS	CH	LH	BB	RKO	RKO190830	2008	Ka'opala Bay	2019-08-30	9:20	2	NBBF	6	2	2					RKO190830	28.2	35.3	6.13	95.6	8.14	6.23	6.38	6.45	6.35	0.018				N	0	1	0	
 yes	yes	yes	no	no	61	R2RN	LLHS	CH	LH	BB	RKV	RKV190830	2074	Kahana Village	2019-08-30	9:45	2	    NBBF	6	2	2					RKV190830	28.2	35.4	5.74	89.3	8.16	11.50	9.72	11.10	10.77	0.087				N	0	0	0	RKV - Runoff at nearby Kahana Reef where sea wall repair work ongoing (red - flowing into ocean) - picture sent to Dana
-yes	yes	yes	no	no	62	R2RN	LLHS	LB	LH	CH	RHL	RHL190920	2001	Honolua Bay	2019-09-20	7:50	1	3	5	1	3					RHL190920	26.8	36.0	6.03	92.5	8.14	0.81	0.89	1	0.90	0.106					1	6	0	RHL - took second salinity reading - 35.9 ppt, Landscape crew in parking lot, mowing and blowing
+yes	yes	yes	no	no	62	R2RN	LLHS	LB	LH	CH	RHL	RHL190920	2001	Honolua Bay	2019-09-20	7:50	1	3	5	1	3					RHL190920	26.8	36.0	6.03	92.5	8.14	0.81	0.89	1.00	0.90	0.106					1	6	0	RHL - took second salinity reading - 35.9 ppt, Landscape crew in parking lot, mowing and blowing
 yes	yes	yes	no	no	62	R2RN	LLHS	LB	LH	CH	RON	RON190920	2004	Oneloa Bay	2019-09-20	8:30	1	3	5	1	3					RON190920	26.9	36.3	6.69	103.1	8.18	0.63	0.64	0.65	0.64	0.016					1	0	0	RON - took second salinity reading - 36.3 ppt, breezy, choppy
 yes	yes	yes	no	no	62	R2RN	LLHS	LB	LH	CH	RFS	RFS190920	2005	Kapalua Bay	2019-09-20	8:55	1	3	5	1	3					RFS190920	27.2	36.0	6.52	107.0	8.13	3.16	2.33	2.60	2.70	0.157					3	6	0	RFS - took second salinity reading - 36.0, breezy and choppy
 yes	yes	yes	no	no	62	R2RN	LLHS	LB	LH	CH	RKO	RKO190920	2008	Ka'opala Bay	2019-09-20	9:20	1	3	5	1	3					RKO190920	27.1	35.4	6.40	98.4	8.09	14.20	13.90	14.00	14.03	0.011					0	1	0	
@@ -224,3 +224,38 @@ yes	yes	yes	no	no	63	R2RN	LLHS	LB	LH	BB	RON	RON191011	2004	Oneloa Bay	2019-10-11
 yes	yes	yes	no	no	63	R2RN	LLHS	LB	LH	BB	RFS	RFS191011	2005	Kapalua Bay	2019-10-11	8:50	2	NBBF	6	2	2					RFS191011	28.4	34.3	6.23	96.6	8.07	2.23	2.50	2.19	2.31	0.073					6	17	0	
 yes	yes	yes	no	no	63	R2RN	LLHS	LB	LH	BB	RKO	RKO191011	2008	Ka'opala Bay	2019-10-11	9:15	2	NBBF	6	2	2					RKO191011	28.3	34.9	5.99	93.2	8.09	5.22	5.65	5.59	5.49	0.042				N	0	3	0	RKO - 4th turbidity reading 5.22
 yes	yes	yes	no	no	63	R2RN	LLHS	LB	LH	BB	RKV	RKV191011	2074	Kahana Village	2019-10-11	9:35	2	    NBBF	6	2	2					RKV191011	28.6	35.4	5.62	88.0	8.08	6.61	6.60	6.35	6.52	0.023					0	2	0	
+yes	yes	yes	no	no	64	R2RN	LLHS	LB	LH	CH	RHL	RHL191101	2001	Honolua Bay	2019-11-01	7:50	1	1	5	1	3					RHL191101	26.0	35.9	6.25	94.7	8.14	3.61	3.93	3.68	3.74	0.045				N	0	0	0	RHL - eel and fish at collection site
+yes	yes	yes	no	no	64	R2RN	LLHS	LB	LH	CH	RON	RON191101	2004	Oneloa Bay	2019-11-01	8:35	1	1	5	1	3					RON191101	27.0	36.0	6.71	103.6	8.15	1.03	0.99	1.10	1.04	0.054					1	1	0	
+yes	yes	yes	no	no	64	R2RN	LLHS	LB	LH	CH	RFS	RFS191101	2005	Kapalua Bay	2019-11-01	8:55	1	1	5	1	3					RFS191101	27.5	35.9	6.47	100.2	8.12	1.47	1.39	1.31	1.39	0.058					9	5	0	
+yes	yes	yes	no	no	64	R2RN	LLHS	LB	LH	CH	RKO	RKO191101	2008	Ka'opala Bay	2019-11-01	9:20	1	1	5	1	3					RKO191101	27.2	35.7	6.24	96.4	8.10	4.41	4.48	4.00	4.30	0.060				N	1	0	0	
+yes	yes	yes	no	no	64	R2RN	LLHS	LB	LH	CH	RKV	RKV191101	2074	Kahana Village	2019-11-01	9:45	1	1	5	1	3					RKV191101	27.5	35.7	6.48	100.5	8.11	10.50	10.70	10.80	10.67	0.014					0	10	0	RKV - Kahana Reef Seawall Construction
+yes	yes	yes	no	no	65	R2RN	LLHS	LB	LH	BB	RHL	RHL191122	2001	Honolua Bay	2019-11-22	7:50	2	NBBF	6	2	2					RHL191122	25.5	34.8	6.28	93.3	8.13	43.40	41.60	43.80	42.93	0.027				Y	0	3	0	Rain night before.  Outside surf break
+yes	yes	yes	no	no	65	R2RN	LLHS	LB	LH	BB	RON	RON191122	2004	Oneloa Bay	2019-11-22	8:25	2	NBBF	6	2	2					RON191122	23.6	36.2	6.50	98.6	8.19	1.35	1.21	1.23	1.26	0.060					0	3	0	Large surf, high winds.  Rain at end of sampling
+yes	yes	yes	no	no	65	R2RN	LLHS	LB	LH	BB	RFS	RFS191122	2005	Kapalua Bay	2019-11-22	8:45	2	NBBF	6	2	2					RFS191122	26.2	35.3	6.25	94.2	8.14	1.22	1.20	1.23	1.22	0.013					0	8	0	4th turbidity reading listed.  Discarded 1st reading 1.75 NTU.
+yes	yes	yes	no	no	65	R2RN	LLHS	LB	LH	BB	RKO	RKO191122	2008	Ka'opala Bay	2019-11-22	9:10	2	NBBF	6	2	2					RKO191122	26.0	35.3	6.44	96.7	8.13	6.40	7.85	7.27	7.17	0.102				N	0	0	0	4th Turbidity reading 6.16NTU
+yes	yes	yes	no	no	65	R2RN	LLHS	LB	LH	BB	RKV	RKV191122	2074	Kahana Village	2019-11-22	9:25	2	    NBBF	6	2	2					RKV191122	25.8	35.4	6.69	100.3	8.14	8.82	8.16	8.80	8.59	0.044					2	0	0	4th turbidity reading listed.  Discarded 1st reading 9.41 NTU.
+yes	yes	yes	no	no	66	R2RN	LLHS	CM	LH	CH	RHL	RHL191206	2001	Honolua Bay	2019-12-06	8:00	1	1	5	1	3					RHL191206	25.0	34.8	6.34	93.6	8.14	30.90	31.30	27.90	30.03	0.062				Y	0	0	0	RHL - raining, small amount of stream flow, not sure flowing into ocean - large wave at Keiki bowls but not close to shore
+yes	yes	yes	no	no	66	R2RN	LLHS	CM	LH	CH	RON	RON191206	2004	Oneloa Bay	2019-12-06	8:40	1	1	5	1	3					RON191206	25.9	35.9	6.80	102.7	8.19	0.98	1.09	1.01	1.03	0.055					0	2	0	RON - raining a little, heavier here, large waves on shore, waves peak at about 50 feet off shore about 5 feet, wrote turbidity in pH and crossed out (LH)
+yes	yes	yes	no	no	66	R2RN	LLHS	CM	LH	CH	RFS	RFS191206	2005	Kapalua Bay	2019-12-06	9:05	1	1	5	1	3					RFS191206	26.0	35.3	6.78	102.0	8.17	3.07	2.92	2.87	2.95	0.035					0	0	0	
+yes	yes	yes	no	no	66	R2RN	LLHS	CM	LH	CH	RKO	RKO191206	2008	Ka'opala Bay	2019-12-06	9:26	1	1	5	1	3					RKO191206	25.3	34.9	6.82	101.0	8.12	19.70	19.60	18.90	19.40	0.022				N	0	0	0	RKO - not much rain, waves breaking far outside, shore is surgey, some small leaves in water, no rain
+yes	yes	yes	no	no	66	R2RN	LLHS	CM	LH	CH	RKV	RKV191206	2074	Kahana Village	2019-12-06	9:48	1	1	5	1	3					RKV191206	25.5	35.4	6.87	102.6	8.16	10.70	11.40	10.80	10.97	0.035					0	0	0	
+yes	yes	yes	no	no	67	R2RN	LLHS	LH	TM	CH	RHL	RHL200110	2001	Honolua Bay	2020-01-10	8:00	2	NBBF	6	2	2					RHL200110	23.3	31.4	6.66	93.7	8.15	6.32	5.95	5.76	6.01	0.047				Y	0	0	0	Raining hard.  Took samples to RON to perform testing.
+yes	yes	yes	no	no	67	R2RN	LLHS	LH	TM	CH	RON	RON200110	2004	Oneloa Bay	2020-01-10	8:29	2	NBBF	6	2	2					RON200110	24.2	35.7	6.64	97.1	8.22	0.85	0.81	0.80	0.82	0.032				N	0	0	0	
+yes	yes	yes	no	no	67	R2RN	LLHS	LH	TM	CH	RFS	RFS200110	2005	Kapalua Bay	2020-01-10	8:55	2	NBBF	6	2	2					RFS200110	23.9	34.9	6.45	93.3	8.13	1.46	1.45	1.35	1.42	0.043				N	2	3	0	4th turbidity reading listed.  Discarded 3rd. reading 1.92 NTU.
+yes	yes	yes	no	no	67	R2RN	LLHS	LH	TM	CH	RKO	RKO200110	2008	Ka'opala Bay	2020-01-10	9:25	2	NBBF	6	2	2					RKO200110	24.2	35.0	6.41	93.1	8.14	8.54	8.29	8.89	8.57	0.035				Y	0	0	0	
+yes	yes	yes	no	no	67	R2RN	LLHS	LH	TM	CH	RKV	RKV200110	2074	Kahana Village	2020-01-10	9:45	2	    NBBF	6	2	2					RKV200110	23.6	33.2	6.77	96.5	8.16	11.10	13.40	10.20	11.57	0.143				N	0	0	0	4th turbidity reading listed.  Discarded 3rd. reading 14.9 NTU.
+yes	yes	yes	no	no	68	R2RN	LLHS	LB	TM	JS	RHL	RHL200131	2001	Honolua Bay	2020-01-31	8:05	1	1	5	1	3					RHL200131	23.3	34.9	6.58	94.0	8.12	7.35	7.90	8.68	7.98	0.084				N	0	0	0	4th. Turbidty reading - 8.98
+yes	yes	yes	no	no	68	R2RN	LLHS	LB	TM	JS	RON	RON200131	2004	Oneloa Bay	2020-01-31	8:48	1	1	5	1	3					RON200131	24.7	35.9	6.94	102.3	8.15	0.67	0.73	0.69	0.70	0.044				N	1	1	0	Dog
+yes	yes	yes	no	no	68	R2RN	LLHS	LB	TM	JS	RFS	RFS200131	2005	Kapalua Bay	2020-01-31	9:14	1	1	5	1	3					RFS200131	24.9	35.2	6.87	101.3	8.14	3.42	3.24	3.23	3.30	0.032				N	11	23	0	
+yes	yes	yes	no	no	68	R2RN	LLHS	LB	TM	JS	RKO	RKO200131	2008	Ka'opala Bay	2020-01-31	9:38	1	1	5	1	3					RKO200131	24.5	35.0	6.87	100.3	8.12	12.00	13.00	12.60	12.53	0.040				N	3	1	0	
+yes	yes	yes	no	no	68	R2RN	LLHS	LB	TM	JS	RKV	RKV200131	2074	Kahana Village	2020-01-31	10:08	1	1	5	1	3					RKV200131	25.0	35.4	7.12	106.1	8.17	4.90	5.19	5.02	5.04	0.029				N	1	7	0	
+yes	yes	yes	no	no	69	R2RN	LLHS	LH	JS		RHL	RHL200221	2001	Honolua Bay	2020-02-21	7:55	2	NBBF	6	2	2					RHL200221	22.7	34.9	6.43	90.6	8.17	6.08	6.85	6.86	6.60	0.068				N	0	0	0	
+yes	yes	yes	no	no	69	R2RN	LLHS	LH	JS		RON	RON200221	2004	Oneloa Bay	2020-02-21	8:40	2	NBBF	6	2	2					RON200221	23.3	35.7	6.74	96.4	8.21	0.62	0.66	0.61	0.63	0.042					0	2	0	
+yes	yes	yes	no	no	69	R2RN	LLHS	LH	JS		RFS	RFS200221	2005	Kapalua Bay	2020-02-21	9:05	2	NBBF	6	2	2					RFS200221	24.0	33.6	6.72	96.0	8.14	1.37	1.38	1.40	1.38	0.011					12	17	0	
+yes	yes	yes	no	no	69	R2RN	LLHS	LH	JS		RKO	RKO200221	2008	Ka'opala Bay	2020-02-21	9:35	2	NBBF	6	2	2					RKO200221	23.6	34.7	6.57	93.8	8.17	4.83	5.04	4.89	4.92	0.022				N	1	6	0	
+yes	yes	yes	no	no	69	R2RN	LLHS	LH	JS		RKV	RKV200221	2074	Kahana Village	2020-02-21	10:00	2	    NBBF	6	2	2					RKV200221	23.7	34.8	6.96	99.7	8.21	2.96	3.54	3.64	3.38	0.109					0	4	0	RKV - 4th turbidity reading - 2.65
+yes	yes	yes	no	no	70	R2RN	LLHS	LH	LB	TM	RHL	RHL200313	2001	Honolua Bay	2020-03-13	7:50	1	1	5	1	3					RHL200313	23.5	34.5	6.87	98.7	8.11	97.30	92.70	96.90	95.63	0.027				N	0	0	0	HNL - 3rd turbidity test was 101, 4th turbidity test was 96.9 LB (changed to 4th value), rough water
+yes	yes	yes	no	no	70	R2RN	LLHS	LH	LB	TM	RON	RON200313	2004	Oneloa Bay	2020-03-13	8:25	1	1	5	1	3					RON200313	24.3	35.8	6.96	102.1	8.18	0.80	0.96	0.88	0.88	0.091					0	0	0	
+yes	yes	yes	no	no	70	R2RN	LLHS	LH	LB	TM	RFS	RFS200313	2005	Kapalua Bay	2020-03-13	8:50	1	1	5	1	3					RFS200313	24.4	35.1	6.93	101.4	8.16	3.26	2.80	3.03	3.03	0.076					4	9	0	RFS - 4th turbidity test 2.57 (did NOT change to 4th value)
+yes	yes	yes	no	no	70	R2RN	LLHS	LH	LB	TM	RKO	RKO200313	2008	Ka'opala Bay	2020-03-13	9:10	1	1	5	1	3					RKO200313	24.4	34.9	6.83	99.9	8.12	13.60	14.00	14.30	13.97	0.025				N	0	1	0	
+yes	yes	yes	no	no	70	R2RN	LLHS	LH	LB	TM	RKV	RKV200313	2074	Kahana Village	2020-03-13	9:25	1	1	5	1	3					RKV200313	24.6	35.0	7.03	103.1	8.16	9.76	9.20	9.69	9.55	0.032					0	0	0	

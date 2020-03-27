@@ -3,9 +3,13 @@
 
 "use strict";
 
-var util  = require('util');
-var fs    = require('fs');
-var path  = require('path');
+const util  = require('util');
+const fs    = require('fs');
+const path  = require('path');
+
+//const readline = require('readline');   for checking to see if files already exit, but not using now
+
+
 
 const scriptname = path.basename(process.argv[1]);
 
@@ -83,7 +87,6 @@ data['samples'] = {};  // the key of samples is the sample ID. ex: RWA190716, wh
                        // the value is an object with the information about the sample
 
 
-var rwef  = require('../lib/readWebExportLegacyFile');
 var rsf   = require('../lib/readSiteFile');
 var rss   = require('../lib/readSpreadSheets');
 var rnf   = require('../lib/readSoestFiles');
@@ -687,6 +690,24 @@ var createReportFromList = function (samples, ignoreNoNutrientSamples) {
 
 }
 
+/*  Returns a file path with basename to create the files for each lab */
+
+var getFilePathForLab = function (data, labID) {
+  return path.join(data.directoryForFiles, data.basenameForFiles + `.${labID}-lab.tsv`);
+};
+
+/* get the full file path for the file that has data for all the labs */
+var getFilePathForAllLabs = function (data) {
+  return path.join(data.directoryForFiles, data.basenameForFiles + ".all-labs.tsv");
+};
+
+
+var fileExists = function (data, labID) {
+
+  let filePath = getFilePath(data, labID);
+  return fs.existsSync(filePath);
+};
+
 
 var writeFile = function (filePath, dataToWrite) {
 
@@ -712,14 +733,14 @@ var createReports = function (data, callback) {
 
   console.log("Creating report for all samples");
 
-  let filePath = path.join(data.directoryForFiles, data.basenameForFiles + ".all-labs.tsv");
+  let filePath = getFilePathForAllLabs(data);
   writeFile(filePath, createReportFromList(data.sortedSamples, data.ignoreNoNutrientSamples));
-
 
   for (let labID in data.samplesByLab) {
      console.log("Creating report for lab " + labID);
-     filePath = path.join(data.directoryForFiles, data.basenameForFiles + `.${labID}-lab.tsv`);
-     writeFile(filePath, createReportFromList(data.samplesByLab[labID]), data.ignoreNoNutrientSamples);
+     filePath = getFilePathForLab(data, labID);
+     writeFile(filePath, createReportFromList(data.samplesByLab[labID], data.ignoreNoNutrientSamples));
+     //if (fs.existsSync(filePath))
   }
 
   if (callback) {
@@ -873,25 +894,70 @@ var filterSamplesByLab = function(data, callback) {
 };
 
 
+/* this function is not currently being called.  Just going to let the script be dumb and write over top the files for now.
+
+var checkForExistingFiles = function(data, callback) {
+
+  const filesThatExist = [];
+  console.log("In checkForExistingFiles");
+
+  let filePath = getFilePathForAllLabs(data);
+
+  if (fs.existsSync(filePath)) {
+    filesThatExist.push(filePath);
+  }
+
+  for (let labID in data.samplesByLab) {
+    filePath = getFilePathForLab(data, labID);
+    if (fs.existsSync(filePath)) {
+      filesThatExist.push(filePath);
+    }
+  }
+
+  if (filesThatExist.length > 0) {
+    console.log(`\n\nThe following files already exist:`);
+    for (let i = 0; i < filesThatExist.length; ++i) {
+      console.log(`${filesThatExist[i]}`);
+    }
+
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    });
+
+    rl.question('Over-write the files? y or n', (answer) => {
+      console.log(`answer was ${answer}`);
+      rl.close();
+    });
+  }
+
+  if (callback) {
+    callback();
+  }
+};
+
+*/
+
+
 // this is the main
 
 getSiteData(data, function () {
-  //readLegacyFile(data, function () {       // not needed if legacy in spread sheets
     readSpreadSheetData(data, function () {
       readNutrientData(data, function () {
         updateSamplesWithNutrientData(data, function () {
           printLookupData(data, function () {
             sortSamples(data, function () {
               filterSamplesByLab(data, function () {
-                printSamples(data, function () {   // for troubleshooting, need to comment things back in in the function to use it
-                  createReports(data, null);
-                });
+                //checkForExistingFiles(data, function () {
+                  printSamples(data, function () {   // for troubleshooting, need to comment things back in in the function to use it
+                    createReports(data, null);
+                  });
+                //});
               });
             });
           });
         });
       });
     });
-  //});
 });
 

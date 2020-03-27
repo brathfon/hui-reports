@@ -1,5 +1,5 @@
-Copied to main database by Kim/Bill 	Checked by Dana	yes/no	yes/no	yes/no	#	R2RS, R2RN, Polanui, Olowalu	LLHS	initials	initials	initials	RCB	RCB031717	2062	Canoe Beach	03/17/17	12:00											deg C	ppt	mg/L	%								0, 1, 2, 3, 4	0-8	0-5	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	
-		Nut_Sample	Nut_Dup	Sed_Sample	Session	Team	Lab	Sampler	Sampler2	Sampler3	Station	SampleID	Location	SiteName	Date	Time	40D#	2100Q#	pHInst#	DOInst#	SalInst#	Moon	Cloud_1_8	Rain_1_4	Wind_dir	SampleID2	Temp	Salinity	DO	DO%	pH	Turb1	Turb2	Turb3	Average Turbidity	CV Turbidity		Waves	Wind	Stream	Swimmers	On Beach	Campers	Comments
+Copied to main database by Kim/Bill 	Checked by Dana	yes/no	yes/no	yes/no	#	R2RS, R2RN, Polanui, Olowalu	LLHS	initials	initials	initials	RCB	RCB031717	2062	Canoe Beach	03/17/17	12:00											deg C	ppt	mg/L	%							MPN 	0, 1, 2, 3, 4	0-8	0-5	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	
+		Nut_Sample	Nut_Dup	Sed_Sample	Session	Team	Lab	Sampler	Sampler2	Sampler3	Station	SampleID	Location	SiteName	Date	Time	40D#	2100Q#	pHInst#	DOInst#	SalInst#	Moon	Cloud_1_8	Rain_1_4	Wind_dir	SampleID2	Temp	Salinity	DO	DO%	pH	Turb1	Turb2	Turb3	Average Turbidity	CV Turbidity	Enterococcus	Waves	Wind	Stream	Swimmers	On Beach	Campers	Comments
 			Example:		26	R2RS	LLHS	CM	TF	MS	RCB	RCB170821	2020	Canoe Beach	2017-08-21	9:22:00	1	1	4	2	3	1	7	2		RCB170821	27.0	33.1	6.92	104.4	8.18	5.78	5.86	6.03	Calculated	Calculated		1	0		1	20		RHL no waves at collection site but waves breaking starting halfway to Lipoa Point, light rain the night before
 yes	yes	yes	no	no	8	Wailea	NMS	HH	DM	JJ	WKD	WKD180223		Kilohana Dr	2018-02-23	8:05	2	2	2	2	2	9	7	2	Trades	WKD180223	24.3	35.7	6.87	100.5	8.18	0.68	0.73	0.73	0.71	0.040		1	0		2	20	0	
 yes	yes	yes	no	no	8	Wailea	NMS	HH	DM	JJ	WKB	WKB180223		Keawakapu Beach	2018-02-23	8:42	2	2	2	2	2	9	7	2	Trades	WKB180223	24.6	35.6	6.87	100.9	8.16	0.87	0.96	0.98	0.94	0.063		1	0		8	25	0	
@@ -168,4 +168,34 @@ yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WKD	WKD191018		Kilohana Dr	2019-10-18	7
 yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WKB	WKB191018		Keawakapu Beach	2019-10-18	8:18	1	1	3	1	1					WKB191018	27.6	35.1	6.39	98.2	8.13	0.75	0.86	0.79	0.80	0.070				N	7	8	0	
 yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WUL	WUL191018		Ulua Beach	2019-10-18	8:36	1	1	3	1	1					WUL191018	27.7	35	6.43	99.1	8.15	1.17	1.21	1.01	1.13	0.094				N	8	20	0	
 yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WPL	WPL191018		Palauea Beach	2019-10-18	8:56	1	1	3	1	1					WPL191018	28	35.1	6.24	96.5	8.15	1.02	1.12	1.11	1.08	0.051				N	7	15	0	
-yes	yes	yes	no	no	39	Wailea	NMS	SD	AW	BC	WPO	WPO191018		Poolenalena Beach	2019-10-18	9:09	1	1	3	1	1					WPO191018	28.4	35.1	6.42	100.1	8.19	0.64	0.61	0.59	0.61	0.041				N	9	13	0	
+yes	yes	no	no	no	39	Wailea	NMS	SD	AW	BC	WPO	WPO191018		Poolenalena Beach	2019-10-18	9:09	1	1	3	1	1					WPO191018	28.4	35.1	6.42	100.1	8.19	0.64	0.61	0.59	0.61	0.041				N	9	13	0	
+yes	yes	yes	no	no	40	Wailea	NMS	AW	AA	JJ	WKD	WKD191108		Kilohana Dr	2019-11-08	8:05	2	2	4	2	2					WKD191108	26.8	35.2	6.38	97.6	8.13	0.83	0.88	0.86	0.86	0.029				N	3	3	0	
+yes	yes	yes	no	no	40	Wailea	NMS	AW	AA	JJ	WKB	WKB191108		Keawakapu Beach	2019-11-08	8:25	2	2	4	2	2					WKB191108	27.1	35.3	6.50	99.0	8.10	0.74	0.60	0.69	0.68	0.105				N	10	8	0	2 people walked right in front of water collectors
+yes	yes	yes	no	no	40	Wailea	NMS	AW	AA	JJ	WUL	WUL191108		Ulua Beach	2019-11-08	8:45	2	2	4	2	2					WUL191108	27.5	35	6.47	100.0	8.14	0.51	0.43	0.39	0.44	0.138				N	4	7	0	lady in water right in front of water sampling; salinity -gave first incorrectly
+yes	yes	yes	no	no	40	Wailea	NMS	AW	AA	JJ	WPL	WPL191108		Palauea Beach	2019-11-08	9:10	2	2	4	2	2					WPL191108	27.7	35.1	6.48	100.4	8.13	0.76	0.65	0.79	0.73	0.101				N	5	8	0	car bumped on 3rd turbidity reading 
+yes	yes	yes	no	no	40	Wailea	NMS	AW	AA	JJ	WPO	WPO191108		Poolenalena Beach	2019-11-08	9:30	2	2	4	2	2					WPO191108	27.9	35.3	6.64	103.6	8.19	0.27	0.39	0.31	0.32	0.189				N	5	4	0	
+yes	yes	yes	no	no	41	Wailea	NMS	BC	JJ	AA	WKD	WKD191122		Kilohana Dr	2019-11-22	7:55	1	1	3	1	1					WKD191122	27.3	35	6.49	99.5	8.13	0.74	0.93	0.87	0.85	0.115				N	8	7	0	rained early AM
+yes	yes	yes	no	no	41	Wailea	NMS	BC	JJ	AA	WKB	WKB191122		Keawakapu Beach	2019-11-22	8:30	1	1	3	1	1					WKB191122	27.2	34.8	6.50	99.4	8.13	1.94	2.12	1.46	1.84	0.185				N	4	10	0	divers nearby; particulate matter present - turbidity
+yes	yes	yes	no	no	41	Wailea	NMS	BC	JJ	AA	WUL	WUL191122		Ulua Beach	2019-11-22	9:00	1	1	3	1	1					WUL191122	27.5	34.9	6.63	102.1	8.17	1.47	0.96	1.22	1.22	0.210				N	12	8	0	scuba and snorkelers in front of testing area
+yes	yes	yes	no	no	41	Wailea	NMS	BC	JJ	AA	WPL	WPL191122		Palauea Beach	2019-11-22	9:27	1	1	3	1	1					WPL191122	27.5	34.9	6.50	100.1	8.14	5.39	5.12	5.59	5.37	0.044				N	1	9	0	
+yes	yes	yes	no	no	41	Wailea	NMS	BC	JJ	AA	WPO	WPO191122		Poolenalena Beach	2019-11-22	9:50	1	1	3	1	1					WPO191122	27.8	35	6.47	100.3	8.17	0.60	0.50	0.51	0.54	0.103				N	5	22	0	
+yes	yes	yes	no	no	42	Wailea	NMS	SD	AA	AW	WKD	WKD191213		Kilohana Dr	2019-12-13	8:18	2	2	4	2	2					WKD191213	26.4	35.4	6.81	103.1	8.17	0.94	0.93	0.83	0.90	0.068				N	0	8	0	rain last night
+yes	yes	yes	no	no	42	Wailea	NMS	SD	AA	AW	WKB	WKB191213		Keawakapu Beach	2019-12-13	8:38	2	2	4	2	2					WKB191213	26.8	35.4	6.71	102.0	8.16	0.47	0.51	0.57	0.52	0.097				N	2	8	0	
+yes	yes	yes	no	no	42	Wailea	NMS	SD	AA	AW	WUL	WUL191213		Ulua Beach	2019-12-13	8:58	2	2	4	2	2					WUL191213	27.2	35.3	6.76	103.6	8.15	0.63	0.79	0.73	0.72	0.113				N	11	8	0	scuba dovers near collection
+yes	yes	yes	no	no	42	Wailea	NMS	SD	AA	AW	WPL	WPL191213		Palauea Beach	2019-12-13	9:16	2	2	4	2	2					WPL191213	26.9	35.2	6.76	103.1	8.15	0.91	0.89	1.10	0.97	0.120				N	0	4	0	
+yes	yes	yes	no	no	42	Wailea	NMS	SD	AA	AW	WPO	WPO191213		Poolenalena Beach	2019-12-13	9:30	2	2	4	2	2					WPO191213	27.1	35.3	6.87	105.0	8.18	0.39	0.41	0.39	0.40	0.029				N	2	4	1	fishing line in water
+yes	yes	yes	no	no	43	Wailea	NMS	MB			WKD	WKD200117		Kilohana Dr	2020-01-17	8:12	1	1	3	1	1					WKD200117	24.8	34.6	6.67	97.8	8.15	1.02	0.86	0.92	0.93	0.087				N	0	3	0	rained for a couple hours before starting: slight drizzle at first site but stopped
+yes	yes	yes	no	no	43	Wailea	NMS	MB			WKB	WKB200117		Keawakapu Beach	2020-01-17	8:33	1	1	3	1	1					WKB200117	24.7	34.7	6.64	97.3	8.16	0.93	0.82	0.78	0.84	0.092				N	0	5	0	3 dogs
+yes	yes	yes	no	no	43	Wailea	NMS	MB			WUL	WUL200117		Ulua Beach	2020-01-17	9:03	1	1	3	1	1					WUL200117	25	34.5	6.39	94.0	8.15	0.63	1.08	1.07	0.93	0.277				N	2	0	0	2 scuba divers near collection
+yes	yes	yes	no	no	43	Wailea	NMS	MB			WPL	WPL200117		Palauea Beach	2020-01-17	9:28	1	1	3	1	1					WPL200117	24.8	34.5	6.66	97.6	8.18	2.86	2.99	3.16	3.00	0.050				N	0	3	0	
+yes	yes	yes	no	no	43	Wailea	NMS	MB			WPO	WPO200117		Poolenalena Beach	2020-01-17	9:43	1	1	3	1	1					WPO200117	25.5	34.7	6.64	98.7	8.20	0.47	0.62	0.64	0.58	0.161				N	0	2	0	
+yes	yes	yes	no	no	44	Wailea	NMS	AA	AW	SD	WKD	WKD200207		Kilohana Dr	2020-02-07	7:54	2	2	4	2	2					WKD200207	24.1	35.1	6.93	101.2	8.16	0.76	0.76	0.67	0.73	0.071				N	0	5	0	2.1 in of rain on 24 hours
+yes	yes	yes	no	no	44	Wailea	NMS	AA	AW	SD	WKB	WKB200207		Keawakapu Beach	2020-02-07	8:12	2	2	4	2	2					WKB200207	24.3	35.1	7.07	103.4	8.16	1.15	1.73	1.46	1.45	0.201				N	0	13	0	2.1 in of rain on 24 hours
+yes	yes	yes	no	no	44	Wailea	NMS	AA	AW	SD	WUL	WUL200207		Ulua Beach	2020-02-07	8:33	2	2	4	2	2					WUL200207	23.8	34.7	7.09	102.7	8.15	1.70	1.17	1.33	1.40	0.194				N	2	6	0	2.1 in of rain on 24 hours
+yes	yes	yes	no	no	44	Wailea	NMS	AA	AW	SD	WPL	WPL200207		Palauea Beach	2020-02-07	8:54	2	2	4	2	2					WPL200207	24.3	34.9	7.06	103.3	8.17	2.42	2.38	2.20	2.33	0.050				N	0	0	0	2.1 in of rain on 24 hours
+yes	yes	yes	no	no	44	Wailea	NMS	AA	AW	SD	WPO	WPO200207		Poolenalena Beach	2020-02-07	9:09	2	2	4	2	2					WPO200207	24.3	34.9	7.07	103.5	8.19	0.97	0.76	0.79	0.84	0.135				N	0	3	0	2.1 in of rain on 24 hours
+yes	yes	yes	no	no	45	Wailea	NMS	AA	JJ		WKD	WKD200228		Kilohana Dr	2020-02-28	8:03	1	1	3	1	1					WKD200228	23	34.6	6.86	97.7	8.22	1.24	1.08	1.08	1.13	0.082				N	0	6	0	
+yes	yes	yes	no	no	45	Wailea	NMS	AA	JJ		WKB	WKB200228		Keawakapu Beach	2020-02-28	8:30	1	1	3	1	1					WKB200228	23.3	34.6	6.81	97.4	8.20	1.00	1.48	1.60	1.36	0.233				N	2	3	0	did 4th turbidity (1.35)
+yes	yes	yes	no	no	45	Wailea	NMS	AA	JJ		WUL	WUL200228		Ulua Beach	2020-02-28	8:55	1	1	3	1	1					WUL200228	23.4	34.2	6.79	97.0	8.18	1.52	1.91	1.78	1.74	0.114				N	12	13	0	battery low on Hach 40D
+yes	yes	yes	no	no	45	Wailea	NMS	AA	JJ		WPL	WPL200228		Palauea Beach	2020-02-28	9:26	1	1	3	1	1					WPL200228	24.4	34.5	6.72	97.4	8.21	0.98	1.05	0.79	0.94	0.143				N	0	4	0	
+yes	yes	yes	no	no	45	Wailea	NMS	AA	JJ		WPO	WPO200228		Poolenalena Beach	2020-02-28	9:50	1	1	3	1	1					WPO200228	24.4	34.7	6.73	98.1	8.22	0.55	0.55	0.57	0.56	0.021				N	5	10	0	
