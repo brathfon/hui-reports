@@ -4,7 +4,7 @@ scriptName=`basename $0`
 
 if (( $# != 1 ))
 then
-  echo "Usage: $scriptName <basename for file. ex: 4th-quarter.0>"
+  echo "Usage: $scriptName <basename for file. ex: 2019-4th-quarter.0>"
   exit 1
 fi
 

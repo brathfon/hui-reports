@@ -1,0 +1,896 @@
+'arguments passed in [object Object]'
+'arguments passed in { _: [],\n  odir: \'../reports/web-export-quarterly-reports\',\n  bname: \'4th-quarter\',\n  gsdir:\n   \'/Users/bill/development/water-quality/water-quality-data/gdrive-downloads/data-sessions-28-66w-1-42s\',\n  lfile:\n   \'/Users/bill/development/water-quality/water-quality-data/legacy-data/west-maui-legacy-data-sessions-1-27.tsv\',\n  sfile: \'./sites.txt\',\n  ndir:\n   \'/Users/bill/development/water-quality/water-quality-data/soest/csv-files\' }'
+In getSiteData
+In readLegacyFile
+In readSpreadSheetData
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MML180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MMB180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MON180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAN180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAS180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MML181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MMB181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MON181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAN181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAS181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAS190522 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NHP180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NKP180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NSB180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NKC180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NMP180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NHP190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NKP190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NSB190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NKC190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NMP190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: OSF190807 in Hui o ka Wai Ola Data Entry - Team Polanui.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: RKO180720 in Hui o ka Wai Ola Data Entry - Team R2RN.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: RKV190607 in Hui o ka Wai Ola Data Entry - Team R2RN.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WKD180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WKB180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WUL180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WPL180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WPO180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- reading Soest file: MNMRC_180613_W.Maui.csv
+-- reading Soest file: MNMRC_180703_W.Maui.csv
+-- reading Soest file: MNMRC_180724_W.Maui.csv
+-- reading Soest file: MNMRC_180814_W.Maui.csv
+-- reading Soest file: MNMRC_180905_W.Maui.csv
+-- reading Soest file: MNMRC_180926_W.Maui.csv
+-- reading Soest file: MNMRC_181018_W.Maui.csv
+-- reading Soest file: MNMRC_181107_W.Maui.fixed.csv
+
+-- WARNING: Phosphate of 6.34 > TotalP of 6.31 from line OCO181101-N-1,11 TNC WEST,84.35,6.31,6.34,407.53,8.89,2.93,,
+-- reading Soest file: MNMRC_181212_W.Maui.csv
+-- reading Soest file: MNMRC_181812_W.Maui.csv
+-- reading Soest file: MNMRC_190115_W.Maui.csv
+-- reading Soest file: MNMRC_190206_W.Maui.csv
+-- reading Soest file: MNMRC_190227_W.Maui.fixed.csv
+-- reading Soest file: MNMRC_190320_W.Maui.csv
+-- reading Soest file: MNMRC_190416_W.Maui.csv
+-- reading Soest file: MNMRC_190501_W.Maui.csv
+-- reading Soest file: MNMRC_190523_W.Maui.csv
+-- reading Soest file: MNMRC_190613_W.Maui.csv
+-- reading Soest file: MNMRC_190703_W.Maui.csv
+-- reading Soest file: MNMRC_190724_W.Maui.csv
+-- reading Soest file: MNMRC_190813_W.Maui.csv
+-- reading Soest file: MNMRC_190904_W.Maui.csv
+-- reading Soest file: MNMRC_190924_W.Maui.csv
+-- reading Soest file: MNMRC_191015_W.Maui.csv
+-- reading Soest file: MNMRC_191105_W.Maui.csv
+-- reading Soest file: TNC_160616_W.Maui.fixed.csv
+-- reading Soest file: TNC_160630_W.Maui.fixed.csv
+-- reading Soest file: TNC_160714_W.Maui.fixed.csv
+-- reading Soest file: TNC_160726_W.Maui.csv
+-- reading Soest file: TNC_160817_W.Maui.csv
+-- replicate sample, skipping. siteCode: RPO sampleData: 160809 sampleIdExt: N-2
+-- replicate sample, skipping. siteCode: OPM sampleData: 160811 sampleIdExt: N-2
+-- reading Soest file: TNC_160830_W.Maui.fixed.csv
+-- reading Soest file: TNC_160915_W.Maui.csv
+-- replicate sample, skipping. siteCode: PFF sampleData: 160907 sampleIdExt: N-2
+-- reading Soest file: TNC_160927_W.Maui.csv
+-- replicate sample, skipping. siteCode: OPM sampleData: 160922 sampleIdExt: N-2
+-- reading Soest file: TNC_161011_W.Maui.csv
+-- replicate sample, skipping. siteCode: RPO sampleData: 161004 sampleIdExt: N-2
+-- reading Soest file: TNC_161026_W.Maui.csv
+-- reading Soest file: TNC_161110_W.Maui.csv
+-- replicate sample, skipping. siteCode: PLH sampleData: 161102 sampleIdExt: N-2
+-- reading Soest file: TNC_161122_W.Maui.csv
+
+-- WARNING: Phosphate of 3.54 > TotalP of 3.53 from line PPU161116-N-1,10 TNC,64.32,3.53,3.54,191.28,4.45,<1.5
+-- replicate sample, skipping. siteCode: OCO sampleData: 161117 sampleIdExt: N-2
+-- reading Soest file: TNC_161206_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKS sampleData: 161129 sampleIdExt: N-2
+-- reading Soest file: TNC_161220_W.Maui.csv
+-- replicate sample, skipping. siteCode: PLT sampleData: 161214 sampleIdExt: N-2
+-- reading Soest file: TNC_170110_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: RAB sampleData: 170103 sampleIdExt: N-2
+-- reading Soest file: TNC_170131_W.Maui.csv
+-- reading Soest file: TNC_170222_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: OSF sampleData: 170215 sampleIdExt: N-2
+-- reading Soest file: TNC_170314_W.Maui.csv
+-- replicate sample, skipping. siteCode: OUB sampleData: 170309 sampleIdExt: N-2
+-- reading Soest file: TNC_170404_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: RCB sampleData: 170328 sampleIdExt: N-2
+-- reading Soest file: TNC_170423_W.Maui.csv
+-- replicate sample, skipping. siteCode: PPU sampleData: 170419 sampleIdExt: N-2
+-- reading Soest file: TNC_170517_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: OPB sampleData: 170511 sampleIdExt: N-2
+-- reading Soest file: TNC_170606_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: RWA sampleData: 170530 sampleIdExt: N-2
+-- reading Soest file: TNC_170627_W.Maui.fixed.csv
+-- reading Soest file: TNC_170718_W.Maui.fixed.csv
+-- reading Soest file: TNC_170808_W.Maui.csv
+-- replicate sample, skipping. siteCode: RFS sampleData: 170804 sampleIdExt: N-2
+-- reading Soest file: TNC_170828_W.Maui.csv
+-- replicate sample, skipping. siteCode: RFS sampleData: 170825 sampleIdExt: N-2
+-- reading Soest file: TNC_170919_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKO sampleData: 170915 sampleIdExt: N-2
+-- reading Soest file: TNC_171013_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKV sampleData: 171006 sampleIdExt: N-2
+-- reading Soest file: TNC_171031_W.Maui.csv
+-- replicate sample, skipping. siteCode: RHL sampleData: 171027 sampleIdExt: N-2
+-- reading Soest file: TNC_171121_W.Maui.csv
+-- replicate sample, skipping. siteCode: RFS sampleData: 171117 sampleIdExt: N-2
+-- reading Soest file: TNC_171213_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKO sampleData: 171208 sampleIdExt: N-2
+-- reading Soest file: TNC_171227_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKV sampleData: 171222 sampleIdExt: N-2
+-- reading Soest file: TNC_180117_W.Maui.csv
+-- reading Soest file: TNC_180206_W.Maui.csv
+-- reading Soest file: TNC_180227_W.Maui.csv
+
+-- WARNING: Phosphate of 9.83 > TotalP of 9.68 from line RPO180220-N-1,20 TNC WEST,114.19,9.68,9.83,544.20,64.31,2.28
+-- reading Soest file: TNC_180320_W.Maui.csv
+-- reading Soest file: TNC_180411_W.Maui.csv
+-- reading Soest file: TNC_180501_W.Maui.csv
+-- reading Soest file: TNC_180522_W.Maui.csv
+-- reading Soest file: MNMRC_180626_S.Maui.csv
+-- reading Soest file: MNMRC_180717_S.Maui.csv
+-- reading Soest file: MNMRC_180807_S.Maui.csv
+-- reading Soest file: MNMRC_180828_S.Maui.csv
+-- reading Soest file: MNMRC_180918_S.Maui.csv
+-- reading Soest file: MNMRC_181010_S.Maui.csv
+-- reading Soest file: MNMRC_181030_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_181120_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_181211_S.Maui.rerun-by-soest.fixed.csv
+
+-- WARNING: Phosphate of 12.12 > TotalP of 11.89 from line KWP181204-N-1,MNMRC 2,180.16,11.89,12.12,973.81,68.82,10.36,,
+-- reading Soest file: MNMRC_190117_S.Maui.csv
+-- reading Soest file: MNMRC_190122_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_190212_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_190305_S.Maui.csv
+-- reading Soest file: MNMRC_190328_S.Maui.csv
+-- reading Soest file: MNMRC_190416_S.Maui.csv
+-- reading Soest file: MNMRC_190510_S.Maui.csv
+-- reading Soest file: MNMRC_190531_S.Maui.csv
+-- reading Soest file: MNMRC_190619_S.Maui.csv
+-- reading Soest file: MNMRC_190712_S.Maui.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_190712_S.Maui.csv  line  35
+-- ERROR: found unknown site name of NHC. from line NHC190703-N-1,21,424.22,22.03,20.89,1347.58,343.69,6.59,,
+-- reading Soest file: MNMRC_190802_S.Maui.csv
+-- reading Soest file: MNMRC_190823_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_190913_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_191001_S.Maui.csv
+-- reading Soest file: MNMRC_191022_S.Maui.fixed.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_191022_S.Maui.fixed.csv  line  36
+-- ERROR: found invalid ID BADWPO191018-N-1 Line -> |BADWPO191018-N-1,22,269.11,15.94,11.65,39.65,64.52,45.73,Nutrient Data likely contaminated - bottle cracked when S-lab received sample,,|
+-- reading Soest file: TNC_171114_S.Maui.fixed.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  TNC_171114_S.Maui.fixed.csv  line  25
+-- ERROR: found invalid ID DR171104-N-1 Line -> |DR171104-N-1,11 TNC SOUTH,640.08,215.91,184.48,*,22.08,164.34,|
+-- reading Soest file: TNC_171128_S.Maui.fixed.csv
+-- reading Soest file: TNC_171213_S.Maui.csv
+-- reading Soest file: TNC_171227_S.Maui.fixed.csv
+-- reading Soest file: TNC_180118_S.Maui.csv
+-- reading Soest file: TNC_180130_S.Maui.csv
+-- reading Soest file: TNC_180130_S.Maui.fixed.csv
+-- reading Soest file: TNC_180215_S.Maui.csv
+-- reading Soest file: TNC_180227_S.Maui.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  TNC_180227_S.Maui.csv  line  38
+-- ERROR: found invalid ID **WPO180223-N-1     no sample received  Line -> |**WPO180223-N-1     no sample received ,,,,,,,|
+-- reading Soest file: TNC_180314_S.Maui.csv
+-- reading Soest file: TNC_180328_S.Maui.csv
+-- reading Soest file: TNC_180412_S.Maui.csv
+-- reading Soest file: TNC_180424_S.Maui.csv
+-- reading Soest file: TNC_180508_S.Maui.csv
+-- reading Soest file: TNC_180522_S.Maui.csv
+
+-- WARNING: NNN of 445.89 + NH4 of 5.54 > TotalN of 346.50 from line KCP180515-N-1,4 TNC SOUTH,346.50,31.68,25.54,1581.70,445.89,5.54,
+-- reading Soest file: TNC_180605_S.Maui.csv
+-- Number of west Maui nutrient samples : 1215
+-- Number of south Maui nutrient samples : 721
+-- Combined : 1936
+In updateSamplesWithNutrientData
+Number of samples:          2112
+Number of nutrient samples: 1936
+In printLookupData
+Number of sites: 51
+sites loop:
+siteCode : RNS
+{ site_id: '1',
+  hui_abv: 'RNS',
+  storet_code: '000723',
+  long_name: 'Napili',
+  lab_id: '1',
+  default_sample_day: '1',
+  default_sampling_order: '1',
+  geo_order: 'NULL',
+  lat: '20.994222',
+  lon: '-156.667417',
+  active: '1',
+  description: 'NULL' }
+siteCode : RPO
+{ site_id: '2',
+  hui_abv: 'RPO',
+  storet_code: '000724',
+  long_name: 'Pohaku',
+  lab_id: '1',
+  default_sample_day: '1',
+  default_sampling_order: '2',
+  geo_order: 'NULL',
+  lat: '20.967083',
+  lon: '-156.68139',
+  active: '1',
+  description: 'NULL' }
+siteCode : RKS
+{ site_id: '3',
+  hui_abv: 'RKS',
+  storet_code: 'NULL',
+  long_name: 'Kaanapali Shores',
+  lab_id: '1',
+  default_sample_day: '1',
+  default_sampling_order: '3',
+  geo_order: 'NULL',
+  lat: '20.949331',
+  lon: '-156.691124',
+  active: '1',
+  description: 'NULL' }
+siteCode : RAB
+{ site_id: '4',
+  hui_abv: 'RAB',
+  storet_code: '000695',
+  long_name: 'Airport Beach',
+  lab_id: '1',
+  default_sample_day: '1',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '20.936669',
+  lon: '-156.69278',
+  active: '0',
+  description: 'NULL' }
+siteCode : RCB
+{ site_id: '5',
+  hui_abv: 'RCB',
+  storet_code: '000693',
+  long_name: 'Canoe Beach',
+  lab_id: '1',
+  default_sample_day: '1',
+  default_sampling_order: '4',
+  geo_order: 'NULL',
+  lat: '20.910347',
+  lon: '-156.689382',
+  active: '1',
+  description: 'NULL' }
+siteCode : RWA
+{ site_id: '6',
+  hui_abv: 'RWA',
+  storet_code: '000678',
+  long_name: 'Wahikuli',
+  lab_id: '1',
+  default_sample_day: '1',
+  default_sampling_order: '5',
+  geo_order: 'NULL',
+  lat: '20.904476',
+  lon: '-156.685931',
+  active: '1',
+  description: 'NULL' }
+siteCode : PFF
+{ site_id: '7',
+  hui_abv: 'PFF',
+  storet_code: 'NULL',
+  long_name: '505 Front Street',
+  lab_id: '1',
+  default_sample_day: '2',
+  default_sampling_order: '1',
+  geo_order: 'NULL',
+  lat: '20.86732',
+  lon: '-156.67605',
+  active: '1',
+  description: 'NULL' }
+siteCode : PLH
+{ site_id: '8',
+  hui_abv: 'PLH',
+  storet_code: 'NULL',
+  long_name: 'Lindsey Hale',
+  lab_id: '1',
+  default_sample_day: '2',
+  default_sampling_order: '2',
+  geo_order: 'NULL',
+  lat: '20.86485',
+  lon: '-156.67374',
+  active: '1',
+  description: 'NULL' }
+siteCode : PLT
+{ site_id: '9',
+  hui_abv: 'PLT',
+  storet_code: '000726',
+  long_name: 'Lahaina Town',
+  lab_id: '1',
+  default_sample_day: '2',
+  default_sampling_order: '3',
+  geo_order: 'NULL',
+  lat: '20.86356',
+  lon: '-156.67297',
+  active: '1',
+  description: 'NULL' }
+siteCode : PPU
+{ site_id: '10',
+  hui_abv: 'PPU',
+  storet_code: 'NULL',
+  long_name: 'Makila Point',
+  lab_id: '1',
+  default_sample_day: '2',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '20.859233',
+  lon: '-156.669442',
+  active: '0',
+  description: 'NULL' }
+siteCode : OLP
+{ site_id: '11',
+  hui_abv: 'OLP',
+  storet_code: 'NULL',
+  long_name: 'Launiupoko',
+  lab_id: '1',
+  default_sample_day: '2',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '20.84236',
+  lon: '-156.653035',
+  active: '0',
+  description: 'NULL' }
+siteCode : OSF
+{ site_id: '12',
+  hui_abv: 'OSF',
+  storet_code: '000663',
+  long_name: 'Olowalu Shore Front',
+  lab_id: '1',
+  default_sample_day: '2',
+  default_sampling_order: '4',
+  geo_order: 'NULL',
+  lat: '20.80916',
+  lon: '-156.62289',
+  active: '1',
+  description: 'NULL' }
+siteCode : OPM
+{ site_id: '13',
+  hui_abv: 'OPM',
+  storet_code: 'NULL',
+  long_name: 'Peter Martin Hale',
+  lab_id: '1',
+  default_sample_day: '3',
+  default_sampling_order: '1',
+  geo_order: 'NULL',
+  lat: '20.808444',
+  lon: '-156.619697',
+  active: '1',
+  description: 'NULL' }
+siteCode : OCO
+{ site_id: '14',
+  hui_abv: 'OCO',
+  storet_code: 'NULL',
+  long_name: 'Camp Olowalu',
+  lab_id: '1',
+  default_sample_day: '3',
+  default_sampling_order: '2',
+  geo_order: 'NULL',
+  lat: '20.80986',
+  lon: '-156.61369',
+  active: '1',
+  description: 'NULL' }
+siteCode : OMM
+{ site_id: '15',
+  hui_abv: 'OMM',
+  storet_code: 'NULL',
+  long_name: 'Mile Marker 14',
+  lab_id: '1',
+  default_sample_day: '3',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '20.80915',
+  lon: '-156.60661',
+  active: '0',
+  description: 'NULL' }
+siteCode : OUB
+{ site_id: '16',
+  hui_abv: 'OUB',
+  storet_code: '000698',
+  long_name: 'Ukumehame Beach',
+  lab_id: '1',
+  default_sample_day: '3',
+  default_sampling_order: '3',
+  geo_order: 'NULL',
+  lat: '20.79448',
+  lon: '-156.58142',
+  active: '1',
+  description: 'NULL' }
+siteCode : OPB
+{ site_id: '17',
+  hui_abv: 'OPB',
+  storet_code: '000728',
+  long_name: 'Papalaua',
+  lab_id: '1',
+  default_sample_day: '3',
+  default_sampling_order: '4',
+  geo_order: 'NULL',
+  lat: '20.793809',
+  lon: '-156.575211',
+  active: '1',
+  description: 'NULL' }
+siteCode : OPP
+{ site_id: '18',
+  hui_abv: 'OPP',
+  storet_code: 'NULL',
+  long_name: 'Papalaua Pali',
+  lab_id: '1',
+  default_sample_day: '3',
+  default_sampling_order: '5',
+  geo_order: 'NULL',
+  lat: '20.792747',
+  lon: '-156.567326',
+  active: '1',
+  description: 'NULL' }
+siteCode : RHL
+{ site_id: '19',
+  hui_abv: 'RHL',
+  storet_code: '000707',
+  long_name: 'Honolua',
+  lab_id: '1',
+  default_sample_day: '4',
+  default_sampling_order: '1',
+  geo_order: 'NULL',
+  lat: '21.013058',
+  lon: '-156.63834',
+  active: '1',
+  description: 'NULL' }
+siteCode : RMO
+{ site_id: '20',
+  hui_abv: 'RMO',
+  storet_code: '000721',
+  long_name: 'Mokuleia',
+  lab_id: '1',
+  default_sample_day: '4',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '21.011352',
+  lon: '-156.64227',
+  active: '0',
+  description: 'NULL' }
+siteCode : RFN
+{ site_id: '21',
+  hui_abv: 'RFN',
+  storet_code: '000674',
+  long_name: 'DT Beach (Fleming N)',
+  lab_id: '1',
+  default_sample_day: '4',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '21.005',
+  lon: '-156.65084',
+  active: '0',
+  description: 'NULL' }
+siteCode : RON
+{ site_id: '22',
+  hui_abv: 'RON',
+  storet_code: '000722',
+  long_name: 'Oneloa',
+  lab_id: '1',
+  default_sample_day: '4',
+  default_sampling_order: '2',
+  geo_order: 'NULL',
+  lat: '21.004056',
+  lon: '-156.65894',
+  active: '1',
+  description: 'NULL' }
+siteCode : RFS
+{ site_id: '23',
+  hui_abv: 'RFS',
+  storet_code: '000650',
+  long_name: 'Kapalua Bay (Fleming S)',
+  lab_id: '1',
+  default_sample_day: '4',
+  default_sampling_order: '3',
+  geo_order: 'NULL',
+  lat: '20.998924',
+  lon: '-156.666746',
+  active: '1',
+  description: 'NULL' }
+siteCode : RKO
+{ site_id: '24',
+  hui_abv: 'RKO',
+  storet_code: '000692',
+  long_name: 'Ka\'opala',
+  lab_id: '1',
+  default_sample_day: '4',
+  default_sampling_order: '4',
+  geo_order: 'NULL',
+  lat: '20.982074',
+  lon: '-156.673398',
+  active: '1',
+  description: 'NULL' }
+siteCode : RKV
+{ site_id: '25',
+  hui_abv: 'RKV',
+  storet_code: 'NULL',
+  long_name: 'Kahana Village',
+  lab_id: '1',
+  default_sample_day: '4',
+  default_sampling_order: '5',
+  geo_order: 'NULL',
+  lat: '20.976561',
+  lon: '-156.678',
+  active: '1',
+  description: 'NULL' }
+siteCode : KWP
+{ site_id: '26',
+  hui_abv: 'KWP',
+  storet_code: '000713',
+  long_name: 'Waipuilani Park',
+  lab_id: '2',
+  default_sample_day: '1',
+  default_sampling_order: '2',
+  geo_order: 'NULL',
+  lat: '20.755056',
+  lon: '-156.459602',
+  active: '1',
+  description: 'NULL' }
+siteCode : KKS
+{ site_id: '27',
+  hui_abv: 'KKS',
+  storet_code: '000676',
+  long_name: 'Kihei South (Lipoa)',
+  lab_id: '2',
+  default_sample_day: '1',
+  default_sampling_order: '3',
+  geo_order: 'NULL',
+  lat: '20.747334',
+  lon: '-156.457881',
+  active: '1',
+  description: 'NULL' }
+siteCode : KKP
+{ site_id: '28',
+  hui_abv: 'KKP',
+  storet_code: '000679',
+  long_name: 'Kalama Park',
+  lab_id: '2',
+  default_sample_day: '1',
+  default_sampling_order: '4',
+  geo_order: 'NULL',
+  lat: '20.730973',
+  lon: '-156.45372',
+  active: '1',
+  description: 'NULL' }
+siteCode : KCP
+{ site_id: '29',
+  hui_abv: 'KCP',
+  storet_code: '000703',
+  long_name: 'Cove Park',
+  lab_id: '2',
+  default_sample_day: '1',
+  default_sampling_order: '5',
+  geo_order: 'NULL',
+  lat: '20.727434',
+  lon: '-156.450077',
+  active: '1',
+  description: 'NULL' }
+siteCode : KKO
+{ site_id: '30',
+  hui_abv: 'KKO',
+  storet_code: '000681',
+  long_name: 'Kamaole Beach I',
+  lab_id: '2',
+  default_sample_day: '1',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '20.721985',
+  lon: '-156.448183',
+  active: '0',
+  description: 'NULL' }
+siteCode : KKT
+{ site_id: '31',
+  hui_abv: 'KKT',
+  storet_code: '000683',
+  long_name: 'Kamaole Beach III',
+  lab_id: '2',
+  default_sample_day: '1',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '20.712908',
+  lon: '-156.446596',
+  active: '0',
+  description: 'NULL' }
+siteCode : MML
+{ site_id: '32',
+  hui_abv: 'MML',
+  storet_code: 'NULL',
+  long_name: 'Makena Landing',
+  lab_id: '2',
+  default_sample_day: '2',
+  default_sampling_order: '1',
+  geo_order: 'NULL',
+  lat: '20.653913',
+  lon: '-156.441174',
+  active: '1',
+  description: 'NULL' }
+siteCode : MMB
+{ site_id: '33',
+  hui_abv: 'MMB',
+  storet_code: 'NULL',
+  long_name: 'Maluaka Beach',
+  lab_id: '2',
+  default_sample_day: '2',
+  default_sampling_order: '2',
+  geo_order: 'NULL',
+  lat: '20.645598',
+  lon: '-156.443859',
+  active: '1',
+  description: 'NULL' }
+siteCode : MON
+{ site_id: '34',
+  hui_abv: 'MON',
+  storet_code: 'NULL',
+  long_name: 'Oneuli',
+  lab_id: '2',
+  default_sample_day: '2',
+  default_sampling_order: '3',
+  geo_order: 'NULL',
+  lat: '20.639866',
+  lon: '-156.447406',
+  active: '1',
+  description: 'NULL' }
+siteCode : MBS
+{ site_id: '35',
+  hui_abv: 'MBS',
+  storet_code: 'NULL',
+  long_name: 'Makena Beach Shoreline',
+  lab_id: '2',
+  default_sample_day: '2',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '20.63061',
+  lon: '-156.446183',
+  active: '0',
+  description: 'NULL' }
+siteCode : MAN
+{ site_id: '36',
+  hui_abv: 'MAN',
+  storet_code: 'NULL',
+  long_name: 'Ahihi North',
+  lab_id: '2',
+  default_sample_day: '2',
+  default_sampling_order: '4',
+  geo_order: 'NULL',
+  lat: '20.618366',
+  lon: '-156.437572',
+  active: '1',
+  description: 'NULL' }
+siteCode : MAS
+{ site_id: '37',
+  hui_abv: 'MAS',
+  storet_code: 'NULL',
+  long_name: 'Ahihi South',
+  lab_id: '2',
+  default_sample_day: '2',
+  default_sampling_order: '5',
+  geo_order: 'NULL',
+  lat: '20.6138',
+  lon: '-156.436853',
+  active: '1',
+  description: 'NULL' }
+siteCode : NHP
+{ site_id: '38',
+  hui_abv: 'NHP',
+  storet_code: '000687',
+  long_name: 'Haycraft Park',
+  lab_id: '2',
+  default_sample_day: '3',
+  default_sampling_order: '3',
+  geo_order: 'NULL',
+  lat: '20.796414',
+  lon: '-156.503198',
+  active: '1',
+  description: 'NULL' }
+siteCode : NKP
+{ site_id: '39',
+  hui_abv: 'NKP',
+  storet_code: '000711',
+  long_name: 'Kealia Pond',
+  lab_id: '2',
+  default_sample_day: '3',
+  default_sampling_order: '4',
+  geo_order: 'NULL',
+  lat: '20.794936',
+  lon: '-156.485587',
+  active: '1',
+  description: 'NULL' }
+siteCode : NSB
+{ site_id: '40',
+  hui_abv: 'NSB',
+  storet_code: 'NULL',
+  long_name: 'Sugar Beach',
+  lab_id: '2',
+  default_sample_day: '3',
+  default_sampling_order: '5',
+  geo_order: 'NULL',
+  lat: '20.784204',
+  lon: '-156.466463',
+  active: '1',
+  description: 'NULL' }
+siteCode : NKC
+{ site_id: '41',
+  hui_abv: 'NKC',
+  storet_code: '000671',
+  long_name: 'Kihei Canoe Club',
+  lab_id: '2',
+  default_sample_day: '3',
+  default_sampling_order: '6',
+  geo_order: 'NULL',
+  lat: '20.781403',
+  lon: '-156.463176',
+  active: '1',
+  description: 'NULL' }
+siteCode : NMP
+{ site_id: '42',
+  hui_abv: 'NMP',
+  storet_code: '000702',
+  long_name: 'Mai Poina \'Oe Ia\'u',
+  lab_id: '2',
+  default_sample_day: '1',
+  default_sampling_order: '6',
+  geo_order: 'NULL',
+  lat: '20.774894',
+  lon: '-156.460776',
+  active: '1',
+  description: 'NULL' }
+siteCode : NKN
+{ site_id: '43',
+  hui_abv: 'NKN',
+  storet_code: 'NULL',
+  long_name: 'Kalepolepo North',
+  lab_id: '2',
+  default_sample_day: '1',
+  default_sampling_order: '1',
+  geo_order: 'NULL',
+  lat: '20.765132',
+  lon: '-156.459344',
+  active: '1',
+  description: 'NULL' }
+siteCode : WKD
+{ site_id: '44',
+  hui_abv: 'WKD',
+  storet_code: '000704',
+  long_name: 'Kilohana Dr',
+  lab_id: '2',
+  default_sample_day: '4',
+  default_sampling_order: '1',
+  geo_order: 'NULL',
+  lat: '20.702214',
+  lon: '-156.445921',
+  active: '1',
+  description: 'NULL' }
+siteCode : WKB
+{ site_id: '45',
+  hui_abv: 'WKB',
+  storet_code: '000685',
+  long_name: 'Keawekapu Beach',
+  lab_id: '2',
+  default_sample_day: '4',
+  default_sampling_order: '2',
+  geo_order: 'NULL',
+  lat: '20.695939',
+  lon: '-156.444632',
+  active: '1',
+  description: 'NULL' }
+siteCode : WUL
+{ site_id: '46',
+  hui_abv: 'WUL',
+  storet_code: '000686',
+  long_name: 'Ulua Beach',
+  lab_id: '2',
+  default_sample_day: '4',
+  default_sampling_order: '3',
+  geo_order: 'NULL',
+  lat: '20.69112',
+  lon: '-156.444201',
+  active: '1',
+  description: 'NULL' }
+siteCode : WWA
+{ site_id: '47',
+  hui_abv: 'WWA',
+  storet_code: '000691',
+  long_name: 'Wailea Beach',
+  lab_id: '2',
+  default_sample_day: '4',
+  default_sampling_order: 'NULL',
+  geo_order: 'NULL',
+  lat: '20.68156',
+  lon: '-156.443524',
+  active: '0',
+  description: 'NULL' }
+siteCode : WPL
+{ site_id: '48',
+  hui_abv: 'WPL',
+  storet_code: '000715',
+  long_name: 'Palauea',
+  lab_id: '2',
+  default_sample_day: '4',
+  default_sampling_order: '4',
+  geo_order: 'NULL',
+  lat: '20.669565',
+  lon: '-156.442907',
+  active: '1',
+  description: 'NULL' }
+siteCode : WPO
+{ site_id: '49',
+  hui_abv: 'WPO',
+  storet_code: '000716',
+  long_name: 'Poolenalena (Chang\'s Beach)',
+  lab_id: '2',
+  default_sample_day: '4',
+  default_sampling_order: '5',
+  geo_order: 'NULL',
+  lat: '20.66339',
+  lon: '-156.441968',
+  active: '1',
+  description: 'NULL' }
+siteCode : NMH
+{ site_id: '50',
+  hui_abv: 'NMH',
+  storet_code: 'NULL',
+  long_name: 'Maalaea Harbor',
+  lab_id: '2',
+  default_sample_day: '3',
+  default_sampling_order: '1',
+  geo_order: 'NULL',
+  lat: '20.790305',
+  lon: '-156.510825',
+  active: '1',
+  description: 'NULL' }
+siteCode : NMC
+{ site_id: '51',
+  hui_abv: 'NMC',
+  storet_code: 'NULL',
+  long_name: 'Maalaea Condos',
+  lab_id: '2',
+  default_sample_day: '3',
+  default_sampling_order: '2',
+  geo_order: 'NULL',
+  lat: '20.794917',
+  lon: '-156.506735',
+  active: '1',
+  description: 'NULL' }
+
+Report Measurement Names:
+{ Temp: 'Temp',
+  Salinity: 'Salinity',
+  DO: 'DO',
+  'DO%': 'DO_sat',
+  pH: 'pH',
+  Turbidity: 'Turbidity',
+  TotalN: 'TotalN',
+  TotalP: 'TotalP',
+  Phosphate: 'Phosphate',
+  Silicate: 'Silicate',
+  NNN: 'NNN',
+  NH4: 'NH4' }
+
+Report Percision:
+{ Temp: 1,
+  Salinity: 1,
+  DO: 2,
+  'DO%': 1,
+  pH: 2,
+  Turbidity: 2,
+  TotalN: 2,
+  TotalP: 2,
+  Phosphate: 2,
+  Silicate: 2,
+  NNN: 2,
+  NH4: 2,
+  Lat: 6,
+  Long: 6 }
+In createReports
+Creating report for all samples
+In createReport From List
+Writing file to ../reports/web-export-quarterly-reports/4th-quarter.all-labs.tsv
+Creating report for lab LLHS
+In createReport From List
+Writing file to ../reports/web-export-quarterly-reports/4th-quarter.LLHS-lab.tsv
+Creating report for lab NMS
+In createReport From List
+Writing file to ../reports/web-export-quarterly-reports/4th-quarter.NMS-lab.tsv
