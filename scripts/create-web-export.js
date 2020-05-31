@@ -305,6 +305,15 @@ var readNutrientData = function (data, callback) {
 
 var updateSamplesWithNutrientData = function (data, callback) {
 
+  // Check to make sure all nutrient sampleIDs have a matching insitu sample to join to if not, report a problem.
+
+  for (let sampleID in data.nutrientSamples) {
+    if (! data.samples[sampleID]) {
+      console.log("-- WARNING: did not find matching insitu sample ID for nutrient sample ID: " + data.nutrientSamples[sampleID].SampleID + " site: " + data.nutrientSamples[sampleID].Location + " date: " + data.nutrientSamples[sampleID].Date);
+      console.error("-- WARNING: did not find matching insitu sample ID for nutrient sample ID: " + data.nutrientSamples[sampleID].SampleID + " site: " + data.nutrientSamples[sampleID].Location + " date: " + data.nutrientSamples[sampleID].Date);
+    }
+  }
+
   console.log("In updateSamplesWithNutrientData");
   console.log("Number of samples:          " + Object.keys(data.samples).length);
   console.log("Number of nutrient samples: " + Object.keys(data.nutrientSamples).length);
