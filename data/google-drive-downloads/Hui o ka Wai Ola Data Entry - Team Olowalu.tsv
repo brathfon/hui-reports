@@ -387,3 +387,18 @@ yes	yes	no	no	no	70	Olowalu	LLHS	KG	LR	GA	OCO	OCO200312	2028	Camp Olowalu	2020-0
 yes	yes	no	no	no	70	Olowalu	LLHS	KG	LR	GA	OUB	OUB200312	2032	Ukumehame	2020-03-12	7:52	1	1	5	1	3					OUB200312	24.3	35.7	6.75	98.9	8.14	12.70	12.50	13.10	12.77	0.024				N	0	0	0	pretty rainy morning - misty all around
 yes	yes	no	no	no	70	Olowalu	LLHS	KG	LR	GA	OPB	OPB200312	2033	Papalaua Beach	2020-03-12	8:09	1	1	5	1	3					OPB200312	24.5	35.9	6.71	98.8	8.14	6.93	6.76	6.15	6.61	0.062				N	0	0	0	pretty rainy morning - misty all around
 yes	yes	no	no	no	70	Olowalu	LLHS	KG	LR	GA	OPP	OPP200312	2034	Papalaua Pali	2020-03-12	8:21	1	1	5	1	3					OPP200312	24.5	35.8	6.66	98.0	8.14	6.42	5.76	6.68	6.29	0.075				N	0	0	0	pretty rainy morning - misty all around
+yes	yes	yes	no	no	71	Olowalu	LLHS	TS	JS		OPM	OPM200514	2073	Martin Hale	2020-05-14	7:10	1	1	4	1	1					OPM200514	25.6	34.6	5.26	78.0	8.02	1.59	1.62	1.62	1.61	0.011				N	0	0	0	Meters and probes used were from the southside lab
+yes	yes	yes	no	no	71	Olowalu	LLHS	TS	JS		OCO	OCO200514	2028	Camp Olowalu	2020-05-14	7:30	1	1	4	1	1					OCO200514	26.8	34.4	6.18	93.6	8.09	2.98	3.27	3.31	3.19	0.057				N	0	0	0	OPM: calm, like mirror lake - did DO/ salinity 2 times (2nd reading: 5.27 mg/L, 78.2%)
+yes	yes	yes	no	no	71	Olowalu	LLHS	TS	JS		OUB	OUB200514	2032	Ukumehame	2020-05-14	7:48	1	1	4	1	1					OUB200514	26.5	34.6	6.40	96.4	8.12	14.20	14.00	13.20	13.80	0.038				N	0	0	0	OUB: surfers - no one within 100 yards
+yes	yes	yes	no	no	71	Olowalu	LLHS	TS	JS		OPB	OPB200514	2033	Papalaua Beach	2020-05-14	8:08	1	1	4	1	1					OPB200514	26.8	35.1	6.52	99.1	8.14	6.65	5.63	6.05	6.11	0.084				N	0	0	0	
+yes	yes	yes	no	no	71	Olowalu	LLHS	TS	JS		OPP	OPP200514	2034	Papalaua Pali	2020-05-14	8:20	1	1	4	1	1					OPP200514	26.8	34.9	6.57	99.8	8.13	4.80	4.96	4.95	4.90	0.018				N	0	0	0	
+yes	yes	no	no	no	72	Olowalu	LLHS	GS	JS		OPM	OPM200616	2073	Martin Hale	2020-06-16	7:06	1	1	5	1	3					OPM200616	25.3	36.4	5.64	84.2	8.00	1.61	1.84	1.64	1.70	0.074				N	0	0	0	OCO - very fishy odor
+yes	yes	no	no	no	72	Olowalu	LLHS	GS	JS		OCO	OCO200616	2028	Camp Olowalu	2020-06-16	7:29	1	1	5	1	3					OCO200616	25.8	36.5	6.25	94.1	8.07	3.97	3.54	3.69	3.73	0.058				N	0	0	0	
+yes	yes	no	no	no	72	Olowalu	LLHS	GS	JS		OUB	OUB200616	2032	Ukumehame	2020-06-16	7:48	1	1	5	1	3					OUB200616	26.3	36.7	6.59	100.3	8.09	10.80	11.60	12.60	11.67	0.077				N	0	0	0	
+yes	yes	no	no	no	72	Olowalu	LLHS	GS	JS		OPB	OPB200616	2033	Papalaua Beach	2020-06-16	8:04	1	1	5	1	3					OPB200616	26.2	36.7	6.80	103.6	8.12	4.17	4.01	4.66	4.28	0.079				N	0	0	0	
+yes	yes	no	no	no	72	Olowalu	LLHS	GS	JS		OPP	OPP200616	2034	Papalaua Pali	2020-06-16	8:26	1	1	5	1	3					OPP200616	26.0	36.4	6.76	102.3	8.13	5.55	4.91	5.50	5.32	0.067				N	10	0	0	
+yes	yes	no	no	no	73	Olowalu	LLHS	JS			OPM	OPM200709	2073	Martin Hale	2020-07-09	7:09	1	1	5	1	3					OPM200709	25.8	36.7	5.95	90.1	8.01	6.18	6.00	6.67	6.28	0.055				N	0	0	0	
+yes	yes	no	no	no	73	Olowalu	LLHS	JS			OCO	OCO200709	2028	Camp Olowalu	2020-07-09	7:35	1	1	5	1	3					OCO200709	25.7	36.8	6.27	94.5	8.07	2.87	2.85	2.97	2.90	0.022				N	0	15	5	OCO- 5 Tents on beach
+yes	yes	no	no	no	73	Olowalu	LLHS	JS			OUB	OUB200709	2032	Ukumehame	2020-07-09	7:53	1	1	5	1	3					OUB200709	25.6	36.7	6.61	99.5	8.08	29.70	29.90	29.30	29.63	0.010				N	1	0	0	OUB - Full parking lot - surfers
+yes	yes	no	no	no	73	Olowalu	LLHS	JS			OPB	OPB200709	2033	Papalaua Beach	2020-07-09	8:15	1	1	5	1	3					OPB200709	25.4	36.8	6.80	102.1	8.08	4.45	4.19	4.13	4.26	0.040				N	0	0	0	
+yes	yes	no	no	no	73	Olowalu	LLHS	JS			OPP	OPP200709	2034	Papalaua Pali	2020-07-09	8:29	1	1	5	1	3					OPP200709	25.9	36.6	6.72	101.5	8.13	11.30	11.70	10.50	11.17	0.055				N	3	12	0	OPP- Surf camp
