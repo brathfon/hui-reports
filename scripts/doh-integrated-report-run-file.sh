@@ -24,7 +24,6 @@ reportBasename=$1
    --odir ../reports/doh-reports \
    --bname $reportBasename \
    --gsdir  ../data/google-drive-downloads \
-   --sfile ../data/sites.txt  \
    --ndir  ../data/nutrient-data \
    --inns > logs/$theDate.$reportBasename.txt       # inns flag causes output to not output samples without nutrient data
 

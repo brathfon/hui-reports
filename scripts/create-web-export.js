@@ -18,7 +18,7 @@ console.dir(`arguments passed in ${argv}`);
 console.dir(`arguments passed in ${util.inspect(argv, false, null)}`);
 
 const printUsage = function () {
-  console.log(`Usage: ${scriptname} --odir <directory to write report files> --bname <basename for the files> --gsdir <Google sheets directory> --sfile <site file> --ndir <nutrient data directory [--inns]`);
+  console.log(`Usage: ${scriptname} --odir <directory to write report files> --bname <basename for the files> --gsdir <Google sheets directory> --ndir <nutrient data directory [--inns]`);
   console.log(`optional:`);
   console.log(`  --inns     Ignore no nutrient data lines. They will not be included in the report.`);
 }
@@ -46,12 +46,6 @@ if (! (argv.g || argv.gsdir )) {
   process.exit();
 }
 
-if (! (argv.s || argv.sfile )) {
-  console.log("ERROR: you must specify a site file for reading the site information");
-  printUsage();
-  process.exit();
-}
-
 if (! (argv.n || argv.ndir )) {
   console.log("ERROR: you must specify a directory to find nutrient data csv files");
   printUsage();
@@ -71,8 +65,8 @@ if (argv.bname) data['basenameForFiles']  = argv.bname;
 if (argv.g)     data['googleSheetsDirectory']  = argv.g;
 if (argv.gsdir) data['googleSheetsDirectory']  = argv.gsdir;
 
-if (argv.s)     data['siteFile']  = argv.s;
-if (argv.sfile) data['siteFile']  = argv.sfile;
+// the site information comes from a downloaded sheet of the google drive spreadsheet where the insitu data is recorded
+data['siteFile'] = data['googleSheetsDirectory'] + '/' + "Hui o ka Wai Ola Data Entry - Site Codes.tsv";
 
 if (argv.n)     data['nutrientDirectory']  = argv.n;
 if (argv.ndir)  data['nutrientDirectory']  = argv.ndir;
@@ -87,7 +81,7 @@ data['samples'] = {};  // the key of samples is the sample ID. ex: RWA190716, wh
                        // the value is an object with the information about the sample
 
 
-var rsf   = require('../lib/readSiteFile');
+var rsgs   = require('../lib/readSiteGdriveSheet');
 var rss   = require('../lib/readSpreadSheets');
 var rnf   = require('../lib/readSoestFiles');
 
@@ -142,7 +136,7 @@ var getPrecisionForMeasurement = function (column) {
 var getSiteData = function (data, callback) {
 
   console.log("In getSiteData");
-  data['sites'] = rsf.readSiteFile(data.siteFile);
+  data['sites'] = rsgs.readSiteGdriveSheet(data.siteFile);
 
   //console.log("sites " + util.inspect(data.sites, false, null));
 

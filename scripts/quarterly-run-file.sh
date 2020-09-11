@@ -18,7 +18,6 @@ output_dir=../reports/web-export-quarterly-reports
    --odir $output_dir \
    --bname $reportBasename  \
    --gsdir  ../data/google-drive-downloads \
-   --sfile ../data/sites.txt  \
    --ndir  ../data/nutrient-data > logs/$theDate.$reportBasename.txt
 
 

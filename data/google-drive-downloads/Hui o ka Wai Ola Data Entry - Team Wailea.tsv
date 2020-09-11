@@ -214,3 +214,8 @@ yes	yes	yes	no	no	48	Wailea	NMS	TS	JS		WKB	WKB200703		Keawakapu Beach	2020-07-03
 yes	yes	yes	no	no	48	Wailea	NMS	TS	JS		WUL	WUL200703		Ulua Beach	2020-07-03	8:55	2	2	4	2	2					WUL200703	27.1	34.6	6.63	101.4	8.10	2.50	2.49	2.07	2.35	0.104				N	2	12	0	
 yes	yes	yes	no	no	48	Wailea	NMS	TS	JS		WPL	WPL200703		Palauea Beach	2020-07-03	9:20	2	2	4	2	2					WPL200703	27.2	34.7	6.76	103.4	8.17	2.08	2.49	2.93	2.50	0.170				N	7	30	30	5 tents/10 fishing poles
 yes	yes	yes	no	no	48	Wailea	NMS	TS	JS		WPO	WPO200703		Poolenalena Beach	2020-07-03	9:41	2	2	4	2	2					WPO200703	27.4	34.9	6.68	102.7	8.17	1.00	1.36	1.15	1.17	0.155				N	17	65	65	15 tents/14 fishing poles
+yes	yes	yes	no	no	49	Wailea	NMS	TS	AW	AA	WKD	WKD200724		Kilohana Dr	2020-07-24	8:06	1	1	3	1	1					WKD200724	27.2	34.9	6.30	96.2	8.14	0.79	0.76	0.77	0.77	0.020				N	2	9	0	1 dog on beach
+yes	yes	yes	no	no	49	Wailea	NMS	TS	AW	AA	WKB	WKB200724		Keawakapu Beach	2020-07-24	8:25	1	1	3	1	1					WKB200724	27.2	35	6.33	96.8	8.14	0.77	0.87	0.87	0.84	0.069				N	0	2	0	1 dog on beach; there was "XXXX" across turbidity screen
+yes	yes	yes	no	no	49	Wailea	NMS	TS	AW	AA	WUL	WUL200724		Ulua Beach	2020-07-24	8:45	1	1	3	1	1					WUL200724	27.2	34.7	6.37	97.1	8.12	1.09	1.23	1.28	1.20	0.082				N	10	0	0	SUP (x2); scuba divers nearby
+yes	yes	no	no	no	49	Wailea	NMS	TS	AW	AA	WPL	WPL200724		Palauea Beach	2020-07-24	9:01	1	1	3	1	1					WPL200724	27.6	34.9	6.39	98.0	8.15	0.70	0.73	0.84	0.76	0.097				N	2	3	0	temp difference between salinity and DO probe = 0.3 C
+yes	yes	no	no	no	49	Wailea	NMS	TS	AW	AA	WPO	WPO200724		Poolenalena Beach	2020-07-24	9:15	1	1	3	1	1					WPO200724	27.9	34.9	6.41	99.0	8.18	0.53	0.57	0.52	0.54	0.049				N	5	15	10	4 tents; boogie boarders nearby; 3 fishing poles out
