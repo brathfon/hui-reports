@@ -1,0 +1,3 @@
+
+Example of a sample set that has detection limit:
+./create-wqx-activities-and-results.js  -o /tmp -b wqx -g ../../data/google-drive-downloads -n ../../data/nutrient-data/ -s RWA160614
