@@ -371,3 +371,14 @@ yes	yes	yes	no	no	75	Polanui	LLHS	GS	MB	KH	PLH	PLH200819	2023	Lindsey Hale	2020-
 yes	yes	yes	no	no	75	Polanui	LLHS	GS	MB	KH	PLT	PLT200819	2024	Lahaina Town	2020-08-19	8:59	2	NBBF	6	2	2					PLT200819	26.9	34.8	5.79	88.1	8.05	1.73	1.85	1.61	1.73	0.069				N	2	2	0	
 yes	yes	yes	no	no	75	Polanui	LLHS	GS	MB	KH	OCO	OCO200819	2028	Camp Olowalu	2020-08-19	9:34	2	NBBF	6	2	2					OCO200819	26.6	34.6	6.37	96.1	8.09	4.55	4.91	4.63	4.70	0.040				N	0	0	0	
 yes	yes	yes	no	no	75	Polanui	LLHS	GS	MB	KH	OPP	OPP200819	2034	Papalaua Pali	2020-08-19	9:50	2	NBBF	6	2	2					OPP200819	26.2	34.8	6.66	99.9	8.18	2.68	2.66	2.42	2.59	0.056				N	0	0	0	
+yes	yes	yes	no	no	76	Polanui	TMO	GS	MB	KH	PFF	PFF200910	2022	505 Front St	2020-09-10	8:20	1	NBBF	5	2	3					PFF200910	27.0	33.8	6.29	95.3	8.03	5.99	6.09	5.84	5.97	0.021				Y	0	3	0	
+yes	yes	yes	no	no	76	Polanui	TMO	GS	MB	KH	PLH	PLH200910	2023	Lindsey Hale	2020-09-10	8:46	1	NBBF	5	2	3					PLH200910	27.3	34.8	6.28	96.2	8.03	15.2	16.00	15.80	15.67	0.027				N	0	2	0	
+yes	yes	yes	no	no	76	Polanui	TMO	GS	MB	KH	PLT	PLT200910	2024	Lahaina Town	2020-09-10	9:02	1	NBBF	5	2	3					PLT200910	27.4	34.3	5.89	90.1	8.03	34.40	34.70	35.90	35.00	0.023				N	0	0	0	Collection near shore vs. farther out to buoy (high tide)
+yes	yes	yes	no	no	76	Polanui	TMO	GS	MB	KH	OCO	OCO200910	2028	Camp Olowalu	2020-09-10	9:30	1	NBBF	5	2	3					OCO200910	26.5	35.2	6.43	97.5	8.06	5.80	5.63	5.58	5.67	0.020				N	0	0	0	
+yes	yes	yes	no	no	76	Polanui	TMO	GS	MB	KH	OPP	OPP200910	2034	Papalaua Pali	2020-09-10	9:47	1	NBBF	5	2	3					OPP200910	26.5	35.1	6.64	100.5	8.14	7.53	7.39	7.67	7.53	0.019				N	0	0	0	*Post sampling scratch on vial, new one used on 9/11
+yes	yes	yes	no	no	77	Polanui	TMO	GS	MB	RB	PFF	PFF200930	2022	505 Front St	2020-09-30	8:23	2	1	6	2	2					PFF200930	27.3	33.2	6.07	92.0	8.05	3.31	3.31	3.42	3.35	0.019				Y	0	2	0	1/2 ft waves. 6 surfers by harbor
+yes	yes	yes	no	no	77	Polanui	TMO	GS	MB	RB	PLH	PLH200930	2023	Lindsey Hale	2020-09-30	8:44	2	1	6	2	2					PLH200930	27.6	34.4	5.61	86.1	8.07	13.5	12.50	13.20	13.07	0.039				N	0	1	0	flat & turbid water
+yes	yes	yes	no	no	77	Polanui	TMO	GS	MB	RB	PLT	PLT200930	2024	Lahaina Town	2020-09-30	8:59	2	1	6	2	2					PLT200930	27.6	34.6	6.63	102.0	8.12	1.72	1.64	1.34	1.57	0.128				N	0	2	0	flat & turbid water
+yes	yes	yes	no	no	77	Polanui	TMO	GS	MB	RB	OSF	OSF200930	2027	Olowalu Pier	2020-09-30	9:29	2	1	6	2	2					OSF200930	28.1	35.1	6.42	99.8	8.02	4.19	3.84	4.93	4.32	0.129				N	0	1	0	flat, 5 people, 1 dog in the water
+yes	yes	yes	no	no	77	Polanui	TMO	GS	MB	RB	OCO	OCO200930	2028	Camp Olowalu	2020-09-30	9:44	2	1	6	2	2					OCO200930	28.6	35.0	6.17	96.5	8.06	3.24	3.23	3.43	3.30	0.034				N	1	0	0	flat
+yes	yes	yes	no	no	77	Polanui	TMO	GS	MB	RB	OPP	OPP200930	2034	Papalaua Pali	2020-09-30	10:00	2	1	6	2	2					OPP200930	28.6	35.1	6.57	103.0	8.14	4.84	5.39	5.05	5.09	0.054				N	5	0	0	1/2 ft waves. Campers & cars

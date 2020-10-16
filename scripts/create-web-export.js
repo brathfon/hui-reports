@@ -693,21 +693,21 @@ var createReportFromList = function (samples, ignoreNoNutrientSamples) {
 
 }
 
-/*  Returns a file path with basename to create the files for each lab */
+/*  Returns a file path with basename to create the files for each geo area */
 
-var getFilePathForLab = function (data, labID) {
-  return path.join(data.directoryForFiles, data.basenameForFiles + `.${labID}-lab.tsv`);
+var getFilePathForGeoArea = function (data, GeoArea) {
+  return path.join(data.directoryForFiles, data.basenameForFiles + `.${GeoArea}-maui.tsv`);
 };
 
-/* get the full file path for the file that has data for all the labs */
-var getFilePathForAllLabs = function (data) {
-  return path.join(data.directoryForFiles, data.basenameForFiles + ".all-labs.tsv");
+/* get the full file path for the file that has data for all the areas */
+var getFilePathForAllAreas = function (data) {
+  return path.join(data.directoryForFiles, data.basenameForFiles + ".all-areas.tsv");
 };
 
 
-var fileExists = function (data, labID) {
+var fileExists = function (data, GeoArea) {
 
-  let filePath = getFilePath(data, labID);
+  let filePath = getFilePath(data, GeoArea);
   return fs.existsSync(filePath);
 };
 
@@ -736,13 +736,13 @@ var createReports = function (data, callback) {
 
   console.log("Creating report for all samples");
 
-  let filePath = getFilePathForAllLabs(data);
+  let filePath = getFilePathForAllAreas(data);
   writeFile(filePath, createReportFromList(data.sortedSamples, data.ignoreNoNutrientSamples));
 
-  for (let labID in data.samplesByLab) {
-     console.log("Creating report for lab " + labID);
-     filePath = getFilePathForLab(data, labID);
-     writeFile(filePath, createReportFromList(data.samplesByLab[labID], data.ignoreNoNutrientSamples));
+  for (let geoArea in data.samplesByGeoArea) {
+     console.log("Creating report for area " + geoArea);
+     filePath = getFilePathForGeoArea(data, geoArea);
+     writeFile(filePath, createReportFromList(data.samplesByGeoArea[geoArea], data.ignoreNoNutrientSamples));
      //if (fs.existsSync(filePath))
   }
 
@@ -873,10 +873,10 @@ var sortSamples = function(data, callback) {
 };
 
 
-var filterSamplesByLab = function(data, callback) {
+var filterSamplesByGeoArea = function(data, callback) {
 
   // get all the samples in one list to be sorted
-  data.samplesByLab = {};
+  data.samplesByGeoArea = {};
 
   for (let i = 0; i < data.sortedSamples.length; ++i) {
 
@@ -885,61 +885,36 @@ var filterSamplesByLab = function(data, callback) {
 
     const labCode = sample.Lab;
 
-    if ( ! data.samplesByLab[labCode] ) {
-      data.samplesByLab[labCode] = [];  // haven't seen this lab yet, so make an empty list
+
+    // HACK WARNING WARNING
+    // Because there were lab problem during COVID, we had to move labs.
+    // Team leads wanted to use other lab codes.
+    // Changed to calling the labs geo areas
+
+    let areaLookup = {
+       LLHS: 'west',
+       TMO:  'west',
+       NMS:  'south',
+       DHS:  'south'
+    };
+
+    let area = areaLookup[labCode];
+    if (! area) {
+      console.error(`ERROR: could not find area lookup for lab ${labCode} .... exiting`);
+      console.log(`ERROR: could not find area lookup for lab ${labCode} .... exiting`);
+      process.exit(1);
     }
-    data.samplesByLab[labCode].push(sample);
+
+    if ( ! data.samplesByGeoArea[area] ) {
+      data.samplesByGeoArea[area] = [];  // haven't seen this lab yet, so make an empty list
+    }
+    data.samplesByGeoArea[area].push(sample);
   }
 
   if (callback) {
     callback();
   }
 };
-
-
-/* this function is not currently being called.  Just going to let the script be dumb and write over top the files for now.
-
-var checkForExistingFiles = function(data, callback) {
-
-  const filesThatExist = [];
-  console.log("In checkForExistingFiles");
-
-  let filePath = getFilePathForAllLabs(data);
-
-  if (fs.existsSync(filePath)) {
-    filesThatExist.push(filePath);
-  }
-
-  for (let labID in data.samplesByLab) {
-    filePath = getFilePathForLab(data, labID);
-    if (fs.existsSync(filePath)) {
-      filesThatExist.push(filePath);
-    }
-  }
-
-  if (filesThatExist.length > 0) {
-    console.log(`\n\nThe following files already exist:`);
-    for (let i = 0; i < filesThatExist.length; ++i) {
-      console.log(`${filesThatExist[i]}`);
-    }
-
-    const rl = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout
-    });
-
-    rl.question('Over-write the files? y or n', (answer) => {
-      console.log(`answer was ${answer}`);
-      rl.close();
-    });
-  }
-
-  if (callback) {
-    callback();
-  }
-};
-
-*/
 
 
 // this is the main
@@ -950,7 +925,7 @@ getSiteData(data, function () {
         updateSamplesWithNutrientData(data, function () {
           printLookupData(data, function () {
             sortSamples(data, function () {
-              filterSamplesByLab(data, function () {
+              filterSamplesByGeoArea(data, function () {
                 //checkForExistingFiles(data, function () {
                   printSamples(data, function () {   // for troubleshooting, need to comment things back in in the function to use it
                     createReports(data, null);
