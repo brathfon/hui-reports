@@ -225,15 +225,15 @@ var readSpreadSheetData = function (data, callback) {
       obj['Session']    = sessions[labSessionCode][i].Session;
       obj['Date']       = fixDateFormat(sessions[labSessionCode][i]['Date']); // put the date in the MM/DD/YY format
       obj['Time']       = fixTimeFormat(sessions[labSessionCode][i].Time);    // put the time in the HH:MM format
-      obj['Temp']       = sessions[labSessionCode][i].Temp;
-      obj['Salinity']   = sessions[labSessionCode][i].Salinity;
-      obj['DO']         = sessions[labSessionCode][i].DO;
-      obj['DO%']        = sessions[labSessionCode][i]['DO%'];;
-      obj['pH']         = sessions[labSessionCode][i].pH;
+      obj['Temp']       = setPrecision('Temp', sessions[labSessionCode][i].Temp);
+      obj['Salinity']   = setPrecision('Salinity', sessions[labSessionCode][i].Salinity);
+      obj['DO']         = setPrecision('DO', sessions[labSessionCode][i].DO);
+      obj['DO%']        = setPrecision('DO%', sessions[labSessionCode][i]['DO%']);
+      obj['pH']         = setPrecision('pH', sessions[labSessionCode][i].pH);
       obj['Turb1']      = sessions[labSessionCode][i].Turb1;
       obj['Turb2']      = sessions[labSessionCode][i].Turb2;
       obj['Turb3']      = sessions[labSessionCode][i].Turb3;
-      obj['Turbidity']  = calculateAvgTurbidity(sessions[labSessionCode][i]);
+      obj['Turbidity']  = setPrecision('Turbidity', calculateAvgTurbidity(sessions[labSessionCode][i]));
       obj['Lab']        = sessions[labSessionCode][i].Lab;
       // set the nutrient data to blanks.  It may or may not get updated later when the nutrient data results are received
       obj['TotalN']     = '';
@@ -320,12 +320,12 @@ var updateSamplesWithNutrientData = function (data, callback) {
   for (let sampleID in data.samples) {
     if (data.nutrientSamples[sampleID]) {
       // will need a check here for "<" stuff maybe, or it could end up in the printing out part
-      data.samples[sampleID].TotalN    = data.nutrientSamples[sampleID].TotalN;
-      data.samples[sampleID].TotalP    = data.nutrientSamples[sampleID].TotalP;
-      data.samples[sampleID].Phosphate = data.nutrientSamples[sampleID].Phosphate;
-      data.samples[sampleID].Silicate  = data.nutrientSamples[sampleID].Silicate;
-      data.samples[sampleID].NNN       = data.nutrientSamples[sampleID].NNN;
-      data.samples[sampleID].NH4       = data.nutrientSamples[sampleID].NH4;
+      data.samples[sampleID].TotalN    = setPrecision('TotalN', data.nutrientSamples[sampleID].TotalN);
+      data.samples[sampleID].TotalP    = setPrecision('TotalP', data.nutrientSamples[sampleID].TotalP);
+      data.samples[sampleID].Phosphate = setPrecision('Phosphate', data.nutrientSamples[sampleID].Phosphate);
+      data.samples[sampleID].Silicate  = setPrecision('Silicate', data.nutrientSamples[sampleID].Silicate);
+      data.samples[sampleID].NNN       = setPrecision('NNN', data.nutrientSamples[sampleID].NNN);
+      data.samples[sampleID].NH4       = setPrecision('NH4', data.nutrientSamples[sampleID].NH4);
     }
   }
 
@@ -427,7 +427,14 @@ var formatSampleWithSigFigs = function(theSample, numSigFigs) {
 };
 
 var setPrecision = function(attribute, value) {
-  return formatSampleWithSigFigs(value, getPrecisionForMeasurement(attribute));
+  let returnValue = value;
+
+  // need to check for two situations where we will not mess with the sig figs
+  // one if it is blank or QAed out and also if it starts with a < to indicate it as below detectable levels
+  if (notQAedOutOrBlank(value) && !(String(value).indexOf("<") === 0)) {
+    returnValue =  formatSampleWithSigFigs(value, getPrecisionForMeasurement(attribute));
+  }
+  return returnValue;
 };
 
 
@@ -539,7 +546,7 @@ var fixDateFormat = function (aDate) {
     [year, month, day] = aDate.split("-");
     year = year.substring(2);
     //console.log(`TEST month ${month} day ${day} year ${year}`);
-    returnValue = `${month}/${day}/${year}`;
+    returnValue = `${month}/${day}/20${year}`;
 
     //console.log(`TEST returning ${returnValue}`);
   }
@@ -632,161 +639,191 @@ const resultAttributes = {};
 var initResultAttributes = function(data, callback) {
 
   // some values that get reused
-  const FIELD_MRS_OBS  = "Field Mrs/Obj";
+  const FIELD_MSR_OBS  = "Field Msr/Obs";
   const SAMPLE_ROUTINE = "Sample-Routine";
   const SAMPLE_COLLECTION_METHOD_ID = 1002;  // just one right now
   const WATER_BOTTLE = "Water Bottle";       // blank for insitu (may change), water bottle for nutrient
+  const BUCKET = "Bucket";       // blank for insitu (may change), water bottle for nutrient
+  const PROBE_SENSOR = "Probe/Sensor";       // An instrument used to assess ambient water or air quality directly.
   // Results Analytical Method ID context
-  const HPHA = "APHA";
+  const APHA = "APHA";
   const HACH = "HACH";
   const USEPA = "USEPA";
-  const INSITU = "INSITU";
-  const NUTRIENT = "NUTR";
-  const TURBIDITY = "TURB";
-  const DISSOLVED = "Dissolved"; // no value for insitu data, "Dissolved" on nutrient samples
+  const INSITU = "INSITU";  // may not use these
+  const NUTRIENT = "NUTR";  // may not use these
+  const TURBIDITY = "TURB";  // may not use these
+  //const DISSOLVED = "Dissolved"; // no value for insitu data, "Dissolved" on nutrient samples
+  const FILTERED_FIELD = "Filtered, field";
+  const TURBIDITY_ACTIVITY_ID_SUFFIX = "FM:WB:";
+  const INSITU_ACTIVITY_ID_SUFFIX = "FM:PS:";
+  const NUTRIENT_ACTIVITY_ID_SUFFIX = "SR:WB:";
 
 
   // these objects will be used to grab specific information about each type
   resultAttributes['Temp'] = {
     characteristicName: "Temperature, water",
+    methodSpeciation: "",
     resultUnit : "deg C",
-    activityType : FIELD_MRS_OBS,
-    activityIDsuffix : INSITU,
+    activityType : FIELD_MSR_OBS,
+    activityIDsuffix : INSITU_ACTIVITY_ID_SUFFIX + "TS:",
     resultSampleFraction : "",
-    sampleCollectionMethodID : "",
-    sampleCollectionEquipmentName : "",
+    sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
+    sampleCollectionEquipmentName : PROBE_SENSOR,
+    sampleCollectionEquipmentComment : "HACH CDC401",
     resultAnalyticalMethodID : 2550,
-    resultAnalyticalMethodIDContext : HPHA
+    resultAnalyticalMethodIDContext : APHA
   };
 
   resultAttributes['DO'] = {
     characteristicName: "Dissolved oxygen (DO)",
+    methodSpeciation: "",
     resultUnit : "mg/l",
-    activityType : FIELD_MRS_OBS,
-    activityIDsuffix : INSITU,
+    activityType : FIELD_MSR_OBS,
+    activityIDsuffix : INSITU_ACTIVITY_ID_SUFFIX + "DO:",
     resultSampleFraction : "",
-    sampleCollectionMethodID : "",
-    sampleCollectionEquipmentName : "",
+    sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
+    sampleCollectionEquipmentName : PROBE_SENSOR,
+    sampleCollectionEquipmentComment : "HACH LDO101",
     resultAnalyticalMethodID : 8157,
     resultAnalyticalMethodIDContext : HACH
   };
 
   resultAttributes['DO%'] = {
     characteristicName: "Dissolved oxygen saturation",
+    methodSpeciation: "",
     resultUnit : "%",
-    activityType : FIELD_MRS_OBS,
-    activityIDsuffix : INSITU,
+    activityType : FIELD_MSR_OBS,
+    activityIDsuffix : INSITU_ACTIVITY_ID_SUFFIX + "DO:",
     resultSampleFraction : "",
-    sampleCollectionMethodID : "",
-    sampleCollectionEquipmentName : "",
+    sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
+    sampleCollectionEquipmentName : PROBE_SENSOR,
+    sampleCollectionEquipmentComment : "HACH LDO101",
     resultAnalyticalMethodID : 8157,
     resultAnalyticalMethodIDContext : HACH
   };
 
   resultAttributes['Turbidity'] = {
     characteristicName: "Turbidity",
+    methodSpeciation: "",
     resultUnit : "NTU",
-    activityType : FIELD_MRS_OBS,
-    activityIDsuffix : TURBIDITY,
+    activityType : FIELD_MSR_OBS,
+    activityIDsuffix : TURBIDITY_ACTIVITY_ID_SUFFIX,
     resultSampleFraction : "",
-    sampleCollectionMethodID : "",
-    sampleCollectionEquipmentName : "",
+    sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
+    sampleCollectionEquipmentName : WATER_BOTTLE,
+    sampleCollectionEquipmentComment : "HACH 2100Q",
     resultAnalyticalMethodID : 180.1,
     resultAnalyticalMethodIDContext : USEPA
   };
 
   resultAttributes['pH'] = {
     characteristicName: "pH",
+    methodSpeciation: "",
     resultUnit : "None",
-    activityType : FIELD_MRS_OBS,
-    activityIDsuffix : INSITU,
+    activityType : FIELD_MSR_OBS,
+    activityIDsuffix : INSITU_ACTIVITY_ID_SUFFIX + "PH:",
     resultSampleFraction : "",
-    sampleCollectionMethodID : "",
-    sampleCollectionEquipmentName : "",
+    sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
+    sampleCollectionEquipmentName : PROBE_SENSOR,
+    sampleCollectionEquipmentComment : "HACH PHC101",
     resultAnalyticalMethodID : 8156,
     resultAnalyticalMethodIDContext : HACH
   };
 
   resultAttributes['Salinity'] = {
     characteristicName: "Salinity",
+    methodSpeciation: "",
     resultUnit : "ppt",
-    activityType : FIELD_MRS_OBS,
-    activityIDsuffix : INSITU,
+    activityType : FIELD_MSR_OBS,
+    activityIDsuffix : INSITU_ACTIVITY_ID_SUFFIX + "TS:",
     resultSampleFraction : "",
-    sampleCollectionMethodID : "",
-    sampleCollectionEquipmentName : "",
-    resultAnalyticalMethodID : "8160 maybe",
+    sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
+    sampleCollectionEquipmentName : PROBE_SENSOR,
+    sampleCollectionEquipmentComment : "HACH CDC401",
+    resultAnalyticalMethodID : "8160",
     resultAnalyticalMethodIDContext : HACH
   };
 
   resultAttributes['TotalN'] = {
-    characteristicName: "Nitrogen",
+    characteristicName: "Total Nitrogen, mixed forms",
+    methodSpeciation: "as N",
     resultUnit : "ug/l",
     activityType : SAMPLE_ROUTINE,
-    activityIDsuffix : NUTRIENT,
-    resultSampleFraction : DISSOLVED,
+    activityIDsuffix : NUTRIENT_ACTIVITY_ID_SUFFIX,
+    resultSampleFraction : FILTERED_FIELD,
     sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
     sampleCollectionEquipmentName : WATER_BOTTLE,
-    resultAnalyticalMethodID : "353.3",
-    resultAnalyticalMethodIDContext : USEPA
+    sampleCollectionEquipmentComment : "",
+    resultAnalyticalMethodID : "4500-N",
+    resultAnalyticalMethodIDContext : APHA
   };
 
   resultAttributes['TotalP'] = {
-    characteristicName: "Phosphorus",
+    characteristicName: "Total Phosphorus, mixed forms",
+    methodSpeciation: "as P",
     resultUnit : "ug/l",
     activityType : SAMPLE_ROUTINE,
-    activityIDsuffix : NUTRIENT,
-    resultSampleFraction : DISSOLVED,
+    activityIDsuffix : NUTRIENT_ACTIVITY_ID_SUFFIX,
+    resultSampleFraction : FILTERED_FIELD,
     sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
     sampleCollectionEquipmentName : WATER_BOTTLE,
-    resultAnalyticalMethodID : "365.1",
-    resultAnalyticalMethodIDContext : USEPA
+    sampleCollectionEquipmentComment : "",
+    resultAnalyticalMethodID : "4500-P",
+    resultAnalyticalMethodIDContext : APHA
   };
 
   resultAttributes['Phosphate'] = {
-    characteristicName: "Phosphate-Phosphorus",
+    characteristicName: "Orthophosphate",
+    methodSpeciation: "as P",
     resultUnit : "ug/l",
     activityType : SAMPLE_ROUTINE,
-    activityIDsuffix : NUTRIENT,
-    resultSampleFraction : DISSOLVED,
+    activityIDsuffix : NUTRIENT_ACTIVITY_ID_SUFFIX,
+    resultSampleFraction : FILTERED_FIELD,
     sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
     sampleCollectionEquipmentName : WATER_BOTTLE,
-    resultAnalyticalMethodID : "365.1",
+    sampleCollectionEquipmentComment : "",
+    resultAnalyticalMethodID : "365.5",
     resultAnalyticalMethodIDContext : USEPA
   };
 
   resultAttributes['Silicate'] = {
     characteristicName: "Silicate",
+    methodSpeciation: "",
     resultUnit : "ug/l",
     activityType : SAMPLE_ROUTINE,
-    activityIDsuffix : NUTRIENT,
-    resultSampleFraction : DISSOLVED,
+    activityIDsuffix : NUTRIENT_ACTIVITY_ID_SUFFIX,
+    resultSampleFraction : FILTERED_FIELD,
     sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
     sampleCollectionEquipmentName : WATER_BOTTLE,
+    sampleCollectionEquipmentComment : "",
     resultAnalyticalMethodID : "366",
     resultAnalyticalMethodIDContext : USEPA
   };
 
   resultAttributes['NNN'] = {
-    characteristicName: "Nitrate",
+    characteristicName: "Nitrate + Nitrite",
+    methodSpeciation: "as N",
     resultUnit : "ug/l",
     activityType : SAMPLE_ROUTINE,
-    activityIDsuffix : NUTRIENT,
-    resultSampleFraction : DISSOLVED,
+    activityIDsuffix : NUTRIENT_ACTIVITY_ID_SUFFIX,
+    resultSampleFraction : FILTERED_FIELD,
     sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
     sampleCollectionEquipmentName : WATER_BOTTLE,
-    resultAnalyticalMethodID : "353.3",
+    sampleCollectionEquipmentComment : "",
+    resultAnalyticalMethodID : "353.4",
     resultAnalyticalMethodIDContext : USEPA
   };
 
   resultAttributes['NH4'] = {
-    characteristicName: "Ammonia-nitrogen",
+    characteristicName: "Ammonium",
+    methodSpeciation: "as N",
     resultUnit : "ug/l",
     activityType : SAMPLE_ROUTINE,
-    activityIDsuffix : NUTRIENT,
-    resultSampleFraction : DISSOLVED,
+    activityIDsuffix : NUTRIENT_ACTIVITY_ID_SUFFIX,
+    resultSampleFraction : FILTERED_FIELD,
     sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
     sampleCollectionEquipmentName : WATER_BOTTLE,
+    sampleCollectionEquipmentComment : "",
     resultAnalyticalMethodID : "350.1",
     resultAnalyticalMethodIDContext : USEPA
   };
@@ -809,6 +846,9 @@ var createLineForAttribute = function (huiResultName, huiSample) {
   // of the measuring equipment (usually found with nutrient data).
 
   let resultMeasureValue = huiSample[huiResultName];   // the value of the measurement we are writing out
+  let resultUnit = attr.resultUnit;
+
+  // these come into play if the lab procedure finds the value under a certain limit
   let resultDetectionCondition = "";
   let resultDetectionLimitType = "";
   let resultDetectionLimitValue = "";
@@ -819,21 +859,24 @@ var createLineForAttribute = function (huiResultName, huiSample) {
     resultDetectionLimitType = "Method Detection Level";
     resultDetectionLimitValue = resultMeasureValue;
     resultDetectionLimitUnit = attr.resultUnit;
-    resultMeasureValue = "";    // do not fill out the resultMeasureValue column
+    resultMeasureValue = "";    // do not fill out the resultMeasureValue or resultUnit column
+    resultUnit = "";
   }
 
   theLine.push(huiSample.Location);
-  theLine.push(huiSample.SampleID + "_" + attr.activityIDsuffix);  // this is the activity id for storet
+  theLine.push(huiSample.SampleID + ":" + attr.activityIDsuffix);  // this is the activity id for storet
   theLine.push(attr.activityType);
   theLine.push(huiSample.Date);
   theLine.push(huiSample.Time);
   theLine.push(attr.sampleCollectionMethodID);
-  theLine.push("TBD sampleCollectionMethodContext");
+  //theLine.push("TBD sampleCollectionMethodContext");  // try without first
   theLine.push(attr.sampleCollectionEquipmentName);
+  theLine.push(attr.sampleCollectionEquipmentComment);
   theLine.push(attr.characteristicName);
+  theLine.push(attr.methodSpeciation);
   theLine.push(resultDetectionCondition);
-  theLine.push(resultMeasureValue);  // the measurement value being written out
-  theLine.push(attr.resultUnit);
+  theLine.push(resultMeasureValue);
+  theLine.push(resultUnit);
   theLine.push(attr.resultSampleFraction);
   theLine.push(attr.resultAnalyticalMethodID);
   theLine.push(attr.resultAnalyticalMethodIDContext);
@@ -858,9 +901,11 @@ var createFileContentFromList = function (samples, ignoreNoNutrientSamples) {
     "Activity Start Date",
     "Activity Start Time",
     "Sample Collection Method ID",
-    "Ignore",   // this has something to do with Sample Collection Method Context, which we need.
+    //"Ignore",   // this has something to do with Sample Collection Method Context, which we need.
     "Sample Collection Equipment Name",
+    "Sample Collection Equipment Comment",
     "Characteristic Name",
+    "Method Speciation",
     "Result Detection Condition",
     "Result Value",
     "Result Unit",
@@ -946,10 +991,10 @@ var createFileContentFromList = function (samples, ignoreNoNutrientSamples) {
 var getFilePath = function (data) {
   let thePath = ""
   if (data.requestedSampleID !== "") {
-    thePath = path.join(data.directoryForFiles, data.basenameForFiles + "." + data.requestedSampleID + ".tsv");
+    thePath = path.join(data.directoryForFiles, data.basenameForFiles + "." + data.requestedSampleID + ".txt");
   }
   else {
-    thePath = path.join(data.directoryForFiles, data.basenameForFiles + ".tsv");
+    thePath = path.join(data.directoryForFiles, data.basenameForFiles + ".txt");
   }
   return thePath;
 };

@@ -1,0 +1,12 @@
+Monitoring Location ID	Activity ID	Activity Type	Activity Start Date	Activity Start Time	Sample Collection Method ID	Sample Collection Equipment Name	Sample Collection Equipment Comment	Characteristic Name	Method Speciation	Result Detection Condition	Result Value	Result Unit	Result Sample Fraction	Result Analytical Method ID	Result Analytical Method Context	Result Detection Limit Type	Result Detection Limit Value	Result Detection Limit Unit
+RCB	RCB170124:FM:PS:TS:	Field Msr/Obs	01/24/2017	08:50	1002	Probe/Sensor	HACH CDC401	Temperature, water			24.5	deg C		2550	APHA			
+RCB	RCB170124:FM:PS:DO:	Field Msr/Obs	01/24/2017	08:50	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.57	mg/l		8157	HACH			
+RCB	RCB170124:FM:PS:DO:	Field Msr/Obs	01/24/2017	08:50	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			96.3	%		8157	HACH			
+RCB	RCB170124:FM:WB:	Field Msr/Obs	01/24/2017	08:50	1002	Water Bottle	HACH 2100Q	Turbidity			0.80	NTU		180.1	USEPA			
+RCB	RCB170124:FM:PS:PH:	Field Msr/Obs	01/24/2017	08:50	1002	Probe/Sensor	HACH PHC101	pH			8.18	None		8156	HACH			
+RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Total Nitrogen, mixed forms	as N		113.22	ug/l	Filtered, field	4500-N	APHA			
+RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Total Phosphorus, mixed forms	as P		19.74	ug/l	Filtered, field	4500-P	APHA			
+RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Orthophosphate	as P		16.74	ug/l	Filtered, field	365.5	USEPA			
+RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Silicate			327.23	ug/l	Filtered, field	366	USEPA			
+RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Nitrate + Nitrite	as N		46.28	ug/l	Filtered, field	353.4	USEPA			
+RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Ammonium	as N		7.68	ug/l	Filtered, field	350.1	USEPA			
