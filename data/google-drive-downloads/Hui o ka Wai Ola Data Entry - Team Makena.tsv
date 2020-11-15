@@ -270,3 +270,9 @@ yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	WUL	WUL200923		Ulua Beach	2020-0
 yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	MMB	MMB200923		S Maluaka Beach	2020-09-23	8:47	2	2	4	2	2					MMB200923	27.4	35.0	6.70	102.8	8.15	0.85	0.92	1.03	0.93	0.097					0	1	0	
 yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	MAN	MAN200923		Ahihi North	2020-09-23	9:06	2	2	4	2	2					MAN200923	27.2	34.9	7.06	107.7	8.07	0.57	0.74	0.69	0.67	0.131					0	0	0	
 yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	MAS	MAS200923		Ahihi South	2020-09-23	9:23	2	2	4	2	2					MAS200923	27.5	35.1	6.59	101.4	8.08	1.26	1.36	1.39	1.34	0.051					2	0	0	
+yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	WKD	WKD201014		Kilohana DR	2020-10-14	8:00	1	1	3	2	1					WKD201014	27.0	35.0	6.65	101.8	8.12	1.41	1.47	1.42	1.43	0.022					1	2	0	second reading
+yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	WKB	WKB201014		Keawakapu Beach	2020-10-14	8:21	1	1	3	2	1					WKB201014	27.5	35.2	6.68	103.0	8.13	0.52	0.82	0.54	0.63	0.268					3	2	0	
+yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	WUL	WUL201014		Ulua Beach	2020-10-14	8:37	1	1	3	2	1					WUL201014	27.4	34.6	6.55	100.5	8.09	1.54	1.92	1.65	1.70	0.115					3	2	0	
+yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	MMB	MMB201014		S Maluaka Beach	2020-10-14	8:59	1	1	3	2	1					MMB201014	27.6	34.3	6.49	99.7	8.11	0.78	0.84	0.90	0.84	0.071					0	0	0	second reading
+yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	MAN	MAN201014		Ahihi North	2020-10-14	9:18	1	1	3	2	1					MAN201014	27.6	34.8	7.58	116.9	8.14	1.07	1.06	1.18	1.10	0.060					0	0	0	
+yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	MAS	MAS201014		Ahihi South	2020-10-14	9:38	1	1	3	2	1					MAS201014	27.6	34.6	6.81	105.4	8.11	1.26	1.28	1.29	1.28	0.012					0	0	0	

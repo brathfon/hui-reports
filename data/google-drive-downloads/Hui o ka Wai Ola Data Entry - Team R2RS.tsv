@@ -414,3 +414,9 @@ yes	yes	yes	no	no	77	R2RS	TMO	JS	GS	MB	RKS	RKS200929	2071	Kaanapali Shores	2020-
 yes	yes	yes	no	no	77	R2RS	TMO	JS	GS	MB	RKT	RKT200929	N/A	Kahekili Two	2020-09-29	9:29	2	1	6	2	2					RKT200929	27.4	34.9	6.66	102.3	8.18	1.41	1.47	1.32	1.40	0.054				N	0	2	0	flat, no waves
 yes	yes	yes	no	no	77	R2RS	TMO	JS	GS	MB	RCB	RCB200929	2020	Canoe Beach	2020-09-29	9:57	2	1	6	2	2					RCB200929	27.6	33.9	6.72	102.9	8.21	6.11	5.78	5.72	5.87	0.036				N	0	2	0	flat, no waves
 yes	yes	yes	no	no	77	R2RS	TMO	JS	GS	MB	RWA	RWA200929	2021	Wahikuli	2020-09-29	10:15	2	1	6	2	2					RWA200929	27.6	34.1	6.56	100.7	8.19	3.32	3.36	3.19	3.29	0.027				N	1	0	0	shore break 
+yes	yes	yes	no	no	78	R2RS	TMO	JS	JK	CG	RNS	RNS201020	2006	Napili Bay	2020-10-20	8:10	1	NBBF	5	1	3					RNS201020	27.0	35.1	6.30	96.5	8.08	1.41	1.46	1.51	1.46	0.034				N	1	0	0	calm, 1 honu, 1 snorkeler, clear
+yes	yes	yes	no	no	78	R2RS	TMO	JS	JK	CG	RPO	RPO201020	2010	Pohaku	2020-10-20	8:51	1	NBBF	5	1	3					RPO201020	27.3	35.0	6.25	96.1	8.11	4.79	4.82	4.99	4.87	0.022				N	0	0	0	No people, small wave action, sunny
+yes	yes	yes	no	no	78	R2RS	TMO	JS	JK	CG	RKS	RKS201020	2071	Kaanapali Shores	2020-10-20	9:21	1	NBBF	5	1	3					RKS201020	26.9	34.9	6.34	96.7	8.05	4.08	4.07	3.99	4.05	0.012				N	0	3	0	2 fishing poles
+yes	yes	yes	no	no	78	R2RS	TMO	JS	JK	CG	RKT	RKT201020	N/A	Kahekili Two	2020-10-20	9:55	1	NBBF	5	1	3					RKT201020	27.7	34.8	6.35	98.1	8.13	1.71	1.83	1.51	1.68	0.096				N	0	0	0	ebbing tide/surge, calm
+yes	yes	yes	no	no	78	R2RS	TMO	JS	JK	CG	RCB	RCB201020	2020	Canoe Beach	2020-10-20	10:15	1	NBBF	5	1	3					RCB201020	27.7	35.0	6.59	101.9	8.17	1.53	1.61	1.49	1.54	0.040				N	3	2	0	rolling waves, clear, kicked up sand
+yes	yes	yes	no	no	78	R2RS	TMO	JS	JK	CG	RWA	RWA201020	2021	Wahikuli	2020-10-20	10:40	1	NBBF	5	1	3					RWA201020	27.9	34.9	6.41	99.5	8.17	3.62	3.59	3.78	3.66	0.028				N	0	0	0	

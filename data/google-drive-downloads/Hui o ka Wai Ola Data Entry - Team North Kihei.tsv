@@ -248,3 +248,8 @@ yes	yes	yes	no	no	52	North Kihei	NMS	GB	FB	TS	NMC	NMC200924		Maalaea Condos	2020
 yes	yes	yes	no	no	52	North Kihei	NMS	GB	FB	TS	NHP	NHP200924		Haycraft Park	2020-09-24	8:27	2	2	4	2	2					NHP200924	26.7	34.7	6.71	101.4	8.1	2.80	2.99	2.80	2.86	0.038					0	2	0	windy
 yes	yes	yes	no	no	52	North Kihei	NMS	GB	FB	TS	NKP	NKP200924		Kealia Pond	2020-09-24	8:48	2	2	4	2	2					NKP200924	26.8	35.2	6.81	103.3	8.14	1.42	1.26	1.37	1.35	0.061					1	1	0	SCUBA diver in water nearby
 yes	yes	yes	no	no	52	North Kihei	NMS	GB	FB	TS	NKC	NKC200924		Kihei Canoe Club	2020-09-24	9:10	2	2	4	2	2					NKC200924	27.8	34.9	6.72	103.5	8.11	4.10	3.12	5.45	4.22	0.277					0	0	0	susoended material in sample
+yes	yes	yes	no	no	53	North Kihei	DHS	GB	FB	TW	NMH	NMH201015		Maalaea Harbor	2020-10-15	7:50	1	1	3	2	1					NMH201015	26.9	34.4	6.30	95.9	8.11	1.82	1.8	1.88	1.83	0.023					0	0	0	Tested blank 4 times; wiped with cloth, ~0.12 lowest reading
+yes	yes	yes	no	no	53	North Kihei	DHS	GB	FB	TW	NMC	NMC201015		Maalaea Condos	2020-10-15	8:10	1	1	3	2	1					NMC201015	27.1	33.1	7.00	106.1	8.05	1.63	1.78	1.52	1.64	0.079					0	0	0	low tide - rocky entry - consider safer entry 30 ft to the left
+yes	yes	yes	no	no	53	North Kihei	DHS	GB	FB	TW	NHP	NHP201015		Haycraft Park	2020-10-15	8:28	1	1	3	2	1					NHP201015	27.0	34.4	6.85	104.7	8.1	4.31	4.31	4.20	4.27	0.015					0	2	0	
+yes	yes	yes	yes	no	53	North Kihei	DHS	GB	FB	TW	NKP	NKP201015		Kealia Pond	2020-10-15	8:52	1	1	3	2	1					NKP201015	27.5	34.9	6.74	104.0	8.14	1.35	1.1	1.22	1.22	0.102					2	1	0	weather: sunny, dry, calm, surf 1'
+yes	yes	yes	no	no	53	North Kihei	DHS	GB	FB	TW	NKC	NKC201015		Kihei Canoe Club	2020-10-15	9:12	1	1	3	2	1					NKC201015	28.0	34.4	6.54	101.3	8.09	2.06	3.08	2.60	2.58	0.198					0	1	0	3.08 2nd reading discarded
