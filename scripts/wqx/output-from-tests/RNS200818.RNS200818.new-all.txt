@@ -1,0 +1,12 @@
+Monitoring Location ID	Activity ID	Activity Type	Activity Start Date	Activity Start Time	Sample Collection Method ID	Sample Collection Equipment Name	Sample Collection Equipment Comment	Characteristic Name	Method Speciation	Result Detection Condition	Result Value	Result Unit	Result Sample Fraction	Result Analytical Method ID	Result Analytical Method Context	Result Detection Limit Type	Result Detection Limit Value	Result Detection Limit Unit
+RNS	RNS200818:FM:PS:TS:	Field Msr/Obs	08/18/2020	08:10	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.2	deg C		2550	APHA			
+RNS	RNS200818:FM:PS:DO:	Field Msr/Obs	08/18/2020	08:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.20	mg/l		8157	HACH			
+RNS	RNS200818:FM:PS:DO:	Field Msr/Obs	08/18/2020	08:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			92.3	%		8157	HACH			
+RNS	RNS200818:FM:WB:	Field Msr/Obs	08/18/2020	08:10	1002	Water Bottle	HACH 2100Q	Turbidity			2.52	NTU		180.1	USEPA			
+RNS	RNS200818:FM:PS:TS:	Field Msr/Obs	08/18/2020	08:10	1002	Probe/Sensor	HACH CDC401	Salinity			33.2	ppt		8160	HACH			
+RNS	RNS200818:SR:WB:	Sample-Routine	08/18/2020	08:10	1002	Water Bottle		Total Nitrogen, mixed forms	as N		209.69	ug/l	Filtered, field	4500-N	APHA			
+RNS	RNS200818:SR:WB:	Sample-Routine	08/18/2020	08:10	1002	Water Bottle		Total Phosphorus, mixed forms	as P		15.11	ug/l	Filtered, field	4500-P	APHA			
+RNS	RNS200818:SR:WB:	Sample-Routine	08/18/2020	08:10	1002	Water Bottle		Orthophosphate	as P		13.97	ug/l	Filtered, field	365.5	USEPA			
+RNS	RNS200818:SR:WB:	Sample-Routine	08/18/2020	08:10	1002	Water Bottle		Silicate			1337.97	ug/l	Filtered, field	366	USEPA			
+RNS	RNS200818:SR:WB:	Sample-Routine	08/18/2020	08:10	1002	Water Bottle		Nitrate + Nitrite	as N		86.02	ug/l	Filtered, field	353.4	USEPA			
+RNS	RNS200818:SR:WB:	Sample-Routine	08/18/2020	08:10	1002	Water Bottle		Ammonium	as N		3.81	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			

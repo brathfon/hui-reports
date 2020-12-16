@@ -1,0 +1,13 @@
+Monitoring Location ID	Activity ID	Activity Type	Activity Start Date	Activity Start Time	Sample Collection Method ID	Sample Collection Equipment Name	Sample Collection Equipment Comment	Characteristic Name	Method Speciation	Result Detection Condition	Result Value	Result Unit	Result Sample Fraction	Result Analytical Method ID	Result Analytical Method Context	Result Detection Limit Type	Result Detection Limit Value	Result Detection Limit Unit
+PPU	PPU161019:FM:PS:TS:	Field Msr/Obs	10/19/2016	09:40	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.7	deg C		2550	APHA			
+PPU	PPU161019:FM:PS:DO:	Field Msr/Obs	10/19/2016	09:40	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.49	mg/l		8157	HACH			
+PPU	PPU161019:FM:PS:DO:	Field Msr/Obs	10/19/2016	09:40	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			99.7	%		8157	HACH			
+PPU	PPU161019:FM:WB:	Field Msr/Obs	10/19/2016	09:40	1002	Water Bottle	HACH 2100Q	Turbidity			6.04	NTU		180.1	USEPA			
+PPU	PPU161019:FM:PS:PH:	Field Msr/Obs	10/19/2016	09:40	1002	Probe/Sensor	HACH PHC101	pH			8.15	None		8156	HACH			
+PPU	PPU161019:FM:PS:TS:	Field Msr/Obs	10/19/2016	09:40	1002	Probe/Sensor	HACH CDC401	Salinity			34.6	ppt		8160	HACH			
+PPU	PPU161019:SR:WB:	Sample-Routine	10/19/2016	09:40	1002	Water Bottle		Total Nitrogen, mixed forms	as N		95.61	ug/l	Filtered, field	4500-N	APHA			
+PPU	PPU161019:SR:WB:	Sample-Routine	10/19/2016	09:40	1002	Water Bottle		Total Phosphorus, mixed forms	as P		15.79	ug/l	Filtered, field	4500-P	APHA			
+PPU	PPU161019:SR:WB:	Sample-Routine	10/19/2016	09:40	1002	Water Bottle		Orthophosphate	as P		5.08	ug/l	Filtered, field	365.5	USEPA			
+PPU	PPU161019:SR:WB:	Sample-Routine	10/19/2016	09:40	1002	Water Bottle		Silicate			153.70	ug/l	Filtered, field	366	USEPA			
+PPU	PPU161019:SR:WB:	Sample-Routine	10/19/2016	09:40	1002	Water Bottle		Nitrate + Nitrite	as N	Below Method Detection Limit			Filtered, field	353.4	USEPA	Method Detection Level	0.1	ug/l
+PPU	PPU161019:SR:WB:	Sample-Routine	10/19/2016	09:40	1002	Water Bottle		Ammonium	as N		3.31	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			

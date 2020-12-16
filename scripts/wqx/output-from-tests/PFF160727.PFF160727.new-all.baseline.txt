@@ -1,0 +1,12 @@
+Monitoring Location ID	Activity ID	Activity Type	Activity Start Date	Activity Start Time	Sample Collection Method ID	Sample Collection Equipment Name	Sample Collection Equipment Comment	Characteristic Name	Method Speciation	Result Detection Condition	Result Value	Result Unit	Result Sample Fraction	Result Analytical Method ID	Result Analytical Method Context	Result Detection Limit Type	Result Detection Limit Value	Result Detection Limit Unit
+PFF	PFF160727:FM:PS:TS:	Field Msr/Obs	07/27/2016	07:28	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.4	deg C		2550	APHA			
+PFF	PFF160727:FM:PS:DO:	Field Msr/Obs	07/27/2016	07:28	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			5.90	mg/l		8157	HACH			
+PFF	PFF160727:FM:PS:DO:	Field Msr/Obs	07/27/2016	07:28	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			90.2	%		8157	HACH			
+PFF	PFF160727:FM:PS:PH:	Field Msr/Obs	07/27/2016	07:28	1002	Probe/Sensor	HACH PHC101	pH			8.04	None		8156	HACH			
+PFF	PFF160727:FM:PS:TS:	Field Msr/Obs	07/27/2016	07:28	1002	Probe/Sensor	HACH CDC401	Salinity			34.7	ppt		8160	HACH			
+PFF	PFF160727:SR:WB:	Sample-Routine	07/27/2016	07:28	1002	Water Bottle		Total Nitrogen, mixed forms	as N		71.18	ug/l	Filtered, field	4500-N	APHA			
+PFF	PFF160727:SR:WB:	Sample-Routine	07/27/2016	07:28	1002	Water Bottle		Total Phosphorus, mixed forms	as P		13.84	ug/l	Filtered, field	4500-P	APHA			
+PFF	PFF160727:SR:WB:	Sample-Routine	07/27/2016	07:28	1002	Water Bottle		Orthophosphate	as P		9.21	ug/l	Filtered, field	365.5	USEPA			
+PFF	PFF160727:SR:WB:	Sample-Routine	07/27/2016	07:28	1002	Water Bottle		Silicate			483.78	ug/l	Filtered, field	366	USEPA			
+PFF	PFF160727:SR:WB:	Sample-Routine	07/27/2016	07:28	1002	Water Bottle		Nitrate + Nitrite	as N		3.08	ug/l	Filtered, field	353.4	USEPA			
+PFF	PFF160727:SR:WB:	Sample-Routine	07/27/2016	07:28	1002	Water Bottle		Ammonium	as N		9.48	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			

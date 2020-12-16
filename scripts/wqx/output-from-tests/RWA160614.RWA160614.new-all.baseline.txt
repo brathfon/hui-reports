@@ -10,4 +10,4 @@ RWA	RWA160614:SR:WB:	Sample-Routine	06/14/2016	10:24	1002	Water Bottle		Total Ph
 RWA	RWA160614:SR:WB:	Sample-Routine	06/14/2016	10:24	1002	Water Bottle		Orthophosphate	as P		12.38	ug/l	Filtered, field	365.5	USEPA			
 RWA	RWA160614:SR:WB:	Sample-Routine	06/14/2016	10:24	1002	Water Bottle		Silicate			822.08	ug/l	Filtered, field	366	USEPA			
 RWA	RWA160614:SR:WB:	Sample-Routine	06/14/2016	10:24	1002	Water Bottle		Nitrate + Nitrite	as N		21.35	ug/l	Filtered, field	353.4	USEPA			
-RWA	RWA160614:SR:WB:	Sample-Routine	06/14/2016	10:24	1002	Water Bottle		Ammonium	as N	Below Detection Limit			Filtered, field	350.1	USEPA	Method Detection Level	<1.5	ug/l
+RWA	RWA160614:SR:WB:	Sample-Routine	06/14/2016	10:24	1002	Water Bottle		Ammonium	as N	Below Method Detection Limit			Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX	Method Detection Level	1.5	ug/l

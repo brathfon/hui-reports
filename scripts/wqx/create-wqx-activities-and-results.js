@@ -6,20 +6,26 @@
 const util  = require('util');
 const fs    = require('fs');
 const path  = require('path');
+const argv  = require('minimist')(process.argv.slice(2));
 
 
+var rsgs  = require('../../lib/readSiteGdriveSheet');
+var rss   = require('../../lib/readSpreadSheets');
+var rnf   = require('../../lib/readSoestFiles');
+var rrf   = require('../../lib/readWQXWebResultsFile');
+let log   = require('../../lib/logFormatter');
 
 const scriptname = path.basename(process.argv[1]);
 
-var argv = require('minimist')(process.argv.slice(2));
 console.dir(`arguments passed in ${argv}`);
 console.dir(`arguments passed in ${util.inspect(argv, false, null)}`);
 
 const printUsage = function () {
-  console.log(`Usage: ${scriptname} --odir <directory to write files> --bname <basename for the files> --gsdir <Google sheets directory> --ndir <nutrient data directory [--inns] [--sid sampleID]`);
+  console.log(`Usage: ${scriptname} --odir <directory to write files> --bname <basename for the files> --gsdir <Google sheets directory> --ndir <nutrient data directory [--wqx <wqx results file>] [--inns] [--sid sampleID]`);
   console.log(`optional:`);
-  console.log(`  --inns    Ignore no nutrient data lines. They will not be included in the data.`);
-  console.log(`  --sid     Get the data for a certain sampleID.  Mainly for testing or correcting a mistake.`);
+  console.log(`  --inns                    Ignore no nutrient data lines. They will not be included in the data.`);
+  console.log(`  --sid                     Get the data for a certain sampleID.  Mainly for testing or correcting a mistake.`);
+  console.log(`  --wqx <wqx results file>  Downloaded tab separated file of results from wqx to compare to google sheets data and create insert, update and delete files`);
 }
 
 if (argv.help || argv.h ) {
@@ -53,7 +59,9 @@ if (! (argv.n || argv.ndir )) {
 
 // This is sort of the global data.  It will be passed from function to function to store temporary results
 // It will also have the args in it.
-var data = {};
+const data = {};
+data.status = "SUCCESS";
+data.log    = [];        // log messages will be appended here
 
 if (argv.o)     data['directoryForFiles'] = argv.o;
 if (argv.odir)  data['directoryForFiles'] = argv.odir;
@@ -81,14 +89,18 @@ data['requestedSampleID']  = "";
 if (argv.s)     data['requestedSampleID']  = argv.s;
 if (argv.sid)   data['requestedSampleID']  = argv.sid;
 
+data['wqxFile']  = "";
+//  was a wqx file specified so to compare to find new or modified or removed data?
+if (argv.w)     data['wqxFile']  = argv.w;
+if (argv.wqx)   data['wqxFile']  = argv.wqx;
+
+// some of the optional args can be conflicting.  requestedSampleID and wqxFile don't make sense together
+// requestedSampleID is more of a testing option.  wqxFile is probably the usual way it will be used.
+
+console.log("data " + util.inspect(data, false, null));
+
 data['samples'] = {};  // the key of samples is the sample ID. ex: RWA190716, which encode the site and the date
                        // the value is an object with the information about the sample
-
-
-var rsgs   = require('../../lib/readSiteGdriveSheet');
-var rss   = require('../../lib/readSpreadSheets');
-var rnf   = require('../../lib/readSoestFiles');
-
 
 // this is mapping how the measurement or column names are stored in the structures as they are read
 // and how they should be printed out in QA commments, etc.  Most are the same.
@@ -192,12 +204,24 @@ var getSiteNameFor = function (siteCode, data) {
 }
 
 
+var printLog = function (logList) {
+ 
+  for (let i = 0; i < logList.length; ++i) {
+    if (logList[i].level == "ERROR") {
+      console.error(`ERROR ${logList[i].msg}`);
+    }
+    else {
+      console.log(`${logList[i].msg}`);
+    }
+  }
+};
+
 // Read the tab separated data from the Google Sheets for each team.
 
 
-var readSpreadSheetData = function (data, callback) {
+var readGoogleSheetsData = function (data, callback) {
 
-  console.log("In readSpreadSheetData");
+  console.log("In readGoogleSheetsData");
 
   let sessions = rss.readTeamSheets(data.googleSheetsDirectory);
 
@@ -212,12 +236,15 @@ var readSpreadSheetData = function (data, callback) {
   //        Nut_Sample: 'yes', .....
   //
 
+  data.gsSamplesKV = {};  // google sheets samples key value: key is sampleID, value is a sample object
+
   for ( let labSessionCode in sessions ) {
     let i = 0;
     for (i = 0; i < sessions[labSessionCode].length; ++i) {
       // translate the keys from the spread sheet data into keys from the legacy web export file
       //data.samples.push(sessions[labSessionCode][i]);
       let obj = {};
+      obj['Source']     = "google sheets";
       obj['NutSampled'] = sessions[labSessionCode][i].Nut_Sample;
       obj['SampleID']   = sessions[labSessionCode][i].SampleID;
       obj['SiteName']   = sessions[labSessionCode][i].SiteName;
@@ -243,13 +270,13 @@ var readSpreadSheetData = function (data, callback) {
       obj['NNN']        = '';
       obj['NH4']        = '';
       //data.samples.push(obj);
-      data.samples[obj.SampleID] = obj;
+      data.gsSamplesKV[obj.SampleID] = obj;
     }
 
-    //console.log("spread sheet samples " + util.inspect(data.samples, false, null));
+    //console.log("spread sheet samples " + util.inspect(data.gsSamplesKV, false, null));
   }
 
-  //console.log("data now  " + util.inspect(data.samples, false, null));
+  //console.log("data now  " + util.inspect(data.gsSamplesKV, false, null));
   if (callback) {
     callback();
   }
@@ -300,32 +327,63 @@ var readNutrientData = function (data, callback) {
 };
 
 
+var readWQXData = function (data, callback) {
+
+  // set this to null.  There may be cases where no WQX file was supplied or 
+  // there was a problem reading the data.
+
+  data['wqxSamplesKV'] = null;
+
+  if (data.wqxFile) {
+    console.log(`WQX file ${data.wqxFile} being read`);
+    let returnedObj = rrf.readWQXWebResultsFile(data.wqxFile);  // key is sampleID, value is sample object
+    if (returnedObj.status == "SUCCESS")
+    {
+      data['wqxSamplesKV'] = returnedObj.samples;
+      data.log = data.log.concat(returnedObj.log);
+      //console.dir(data.wqxSamplesKV);
+      printLog(data.log);  // print out the log data returned from this reader
+    }
+    else {
+      console.error("There was a problem reading the WQX file");
+      data.status = "FAILURE";
+    }
+  }
+  else {
+    console.log(`no WQX file requested`);
+  }
+
+  if (callback) {
+    callback();
+  }
+
+};
 
 var updateSamplesWithNutrientData = function (data, callback) {
 
   // Check to make sure all nutrient sampleIDs have a matching insitu sample to join to if not, report a problem.
 
   for (let sampleID in data.nutrientSamples) {
-    if (! data.samples[sampleID]) {
+    if (! data.gsSamplesKV[sampleID]) {
       console.log("-- WARNING: did not find matching insitu sample ID for nutrient sample ID: " + data.nutrientSamples[sampleID].SampleID + " site: " + data.nutrientSamples[sampleID].Location + " date: " + data.nutrientSamples[sampleID].Date);
       console.error("-- WARNING: did not find matching insitu sample ID for nutrient sample ID: " + data.nutrientSamples[sampleID].SampleID + " site: " + data.nutrientSamples[sampleID].Location + " date: " + data.nutrientSamples[sampleID].Date);
     }
   }
 
   console.log("In updateSamplesWithNutrientData");
-  console.log("Number of samples:          " + Object.keys(data.samples).length);
+  console.log("Number of samples:          " + Object.keys(data.gsSamplesKV).length);
   console.log("Number of nutrient samples: " + Object.keys(data.nutrientSamples).length);
 
-  //for (let i = 0; i < data.samples.length; ++i) {
-  for (let sampleID in data.samples) {
+  //for (let i = 0; i < data.gsSamplesKV.length; ++i) {
+  for (let sampleID in data.gsSamplesKV) {
     if (data.nutrientSamples[sampleID]) {
       // will need a check here for "<" stuff maybe, or it could end up in the printing out part
-      data.samples[sampleID].TotalN    = setPrecision('TotalN', data.nutrientSamples[sampleID].TotalN);
-      data.samples[sampleID].TotalP    = setPrecision('TotalP', data.nutrientSamples[sampleID].TotalP);
-      data.samples[sampleID].Phosphate = setPrecision('Phosphate', data.nutrientSamples[sampleID].Phosphate);
-      data.samples[sampleID].Silicate  = setPrecision('Silicate', data.nutrientSamples[sampleID].Silicate);
-      data.samples[sampleID].NNN       = setPrecision('NNN', data.nutrientSamples[sampleID].NNN);
-      data.samples[sampleID].NH4       = setPrecision('NH4', data.nutrientSamples[sampleID].NH4);
+      data.gsSamplesKV[sampleID].TotalN    = setPrecision('TotalN', data.nutrientSamples[sampleID].TotalN);
+      data.gsSamplesKV[sampleID].TotalP    = setPrecision('TotalP', data.nutrientSamples[sampleID].TotalP);
+      data.gsSamplesKV[sampleID].Phosphate = setPrecision('Phosphate', data.nutrientSamples[sampleID].Phosphate);
+      data.gsSamplesKV[sampleID].Silicate  = setPrecision('Silicate', data.nutrientSamples[sampleID].Silicate);
+      data.gsSamplesKV[sampleID].NNN       = setPrecision('NNN', data.nutrientSamples[sampleID].NNN);
+      data.gsSamplesKV[sampleID].NH4       = setPrecision('NH4', data.nutrientSamples[sampleID].NH4);
     }
   }
 
@@ -438,63 +496,6 @@ var setPrecision = function(attribute, value) {
 };
 
 
-// This function checks to see if any values have been flagged by QA and are not included.
-// If that is true, instead of a value it will have '#N/A' in place of it's value.
-// There are 2 ways that QAed data is denoted:
-//    1) Data from the legacy spread sheets is already '#N/A'
-//    2) Data from the Google Drive spread sheets is blank.
-//
-// This function is also reponsible for setting the precision of the data, which it gets
-// from lookup data near the top of the script
-
-var checkForQAIssues = function(sample, column, issueDescriptions) {
-
-  var returnValue = sample[column];
-  var c;
-  var issues = {};
-
-
-  // There are two cases where the current value is just return without even looking at it to
-  // see if it was QAed out.
-  // 1) All the insitu data is blank, indicating that no data was taken
-  // 2) All the nutrient data is blank, indicating
-  //     a) Nutrient data was skipped for this site
-  //     b) Nutrient data samples were shipped to the lab and the results are not in yet
-  
-
-  //console.log(`column ${column}`);
-
-  // these measurements are probably just blank
-  if (isNutrientMeasurement(column) && isEmptyNutrientData(sample)) {  // nothing to do, ok to be blank
-    return returnValue;
-  }
-  if (isInsituMeasurement(column) && isEmptyInsituData(sample)) {  // nothing to do, ok to be blank
-    return returnValue;
-  }
-
-  // There are two cases for measurements being QAed out.  The legacy data had "#N/A" as values
-  // and the Google Drive spreadsheet has just blanks.
-  if ((sample[column] === "") || (String(sample[column]).toUpperCase() === "#N/A")) {
-      let msg = fileContentName(column) + " QA'ed out";
-      // add this to the descriptions of qa issues
-      issueDescriptions[msg] = true;  // this will eliminate dups as in the case of turbidity
-      returnValue = "#N/A";
-  }
-  // if the string begins with <, as in <1.5, this indicates the measurement was below the limits
-  // of the measuring equipment (usually found with nutrient data).
-  else if (String(sample[column]).indexOf("<") === 0 ) {
-      let msg = fileContentName(column) + " below detectable limit";
-      // add this to the descriptions of qa issues
-      issueDescriptions[msg] = true;  // this will eliminate dups as in the case of turbidity
-      returnValue = setPrecision(column, String(sample[column]).substring(1));  // return the number without the "<" on the front
-  }
-  else {  // seems to be a normal number so set the precision
-    returnValue = setPrecision(column, returnValue);
-  }
-  return returnValue;
-};
-
-
 var descriptionObjToString = function (obj) {
 
   var keys = Object.keys(obj);
@@ -509,8 +510,6 @@ var descriptionObjToString = function (obj) {
   }
   return str;
 }
-
-
 
 
 var fixDateFormat = function (aDate) {
@@ -597,31 +596,6 @@ var fixTimeFormat = function (aTime) {
 }
 
 
-// This function adds a comment to the msgObj that reports when the nutrient data is empty.
-// It reports that there is data pending (not back from the lab) if the nutrient data is empty
-// but samples were taken according to the database. If the database says not samples were
-// taken, then it reports that.
-
-var addMissingNutrientDataMsg = function(sample, msgObj) {
-
-  if (isEmptyNutrientData(sample)) {
-    if (sample["NutSampled"] === "yes") {
-      //console.log("nutrient empty YES, samples taken YES");
-      msgObj["nutrient data pending"] = true;
-    }
-    else if (sample["NutSampled"] === "no") {
-      //console.log("nutrient empty YES, samples taken NO");
-      msgObj["nutrient samples not taken"] = true;
-    }
-    else {
-      console.error(`ERROR: unexpected value for nutrient_sample_taken of ${sample["nutrient_sample_taken"]} .  exiting .....`);
-      process.exit(1);
-    }
-  }
-}
-
-
-
 /* ************************************************************************
 A value can be left blank to signal several things: it was not collected
 for one reason or another, the values can be pending from the lab, or
@@ -649,6 +623,7 @@ var initResultAttributes = function(data, callback) {
   const APHA = "APHA";
   const HACH = "HACH";
   const USEPA = "USEPA";
+  const HUIWAIOLA_WQX = "HUIWAIOLA_WQX";
   const INSITU = "INSITU";  // may not use these
   const NUTRIENT = "NUTR";  // may not use these
   const TURBIDITY = "TURB";  // may not use these
@@ -824,8 +799,12 @@ var initResultAttributes = function(data, callback) {
     sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
     sampleCollectionEquipmentName : WATER_BOTTLE,
     sampleCollectionEquipmentComment : "",
-    resultAnalyticalMethodID : "350.1",
-    resultAnalyticalMethodIDContext : USEPA
+    // method used after session 19 west maui to get lower minimum detection limit
+    resultAnalyticalMethodID : "Ammonium-OPA",
+    resultAnalyticalMethodIDContext : HUIWAIOLA_WQX
+    //older method from sessions 1-19 west maui which will become current method if we go to Maui lab
+    //resultAnalyticalMethodID : "350.1",
+    //resultAnalyticalMethodIDContext : USEPA
   };
 
   if (callback) {
@@ -854,10 +833,11 @@ var createLineForAttribute = function (huiResultName, huiSample) {
   let resultDetectionLimitValue = "";
   let resultDetectionLimitUnit = "";
 
+  // if a value coming from SOEST begins with a "<", the amount detected is below a particular detection limit 
   if (String(huiSample[huiResultName]).indexOf("<") === 0 ) {
-    resultDetectionCondition = "Below Detection Limit";
+    resultDetectionCondition = "Below Method Detection Limit";
     resultDetectionLimitType = "Method Detection Level";
-    resultDetectionLimitValue = resultMeasureValue;
+    resultDetectionLimitValue = resultMeasureValue.replace(/</, ""); // remove the below detection limit "<"
     resultDetectionLimitUnit = attr.resultUnit;
     resultMeasureValue = "";    // do not fill out the resultMeasureValue or resultUnit column
     resultUnit = "";
@@ -933,38 +913,6 @@ var createFileContentFromList = function (samples, ignoreNoNutrientSamples) {
 
       ++count;
 
-      /*
-
-      let issueDescriptions = {};
-      let row = `${count}\t`;
-      row += samples[i].SampleID + "\t";
-      row += getSiteNameFor(samples[i].Location, data) + "\t";
-      row += samples[i].Location + "\t";
-      row += samples[i].Session + "\t";
-      row += samples[i].Date + "\t";
-      row += samples[i].Time + "\t";
-      row += checkForQAIssues(samples[i], "Temp",             issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "Salinity",         issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "DO",               issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "DO%",              issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "pH",               issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "Turbidity",        issueDescriptions) + "\t";  // this is the average turbidity
-      row += checkForQAIssues(samples[i], "TotalN",           issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "TotalP",           issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "Phosphate",        issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "Silicate",         issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "NNN",              issueDescriptions) + "\t";
-      row += checkForQAIssues(samples[i], "NH4",              issueDescriptions) + "\t";
-      row += getLatFor(samples[i].Location, data) + "\t";
-      row += getLongFor(samples[i].Location, data) + "\t";
-
-      addMissingNutrientDataMsg(samples[i], issueDescriptions);
-
-      row += descriptionObjToString(issueDescriptions);
-
-      // finish the row
-      row += "\n";
-      */
 
       if (notQAedOutOrBlank(samples[i].Temp))      { fileContent += createLineForAttribute("Temp",       samples[i]); }
       if (notQAedOutOrBlank(samples[i].DO))        { fileContent += createLineForAttribute("DO",         samples[i]); }
@@ -988,14 +936,15 @@ var createFileContentFromList = function (samples, ignoreNoNutrientSamples) {
 
 
 /* get the full file path for the file that has data for all the labs */
-var getFilePath = function (data) {
-  let thePath = ""
+var getFilePath = function (data, newOrExisting) {
+  let thePath = path.join(data.directoryForFiles, data.basenameForFiles);
   if (data.requestedSampleID !== "") {
-    thePath = path.join(data.directoryForFiles, data.basenameForFiles + "." + data.requestedSampleID + ".txt");
+    thePath = `${thePath}.${data.requestedSampleID}`;
   }
-  else {
-    thePath = path.join(data.directoryForFiles, data.basenameForFiles + ".txt");
+  if (newOrExisting) {
+    thePath = `${thePath}.${newOrExisting}`;
   }
+  thePath = `${thePath}.txt`;
   return thePath;
 };
 
@@ -1020,14 +969,61 @@ var writeFile = function (filePath, dataToWrite) {
 
 var createTSVfileForImport = function (data, callback) {
 
+//    data.samplesToAddKV    = onlyInGS;
+//    data.samplesInCommonKV = inCommon;
+//    data.samplesToUpdateKV = inCommonButDiffer;  // need to check the data that is currently in both for differences in case there needs to be updates
+//    data.samplesToDeleteKV = onlyInWQX;
   console.log("In createTSVfileForImport");
 
-  let baseDir = "/tmp";  // just a safe default
+  // if a WQX or set of STORET files (no implemented yet) was passed in
+  // to compare it to the google drive samples
+  // there will be in data that indicates the comparision was made.
+  // if no comparision was made, a full file of inserts will be created.
+  let diffingStoret = false;
 
-  console.log("Creating fileContent for all samples");
+  // these are the samples that need to be added to WQX
+  // problem: empty samples are being included here and then filtered out in createFileContentFromList
+  if (data.samplesToAddKV  && Object.keys(data.samplesToAddKV).length > 0) {
+    //console.dir(data.samplesToAddKV);
+    //let filePath = getFilePath(data);
+    let filePath = getFilePath(data, 'new-add');
+    writeFile(filePath, createFileContentFromList(Object.values(data.samplesToAddKV).sort(sortAscendingByDateAndTime), data.ignoreNoNutrientSamples));
+    diffingStoret = true;
+  }
 
-  let filePath = getFilePath(data);
-  writeFile(filePath, createFileContentFromList(data.sortedSamples, data.ignoreNoNutrientSamples));
+  // samples that need updated
+  if ( data.samplesToUpdateKV && Object.keys(data.samplesToUpdateKV).length > 0)
+  {
+    //console.log("DIFFERS");
+    //console.dir(data.samplesInCommonButDiffer);
+    //console.dir(Object.keys(data.samplesInCommonButDiffer));
+    let filePath = getFilePath(data, 'existing-update');
+    writeFile(filePath, createFileContentFromList(Object.values(data.samplesToUpdateKV).sort(sortAscendingByDateAndTime), data.ignoreNoNutrientSamples));
+    diffingStoret = true;
+  }
+
+  if ( data.samplesToDeleteKV  && Object.keys(data.samplesToDeleteKV).length > 0)
+  {
+    //console.log("DIFFERS");
+    //console.dir(data.samplesInCommonButDiffer);
+    //console.dir(Object.keys(data.samplesInCommonButDiffer));
+    let filePath = getFilePath(data, 'delete');
+    writeFile(filePath, createFileContentFromList(Object.values(data.samplesToDeleteKV).sort(sortAscendingByDateAndTime), data.ignoreNoNutrientSamples));
+    diffingStoret = true;
+  }
+
+
+  // if there was no comparisons made to see add, exiting that need updating, then it is in the mode to
+  // write all the sample data from google sheets out as new
+
+  if ( ! diffingStoret && (! data.samplesInCommonKV)) {
+  
+    console.log("Creating fileContent for all samples");
+
+    let filePath = getFilePath(data, 'new-all');
+    writeFile(filePath, createFileContentFromList(data.sortedSamples, data.ignoreNoNutrientSamples));
+
+  }
 
   if (callback) {
     callback();
@@ -1040,14 +1036,7 @@ var printLookupData = function (data, callback) {
 
   console.log("In printLookupData");
   console.log("Number of sites: " + Object.keys(data.sites).length);
-  console.log("sites loop:");
 
-  for (let siteCode in data.sites) {
-    console.log(`siteCode : ${siteCode}`);
-    console.log(util.inspect(data.sites[siteCode], false, null));
-  }
-
-  
   console.log("");
   console.log("File Content Measurement Names:");
   console.log(util.inspect(fileContentMeasurementNames, false, null));
@@ -1066,7 +1055,7 @@ var printSamples = function (data, callback) {
 
 /* LEAVE THIS FUNCTION IN PLACE AND COMMENT THIS BACK IN IF YOU WANT TO PRINT OUT SAMPLES
   console.log("In printSamples");
-  console.log("Number of samples: " + Object.keys(data.samples).length);
+  console.log("Number of samples: " + Object.keys(data.gsSamplesKV).length);
 
   console.log("sample loop:");
   for (let i = 0; i < data.sortedSamples.length; ++i) {
@@ -1141,52 +1130,217 @@ var sortAscendingByDateAndTime = function(a,b) {
 };
 
 
-var sortSamples = function(data, callback) {
+var sampleMeetsCriteria = function(data, sample) {
+  let returnValue = false;
+  if (data.requestedSampleID === "") {
+    returnValue = true;  // let everything through the filter
+  }
+  else if (sample.SampleID === data.requestedSampleID) {
+    returnValue = true;
+  }
+  return returnValue;
+};
+
+
+var filterGoogleSheetsData = function(data, callback) {
 
   // get all the samples in one list to be sorted
-  let sampleList = [];
+  let filteredSamples = {};
 
-  for (let sampleID in data.samples) {
-    sampleList.push(data.samples[sampleID]);
+  for (let sampleID in data.gsSamplesKV) {
+    if (sampleMeetsCriteria(data, data.gsSamplesKV[sampleID])) {
+      filteredSamples[sampleID] = data.gsSamplesKV[sampleID];
+    }
   }
-  data.sortedSamples = sampleList.sort(sortAscendingByDateAndTime);
+  data.gsSamplesKV = filteredSamples;
 
   if (callback) {
     callback();
   }
 };
 
-// if a specific sampleID has been requested, filter them here
 
-var filterSamples = function(data, callback) {
+var filterWQXData = function(data, callback) {
 
-  data.sortedSamples = data.sortedSamples.filter( function (sample) {
-     let returnValue = false;
-     if (data.requestedSampleID === "") {
-       returnValue = true;  // let everything through the filter
-     }
-     else if (sample.SampleID === data.requestedSampleID) {
-       returnValue = true;
-     }
-     return returnValue;
-  });
+  if (data.wqxSamplesKV) {
+    // get all the samples in one list to be sorted
+    let filteredSamples = {};
+
+    for (let sampleID in data.wqxSamplesKV) {
+      if (sampleMeetsCriteria(data, data.wqxSamplesKV[sampleID])) {
+        filteredSamples[sampleID] = data.wqxSamplesKV[sampleID];
+      }
+    }
+    data.wqxSamplesKV = filteredSamples;
+  }
+  else {
+    console.log("There were no WQX samples to filter");
+  }
+
+  if (callback) {
+    callback();
+  }
+};
+
+
+// The insitu measurements can be QAed out with either a blank for a #N/A
+// in the spreadsheets.  In WQX, there would be no result entry for that
+// measurement, so it would be undefined. So if the insitu measurement
+// is not QAed out, compare it to the wqx measurement, which better be
+// defined and a value that can be compared.  If the google sheets
+// measurement is QAed out, then wqx should be undefined if they are
+// equal.
+
+const baseMeasurementDiffers= function(gsParamName, gsValue, wqxParamName, wqxValue, sampleID) {
+
+  let theyDiffer = false;
+
+  if (notQAedOutOrBlank(gsValue)) {
+    if (! (gsValue === wqxValue)) {
+      console.log(`DIFF: Google Sheets ${gsParamName} ${gsValue} does not match WQX ${wqxParamName} ${wqxValue} in sample ${sampleID}`);
+      theyDiffer = true;
+    }
+  }
+  else {   // google sheets says it is blank or QAed out
+    //console.log(`DEBUG: found QAed out value, wqx is ${wqxValue}`);
+    if (! (wqxValue === undefined)) {
+      console.log(`DIFF: Google Sheets ${gsParamName} ${gsValue} is QAed out yet ${wqxParamName} ${wqxValue} is not undefined in sample ${sampleID}`);
+      theyDiffer = true;
+    }
+  }
+  return theyDiffer;
+};
+
+
+
+const insituMeasurementDiffers= function(gsParamName, gsValue, wqxParamName, wqxValue, sampleID) {
+  return baseMeasurementDiffers(gsParamName, gsValue, wqxParamName, wqxValue, sampleID);
+};
+
+/*
+
+Will want to add logic here to see that a nutrient measurement is below a limit (has the "<") on the front in google
+and was "Detection Condition" in WQX. The problem is that WQX does not provide Detection Limit Value in the Excel
+files that are downloaded so there can not be a direct comparison.  Probably just print a warning or info to 
+say it was detected on both sides.
+*/
+
+const nutrientMeasurementDiffers= function(gsParamName, gsValue, wqxParamName, wqxValue, sampleID) {
+
+
+  if (notQAedOutOrBlank(gsValue) && (String(gsValue).indexOf("<") === 0) && (wqxValue === "<Below-Method-Detection-Limit")) {
+    console.log(`WARNING: Google Sheets ${gsParamName} ${gsValue} and WQX ${wqxParamName} ${wqxValue} indicate a Below-Method-Detection-Limit in sample ${sampleID}. Actual value not available in WQX.`);
+    return false;
+  }
+  else {
+    return baseMeasurementDiffers(gsParamName, gsValue, wqxParamName, wqxValue, sampleID);
+  }
+};
+
+var googleSheetsAndWQXSampleDiffer = function(gsSample, wqxSample) {
+
+  //console.log(`comparing samples:`);
+  //console.dir(gsSample);
+  //console.dir(wqxSample);
+
+  // for convinience
+  const sampleID = gsSample['SampleID']; 
+
+  if (gsSample['SampleID']  != wqxSample['SampleID']) return true;
+  if (gsSample['Location']  != wqxSample['Monitoring_Location_ID']) return true;
+  if (gsSample['Date']      != wqxSample['Activity_Start_Date'].replace(/-/g, '/')) return true;  // wqx is MM-DD-YYYY, google is MM/DD/YYYY
+  if (insituMeasurementDiffers('Temp',      gsSample['Temp'],      'Temperature, water',          wqxSample['Temperature, water'],          sampleID)) return true;
+  if (insituMeasurementDiffers('Salinity',  gsSample['Salinity'],  'Salinity',                    wqxSample['Salinity'],                    sampleID)) return true;
+  if (insituMeasurementDiffers('DO',        gsSample['DO'],        'Dissolved oxygen (DO)',       wqxSample['Dissolved oxygen (DO)'],       sampleID)) return true;
+  if (insituMeasurementDiffers('DO%',       gsSample['DO%'],       'Dissolved oxygen saturation', wqxSample['Dissolved oxygen saturation'], sampleID)) return true;
+  if (insituMeasurementDiffers('pH',        gsSample['pH'],        'pH',                          wqxSample['pH'],                          sampleID)) return true;
+  if (insituMeasurementDiffers('Turbidity', gsSample['Turbidity'], 'Turbidity',                   wqxSample['Turbidity'],                   sampleID)) return true;
+  // nutrient data
+  if (nutrientMeasurementDiffers('TotalN',    gsSample['TotalN'],    'Total Nitrogen, mixed forms',   wqxSample['Total Nitrogen, mixed forms'],   sampleID)) return true;
+  if (nutrientMeasurementDiffers('TotalP',    gsSample['TotalP'],    'Total Phosphorus, mixed forms', wqxSample['Total Phosphorus, mixed forms'], sampleID)) return true;
+  if (nutrientMeasurementDiffers('Phosphate', gsSample['Phosphate'], 'Orthophosphate',                wqxSample['Orthophosphate'],                sampleID)) return true;
+  if (nutrientMeasurementDiffers('Silicate',  gsSample['Silicate'],  'Silicate',                      wqxSample['Silicate'],                      sampleID)) return true;
+  if (nutrientMeasurementDiffers('NNN',       gsSample['NNN'],       'Nitrate + Nitrite',             wqxSample['Nitrate + Nitrite'],             sampleID)) return true;
+  if (nutrientMeasurementDiffers('NH4',       gsSample['NH4'],       'Ammonium',                      wqxSample['Ammonium'],                      sampleID)) return true;
+  return false;
+
+};
+
+
+var compareGStoWQXSample = function(data, callback) {
+
+  // key-value pair objects where the key is a sampleID and the value is a google docs sample
+  // they will be used later to write the files if they are not null
+  data['samplesToAddKV']    = null;
+  data['samplesInCommonKV'] = null;
+  data['samplesToUpdateKV'] = null;  // googleSheets will be considered the correct one
+  data['samplesToDeleteKV'] = null;
+
+
+  // only do this if there are samples (will be null if none read
+  if ( data.wqxSamplesKV ){
+
+    let onlyInGS           = {};  // would be new data that needs to be inserted
+    let inCommon           = {};  // need to check the data that is currently in both for differences in case there needs to be updates
+    let inCommonButDiffer  = {};  // any in common that differ (should be rare)
+    let onlyInWQX          = {};  // this should be rare.  Sample removed from Hui data that needs to be deleted 
+
+    console.log(`Comparing ${Object.keys(data.gsSamplesKV).length} Google Sheets samples to ${Object.keys(data.wqxSamplesKV).length} WQX samples`);
+
+    for (let gsSampleID in data.gsSamplesKV) {
+      if (data.wqxSamplesKV[gsSampleID]) {
+        inCommon[gsSampleID] = data.gsSamplesKV[gsSampleID];
+        if ( googleSheetsAndWQXSampleDiffer(data.gsSamplesKV[gsSampleID], data.wqxSamplesKV[gsSampleID]) ) {
+          console.log(`DIFFER`);
+          console.dir(data.gsSamplesKV[gsSampleID]);
+          console.dir( data.wqxSamplesKV[gsSampleID]);
+          inCommonButDiffer[gsSampleID] = data.gsSamplesKV[gsSampleID];
+        }
+      }
+      else {
+        onlyInGS[gsSampleID] = data.gsSamplesKV[gsSampleID];
+      }
+    }
+
+    // see if there might be samples in WQX that are not in Google Sheets.  This would be unusual
+    // since it would mean a full sample of data was removed from Google Sheets.
+    for (let wqxSampleID in data.wqxSamplesKV) {
+      if (! data.gsSamplesKV[wqxSampleID]) {
+        onlyInWQX[wqxSampleID] = data.wqxSamplesKV[wqxSampleID];
+      }
+    }
+
+    console.log(`Found ${Object.keys(onlyInGS).length} sample(s) of a total of ${Object.keys(data.gsSamplesKV).length} in Google Sheets that need to be added to WQX`);
+    console.log(`Found ${Object.keys(onlyInWQX).length} sample(s) in WQX that need to be deleted from WQX`);
+    console.log(`Found ${Object.keys(inCommon).length} sample(s) in common between Google Sheets and WQX`);
+    console.log(`Found ${Object.keys(inCommonButDiffer).length} sample(s) in common between Google Sheets and WQX but differ`);
+
+    data.samplesToAddKV    = onlyInGS;
+    data.samplesInCommonKV = inCommon;
+    data.samplesToUpdateKV = inCommonButDiffer;  // need to check the data that is currently in both for differences in case there needs to be updates
+    data.samplesToDeleteKV = onlyInWQX;
+
+  }
+  else {
+    console.log(`No WQX data to compare`);
+  }
+  
+  if (callback) {
+    callback();
+  }
+
+};
+
+
+var sortSamples = function(data, callback) {
 
   // get all the samples in one list to be sorted
-  data.samplesByLab = {};
+  let sampleList = [];
 
-
-  for (let i = 0; i < data.sortedSamples.length; ++i) {
-
-    // some convience variables
-    const sample = data.sortedSamples[i];
-
-    const labCode = sample.Lab;
-
-    if ( ! data.samplesByLab[labCode] ) {
-      data.samplesByLab[labCode] = [];  // haven't seen this lab yet, so make an empty list
-    }
-    data.samplesByLab[labCode].push(sample);
+  for (let sampleID in data.gsSamplesKV) {
+    sampleList.push(data.gsSamplesKV[sampleID]);
   }
+  data.sortedSamples = sampleList.sort(sortAscendingByDateAndTime);
 
   if (callback) {
     callback();
@@ -1196,23 +1350,30 @@ var filterSamples = function(data, callback) {
 
 // this is the main
 
+
 getSiteData(data, function () {
-    readSpreadSheetData(data, function () {
+    readGoogleSheetsData(data, function () {
       readNutrientData(data, function () {
         updateSamplesWithNutrientData(data, function () {
-          printLookupData(data, function () {
-            sortSamples(data, function () {
-              filterSamples(data, function () {
-               initResultAttributes(data, function () {
-                  printSamples(data, function () {   // for troubleshooting, need to comment things back in in the function to use it
-                    createTSVfileForImport(data, null);
+          filterGoogleSheetsData(data, function () {
+            readWQXData(data, function () {
+              filterWQXData(data, function () {
+                compareGStoWQXSample(data, function () {
+                  printLookupData(data, function () {
+                    sortSamples(data, function () {
+                       initResultAttributes(data, function () {
+                          printSamples(data, function () {   // for troubleshooting, need to comment things back in in the function to use it
+                            createTSVfileForImport(data, null);
+                      });
+                    });
                   });
+                });
+                });
                 });
               });
             });
           });
         });
       });
-    });
 });
 

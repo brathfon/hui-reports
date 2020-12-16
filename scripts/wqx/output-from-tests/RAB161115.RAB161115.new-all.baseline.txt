@@ -1,0 +1,13 @@
+Monitoring Location ID	Activity ID	Activity Type	Activity Start Date	Activity Start Time	Sample Collection Method ID	Sample Collection Equipment Name	Sample Collection Equipment Comment	Characteristic Name	Method Speciation	Result Detection Condition	Result Value	Result Unit	Result Sample Fraction	Result Analytical Method ID	Result Analytical Method Context	Result Detection Limit Type	Result Detection Limit Value	Result Detection Limit Unit
+RAB	RAB161115:FM:PS:TS:	Field Msr/Obs	11/15/2016	08:29	1002	Probe/Sensor	HACH CDC401	Temperature, water			25.8	deg C		2550	APHA			
+RAB	RAB161115:FM:PS:DO:	Field Msr/Obs	11/15/2016	08:29	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.49	mg/l		8157	HACH			
+RAB	RAB161115:FM:PS:DO:	Field Msr/Obs	11/15/2016	08:29	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			96.2	%		8157	HACH			
+RAB	RAB161115:FM:WB:	Field Msr/Obs	11/15/2016	08:29	1002	Water Bottle	HACH 2100Q	Turbidity			1.46	NTU		180.1	USEPA			
+RAB	RAB161115:FM:PS:PH:	Field Msr/Obs	11/15/2016	08:29	1002	Probe/Sensor	HACH PHC101	pH			8.14	None		8156	HACH			
+RAB	RAB161115:FM:PS:TS:	Field Msr/Obs	11/15/2016	08:29	1002	Probe/Sensor	HACH CDC401	Salinity			34.4	ppt		8160	HACH			
+RAB	RAB161115:SR:WB:	Sample-Routine	11/15/2016	08:29	1002	Water Bottle		Total Nitrogen, mixed forms	as N		67.22	ug/l	Filtered, field	4500-N	APHA			
+RAB	RAB161115:SR:WB:	Sample-Routine	11/15/2016	08:29	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.36	ug/l	Filtered, field	4500-P	APHA			
+RAB	RAB161115:SR:WB:	Sample-Routine	11/15/2016	08:29	1002	Water Bottle		Orthophosphate	as P		5.88	ug/l	Filtered, field	365.5	USEPA			
+RAB	RAB161115:SR:WB:	Sample-Routine	11/15/2016	08:29	1002	Water Bottle		Silicate			349.27	ug/l	Filtered, field	366	USEPA			
+RAB	RAB161115:SR:WB:	Sample-Routine	11/15/2016	08:29	1002	Water Bottle		Nitrate + Nitrite	as N		15.11	ug/l	Filtered, field	353.4	USEPA			
+RAB	RAB161115:SR:WB:	Sample-Routine	11/15/2016	08:29	1002	Water Bottle		Ammonium	as N	Below Method Detection Limit			Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX	Method Detection Level	1.5	ug/l

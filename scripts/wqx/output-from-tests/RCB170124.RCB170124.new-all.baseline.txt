@@ -9,4 +9,4 @@ RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Total Ph
 RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Orthophosphate	as P		16.74	ug/l	Filtered, field	365.5	USEPA			
 RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Silicate			327.23	ug/l	Filtered, field	366	USEPA			
 RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Nitrate + Nitrite	as N		46.28	ug/l	Filtered, field	353.4	USEPA			
-RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Ammonium	as N		7.68	ug/l	Filtered, field	350.1	USEPA			
+RCB	RCB170124:SR:WB:	Sample-Routine	01/24/2017	08:50	1002	Water Bottle		Ammonium	as N		7.68	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
