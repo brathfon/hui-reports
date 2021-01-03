@@ -894,6 +894,7 @@ var filterSamplesByGeoArea = function(data, callback) {
     let areaLookup = {
        LLHS: 'west',
        TMO:  'west',
+       PKL:  'west',
        NMS:  'south',
        DHS:  'south'
     };

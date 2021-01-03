@@ -252,27 +252,45 @@ yes	yes	yes	no	no	49	Makena	NMS	BS	MS	JD	MMB	MMB200722		Maluaka Beach	2020-07-22
 yes	yes	no	no	no	49	Makena	NMS	BS	MS	JD	MON	MON200722		Oneuli	2020-07-22	8:50	1	1	3	1	1					MON200722	27.3	34.6	6.05	92.4	8.09	1.16	0.90	0.92	0.99	0.146	0			NA	0	2	0	
 yes	yes	yes	no	no	49	Makena	NMS	BS	MS	JD	MAN	MAN200722		Ahihi North	2020-07-22	9:12	1	1	3	1	1					MAN200722	27.0	34.8	6.79	103.3	8.11	0.89	0.91	0.95	0.92	0.033	0			NA	0	0	0	
 yes	yes	yes	no	no	49	Makena	NMS	BS	MS	JD	MAS	MAS200722		Ahihi South	2020-07-22	9:37	1	1	3	1	1					MAS200722	26.9	34.3	6.41	97.2	8.11	1.08	0.91	0.96	0.98	0.089	0			NA	6	8	0	
-yes	yes	yes	no	no	50	Makena/Wailea	NMS	BS	AW	JD	WKD	WKD200812		Kilohana DR	2020-08-12	8:05	2	2	4	2	2					WKD200812	27.0	34.9	6.48	99.1	8.13	0.45	0.62	0.49	0.52	0.171				N	1	8	0	took 2nd NTU reading and used it
-yes	yes	yes	no	no	50	Makena/Wailea	NMS	BS	AW	JD	WKB	WKB200812		Keawakapu Beach	2020-08-12	8:18	2	2	4	2	2					WKB200812	27.1	35.0	6.57	100.5	8.13	0.42	0.40	0.39	0.40	0.038				NA	0	6	0	
-yes	yes	yes	no	no	50	Makena/Wailea	NMS	BS	AW	JD	WUL	WUL200812		Ulua Beach	2020-08-12	8:35	2	2	4	2	2					WUL200812	27.0	34.7	6.59	100.6	8.11	1.35	1.47	1.29	1.37	0.067				NA	6	6	0	
-yes	yes	yes	no	no	50	Makena/Wailea	NMS	BS	AW	JD	MMB	MMB200812		S Maluaka Beach	2020-08-12	9:01	2	2	4	2	2					MMB200812	27.6	34.9	6.50	100.3	8.15	0.50	0.52	0.53	0.52	0.030				NA	5	6	0	
-yes	yes	yes	no	no	50	Makena/Wailea	NMS	BS	AW	JD	MAN	MAN200812		Ahihi North	2020-08-12	9:21	2	2	4	2	2					MAN200812	26.7	34.5	6.82	103.5	8.08	0.53	0.77	0.73	0.68	0.190				NA	0	0	0	
-yes	yes	yes	no	no	50	Makena/Wailea	NMS	BS	AW	JD	MAS	MAS200812		Ahihi South	2020-08-12	9:37	2	2	4	2	2					   MAS200812	26.6	34.9	6.34	96.4	8.09	0.55	0.68	0.66	0.63	0.111				NA	0	2	0	
-yes	yes	yes	no	no	51	Makena/Wailea	NMS	BS	AA	JD	WKD	WKD200902		Kilohana DR	2020-09-02	7:55	1	2	3	1	1					WKD200902	26.6	34.9	6.31	95.7	8.08	0.75	0.82	0.70	0.76	0.080				N	3	5	0	
-yes	yes	yes	no	no	51	Makena/Wailea	NMS	BS	AA	JD	WKB	WKB200902		Keawakapu Beach	2020-09-02	8:13	1	2	3	1	1					WKB200902	26.4	35.1	6.42	97.4	8.09	0.48	0.50	0.46	0.48	0.042				NA	3	3	0	
-yes	yes	yes	no	no	51	Makena/Wailea	NMS	BS	AA	JD	WUL	WUL200902		Ulua Beach	2020-09-02	8:29	1	2	3	1	1					WUL200902	26.4	34.3	6.38	96.4	8.06	0.64	0.81	0.63	0.69	0.146				NA	3	6	0	took 4th turb reading and used .81
-yes	yes	yes	no	no	51	Makena/Wailea	NMS	BS	AA	JD	MMB	MMB200902		S Maluaka Beach	2020-09-02	8:55	1	2	3	1	1					MMB200902	26.5	34.6	6.31	95.9	8.09	0.53	0.53	0.64	0.57	0.112				NA	1	5	0	
-yes	yes	yes	no	no	51	Makena/Wailea	NMS	BS	AA	JD	MAN	MAN200902		Ahihi North	2020-09-02	9:17	1	2	3	1	1					MAN200902	26.5	34.2	7.56	114.2	8.05	1.87	2.69	2.22	2.26	0.182				NA	0	4	0	
-yes	yes	yes	no	no	51	Makena/Wailea	NMS	BS	AA	JD	MAS	MAS200902		Ahihi South	2020-09-02	9:37	1	2	3	1	1					   MAS200902	26.8	34.5	6.69	101.6	8.11	0.55	0.49	0.75	0.60	0.228				NA	0	2	0	took 4th turb reading and used .75
-yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	WKD	WKD200923		Kilohana DR	2020-09-23	7:56	2	2	4	2	2					WKD200923	27.0	35.2	6.71	102.1	8.13	1.38	1.61	1.52	1.50	0.077					0	2	0	volunteers forgot to record pre-sampling blank value
-yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	WKB	WKB200923		Keawakapu Beach	2020-09-23	8:12	2	2	4	2	2					WKB200923	27.3	35.2	6.61	101.2	8.12	0.80	0.92	0.89	0.87	0.072					2	2	0	
-yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	WUL	WUL200923		Ulua Beach	2020-09-23	8:17	2	2	4	2	2					WUL200923	27.2	35.0	6.72	102.5	8.11	1.54	1.55	1.33	1.47	0.084					3	4	0	
-yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	MMB	MMB200923		S Maluaka Beach	2020-09-23	8:47	2	2	4	2	2					MMB200923	27.4	35.0	6.70	102.8	8.15	0.85	0.92	1.03	0.93	0.097					0	1	0	
-yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	MAN	MAN200923		Ahihi North	2020-09-23	9:06	2	2	4	2	2					MAN200923	27.2	34.9	7.06	107.7	8.07	0.57	0.74	0.69	0.67	0.131					0	0	0	
-yes	yes	yes	no	no	52	Makena/Wailea	NMS	AA	JD	NS	MAS	MAS200923		Ahihi South	2020-09-23	9:23	2	2	4	2	2					MAS200923	27.5	35.1	6.59	101.4	8.08	1.26	1.36	1.39	1.34	0.051					2	0	0	
+yes	yes	yes	no	no	50	Makena/Wailea	DHS	BS	AW	JD	WKD	WKD200812		Kilohana DR	2020-08-12	8:05	2	2	4	2	2					WKD200812	27.0	34.9	6.48	99.1	8.13	0.45	0.62	0.49	0.52	0.171				N	1	8	0	took 2nd NTU reading and used it
+yes	yes	yes	no	no	50	Makena/Wailea	DHS	BS	AW	JD	WKB	WKB200812		Keawakapu Beach	2020-08-12	8:18	2	2	4	2	2					WKB200812	27.1	35.0	6.57	100.5	8.13	0.42	0.40	0.39	0.40	0.038				NA	0	6	0	
+yes	yes	yes	no	no	50	Makena/Wailea	DHS	BS	AW	JD	WUL	WUL200812		Ulua Beach	2020-08-12	8:35	2	2	4	2	2					WUL200812	27.0	34.7	6.59	100.6	8.11	1.35	1.47	1.29	1.37	0.067				NA	6	6	0	
+yes	yes	yes	no	no	50	Makena/Wailea	DHS	BS	AW	JD	MMB	MMB200812		S Maluaka Beach	2020-08-12	9:01	2	2	4	2	2					MMB200812	27.6	34.9	6.50	100.3	8.15	0.50	0.52	0.53	0.52	0.030				NA	5	6	0	
+yes	yes	yes	no	no	50	Makena/Wailea	DHS	BS	AW	JD	MAN	MAN200812		Ahihi North	2020-08-12	9:21	2	2	4	2	2					MAN200812	26.7	34.5	6.82	103.5	8.08	0.53	0.77	0.73	0.68	0.190				NA	0	0	0	
+yes	yes	yes	no	no	50	Makena/Wailea	DHS	BS	AW	JD	MAS	MAS200812		Ahihi South	2020-08-12	9:37	2	2	4	2	2					   MAS200812	26.6	34.9	6.34	96.4	8.09	0.55	0.68	0.66	0.63	0.111				NA	0	2	0	
+yes	yes	yes	no	no	51	Makena/Wailea	DHS	BS	AA	JD	WKD	WKD200902		Kilohana DR	2020-09-02	7:55	1	2	3	1	1					WKD200902	26.6	34.9	6.31	95.7	8.08	0.75	0.82	0.70	0.76	0.080				N	3	5	0	
+yes	yes	yes	no	no	51	Makena/Wailea	DHS	BS	AA	JD	WKB	WKB200902		Keawakapu Beach	2020-09-02	8:13	1	2	3	1	1					WKB200902	26.4	35.1	6.42	97.4	8.09	0.48	0.50	0.46	0.48	0.042				NA	3	3	0	
+yes	yes	yes	no	no	51	Makena/Wailea	DHS	BS	AA	JD	WUL	WUL200902		Ulua Beach	2020-09-02	8:29	1	2	3	1	1					WUL200902	26.4	34.3	6.38	96.4	8.06	0.64	0.81	0.63	0.69	0.146				NA	3	6	0	took 4th turb reading and used .81
+yes	yes	yes	no	no	51	Makena/Wailea	DHS	BS	AA	JD	MMB	MMB200902		S Maluaka Beach	2020-09-02	8:55	1	2	3	1	1					MMB200902	26.5	34.6	6.31	95.9	8.09	0.53	0.53	0.64	0.57	0.112				NA	1	5	0	
+yes	yes	yes	no	no	51	Makena/Wailea	DHS	BS	AA	JD	MAN	MAN200902		Ahihi North	2020-09-02	9:17	1	2	3	1	1					MAN200902	26.5	34.2	7.56	114.2	8.05	1.87	2.69	2.22	2.26	0.182				NA	0	4	0	
+yes	yes	yes	no	no	51	Makena/Wailea	DHS	BS	AA	JD	MAS	MAS200902		Ahihi South	2020-09-02	9:37	1	2	3	1	1					   MAS200902	26.8	34.5	6.69	101.6	8.11	0.55	0.49	0.75	0.60	0.228				NA	0	2	0	took 4th turb reading and used .75
+yes	yes	yes	no	no	52	Makena/Wailea	DHS	AA	JD	NS	WKD	WKD200923		Kilohana DR	2020-09-23	7:56	2	2	4	2	2					WKD200923	27.0	35.2	6.71	102.1	8.13	1.38	1.61	1.52	1.50	0.077					0	2	0	volunteers forgot to record pre-sampling blank value
+yes	yes	yes	no	no	52	Makena/Wailea	DHS	AA	JD	NS	WKB	WKB200923		Keawakapu Beach	2020-09-23	8:12	2	2	4	2	2					WKB200923	27.3	35.2	6.61	101.2	8.12	0.80	0.92	0.89	0.87	0.072					2	2	0	
+yes	yes	yes	no	no	52	Makena/Wailea	DHS	AA	JD	NS	WUL	WUL200923		Ulua Beach	2020-09-23	8:17	2	2	4	2	2					WUL200923	27.2	35.0	6.72	102.5	8.11	1.54	1.55	1.33	1.47	0.084					3	4	0	
+yes	yes	yes	no	no	52	Makena/Wailea	DHS	AA	JD	NS	MMB	MMB200923		S Maluaka Beach	2020-09-23	8:47	2	2	4	2	2					MMB200923	27.4	35.0	6.70	102.8	8.15	0.85	0.92	1.03	0.93	0.097					0	1	0	
+yes	yes	yes	no	no	52	Makena/Wailea	DHS	AA	JD	NS	MAN	MAN200923		Ahihi North	2020-09-23	9:06	2	2	4	2	2					MAN200923	27.2	34.9	7.06	107.7	8.07	0.57	0.74	0.69	0.67	0.131					0	0	0	
+yes	yes	yes	no	no	52	Makena/Wailea	DHS	AA	JD	NS	MAS	MAS200923		Ahihi South	2020-09-23	9:23	2	2	4	2	2					MAS200923	27.5	35.1	6.59	101.4	8.08	1.26	1.36	1.39	1.34	0.051					2	0	0	
 yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	WKD	WKD201014		Kilohana DR	2020-10-14	8:00	1	1	3	2	1					WKD201014	27.0	35.0	6.65	101.8	8.12	1.41	1.47	1.42	1.43	0.022					1	2	0	second reading
 yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	WKB	WKB201014		Keawakapu Beach	2020-10-14	8:21	1	1	3	2	1					WKB201014	27.5	35.2	6.68	103.0	8.13	0.52	0.82	0.54	0.63	0.268					3	2	0	
 yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	WUL	WUL201014		Ulua Beach	2020-10-14	8:37	1	1	3	2	1					WUL201014	27.4	34.6	6.55	100.5	8.09	1.54	1.92	1.65	1.70	0.115					3	2	0	
 yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	MMB	MMB201014		S Maluaka Beach	2020-10-14	8:59	1	1	3	2	1					MMB201014	27.6	34.3	6.49	99.7	8.11	0.78	0.84	0.90	0.84	0.071					0	0	0	second reading
 yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	MAN	MAN201014		Ahihi North	2020-10-14	9:18	1	1	3	2	1					MAN201014	27.6	34.8	7.58	116.9	8.14	1.07	1.06	1.18	1.10	0.060					0	0	0	
 yes	yes	yes	no	no	53	Makena/Wailea	DHS	AW	NS	JD	MAS	MAS201014		Ahihi South	2020-10-14	9:38	1	1	3	2	1					MAS201014	27.6	34.6	6.81	105.4	8.11	1.26	1.28	1.29	1.28	0.012					0	0	0	
+yes	yes	yes	no	no	54	Makena/Wailea	DHS	AW	JD	BS	WKD	WKD201104		Kilohana DR	2020-11-04	7:54	2	2	4	2	2					WKD201104	27.1	35.1	6.54	99.9	8.12	0.74	0.92	0.92	0.86	0.121					0	5	0	HD40D(2) having trouble turning on. Turned on, checked batteries and then it worked. 
+yes	yes	yes	no	no	54	Makena/Wailea	DHS	AW	JD	BS	WKB	WKB201104		Keawakapu Beach	2020-11-04	8:14	2	2	4	2	2					WKB201104	27.3	35.2	6.45	98.9	8.11	0.65	0.60	0.79	0.68	0.145					0	2	0	
+yes	yes	yes	no	no	54	Makena/Wailea	DHS	AW	JD	BS	WUL	WUL201104		Ulua Beach	2020-11-04	8:28	2	2	4	2	2					WUL201104	27.2	35.1	6.53	99.9	8.13	0.93	0.92	0.90	0.92	0.017					3	4	0	
+yes	yes	yes	no	no	54	Makena/Wailea	DHS	AW	JD	BS	MMB	MMB201104		S Maluaka Beach	2020-11-04	8:50	2	2	4	2	2					MMB201104	27.2	35.2	6.33	96.9	8.13	0.49	0.52	0.40	0.47	0.133					2	3	0	
+yes	yes	yes	no	no	54	Makena/Wailea	DHS	AW	JD	BS	MAN	MAN201104		Ahihi North	2020-11-04	9:12	2	2	4	2	2					MAN201104	26.9	35.0	6.74	102.4	8.03	1.17	1.05	1.19	1.14	0.067					0	2	0	
+yes	yes	yes	no	no	54	Makena/Wailea	DHS	AW	JD	BS	MAS	MAS201104		Ahihi South	2020-11-04	9:30	2	2	4	2	2					MAS201104	27.2	34.8	6.37	97.5	8.06	1.51	1.46	1.70	1.56	0.081					0	2	0	
+yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	WKD	WKD201118		Kilohana DR	2020-11-18	7:55	1	1	3	2	1					WKD201118	26.0	35.5	6.63	99.7	8.11	0.89	0.92	0.96	0.92	0.038					1	7	0	volunteers forgot to do presampling turbidity
+yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	WKB	WKB201118		Keawakapu Beach	2020-11-18	8:14	1	1	3	2	1					WKB201118	26.2	35.5	6.51	98.2	8.12	0.51	0.58	0.56	0.55	0.066					0	4	0	
+yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	WUL	WUL201118		Ulua Beach	2020-11-18	8:43	1	1	3	2	1					WUL201118	26.3	35.5	6.54	98.9	8.13	0.78	0.84	0.87	0.83	0.055					3	4	0	in other bottle marked with green tape (to clarify, volunteers used turbidity bottle for butrients, we discarded and saved money)
+yes	yes	no	no	no	55	Makena/Wailea	DHS	AW	MS	BS	MMB	MMB201118		S Maluaka Beach	2020-11-18	9:17	1	1	3	2	1					MMB201118	26.2	35.4	6.43	97.2	8.13	0.58	0.65	0.59	0.61	0.062					5	0	0	one tour boat leaving shore; mist
+yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	MAN	MAN201118		Ahihi North	2020-11-18	9:27	1	1	3	2	1					MAN201118	26.1	35.2	6.12	92.2	8.00	0.81	0.89	0.86	0.85	0.047					2	4	0	
+yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	MAS	MAS201118		Ahihi South	2020-11-18	9:50	1	1	3	2	1					MAS201118	26.3	35.3	6.50	98.3	8.10	1.37	1.43	1.60	1.47	0.081					6	0	0	
+yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	WKD	WKD201209		Kilohana DR	2020-12-09	7:57	2	2	4	2	2					WKD201209	25.4	35.2	6.72	99.9	8.15	2.12	1.37	0.99	1.49	0.385					2	4	0	Retested pre-sample after cleaning vial
+yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	WKB	WKB201209		Keawakapu Beach	2020-12-09	8:20	2	2	4	2	2					WKB201209	25.9	35.4	6.62	99.1	8.14	0.55	0.73	0.58	0.62	0.156					2	5	0	Note: batteries failed in HD40-replaced batteries
+yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	WUL	WUL201209		Ulua Beach	2020-12-09	8:37	2	2	4	2	2					WUL201209	25.8	35.3	6.71	99.9	8.12	1.63	1.63	1.11	1.46	0.206					4	8	0	
+yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	MMB	MMB201209		S Maluaka Beach	2020-12-09	9:02	2	2	4	2	2					MMB201209	25.7	35.2	6.55	97.8	8.15	1.22	0.82	1.02	1.02	0.196					0	9	0	
+yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	MAN	MAN201209		Ahihi North	2020-12-09	9:23	2	2	4	2	2					MAN201209	25.9	35.2	7.12	106.5	8.14	1.53	1.87	1.71	1.70	0.100					2	0	0	
+yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	MAS	MAS201209		Ahihi South	2020-12-09	9:41	2	2	4	2	2					MAS201209	26.1	35.2	6.61	99.4	8.14	1.21	1.06	0.94	1.07	0.126					0	2	0	
