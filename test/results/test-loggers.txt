@@ -1,0 +1,8 @@
+ERROR: This is an error
+WARN: This is a warning
+INFO: This is information
+DEBUG: This is debug, and you should see me
+VERBOSE: This is vebosity, and you should see me
+-- ERROR: This is an error with sql comments added
+-- WARN: This is a warning with sql comments added
+-- INFO: This is information with sql comments added

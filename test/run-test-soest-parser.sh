@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./test-soest-parser.js -n ../data/nutrient-data/ -g ../data/google-drive-downloads/
+./test-soest-parser.js -n ./baseline-data/nutrient-data/ -g ./baseline-data/google-drive-downloads/

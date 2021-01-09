@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-  
+
 
 "use strict";
 
@@ -9,7 +9,7 @@ const path  = require('path');
 
 //const readline = require('readline');   for checking to see if files already exit, but not using now
 
-
+const cll  = require('../lib/commandLineLogger');
 
 const scriptname = path.basename(process.argv[1]);
 
@@ -256,8 +256,13 @@ var readSpreadSheetData = function (data, callback) {
 
 var readNutrientData = function (data, callback) {
 
-  var westMaui = rnf.readSoestFiles(data.nutrientDirectory +  '/west-maui', data.sites);
-  var southMaui = rnf.readSoestFiles(data.nutrientDirectory + '/south-maui', data.sites);
+  const logger = cll.CommandLineLogger();
+  logger.setAddSQLComment(true);
+  logger.setPrintDebug(true);
+
+
+  var westMaui = rnf.readSoestFiles(data.nutrientDirectory +  '/west-maui', logger);
+  var southMaui = rnf.readSoestFiles(data.nutrientDirectory + '/south-maui', logger);
 
   console.log("-- Number of west Maui nutrient samples : " + Object.keys(westMaui).length);
   console.log("-- Number of south Maui nutrient samples : " + Object.keys(southMaui).length);
@@ -267,7 +272,7 @@ var readNutrientData = function (data, callback) {
   console.log("-- Combined : " + Object.keys(combined).length);
 
   // the nutrient data comes back from the reader in an object where the keys are SITECODE-M/D/YY
-  // 
+  //
   // nutrient  { 'RNS-6/5/18':
   //  { SampleID: 'RNS180605',
   //    Location: 'RNS',
@@ -449,7 +454,7 @@ var checkForQAIssues = function(sample, column, issueDescriptions) {
   // 2) All the nutrient data is blank, indicating
   //     a) Nutrient data was skipped for this site
   //     b) Nutrient data samples were shipped to the lab and the results are not in yet
-  
+
 
   //console.log(`column ${column}`);
 
@@ -724,7 +729,7 @@ var writeFile = function (filePath, dataToWrite) {
         return console.log(err);
     }
     console.log("The file was saved to " + filePath);
-  }); 
+  });
 };
 
 
@@ -763,7 +768,7 @@ var printLookupData = function (data, callback) {
     console.log(util.inspect(data.sites[siteCode], false, null));
   }
 
-  
+
   console.log("");
   console.log("Report Measurement Names:");
   console.log(util.inspect(reportMeasurementNames, false, null));
@@ -938,4 +943,3 @@ getSiteData(data, function () {
       });
     });
 });
-

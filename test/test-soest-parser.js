@@ -11,7 +11,8 @@ const path  = require('path');
 
 // app-specific requirements
 const rnf  = require('../lib/readSoestFiles');
-var rsgs   = require('../lib/readSiteGdriveSheet');
+const rsgs = require('../lib/readSiteGdriveSheet');
+const cll  = require('../lib/commandLineLogger');
 //const sp   = require('../lib/SOESTParser');
 
 const scriptname = path.basename(process.argv[1]);
@@ -53,32 +54,27 @@ if (argv.n)     data['nutrientDirectory']  = argv.n;
 if (argv.ndir)  data['nutrientDirectory']  = argv.ndir;
 
 
-var getSiteData = function (data, callback) {
-
-  console.log("In getSiteData");
-  data['sites'] = rsgs.readSiteGdriveSheet(data.siteFile);
-
-  //console.log("sites " + util.inspect(data.sites, false, null));
-
-  if (callback) {
-    callback();
-  }
-
-};
-
-
 var readNutrientData = function (data, callback) {
 
-  var westMaui = rnf.readSoestFiles(data.nutrientDirectory +  '/west-maui', data.sites);
-  var southMaui = rnf.readSoestFiles(data.nutrientDirectory + '/south-maui', data.sites);
+  const logger = cll.CommandLineLogger();
+  logger.setAddSQLComment(true);
+  logger.setPrintDebug(true);
 
-  console.log("-- Number of west Maui nutrient samples : " + Object.keys(westMaui).length);
-  console.log("-- Number of south Maui nutrient samples : " + Object.keys(southMaui).length);
+  var westMaui = rnf.readSoestFiles(data.nutrientDirectory +  '/west-maui', logger);
+  var southMaui = rnf.readSoestFiles(data.nutrientDirectory + '/south-maui', logger);
+
+  //logger.setAddSQLComment(false);
+  //logger.setPrintInfo(false);
+  //console.dir(logger);
+  //logger.info("LOG Number of west Maui nutrient samples : " + Object.keys(westMaui).length);
+  logger.info("Number of west Maui nutrient samples : " + Object.keys(westMaui).length);
+  logger.info("Number of south Maui nutrient samples : " + Object.keys(southMaui).length);
 
   let combined = Object.assign({}, westMaui, southMaui);
 
-  console.log("-- Combined : " + Object.keys(combined).length);
+  logger.info("Combined : " + Object.keys(combined).length);
 
+  // can't really use the logger.info here, just prints [object Object]
   console.dir(combined);
 
   // the nutrient data comes back from the reader in an object where the keys are SITECODE-M/D/YY
@@ -102,15 +98,13 @@ var readNutrientData = function (data, callback) {
     data.nutrientSamples[combined[weirdCode].SampleID] = combined[weirdCode];
   }
 
-  //console.log("nutrient  " + util.inspect(data.nutrientSamples, false, null));
+  //logger.info("nutrient  " + util.inspect(data.nutrientSamples, false, null));
 
   if (callback) {
     callback();
   }
-
 };
 
+// main
 
-  getSiteData(data, function() {
-    readNutrientData(data, null);
-  });
+readNutrientData(data, null);
