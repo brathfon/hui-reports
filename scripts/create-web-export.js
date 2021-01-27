@@ -322,6 +322,9 @@ var updateSamplesWithNutrientData = function (data, callback) {
       data.samples[sampleID].Silicate  = data.nutrientSamples[sampleID].Silicate;
       data.samples[sampleID].NNN       = data.nutrientSamples[sampleID].NNN;
       data.samples[sampleID].NH4       = data.nutrientSamples[sampleID].NH4;
+
+      checkNutrientSampledFlagVsData(data.samples[sampleID]);
+
     }
   }
 
@@ -342,8 +345,6 @@ var isNutrientMeasurement = function (columnName) {
 
 
 var isEmptyNutrientData = function (sample) {
-
-  if (sample.NutSampled.toLowerCase() === "no") return true;  // they will never have values
 
   return ((sample.TotalN === "") &&
           (sample.TotalP === "") &&
@@ -586,6 +587,20 @@ var fixTimeFormat = function (aTime) {
 }
 
 
+// check for a data inconsistency condition that has been observed where the google sheet says
+// that no nutrient data was collected, yet a sample was submitted to the lab. Warn about it
+// and return. Do not put in a comment.
+
+var checkNutrientSampledFlagVsData = function(sample) {
+
+  if (! isEmptyNutrientData(sample) && (sample["NutSampled"].toLowerCase() === "no")) {
+    console.log(`-- WARNING: found inconsistent data for sample ${sample.SampleID}. Spreadsheet says no nutrient sample was taken but nutrient data is not empty.`);
+    console.error(`-- WARNING: found inconsistent data for sample ${sample.SampleID}. Spreadsheet says no nutrient sample was taken but nutrient data is not empty.`);
+  }
+
+};
+
+
 // This function adds a comment to the msgObj that reports when the nutrient data is empty.
 // It reports that there is data pending (not back from the lab) if the nutrient data is empty
 // but samples were taken according to the database. If the database says not samples were
@@ -594,11 +609,11 @@ var fixTimeFormat = function (aTime) {
 var addMissingNutrientDataMsg = function(sample, msgObj) {
 
   if (isEmptyNutrientData(sample)) {
-    if (sample["NutSampled"] === "yes") {
+    if (sample["NutSampled"].toLowerCase() === "yes") {
       //console.log("nutrient empty YES, samples taken YES");
       msgObj["nutrient data pending"] = true;
     }
-    else if (sample["NutSampled"] === "no") {
+    else if (sample["NutSampled"].toLowerCase() === "no") {
       //console.log("nutrient empty YES, samples taken NO");
       msgObj["nutrient samples not taken"] = true;
     }

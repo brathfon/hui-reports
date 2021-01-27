@@ -284,8 +284,8 @@ yes	yes	yes	no	no	54	Makena/Wailea	DHS	AW	JD	BS	MAN	MAN201104		Ahihi North	2020-
 yes	yes	yes	no	no	54	Makena/Wailea	DHS	AW	JD	BS	MAS	MAS201104		Ahihi South	2020-11-04	9:30	2	2	4	2	2					MAS201104	27.2	34.8	6.37	97.5	8.06	1.51	1.46	1.70	1.56	0.081					0	2	0	
 yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	WKD	WKD201118		Kilohana DR	2020-11-18	7:55	1	1	3	2	1					WKD201118	26.0	35.5	6.63	99.7	8.11	0.89	0.92	0.96	0.92	0.038					1	7	0	volunteers forgot to do presampling turbidity
 yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	WKB	WKB201118		Keawakapu Beach	2020-11-18	8:14	1	1	3	2	1					WKB201118	26.2	35.5	6.51	98.2	8.12	0.51	0.58	0.56	0.55	0.066					0	4	0	
-yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	WUL	WUL201118		Ulua Beach	2020-11-18	8:43	1	1	3	2	1					WUL201118	26.3	35.5	6.54	98.9	8.13	0.78	0.84	0.87	0.83	0.055					3	4	0	in other bottle marked with green tape (to clarify, volunteers used turbidity bottle for butrients, we discarded and saved money)
-yes	yes	no	no	no	55	Makena/Wailea	DHS	AW	MS	BS	MMB	MMB201118		S Maluaka Beach	2020-11-18	9:17	1	1	3	2	1					MMB201118	26.2	35.4	6.43	97.2	8.13	0.58	0.65	0.59	0.61	0.062					5	0	0	one tour boat leaving shore; mist
+yes	yes	no	no	no	55	Makena/Wailea	DHS	AW	MS	BS	WUL	WUL201118		Ulua Beach	2020-11-18	8:43	1	1	3	2	1					WUL201118	26.3	35.5	6.54	98.9	8.13	0.78	0.84	0.87	0.83	0.055					3	4	0	in other bottle marked with green tape (to clarify, volunteers used turbidity bottle for butrients, we discarded and saved money)
+yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	MMB	MMB201118		S Maluaka Beach	2020-11-18	9:17	1	1	3	2	1					MMB201118	26.2	35.4	6.43	97.2	8.13	0.58	0.65	0.59	0.61	0.062					5	0	0	one tour boat leaving shore; mist
 yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	MAN	MAN201118		Ahihi North	2020-11-18	9:27	1	1	3	2	1					MAN201118	26.1	35.2	6.12	92.2	8.00	0.81	0.89	0.86	0.85	0.047					2	4	0	
 yes	yes	yes	no	no	55	Makena/Wailea	DHS	AW	MS	BS	MAS	MAS201118		Ahihi South	2020-11-18	9:50	1	1	3	2	1					MAS201118	26.3	35.3	6.50	98.3	8.10	1.37	1.43	1.60	1.47	0.081					6	0	0	
 yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	WKD	WKD201209		Kilohana DR	2020-12-09	7:57	2	2	4	2	2					WKD201209	25.4	35.2	6.72	99.9	8.15	2.12	1.37	0.99	1.49	0.385					2	4	0	Retested pre-sample after cleaning vial
@@ -293,4 +293,4 @@ yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	WKB	WKB201209		Keawakapu Beach	2
 yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	WUL	WUL201209		Ulua Beach	2020-12-09	8:37	2	2	4	2	2					WUL201209	25.8	35.3	6.71	99.9	8.12	1.63	1.63	1.11	1.46	0.206					4	8	0	
 yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	MMB	MMB201209		S Maluaka Beach	2020-12-09	9:02	2	2	4	2	2					MMB201209	25.7	35.2	6.55	97.8	8.15	1.22	0.82	1.02	1.02	0.196					0	9	0	
 yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	MAN	MAN201209		Ahihi North	2020-12-09	9:23	2	2	4	2	2					MAN201209	25.9	35.2	7.12	106.5	8.14	1.53	1.87	1.71	1.70	0.100					2	0	0	
-yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	MAS	MAS201209		Ahihi South	2020-12-09	9:41	2	2	4	2	2					MAS201209	26.1	35.2	6.61	99.4	8.14	1.21	1.06	0.94	1.07	0.126					0	2	0	
+yes	yes	yes	no	no	56	Makena/Wailea	DHS	MS	BS	JD	MAS	MAS201209		Ahihi South	2020-12-09	9:41	2	2	4	2	2					MAS201209	26.1	35.2	6.61	99.4	8.14	1.21	1.06	0.94	1.07	0.126					0	2	0	
