@@ -67,6 +67,7 @@ if (argv.gsdir) data['googleSheetsDirectory']  = argv.gsdir;
 
 // the site information comes from a downloaded sheet of the google drive spreadsheet where the insitu data is recorded
 data['siteFile'] = data['googleSheetsDirectory'] + '/' + "Hui o ka Wai Ola Data Entry - Site Codes.tsv";
+data['reportConstantsFile'] = data['googleSheetsDirectory'] + '/' + "Hui o ka Wai Ola Data Entry - Report Constants.tsv";
 
 if (argv.n)     data['nutrientDirectory']  = argv.n;
 if (argv.ndir)  data['nutrientDirectory']  = argv.ndir;
@@ -82,8 +83,10 @@ data['samples'] = {};  // the key of samples is the sample ID. ex: RWA190716, wh
 
 
 var rsgs   = require('../lib/readSiteGdriveSheet');
-var rss   = require('../lib/readSpreadSheets');
-var rnf   = require('../lib/readSoestFiles');
+var rss    = require('../lib/readSpreadSheets');
+var rnf    = require('../lib/readSoestFiles');
+var rrcf   = require('../lib/readReportConstantsFile');
+var rcp    = require('../lib/reportConstantsParser');
 
 
 // this is mapping how the measurement or column names are stored in the structures as they are read
@@ -139,6 +142,24 @@ var getSiteData = function (data, callback) {
   data['sites'] = rsgs.readSiteGdriveSheet(data.siteFile);
 
   //console.log("sites " + util.inspect(data.sites, false, null));
+
+  if (callback) {
+    callback();
+  }
+
+};
+
+
+var getReportConstantsData = function (data, callback) {
+
+  console.log("In getReportConstantsData");
+  data['reportConstantsData'] = rrcf.readFile(data.reportConstantsFile);
+
+  //console.log("reportConstantsData " + util.inspect(data.reportConstantsData, false, null));
+
+  data['areaToReportRegion'] = rcp.getAreaToReportRegion(data['reportConstantsData']);
+
+  //console.log("areaToReportRegion " + util.inspect(data.areaToReportRegion, false, null));
 
   if (callback) {
     callback();
@@ -217,7 +238,7 @@ var readSpreadSheetData = function (data, callback) {
       obj['NutSampled'] = sessions[labSessionCode][i].Nut_Sample;
       obj['SampleID']   = sessions[labSessionCode][i].SampleID;
       obj['SiteName']   = sessions[labSessionCode][i].SiteName;
-      obj['Location']   = sessions[labSessionCode][i].Station;
+      obj['Location']   = sessions[labSessionCode][i].Station;  // site code
       obj['Session']    = sessions[labSessionCode][i].Session;
       obj['Date']       = fixDateFormat(sessions[labSessionCode][i]['Date']); // put the date in the MM/DD/YY format
       obj['Time']       = fixTimeFormat(sessions[labSessionCode][i].Time);    // put the time in the HH:MM format
@@ -327,6 +348,9 @@ var updateSamplesWithNutrientData = function (data, callback) {
       data.samples[sampleID].Silicate  = data.nutrientSamples[sampleID].Silicate;
       data.samples[sampleID].NNN       = data.nutrientSamples[sampleID].NNN;
       data.samples[sampleID].NH4       = data.nutrientSamples[sampleID].NH4;
+
+      checkNutrientSampledFlagVsData(data.samples[sampleID]);
+
     }
   }
 
@@ -347,8 +371,6 @@ var isNutrientMeasurement = function (columnName) {
 
 
 var isEmptyNutrientData = function (sample) {
-
-  if (sample.NutSampled.toLowerCase() === "no") return true;  // they will never have values
 
   return ((sample.TotalN === "") &&
           (sample.TotalP === "") &&
@@ -591,6 +613,20 @@ var fixTimeFormat = function (aTime) {
 }
 
 
+// check for a data inconsistency condition that has been observed where the google sheet says
+// that no nutrient data was collected, yet a sample was submitted to the lab. Warn about it
+// and return. Do not put in a comment.
+
+var checkNutrientSampledFlagVsData = function(sample) {
+
+  if (! isEmptyNutrientData(sample) && (sample["NutSampled"].toLowerCase() === "no")) {
+    console.log(`-- WARNING: found inconsistent data for sample ${sample.SampleID}. Spreadsheet says no nutrient sample was taken but nutrient data is not empty.`);
+    console.error(`-- WARNING: found inconsistent data for sample ${sample.SampleID}. Spreadsheet says no nutrient sample was taken but nutrient data is not empty.`);
+  }
+
+};
+
+
 // This function adds a comment to the msgObj that reports when the nutrient data is empty.
 // It reports that there is data pending (not back from the lab) if the nutrient data is empty
 // but samples were taken according to the database. If the database says not samples were
@@ -599,11 +635,11 @@ var fixTimeFormat = function (aTime) {
 var addMissingNutrientDataMsg = function(sample, msgObj) {
 
   if (isEmptyNutrientData(sample)) {
-    if (sample["NutSampled"] === "yes") {
+    if (sample["NutSampled"].toLowerCase() === "yes") {
       //console.log("nutrient empty YES, samples taken YES");
       msgObj["nutrient data pending"] = true;
     }
-    else if (sample["NutSampled"] === "no") {
+    else if (sample["NutSampled"].toLowerCase() === "no") {
       //console.log("nutrient empty YES, samples taken NO");
       msgObj["nutrient samples not taken"] = true;
     }
@@ -744,10 +780,10 @@ var createReports = function (data, callback) {
   let filePath = getFilePathForAllAreas(data);
   writeFile(filePath, createReportFromList(data.sortedSamples, data.ignoreNoNutrientSamples));
 
-  for (let geoArea in data.samplesByGeoArea) {
-     console.log("Creating report for area " + geoArea);
-     filePath = getFilePathForGeoArea(data, geoArea);
-     writeFile(filePath, createReportFromList(data.samplesByGeoArea[geoArea], data.ignoreNoNutrientSamples));
+  for (let reportRegion in data.samplesByReportRegion) {
+     console.log("Creating report for report region " + reportRegion);
+     filePath = getFilePathForGeoArea(data, reportRegion);
+     writeFile(filePath, createReportFromList(data.samplesByReportRegion[reportRegion], data.ignoreNoNutrientSamples));
      //if (fs.existsSync(filePath))
   }
 
@@ -776,6 +812,16 @@ var printLookupData = function (data, callback) {
   console.log("");
   console.log("Report Precision:");
   console.log(util.inspect(reportPrecision, false, null));
+
+
+  console.log("");
+  console.log("Report Constants Data:");
+  console.log(util.inspect(data.reportConstantsData, false, null));
+
+
+  console.log("");
+  console.log("Area to Report Region");
+  console.log(util.inspect(data.areaToReportRegion, false, null));
 
   if (callback) {
     callback();
@@ -881,39 +927,49 @@ var sortSamples = function(data, callback) {
 var filterSamplesByGeoArea = function(data, callback) {
 
   // get all the samples in one list to be sorted
-  data.samplesByGeoArea = {};
+  data.samplesByReportRegion = {};
 
   for (let i = 0; i < data.sortedSamples.length; ++i) {
 
     // some convience variables
     const sample = data.sortedSamples[i];
+    const sampleID = sample.SampleID;
+    const siteCode   = sample.Location;  // the 3 digit code
+    //console.log(`sample ${sampleID} site ${siteCode}`);
 
-    const labCode = sample.Lab;
-
-
-    // HACK WARNING WARNING
-    // Because there were lab problem during COVID, we had to move labs.
-    // Team leads wanted to use other lab codes.
-    // Changed to calling the labs geo areas
-
-    let areaLookup = {
-       LLHS: 'west',
-       TMO:  'west',
-       NMS:  'south',
-       DHS:  'south'
-    };
-
-    let area = areaLookup[labCode];
-    if (! area) {
-      console.error(`ERROR: could not find area lookup for lab ${labCode} .... exiting`);
-      console.log(`ERROR: could not find area lookup for lab ${labCode} .... exiting`);
+    const site = data.sites[siteCode];
+    if (! site) {
+      console.error(`ERROR: could not find for site for site code ${siteCode} .... exiting`);
+      console.log(`ERROR: could not find for site for site code ${siteCode} .... exiting`);
       process.exit(1);
     }
 
-    if ( ! data.samplesByGeoArea[area] ) {
-      data.samplesByGeoArea[area] = [];  // haven't seen this lab yet, so make an empty list
+    const area = site.Area;
+    if (! area) {
+      console.error(`ERROR: could not find for area for site ${siteCode} .... exiting`);
+      console.log(`ERROR: could not find for area for site ${siteCode} .... exiting`);
+      process.exit(1);
     }
-    data.samplesByGeoArea[area].push(sample);
+
+    let reportRegion = data.areaToReportRegion[area];
+    if (! reportRegion) {
+      console.error(`ERROR: could not find reporting region for area ${area} .... exiting`);
+      console.log(`ERROR: could not find reporting region for area ${area} .... exiting`);
+      process.exit(1);
+    }
+
+    reportRegion = reportRegion.toLowerCase();
+
+    if (reportRegion === "n/a") {
+      console.error(`ERROR: sample ${sampleID} in area ${area} mapped to report region "${reportRegion}". All data should map to a valid report region .... exiting`);
+      console.log(`ERROR: sample ${sampleID} in area ${area} mapped to report region "${reportRegion}". All data should map to a valid report region .... exiting`);
+      process.exit(1);
+    }
+
+    if ( ! data.samplesByReportRegion[reportRegion] ) {
+      data.samplesByReportRegion[reportRegion] = [];  // haven't seen this reporting region yet, so make an empty list
+    }
+    data.samplesByReportRegion[reportRegion].push(sample);
   }
 
   if (callback) {
@@ -925,6 +981,7 @@ var filterSamplesByGeoArea = function(data, callback) {
 // this is the main
 
 getSiteData(data, function () {
+  getReportConstantsData(data, function () {
     readSpreadSheetData(data, function () {
       readNutrientData(data, function () {
         updateSamplesWithNutrientData(data, function () {
@@ -942,4 +999,5 @@ getSiteData(data, function () {
         });
       });
     });
+  });
 });

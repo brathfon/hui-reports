@@ -1,0 +1,781 @@
+Monitoring Location ID	Activity ID	Activity Type	Activity Start Date	Activity Start Time	Sample Collection Method ID	Sample Collection Equipment Name	Sample Collection Equipment Comment	Characteristic Name	Method Speciation	Result Detection Condition	Result Value	Result Unit	Result Sample Fraction	Result Analytical Method ID	Result Analytical Method Context	Result Detection Limit Type	Result Detection Limit Value	Result Detection Limit Unit
+NKN	NKN200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	07:56	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.8	deg C		2550	APHA			
+NKN	NKN200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	07:56	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.01	mg/l		8157	HACH			
+NKN	NKN200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	07:56	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			91.2	%		8157	HACH			
+NKN	NKN200922:FM:WB:	Field Msr/Obs	09/22/2020	07:56	1002	Water Bottle	HACH 2100Q	Turbidity			3.36	NTU		180.1	USEPA			
+NKN	NKN200922:FM:PS:PH:	Field Msr/Obs	09/22/2020	07:56	1002	Probe/Sensor	HACH PHC101	pH			8.10	None		8156	HACH			
+NKN	NKN200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	07:56	1002	Probe/Sensor	HACH CDC401	Salinity			34.6	ppt		8160	HACH			
+NKN	NKN200922:SR:WB:	Sample-Routine	09/22/2020	07:56	1002	Water Bottle		Total Nitrogen, mixed forms	as N		131.79	ug/l	Filtered, field	4500-N	APHA			
+NKN	NKN200922:SR:WB:	Sample-Routine	09/22/2020	07:56	1002	Water Bottle		Total Phosphorus, mixed forms	as P		7.75	ug/l	Filtered, field	4500-P	APHA			
+NKN	NKN200922:SR:WB:	Sample-Routine	09/22/2020	07:56	1002	Water Bottle		Orthophosphate	as P		5.09	ug/l	Filtered, field	365.5	USEPA			
+NKN	NKN200922:SR:WB:	Sample-Routine	09/22/2020	07:56	1002	Water Bottle		Silicate			446.41	ug/l	Filtered, field	366	USEPA			
+NKN	NKN200922:SR:WB:	Sample-Routine	09/22/2020	07:56	1002	Water Bottle		Nitrate + Nitrite	as N		29.80	ug/l	Filtered, field	353.4	USEPA			
+NKN	NKN200922:SR:WB:	Sample-Routine	09/22/2020	07:56	1002	Water Bottle		Ammonium	as N		4.65	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+KWP	KWP200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	08:13	1002	Probe/Sensor	HACH CDC401	Temperature, water			25.4	deg C		2550	APHA			
+KWP	KWP200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	08:13	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.20	mg/l		8157	HACH			
+KWP	KWP200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	08:13	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			92.8	%		8157	HACH			
+KWP	KWP200922:FM:WB:	Field Msr/Obs	09/22/2020	08:13	1002	Water Bottle	HACH 2100Q	Turbidity			22.17	NTU		180.1	USEPA			
+KWP	KWP200922:FM:PS:PH:	Field Msr/Obs	09/22/2020	08:13	1002	Probe/Sensor	HACH PHC101	pH			8.00	None		8156	HACH			
+KWP	KWP200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	08:13	1002	Probe/Sensor	HACH CDC401	Salinity			33.5	ppt		8160	HACH			
+KWP	KWP200922:SR:WB:	Sample-Routine	09/22/2020	08:13	1002	Water Bottle		Total Nitrogen, mixed forms	as N		142.64	ug/l	Filtered, field	4500-N	APHA			
+KWP	KWP200922:SR:WB:	Sample-Routine	09/22/2020	08:13	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.07	ug/l	Filtered, field	4500-P	APHA			
+KWP	KWP200922:SR:WB:	Sample-Routine	09/22/2020	08:13	1002	Water Bottle		Orthophosphate	as P		7.76	ug/l	Filtered, field	365.5	USEPA			
+KWP	KWP200922:SR:WB:	Sample-Routine	09/22/2020	08:13	1002	Water Bottle		Silicate			840.22	ug/l	Filtered, field	366	USEPA			
+KWP	KWP200922:SR:WB:	Sample-Routine	09/22/2020	08:13	1002	Water Bottle		Nitrate + Nitrite	as N		14.80	ug/l	Filtered, field	353.4	USEPA			
+KWP	KWP200922:SR:WB:	Sample-Routine	09/22/2020	08:13	1002	Water Bottle		Ammonium	as N		15.27	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+KKS	KKS200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	08:30	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.5	deg C		2550	APHA			
+KKS	KKS200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	08:30	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.61	mg/l		8157	HACH			
+KKS	KKS200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	08:30	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			99.2	%		8157	HACH			
+KKS	KKS200922:FM:WB:	Field Msr/Obs	09/22/2020	08:30	1002	Water Bottle	HACH 2100Q	Turbidity			9.63	NTU		180.1	USEPA			
+KKS	KKS200922:FM:PS:PH:	Field Msr/Obs	09/22/2020	08:30	1002	Probe/Sensor	HACH PHC101	pH			8.11	None		8156	HACH			
+KKS	KKS200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	08:30	1002	Probe/Sensor	HACH CDC401	Salinity			33.6	ppt		8160	HACH			
+KKS	KKS200922:SR:WB:	Sample-Routine	09/22/2020	08:30	1002	Water Bottle		Total Nitrogen, mixed forms	as N		156.36	ug/l	Filtered, field	4500-N	APHA			
+KKS	KKS200922:SR:WB:	Sample-Routine	09/22/2020	08:30	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.43	ug/l	Filtered, field	4500-P	APHA			
+KKS	KKS200922:SR:WB:	Sample-Routine	09/22/2020	08:30	1002	Water Bottle		Orthophosphate	as P		7.08	ug/l	Filtered, field	365.5	USEPA			
+KKS	KKS200922:SR:WB:	Sample-Routine	09/22/2020	08:30	1002	Water Bottle		Silicate			721.56	ug/l	Filtered, field	366	USEPA			
+KKS	KKS200922:SR:WB:	Sample-Routine	09/22/2020	08:30	1002	Water Bottle		Nitrate + Nitrite	as N		46.44	ug/l	Filtered, field	353.4	USEPA			
+KKS	KKS200922:SR:WB:	Sample-Routine	09/22/2020	08:30	1002	Water Bottle		Ammonium	as N		4.82	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+KKP	KKP200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	08:49	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.7	deg C		2550	APHA			
+KKP	KKP200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	08:49	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.79	mg/l		8157	HACH			
+KKP	KKP200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	08:49	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			102.9	%		8157	HACH			
+KKP	KKP200922:FM:WB:	Field Msr/Obs	09/22/2020	08:49	1002	Water Bottle	HACH 2100Q	Turbidity			17.63	NTU		180.1	USEPA			
+KKP	KKP200922:FM:PS:PH:	Field Msr/Obs	09/22/2020	08:49	1002	Probe/Sensor	HACH PHC101	pH			8.12	None		8156	HACH			
+KKP	KKP200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	08:49	1002	Probe/Sensor	HACH CDC401	Salinity			34.3	ppt		8160	HACH			
+KKP	KKP200922:SR:WB:	Sample-Routine	09/22/2020	08:49	1002	Water Bottle		Total Nitrogen, mixed forms	as N		149.62	ug/l	Filtered, field	4500-N	APHA			
+KKP	KKP200922:SR:WB:	Sample-Routine	09/22/2020	08:49	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.80	ug/l	Filtered, field	4500-P	APHA			
+KKP	KKP200922:SR:WB:	Sample-Routine	09/22/2020	08:49	1002	Water Bottle		Orthophosphate	as P		4.91	ug/l	Filtered, field	365.5	USEPA			
+KKP	KKP200922:SR:WB:	Sample-Routine	09/22/2020	08:49	1002	Water Bottle		Silicate			395.36	ug/l	Filtered, field	366	USEPA			
+KKP	KKP200922:SR:WB:	Sample-Routine	09/22/2020	08:49	1002	Water Bottle		Nitrate + Nitrite	as N		57.35	ug/l	Filtered, field	353.4	USEPA			
+KKP	KKP200922:SR:WB:	Sample-Routine	09/22/2020	08:49	1002	Water Bottle		Ammonium	as N		6.67	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+KCP	KCP200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	09:04	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.5	deg C		2550	APHA			
+KCP	KCP200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	09:04	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.38	mg/l		8157	HACH			
+KCP	KCP200922:FM:PS:DO:	Field Msr/Obs	09/22/2020	09:04	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			97.5	%		8157	HACH			
+KCP	KCP200922:FM:WB:	Field Msr/Obs	09/22/2020	09:04	1002	Water Bottle	HACH 2100Q	Turbidity			3.70	NTU		180.1	USEPA			
+KCP	KCP200922:FM:PS:PH:	Field Msr/Obs	09/22/2020	09:04	1002	Probe/Sensor	HACH PHC101	pH			8.10	None		8156	HACH			
+KCP	KCP200922:FM:PS:TS:	Field Msr/Obs	09/22/2020	09:04	1002	Probe/Sensor	HACH CDC401	Salinity			34.4	ppt		8160	HACH			
+KCP	KCP200922:SR:WB:	Sample-Routine	09/22/2020	09:04	1002	Water Bottle		Total Nitrogen, mixed forms	as N		230.70	ug/l	Filtered, field	4500-N	APHA			
+KCP	KCP200922:SR:WB:	Sample-Routine	09/22/2020	09:04	1002	Water Bottle		Total Phosphorus, mixed forms	as P		16.76	ug/l	Filtered, field	4500-P	APHA			
+KCP	KCP200922:SR:WB:	Sample-Routine	09/22/2020	09:04	1002	Water Bottle		Orthophosphate	as P		12.82	ug/l	Filtered, field	365.5	USEPA			
+KCP	KCP200922:SR:WB:	Sample-Routine	09/22/2020	09:04	1002	Water Bottle		Silicate			650.85	ug/l	Filtered, field	366	USEPA			
+KCP	KCP200922:SR:WB:	Sample-Routine	09/22/2020	09:04	1002	Water Bottle		Nitrate + Nitrite	as N		120.54	ug/l	Filtered, field	353.4	USEPA			
+KCP	KCP200922:SR:WB:	Sample-Routine	09/22/2020	09:04	1002	Water Bottle		Ammonium	as N		26.75	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+WKD	WKD200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	07:56	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.0	deg C		2550	APHA			
+WKD	WKD200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	07:56	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.71	mg/l		8157	HACH			
+WKD	WKD200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	07:56	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			102.1	%		8157	HACH			
+WKD	WKD200923:FM:WB:	Field Msr/Obs	09/23/2020	07:56	1002	Water Bottle	HACH 2100Q	Turbidity			1.50	NTU		180.1	USEPA			
+WKD	WKD200923:FM:PS:PH:	Field Msr/Obs	09/23/2020	07:56	1002	Probe/Sensor	HACH PHC101	pH			8.13	None		8156	HACH			
+WKD	WKD200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	07:56	1002	Probe/Sensor	HACH CDC401	Salinity			35.2	ppt		8160	HACH			
+WKD	WKD200923:SR:WB:	Sample-Routine	09/23/2020	07:56	1002	Water Bottle		Total Nitrogen, mixed forms	as N		105.96	ug/l	Filtered, field	4500-N	APHA			
+WKD	WKD200923:SR:WB:	Sample-Routine	09/23/2020	07:56	1002	Water Bottle		Total Phosphorus, mixed forms	as P		6.19	ug/l	Filtered, field	4500-P	APHA			
+WKD	WKD200923:SR:WB:	Sample-Routine	09/23/2020	07:56	1002	Water Bottle		Orthophosphate	as P		2.91	ug/l	Filtered, field	365.5	USEPA			
+WKD	WKD200923:SR:WB:	Sample-Routine	09/23/2020	07:56	1002	Water Bottle		Silicate			81.64	ug/l	Filtered, field	366	USEPA			
+WKD	WKD200923:SR:WB:	Sample-Routine	09/23/2020	07:56	1002	Water Bottle		Nitrate + Nitrite	as N		11.44	ug/l	Filtered, field	353.4	USEPA			
+WKD	WKD200923:SR:WB:	Sample-Routine	09/23/2020	07:56	1002	Water Bottle		Ammonium	as N		3.40	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+WKB	WKB200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	08:12	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.3	deg C		2550	APHA			
+WKB	WKB200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	08:12	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.61	mg/l		8157	HACH			
+WKB	WKB200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	08:12	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			101.2	%		8157	HACH			
+WKB	WKB200923:FM:WB:	Field Msr/Obs	09/23/2020	08:12	1002	Water Bottle	HACH 2100Q	Turbidity			0.87	NTU		180.1	USEPA			
+WKB	WKB200923:FM:PS:PH:	Field Msr/Obs	09/23/2020	08:12	1002	Probe/Sensor	HACH PHC101	pH			8.12	None		8156	HACH			
+WKB	WKB200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	08:12	1002	Probe/Sensor	HACH CDC401	Salinity			35.2	ppt		8160	HACH			
+WKB	WKB200923:SR:WB:	Sample-Routine	09/23/2020	08:12	1002	Water Bottle		Total Nitrogen, mixed forms	as N		96.02	ug/l	Filtered, field	4500-N	APHA			
+WKB	WKB200923:SR:WB:	Sample-Routine	09/23/2020	08:12	1002	Water Bottle		Total Phosphorus, mixed forms	as P		6.59	ug/l	Filtered, field	4500-P	APHA			
+WKB	WKB200923:SR:WB:	Sample-Routine	09/23/2020	08:12	1002	Water Bottle		Orthophosphate	as P		3.17	ug/l	Filtered, field	365.5	USEPA			
+WKB	WKB200923:SR:WB:	Sample-Routine	09/23/2020	08:12	1002	Water Bottle		Silicate			54.41	ug/l	Filtered, field	366	USEPA			
+WKB	WKB200923:SR:WB:	Sample-Routine	09/23/2020	08:12	1002	Water Bottle		Nitrate + Nitrite	as N		8.49	ug/l	Filtered, field	353.4	USEPA			
+WKB	WKB200923:SR:WB:	Sample-Routine	09/23/2020	08:12	1002	Water Bottle		Ammonium	as N		3.88	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+WUL	WUL200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	08:17	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.2	deg C		2550	APHA			
+WUL	WUL200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	08:17	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.72	mg/l		8157	HACH			
+WUL	WUL200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	08:17	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			102.5	%		8157	HACH			
+WUL	WUL200923:FM:WB:	Field Msr/Obs	09/23/2020	08:17	1002	Water Bottle	HACH 2100Q	Turbidity			1.47	NTU		180.1	USEPA			
+WUL	WUL200923:FM:PS:PH:	Field Msr/Obs	09/23/2020	08:17	1002	Probe/Sensor	HACH PHC101	pH			8.11	None		8156	HACH			
+WUL	WUL200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	08:17	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+WUL	WUL200923:SR:WB:	Sample-Routine	09/23/2020	08:17	1002	Water Bottle		Total Nitrogen, mixed forms	as N		120.08	ug/l	Filtered, field	4500-N	APHA			
+WUL	WUL200923:SR:WB:	Sample-Routine	09/23/2020	08:17	1002	Water Bottle		Total Phosphorus, mixed forms	as P		6.66	ug/l	Filtered, field	4500-P	APHA			
+WUL	WUL200923:SR:WB:	Sample-Routine	09/23/2020	08:17	1002	Water Bottle		Orthophosphate	as P		3.80	ug/l	Filtered, field	365.5	USEPA			
+WUL	WUL200923:SR:WB:	Sample-Routine	09/23/2020	08:17	1002	Water Bottle		Silicate			120.62	ug/l	Filtered, field	366	USEPA			
+WUL	WUL200923:SR:WB:	Sample-Routine	09/23/2020	08:17	1002	Water Bottle		Nitrate + Nitrite	as N		25.89	ug/l	Filtered, field	353.4	USEPA			
+WUL	WUL200923:SR:WB:	Sample-Routine	09/23/2020	08:17	1002	Water Bottle		Ammonium	as N		6.25	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+MMB	MMB200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	08:47	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.4	deg C		2550	APHA			
+MMB	MMB200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	08:47	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.70	mg/l		8157	HACH			
+MMB	MMB200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	08:47	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			102.8	%		8157	HACH			
+MMB	MMB200923:FM:WB:	Field Msr/Obs	09/23/2020	08:47	1002	Water Bottle	HACH 2100Q	Turbidity			0.93	NTU		180.1	USEPA			
+MMB	MMB200923:FM:PS:PH:	Field Msr/Obs	09/23/2020	08:47	1002	Probe/Sensor	HACH PHC101	pH			8.15	None		8156	HACH			
+MMB	MMB200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	08:47	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+MMB	MMB200923:SR:WB:	Sample-Routine	09/23/2020	08:47	1002	Water Bottle		Total Nitrogen, mixed forms	as N		97.73	ug/l	Filtered, field	4500-N	APHA			
+MMB	MMB200923:SR:WB:	Sample-Routine	09/23/2020	08:47	1002	Water Bottle		Total Phosphorus, mixed forms	as P		7.19	ug/l	Filtered, field	4500-P	APHA			
+MMB	MMB200923:SR:WB:	Sample-Routine	09/23/2020	08:47	1002	Water Bottle		Orthophosphate	as P		3.73	ug/l	Filtered, field	365.5	USEPA			
+MMB	MMB200923:SR:WB:	Sample-Routine	09/23/2020	08:47	1002	Water Bottle		Silicate			142.30	ug/l	Filtered, field	366	USEPA			
+MMB	MMB200923:SR:WB:	Sample-Routine	09/23/2020	08:47	1002	Water Bottle		Nitrate + Nitrite	as N		12.78	ug/l	Filtered, field	353.4	USEPA			
+MMB	MMB200923:SR:WB:	Sample-Routine	09/23/2020	08:47	1002	Water Bottle		Ammonium	as N		1.72	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+MAN	MAN200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	09:06	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.2	deg C		2550	APHA			
+MAN	MAN200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	09:06	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			7.06	mg/l		8157	HACH			
+MAN	MAN200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	09:06	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			107.7	%		8157	HACH			
+MAN	MAN200923:FM:WB:	Field Msr/Obs	09/23/2020	09:06	1002	Water Bottle	HACH 2100Q	Turbidity			0.67	NTU		180.1	USEPA			
+MAN	MAN200923:FM:PS:PH:	Field Msr/Obs	09/23/2020	09:06	1002	Probe/Sensor	HACH PHC101	pH			8.07	None		8156	HACH			
+MAN	MAN200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	09:06	1002	Probe/Sensor	HACH CDC401	Salinity			34.9	ppt		8160	HACH			
+MAN	MAN200923:SR:WB:	Sample-Routine	09/23/2020	09:06	1002	Water Bottle		Total Nitrogen, mixed forms	as N		102.96	ug/l	Filtered, field	4500-N	APHA			
+MAN	MAN200923:SR:WB:	Sample-Routine	09/23/2020	09:06	1002	Water Bottle		Total Phosphorus, mixed forms	as P		7.16	ug/l	Filtered, field	4500-P	APHA			
+MAN	MAN200923:SR:WB:	Sample-Routine	09/23/2020	09:06	1002	Water Bottle		Orthophosphate	as P		4.73	ug/l	Filtered, field	365.5	USEPA			
+MAN	MAN200923:SR:WB:	Sample-Routine	09/23/2020	09:06	1002	Water Bottle		Silicate			337.78	ug/l	Filtered, field	366	USEPA			
+MAN	MAN200923:SR:WB:	Sample-Routine	09/23/2020	09:06	1002	Water Bottle		Nitrate + Nitrite	as N		7.79	ug/l	Filtered, field	353.4	USEPA			
+MAN	MAN200923:SR:WB:	Sample-Routine	09/23/2020	09:06	1002	Water Bottle		Ammonium	as N		6.08	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+MAS	MAS200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	09:23	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.5	deg C		2550	APHA			
+MAS	MAS200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	09:23	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.59	mg/l		8157	HACH			
+MAS	MAS200923:FM:PS:DO:	Field Msr/Obs	09/23/2020	09:23	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			101.4	%		8157	HACH			
+MAS	MAS200923:FM:WB:	Field Msr/Obs	09/23/2020	09:23	1002	Water Bottle	HACH 2100Q	Turbidity			1.34	NTU		180.1	USEPA			
+MAS	MAS200923:FM:PS:PH:	Field Msr/Obs	09/23/2020	09:23	1002	Probe/Sensor	HACH PHC101	pH			8.08	None		8156	HACH			
+MAS	MAS200923:FM:PS:TS:	Field Msr/Obs	09/23/2020	09:23	1002	Probe/Sensor	HACH CDC401	Salinity			35.1	ppt		8160	HACH			
+MAS	MAS200923:SR:WB:	Sample-Routine	09/23/2020	09:23	1002	Water Bottle		Total Nitrogen, mixed forms	as N		106.05	ug/l	Filtered, field	4500-N	APHA			
+MAS	MAS200923:SR:WB:	Sample-Routine	09/23/2020	09:23	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.37	ug/l	Filtered, field	4500-P	APHA			
+MAS	MAS200923:SR:WB:	Sample-Routine	09/23/2020	09:23	1002	Water Bottle		Orthophosphate	as P		6.45	ug/l	Filtered, field	365.5	USEPA			
+MAS	MAS200923:SR:WB:	Sample-Routine	09/23/2020	09:23	1002	Water Bottle		Silicate			94.75	ug/l	Filtered, field	366	USEPA			
+MAS	MAS200923:SR:WB:	Sample-Routine	09/23/2020	09:23	1002	Water Bottle		Nitrate + Nitrite	as N		12.86	ug/l	Filtered, field	353.4	USEPA			
+MAS	MAS200923:SR:WB:	Sample-Routine	09/23/2020	09:23	1002	Water Bottle		Ammonium	as N		10.86	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NMH	NMH200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	07:45	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.0	deg C		2550	APHA			
+NMH	NMH200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	07:45	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.41	mg/l		8157	HACH			
+NMH	NMH200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	07:45	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			95.5	%		8157	HACH			
+NMH	NMH200924:FM:WB:	Field Msr/Obs	09/24/2020	07:45	1002	Water Bottle	HACH 2100Q	Turbidity			1.44	NTU		180.1	USEPA			
+NMH	NMH200924:FM:PS:PH:	Field Msr/Obs	09/24/2020	07:45	1002	Probe/Sensor	HACH PHC101	pH			8.05	None		8156	HACH			
+NMH	NMH200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	07:45	1002	Probe/Sensor	HACH CDC401	Salinity			34.2	ppt		8160	HACH			
+NMH	NMH200924:SR:WB:	Sample-Routine	09/24/2020	07:45	1002	Water Bottle		Total Nitrogen, mixed forms	as N		169.62	ug/l	Filtered, field	4500-N	APHA			
+NMH	NMH200924:SR:WB:	Sample-Routine	09/24/2020	07:45	1002	Water Bottle		Total Phosphorus, mixed forms	as P		12.93	ug/l	Filtered, field	4500-P	APHA			
+NMH	NMH200924:SR:WB:	Sample-Routine	09/24/2020	07:45	1002	Water Bottle		Orthophosphate	as P		9.16	ug/l	Filtered, field	365.5	USEPA			
+NMH	NMH200924:SR:WB:	Sample-Routine	09/24/2020	07:45	1002	Water Bottle		Silicate			616.18	ug/l	Filtered, field	366	USEPA			
+NMH	NMH200924:SR:WB:	Sample-Routine	09/24/2020	07:45	1002	Water Bottle		Nitrate + Nitrite	as N		82.52	ug/l	Filtered, field	353.4	USEPA			
+NMH	NMH200924:SR:WB:	Sample-Routine	09/24/2020	07:45	1002	Water Bottle		Ammonium	as N		12.29	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NMC	NMC200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	08:10	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.3	deg C		2550	APHA			
+NMC	NMC200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	08:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.87	mg/l		8157	HACH			
+NMC	NMC200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	08:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			102.5	%		8157	HACH			
+NMC	NMC200924:FM:WB:	Field Msr/Obs	09/24/2020	08:10	1002	Water Bottle	HACH 2100Q	Turbidity			3.29	NTU		180.1	USEPA			
+NMC	NMC200924:FM:PS:PH:	Field Msr/Obs	09/24/2020	08:10	1002	Probe/Sensor	HACH PHC101	pH			8.03	None		8156	HACH			
+NMC	NMC200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	08:10	1002	Probe/Sensor	HACH CDC401	Salinity			33.5	ppt		8160	HACH			
+NMC	NMC200924:SR:WB:	Sample-Routine	09/24/2020	08:10	1002	Water Bottle		Total Nitrogen, mixed forms	as N		240.67	ug/l	Filtered, field	4500-N	APHA			
+NMC	NMC200924:SR:WB:	Sample-Routine	09/24/2020	08:10	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.63	ug/l	Filtered, field	4500-P	APHA			
+NMC	NMC200924:SR:WB:	Sample-Routine	09/24/2020	08:10	1002	Water Bottle		Orthophosphate	as P		6.93	ug/l	Filtered, field	365.5	USEPA			
+NMC	NMC200924:SR:WB:	Sample-Routine	09/24/2020	08:10	1002	Water Bottle		Silicate			667.97	ug/l	Filtered, field	366	USEPA			
+NMC	NMC200924:SR:WB:	Sample-Routine	09/24/2020	08:10	1002	Water Bottle		Nitrate + Nitrite	as N		161.22	ug/l	Filtered, field	353.4	USEPA			
+NMC	NMC200924:SR:WB:	Sample-Routine	09/24/2020	08:10	1002	Water Bottle		Ammonium	as N		8.32	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NHP	NHP200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	08:27	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.7	deg C		2550	APHA			
+NHP	NHP200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	08:27	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.71	mg/l		8157	HACH			
+NHP	NHP200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	08:27	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			101.4	%		8157	HACH			
+NHP	NHP200924:FM:WB:	Field Msr/Obs	09/24/2020	08:27	1002	Water Bottle	HACH 2100Q	Turbidity			2.86	NTU		180.1	USEPA			
+NHP	NHP200924:FM:PS:PH:	Field Msr/Obs	09/24/2020	08:27	1002	Probe/Sensor	HACH PHC101	pH			8.10	None		8156	HACH			
+NHP	NHP200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	08:27	1002	Probe/Sensor	HACH CDC401	Salinity			34.7	ppt		8160	HACH			
+NHP	NHP200924:SR:WB:	Sample-Routine	09/24/2020	08:27	1002	Water Bottle		Total Nitrogen, mixed forms	as N		114.62	ug/l	Filtered, field	4500-N	APHA			
+NHP	NHP200924:SR:WB:	Sample-Routine	09/24/2020	08:27	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.38	ug/l	Filtered, field	4500-P	APHA			
+NHP	NHP200924:SR:WB:	Sample-Routine	09/24/2020	08:27	1002	Water Bottle		Orthophosphate	as P		5.08	ug/l	Filtered, field	365.5	USEPA			
+NHP	NHP200924:SR:WB:	Sample-Routine	09/24/2020	08:27	1002	Water Bottle		Silicate			312.01	ug/l	Filtered, field	366	USEPA			
+NHP	NHP200924:SR:WB:	Sample-Routine	09/24/2020	08:27	1002	Water Bottle		Nitrate + Nitrite	as N		39.09	ug/l	Filtered, field	353.4	USEPA			
+NHP	NHP200924:SR:WB:	Sample-Routine	09/24/2020	08:27	1002	Water Bottle		Ammonium	as N		2.34	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NKP	NKP200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	08:48	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.8	deg C		2550	APHA			
+NKP	NKP200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	08:48	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.81	mg/l		8157	HACH			
+NKP	NKP200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	08:48	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			103.3	%		8157	HACH			
+NKP	NKP200924:FM:WB:	Field Msr/Obs	09/24/2020	08:48	1002	Water Bottle	HACH 2100Q	Turbidity			1.35	NTU		180.1	USEPA			
+NKP	NKP200924:FM:PS:PH:	Field Msr/Obs	09/24/2020	08:48	1002	Probe/Sensor	HACH PHC101	pH			8.14	None		8156	HACH			
+NKP	NKP200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	08:48	1002	Probe/Sensor	HACH CDC401	Salinity			35.2	ppt		8160	HACH			
+NKP	NKP200924:SR:WB:	Sample-Routine	09/24/2020	08:48	1002	Water Bottle		Total Nitrogen, mixed forms	as N		103.20	ug/l	Filtered, field	4500-N	APHA			
+NKP	NKP200924:SR:WB:	Sample-Routine	09/24/2020	08:48	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.61	ug/l	Filtered, field	4500-P	APHA			
+NKP	NKP200924:SR:WB:	Sample-Routine	09/24/2020	08:48	1002	Water Bottle		Orthophosphate	as P		4.21	ug/l	Filtered, field	365.5	USEPA			
+NKP	NKP200924:SR:WB:	Sample-Routine	09/24/2020	08:48	1002	Water Bottle		Silicate			42.53	ug/l	Filtered, field	366	USEPA			
+NKP	NKP200924:SR:WB:	Sample-Routine	09/24/2020	08:48	1002	Water Bottle		Nitrate + Nitrite	as N		5.76	ug/l	Filtered, field	353.4	USEPA			
+NKP	NKP200924:SR:WB:	Sample-Routine	09/24/2020	08:48	1002	Water Bottle		Ammonium	as N		2.34	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NKC	NKC200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	09:10	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.8	deg C		2550	APHA			
+NKC	NKC200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	09:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.72	mg/l		8157	HACH			
+NKC	NKC200924:FM:PS:DO:	Field Msr/Obs	09/24/2020	09:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			103.5	%		8157	HACH			
+NKC	NKC200924:FM:WB:	Field Msr/Obs	09/24/2020	09:10	1002	Water Bottle	HACH 2100Q	Turbidity			4.22	NTU		180.1	USEPA			
+NKC	NKC200924:FM:PS:PH:	Field Msr/Obs	09/24/2020	09:10	1002	Probe/Sensor	HACH PHC101	pH			8.11	None		8156	HACH			
+NKC	NKC200924:FM:PS:TS:	Field Msr/Obs	09/24/2020	09:10	1002	Probe/Sensor	HACH CDC401	Salinity			34.9	ppt		8160	HACH			
+NKC	NKC200924:SR:WB:	Sample-Routine	09/24/2020	09:10	1002	Water Bottle		Total Nitrogen, mixed forms	as N		139.87	ug/l	Filtered, field	4500-N	APHA			
+NKC	NKC200924:SR:WB:	Sample-Routine	09/24/2020	09:10	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.74	ug/l	Filtered, field	4500-P	APHA			
+NKC	NKC200924:SR:WB:	Sample-Routine	09/24/2020	09:10	1002	Water Bottle		Orthophosphate	as P		4.27	ug/l	Filtered, field	365.5	USEPA			
+NKC	NKC200924:SR:WB:	Sample-Routine	09/24/2020	09:10	1002	Water Bottle		Silicate			238.46	ug/l	Filtered, field	366	USEPA			
+NKC	NKC200924:SR:WB:	Sample-Routine	09/24/2020	09:10	1002	Water Bottle		Nitrate + Nitrite	as N		61.73	ug/l	Filtered, field	353.4	USEPA			
+NKC	NKC200924:SR:WB:	Sample-Routine	09/24/2020	09:10	1002	Water Bottle		Ammonium	as N		4.59	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RNS	RNS200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	08:13	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.7	deg C		2550	APHA			
+RNS	RNS200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	08:13	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.71	mg/l		8157	HACH			
+RNS	RNS200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	08:13	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			101.1	%		8157	HACH			
+RNS	RNS200929:FM:WB:	Field Msr/Obs	09/29/2020	08:13	1002	Water Bottle	HACH 2100Q	Turbidity			3.46	NTU		180.1	USEPA			
+RNS	RNS200929:FM:PS:PH:	Field Msr/Obs	09/29/2020	08:13	1002	Probe/Sensor	HACH PHC101	pH			8.10	None		8156	HACH			
+RNS	RNS200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	08:13	1002	Probe/Sensor	HACH CDC401	Salinity			33.5	ppt		8160	HACH			
+RNS	RNS200929:SR:WB:	Sample-Routine	09/29/2020	08:13	1002	Water Bottle		Total Nitrogen, mixed forms	as N		130.95	ug/l	Filtered, field	4500-N	APHA			
+RNS	RNS200929:SR:WB:	Sample-Routine	09/29/2020	08:13	1002	Water Bottle		Total Phosphorus, mixed forms	as P		13.84	ug/l	Filtered, field	4500-P	APHA			
+RNS	RNS200929:SR:WB:	Sample-Routine	09/29/2020	08:13	1002	Water Bottle		Orthophosphate	as P		11.09	ug/l	Filtered, field	365.5	USEPA			
+RNS	RNS200929:SR:WB:	Sample-Routine	09/29/2020	08:13	1002	Water Bottle		Silicate			948.24	ug/l	Filtered, field	366	USEPA			
+RNS	RNS200929:SR:WB:	Sample-Routine	09/29/2020	08:13	1002	Water Bottle		Nitrate + Nitrite	as N		44.25	ug/l	Filtered, field	353.4	USEPA			
+RNS	RNS200929:SR:WB:	Sample-Routine	09/29/2020	08:13	1002	Water Bottle		Ammonium	as N		0.91	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RPO	RPO200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	08:44	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.9	deg C		2550	APHA			
+RPO	RPO200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	08:44	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.56	mg/l		8157	HACH			
+RPO	RPO200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	08:44	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			99.0	%		8157	HACH			
+RPO	RPO200929:FM:WB:	Field Msr/Obs	09/29/2020	08:44	1002	Water Bottle	HACH 2100Q	Turbidity			5.45	NTU		180.1	USEPA			
+RPO	RPO200929:FM:PS:PH:	Field Msr/Obs	09/29/2020	08:44	1002	Probe/Sensor	HACH PHC101	pH			8.15	None		8156	HACH			
+RPO	RPO200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	08:44	1002	Probe/Sensor	HACH CDC401	Salinity			33.2	ppt		8160	HACH			
+RPO	RPO200929:SR:WB:	Sample-Routine	09/29/2020	08:44	1002	Water Bottle		Total Nitrogen, mixed forms	as N		264.41	ug/l	Filtered, field	4500-N	APHA			
+RPO	RPO200929:SR:WB:	Sample-Routine	09/29/2020	08:44	1002	Water Bottle		Total Phosphorus, mixed forms	as P		13.75	ug/l	Filtered, field	4500-P	APHA			
+RPO	RPO200929:SR:WB:	Sample-Routine	09/29/2020	08:44	1002	Water Bottle		Orthophosphate	as P		12.48	ug/l	Filtered, field	365.5	USEPA			
+RPO	RPO200929:SR:WB:	Sample-Routine	09/29/2020	08:44	1002	Water Bottle		Silicate			1238.35	ug/l	Filtered, field	366	USEPA			
+RPO	RPO200929:SR:WB:	Sample-Routine	09/29/2020	08:44	1002	Water Bottle		Nitrate + Nitrite	as N		181.59	ug/l	Filtered, field	353.4	USEPA			
+RPO	RPO200929:SR:WB:	Sample-Routine	09/29/2020	08:44	1002	Water Bottle		Ammonium	as N		1.41	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RKS	RKS200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	09:07	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.9	deg C		2550	APHA			
+RKS	RKS200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	09:07	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.48	mg/l		8157	HACH			
+RKS	RKS200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	09:07	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			98.5	%		8157	HACH			
+RKS	RKS200929:FM:WB:	Field Msr/Obs	09/29/2020	09:07	1002	Water Bottle	HACH 2100Q	Turbidity			3.02	NTU		180.1	USEPA			
+RKS	RKS200929:FM:PS:PH:	Field Msr/Obs	09/29/2020	09:07	1002	Probe/Sensor	HACH PHC101	pH			8.12	None		8156	HACH			
+RKS	RKS200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	09:07	1002	Probe/Sensor	HACH CDC401	Salinity			34.8	ppt		8160	HACH			
+RKS	RKS200929:SR:WB:	Sample-Routine	09/29/2020	09:07	1002	Water Bottle		Total Nitrogen, mixed forms	as N		110.62	ug/l	Filtered, field	4500-N	APHA			
+RKS	RKS200929:SR:WB:	Sample-Routine	09/29/2020	09:07	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.13	ug/l	Filtered, field	4500-P	APHA			
+RKS	RKS200929:SR:WB:	Sample-Routine	09/29/2020	09:07	1002	Water Bottle		Orthophosphate	as P		4.63	ug/l	Filtered, field	365.5	USEPA			
+RKS	RKS200929:SR:WB:	Sample-Routine	09/29/2020	09:07	1002	Water Bottle		Silicate			180.60	ug/l	Filtered, field	366	USEPA			
+RKS	RKS200929:SR:WB:	Sample-Routine	09/29/2020	09:07	1002	Water Bottle		Nitrate + Nitrite	as N		10.14	ug/l	Filtered, field	353.4	USEPA			
+RKS	RKS200929:SR:WB:	Sample-Routine	09/29/2020	09:07	1002	Water Bottle		Ammonium	as N		0.98	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RKT	RKT200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	09:29	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.4	deg C		2550	APHA			
+RKT	RKT200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	09:29	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.66	mg/l		8157	HACH			
+RKT	RKT200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	09:29	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			102.3	%		8157	HACH			
+RKT	RKT200929:FM:WB:	Field Msr/Obs	09/29/2020	09:29	1002	Water Bottle	HACH 2100Q	Turbidity			1.40	NTU		180.1	USEPA			
+RKT	RKT200929:FM:PS:PH:	Field Msr/Obs	09/29/2020	09:29	1002	Probe/Sensor	HACH PHC101	pH			8.18	None		8156	HACH			
+RKT	RKT200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	09:29	1002	Probe/Sensor	HACH CDC401	Salinity			34.9	ppt		8160	HACH			
+RKT	RKT200929:SR:WB:	Sample-Routine	09/29/2020	09:29	1002	Water Bottle		Total Nitrogen, mixed forms	as N		101.50	ug/l	Filtered, field	4500-N	APHA			
+RKT	RKT200929:SR:WB:	Sample-Routine	09/29/2020	09:29	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.56	ug/l	Filtered, field	4500-P	APHA			
+RKT	RKT200929:SR:WB:	Sample-Routine	09/29/2020	09:29	1002	Water Bottle		Orthophosphate	as P		4.23	ug/l	Filtered, field	365.5	USEPA			
+RKT	RKT200929:SR:WB:	Sample-Routine	09/29/2020	09:29	1002	Water Bottle		Silicate			142.28	ug/l	Filtered, field	366	USEPA			
+RKT	RKT200929:SR:WB:	Sample-Routine	09/29/2020	09:29	1002	Water Bottle		Nitrate + Nitrite	as N		5.92	ug/l	Filtered, field	353.4	USEPA			
+RKT	RKT200929:SR:WB:	Sample-Routine	09/29/2020	09:29	1002	Water Bottle		Ammonium	as N	Below Method Detection Limit			Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX	Method Detection Level	0.28	ug/l
+RCB	RCB200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	09:57	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.6	deg C		2550	APHA			
+RCB	RCB200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	09:57	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.72	mg/l		8157	HACH			
+RCB	RCB200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	09:57	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			102.9	%		8157	HACH			
+RCB	RCB200929:FM:WB:	Field Msr/Obs	09/29/2020	09:57	1002	Water Bottle	HACH 2100Q	Turbidity			5.87	NTU		180.1	USEPA			
+RCB	RCB200929:FM:PS:PH:	Field Msr/Obs	09/29/2020	09:57	1002	Probe/Sensor	HACH PHC101	pH			8.21	None		8156	HACH			
+RCB	RCB200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	09:57	1002	Probe/Sensor	HACH CDC401	Salinity			33.9	ppt		8160	HACH			
+RCB	RCB200929:SR:WB:	Sample-Routine	09/29/2020	09:57	1002	Water Bottle		Total Nitrogen, mixed forms	as N		185.21	ug/l	Filtered, field	4500-N	APHA			
+RCB	RCB200929:SR:WB:	Sample-Routine	09/29/2020	09:57	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.97	ug/l	Filtered, field	4500-P	APHA			
+RCB	RCB200929:SR:WB:	Sample-Routine	09/29/2020	09:57	1002	Water Bottle		Orthophosphate	as P		6.57	ug/l	Filtered, field	365.5	USEPA			
+RCB	RCB200929:SR:WB:	Sample-Routine	09/29/2020	09:57	1002	Water Bottle		Silicate			781.22	ug/l	Filtered, field	366	USEPA			
+RCB	RCB200929:SR:WB:	Sample-Routine	09/29/2020	09:57	1002	Water Bottle		Nitrate + Nitrite	as N		94.58	ug/l	Filtered, field	353.4	USEPA			
+RCB	RCB200929:SR:WB:	Sample-Routine	09/29/2020	09:57	1002	Water Bottle		Ammonium	as N		1.01	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RWA	RWA200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	10:15	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.6	deg C		2550	APHA			
+RWA	RWA200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	10:15	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.56	mg/l		8157	HACH			
+RWA	RWA200929:FM:PS:DO:	Field Msr/Obs	09/29/2020	10:15	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			100.7	%		8157	HACH			
+RWA	RWA200929:FM:WB:	Field Msr/Obs	09/29/2020	10:15	1002	Water Bottle	HACH 2100Q	Turbidity			3.29	NTU		180.1	USEPA			
+RWA	RWA200929:FM:PS:PH:	Field Msr/Obs	09/29/2020	10:15	1002	Probe/Sensor	HACH PHC101	pH			8.19	None		8156	HACH			
+RWA	RWA200929:FM:PS:TS:	Field Msr/Obs	09/29/2020	10:15	1002	Probe/Sensor	HACH CDC401	Salinity			34.1	ppt		8160	HACH			
+RWA	RWA200929:SR:WB:	Sample-Routine	09/29/2020	10:15	1002	Water Bottle		Total Nitrogen, mixed forms	as N		127.77	ug/l	Filtered, field	4500-N	APHA			
+RWA	RWA200929:SR:WB:	Sample-Routine	09/29/2020	10:15	1002	Water Bottle		Total Phosphorus, mixed forms	as P		13.31	ug/l	Filtered, field	4500-P	APHA			
+RWA	RWA200929:SR:WB:	Sample-Routine	09/29/2020	10:15	1002	Water Bottle		Orthophosphate	as P		9.59	ug/l	Filtered, field	365.5	USEPA			
+RWA	RWA200929:SR:WB:	Sample-Routine	09/29/2020	10:15	1002	Water Bottle		Silicate			771.02	ug/l	Filtered, field	366	USEPA			
+RWA	RWA200929:SR:WB:	Sample-Routine	09/29/2020	10:15	1002	Water Bottle		Nitrate + Nitrite	as N		23.36	ug/l	Filtered, field	353.4	USEPA			
+RWA	RWA200929:SR:WB:	Sample-Routine	09/29/2020	10:15	1002	Water Bottle		Ammonium	as N		0.29	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+PFF	PFF200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	08:23	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.3	deg C		2550	APHA			
+PFF	PFF200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	08:23	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.07	mg/l		8157	HACH			
+PFF	PFF200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	08:23	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			92.0	%		8157	HACH			
+PFF	PFF200930:FM:WB:	Field Msr/Obs	09/30/2020	08:23	1002	Water Bottle	HACH 2100Q	Turbidity			3.35	NTU		180.1	USEPA			
+PFF	PFF200930:FM:PS:PH:	Field Msr/Obs	09/30/2020	08:23	1002	Probe/Sensor	HACH PHC101	pH			8.05	None		8156	HACH			
+PFF	PFF200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	08:23	1002	Probe/Sensor	HACH CDC401	Salinity			33.2	ppt		8160	HACH			
+PFF	PFF200930:SR:WB:	Sample-Routine	09/30/2020	08:23	1002	Water Bottle		Total Nitrogen, mixed forms	as N		103.92	ug/l	Filtered, field	4500-N	APHA			
+PFF	PFF200930:SR:WB:	Sample-Routine	09/30/2020	08:23	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.92	ug/l	Filtered, field	4500-P	APHA			
+PFF	PFF200930:SR:WB:	Sample-Routine	09/30/2020	08:23	1002	Water Bottle		Orthophosphate	as P		5.09	ug/l	Filtered, field	365.5	USEPA			
+PFF	PFF200930:SR:WB:	Sample-Routine	09/30/2020	08:23	1002	Water Bottle		Silicate			370.36	ug/l	Filtered, field	366	USEPA			
+PFF	PFF200930:SR:WB:	Sample-Routine	09/30/2020	08:23	1002	Water Bottle		Nitrate + Nitrite	as N		7.37	ug/l	Filtered, field	353.4	USEPA			
+PFF	PFF200930:SR:WB:	Sample-Routine	09/30/2020	08:23	1002	Water Bottle		Ammonium	as N		3.16	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+PLH	PLH200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	08:44	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.6	deg C		2550	APHA			
+PLH	PLH200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	08:44	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			5.61	mg/l		8157	HACH			
+PLH	PLH200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	08:44	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			86.1	%		8157	HACH			
+PLH	PLH200930:FM:WB:	Field Msr/Obs	09/30/2020	08:44	1002	Water Bottle	HACH 2100Q	Turbidity			13.07	NTU		180.1	USEPA			
+PLH	PLH200930:FM:PS:PH:	Field Msr/Obs	09/30/2020	08:44	1002	Probe/Sensor	HACH PHC101	pH			8.07	None		8156	HACH			
+PLH	PLH200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	08:44	1002	Probe/Sensor	HACH CDC401	Salinity			34.4	ppt		8160	HACH			
+PLH	PLH200930:SR:WB:	Sample-Routine	09/30/2020	08:44	1002	Water Bottle		Total Nitrogen, mixed forms	as N		96.17	ug/l	Filtered, field	4500-N	APHA			
+PLH	PLH200930:SR:WB:	Sample-Routine	09/30/2020	08:44	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.48	ug/l	Filtered, field	4500-P	APHA			
+PLH	PLH200930:SR:WB:	Sample-Routine	09/30/2020	08:44	1002	Water Bottle		Orthophosphate	as P		5.40	ug/l	Filtered, field	365.5	USEPA			
+PLH	PLH200930:SR:WB:	Sample-Routine	09/30/2020	08:44	1002	Water Bottle		Silicate			312.98	ug/l	Filtered, field	366	USEPA			
+PLH	PLH200930:SR:WB:	Sample-Routine	09/30/2020	08:44	1002	Water Bottle		Nitrate + Nitrite	as N		9.31	ug/l	Filtered, field	353.4	USEPA			
+PLH	PLH200930:SR:WB:	Sample-Routine	09/30/2020	08:44	1002	Water Bottle		Ammonium	as N	Below Method Detection Limit			Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX	Method Detection Level	0.28	ug/l
+PLT	PLT200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	08:59	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.6	deg C		2550	APHA			
+PLT	PLT200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	08:59	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.63	mg/l		8157	HACH			
+PLT	PLT200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	08:59	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			102.0	%		8157	HACH			
+PLT	PLT200930:FM:WB:	Field Msr/Obs	09/30/2020	08:59	1002	Water Bottle	HACH 2100Q	Turbidity			1.57	NTU		180.1	USEPA			
+PLT	PLT200930:FM:PS:PH:	Field Msr/Obs	09/30/2020	08:59	1002	Probe/Sensor	HACH PHC101	pH			8.12	None		8156	HACH			
+PLT	PLT200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	08:59	1002	Probe/Sensor	HACH CDC401	Salinity			34.6	ppt		8160	HACH			
+PLT	PLT200930:SR:WB:	Sample-Routine	09/30/2020	08:59	1002	Water Bottle		Total Nitrogen, mixed forms	as N		111.09	ug/l	Filtered, field	4500-N	APHA			
+PLT	PLT200930:SR:WB:	Sample-Routine	09/30/2020	08:59	1002	Water Bottle		Total Phosphorus, mixed forms	as P		6.53	ug/l	Filtered, field	4500-P	APHA			
+PLT	PLT200930:SR:WB:	Sample-Routine	09/30/2020	08:59	1002	Water Bottle		Orthophosphate	as P		2.62	ug/l	Filtered, field	365.5	USEPA			
+PLT	PLT200930:SR:WB:	Sample-Routine	09/30/2020	08:59	1002	Water Bottle		Silicate			315.94	ug/l	Filtered, field	366	USEPA			
+PLT	PLT200930:SR:WB:	Sample-Routine	09/30/2020	08:59	1002	Water Bottle		Nitrate + Nitrite	as N		17.54	ug/l	Filtered, field	353.4	USEPA			
+PLT	PLT200930:SR:WB:	Sample-Routine	09/30/2020	08:59	1002	Water Bottle		Ammonium	as N		2.37	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+OSF	OSF200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	09:29	1002	Probe/Sensor	HACH CDC401	Temperature, water			28.1	deg C		2550	APHA			
+OSF	OSF200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	09:29	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.42	mg/l		8157	HACH			
+OSF	OSF200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	09:29	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			99.8	%		8157	HACH			
+OSF	OSF200930:FM:WB:	Field Msr/Obs	09/30/2020	09:29	1002	Water Bottle	HACH 2100Q	Turbidity			4.32	NTU		180.1	USEPA			
+OSF	OSF200930:FM:PS:PH:	Field Msr/Obs	09/30/2020	09:29	1002	Probe/Sensor	HACH PHC101	pH			8.02	None		8156	HACH			
+OSF	OSF200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	09:29	1002	Probe/Sensor	HACH CDC401	Salinity			35.1	ppt		8160	HACH			
+OSF	OSF200930:SR:WB:	Sample-Routine	09/30/2020	09:29	1002	Water Bottle		Total Nitrogen, mixed forms	as N		96.87	ug/l	Filtered, field	4500-N	APHA			
+OSF	OSF200930:SR:WB:	Sample-Routine	09/30/2020	09:29	1002	Water Bottle		Total Phosphorus, mixed forms	as P		7.80	ug/l	Filtered, field	4500-P	APHA			
+OSF	OSF200930:SR:WB:	Sample-Routine	09/30/2020	09:29	1002	Water Bottle		Orthophosphate	as P		4.19	ug/l	Filtered, field	365.5	USEPA			
+OSF	OSF200930:SR:WB:	Sample-Routine	09/30/2020	09:29	1002	Water Bottle		Silicate			162.75	ug/l	Filtered, field	366	USEPA			
+OSF	OSF200930:SR:WB:	Sample-Routine	09/30/2020	09:29	1002	Water Bottle		Nitrate + Nitrite	as N		6.77	ug/l	Filtered, field	353.4	USEPA			
+OSF	OSF200930:SR:WB:	Sample-Routine	09/30/2020	09:29	1002	Water Bottle		Ammonium	as N		0.62	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+OCO	OCO200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	09:44	1002	Probe/Sensor	HACH CDC401	Temperature, water			28.6	deg C		2550	APHA			
+OCO	OCO200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	09:44	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.17	mg/l		8157	HACH			
+OCO	OCO200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	09:44	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			96.5	%		8157	HACH			
+OCO	OCO200930:FM:WB:	Field Msr/Obs	09/30/2020	09:44	1002	Water Bottle	HACH 2100Q	Turbidity			3.30	NTU		180.1	USEPA			
+OCO	OCO200930:FM:PS:PH:	Field Msr/Obs	09/30/2020	09:44	1002	Probe/Sensor	HACH PHC101	pH			8.06	None		8156	HACH			
+OCO	OCO200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	09:44	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+OCO	OCO200930:SR:WB:	Sample-Routine	09/30/2020	09:44	1002	Water Bottle		Total Nitrogen, mixed forms	as N		103.94	ug/l	Filtered, field	4500-N	APHA			
+OCO	OCO200930:SR:WB:	Sample-Routine	09/30/2020	09:44	1002	Water Bottle		Total Phosphorus, mixed forms	as P		6.08	ug/l	Filtered, field	4500-P	APHA			
+OCO	OCO200930:SR:WB:	Sample-Routine	09/30/2020	09:44	1002	Water Bottle		Orthophosphate	as P		3.50	ug/l	Filtered, field	365.5	USEPA			
+OCO	OCO200930:SR:WB:	Sample-Routine	09/30/2020	09:44	1002	Water Bottle		Silicate			322.97	ug/l	Filtered, field	366	USEPA			
+OCO	OCO200930:SR:WB:	Sample-Routine	09/30/2020	09:44	1002	Water Bottle		Nitrate + Nitrite	as N		8.05	ug/l	Filtered, field	353.4	USEPA			
+OCO	OCO200930:SR:WB:	Sample-Routine	09/30/2020	09:44	1002	Water Bottle		Ammonium	as N		4.92	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+OPP	OPP200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	10:00	1002	Probe/Sensor	HACH CDC401	Temperature, water			28.6	deg C		2550	APHA			
+OPP	OPP200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	10:00	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.57	mg/l		8157	HACH			
+OPP	OPP200930:FM:PS:DO:	Field Msr/Obs	09/30/2020	10:00	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			103.0	%		8157	HACH			
+OPP	OPP200930:FM:WB:	Field Msr/Obs	09/30/2020	10:00	1002	Water Bottle	HACH 2100Q	Turbidity			5.09	NTU		180.1	USEPA			
+OPP	OPP200930:FM:PS:PH:	Field Msr/Obs	09/30/2020	10:00	1002	Probe/Sensor	HACH PHC101	pH			8.14	None		8156	HACH			
+OPP	OPP200930:FM:PS:TS:	Field Msr/Obs	09/30/2020	10:00	1002	Probe/Sensor	HACH CDC401	Salinity			35.1	ppt		8160	HACH			
+OPP	OPP200930:SR:WB:	Sample-Routine	09/30/2020	10:00	1002	Water Bottle		Total Nitrogen, mixed forms	as N		102.16	ug/l	Filtered, field	4500-N	APHA			
+OPP	OPP200930:SR:WB:	Sample-Routine	09/30/2020	10:00	1002	Water Bottle		Total Phosphorus, mixed forms	as P		6.81	ug/l	Filtered, field	4500-P	APHA			
+OPP	OPP200930:SR:WB:	Sample-Routine	09/30/2020	10:00	1002	Water Bottle		Orthophosphate	as P		3.19	ug/l	Filtered, field	365.5	USEPA			
+OPP	OPP200930:SR:WB:	Sample-Routine	09/30/2020	10:00	1002	Water Bottle		Silicate			99.25	ug/l	Filtered, field	366	USEPA			
+OPP	OPP200930:SR:WB:	Sample-Routine	09/30/2020	10:00	1002	Water Bottle		Nitrate + Nitrite	as N		5.00	ug/l	Filtered, field	353.4	USEPA			
+OPP	OPP200930:SR:WB:	Sample-Routine	09/30/2020	10:00	1002	Water Bottle		Ammonium	as N	Below Method Detection Limit			Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX	Method Detection Level	0.28	ug/l
+RHL	RHL201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	08:00	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.3	deg C		2550	APHA			
+RHL	RHL201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	08:00	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.55	mg/l		8157	HACH			
+RHL	RHL201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	08:00	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			98.1	%		8157	HACH			
+RHL	RHL201001:FM:WB:	Field Msr/Obs	10/01/2020	08:00	1002	Water Bottle	HACH 2100Q	Turbidity			60.53	NTU		180.1	USEPA			
+RHL	RHL201001:FM:PS:PH:	Field Msr/Obs	10/01/2020	08:00	1002	Probe/Sensor	HACH PHC101	pH			8.11	None		8156	HACH			
+RHL	RHL201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	08:00	1002	Probe/Sensor	HACH CDC401	Salinity			33.6	ppt		8160	HACH			
+RHL	RHL201001:SR:WB:	Sample-Routine	10/01/2020	08:00	1002	Water Bottle		Total Nitrogen, mixed forms	as N		121.58	ug/l	Filtered, field	4500-N	APHA			
+RHL	RHL201001:SR:WB:	Sample-Routine	10/01/2020	08:00	1002	Water Bottle		Total Phosphorus, mixed forms	as P		15.20	ug/l	Filtered, field	4500-P	APHA			
+RHL	RHL201001:SR:WB:	Sample-Routine	10/01/2020	08:00	1002	Water Bottle		Orthophosphate	as P		12.52	ug/l	Filtered, field	365.5	USEPA			
+RHL	RHL201001:SR:WB:	Sample-Routine	10/01/2020	08:00	1002	Water Bottle		Silicate			717.24	ug/l	Filtered, field	366	USEPA			
+RHL	RHL201001:SR:WB:	Sample-Routine	10/01/2020	08:00	1002	Water Bottle		Nitrate + Nitrite	as N		13.81	ug/l	Filtered, field	353.4	USEPA			
+RHL	RHL201001:SR:WB:	Sample-Routine	10/01/2020	08:00	1002	Water Bottle		Ammonium	as N		4.96	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RON	RON201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	08:38	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.3	deg C		2550	APHA			
+RON	RON201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	08:38	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.58	mg/l		8157	HACH			
+RON	RON201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	08:38	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			101.0	%		8157	HACH			
+RON	RON201001:FM:WB:	Field Msr/Obs	10/01/2020	08:38	1002	Water Bottle	HACH 2100Q	Turbidity			1.51	NTU		180.1	USEPA			
+RON	RON201001:FM:PS:PH:	Field Msr/Obs	10/01/2020	08:38	1002	Probe/Sensor	HACH PHC101	pH			8.16	None		8156	HACH			
+RON	RON201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	08:38	1002	Probe/Sensor	HACH CDC401	Salinity			35.1	ppt		8160	HACH			
+RON	RON201001:SR:WB:	Sample-Routine	10/01/2020	08:38	1002	Water Bottle		Total Nitrogen, mixed forms	as N		103.36	ug/l	Filtered, field	4500-N	APHA			
+RON	RON201001:SR:WB:	Sample-Routine	10/01/2020	08:38	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.26	ug/l	Filtered, field	4500-P	APHA			
+RON	RON201001:SR:WB:	Sample-Routine	10/01/2020	08:38	1002	Water Bottle		Orthophosphate	as P		4.24	ug/l	Filtered, field	365.5	USEPA			
+RON	RON201001:SR:WB:	Sample-Routine	10/01/2020	08:38	1002	Water Bottle		Silicate			85.57	ug/l	Filtered, field	366	USEPA			
+RON	RON201001:SR:WB:	Sample-Routine	10/01/2020	08:38	1002	Water Bottle		Nitrate + Nitrite	as N		6.28	ug/l	Filtered, field	353.4	USEPA			
+RON	RON201001:SR:WB:	Sample-Routine	10/01/2020	08:38	1002	Water Bottle		Ammonium	as N		0.98	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RFS	RFS201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	08:55	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.4	deg C		2550	APHA			
+RFS	RFS201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	08:55	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.73	mg/l		8157	HACH			
+RFS	RFS201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	08:55	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			103.2	%		8157	HACH			
+RFS	RFS201001:FM:WB:	Field Msr/Obs	10/01/2020	08:55	1002	Water Bottle	HACH 2100Q	Turbidity			4.77	NTU		180.1	USEPA			
+RFS	RFS201001:FM:PS:PH:	Field Msr/Obs	10/01/2020	08:55	1002	Probe/Sensor	HACH PHC101	pH			8.16	None		8156	HACH			
+RFS	RFS201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	08:55	1002	Probe/Sensor	HACH CDC401	Salinity			34.4	ppt		8160	HACH			
+RFS	RFS201001:SR:WB:	Sample-Routine	10/01/2020	08:55	1002	Water Bottle		Total Nitrogen, mixed forms	as N		111.82	ug/l	Filtered, field	4500-N	APHA			
+RFS	RFS201001:SR:WB:	Sample-Routine	10/01/2020	08:55	1002	Water Bottle		Total Phosphorus, mixed forms	as P		11.40	ug/l	Filtered, field	4500-P	APHA			
+RFS	RFS201001:SR:WB:	Sample-Routine	10/01/2020	08:55	1002	Water Bottle		Orthophosphate	as P		7.71	ug/l	Filtered, field	365.5	USEPA			
+RFS	RFS201001:SR:WB:	Sample-Routine	10/01/2020	08:55	1002	Water Bottle		Silicate			466.67	ug/l	Filtered, field	366	USEPA			
+RFS	RFS201001:SR:WB:	Sample-Routine	10/01/2020	08:55	1002	Water Bottle		Nitrate + Nitrite	as N		29.89	ug/l	Filtered, field	353.4	USEPA			
+RFS	RFS201001:SR:WB:	Sample-Routine	10/01/2020	08:55	1002	Water Bottle		Ammonium	as N		0.87	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RKO	RKO201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	09:20	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.8	deg C		2550	APHA			
+RKO	RKO201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	09:20	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.55	mg/l		8157	HACH			
+RKO	RKO201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	09:20	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			99.2	%		8157	HACH			
+RKO	RKO201001:FM:WB:	Field Msr/Obs	10/01/2020	09:20	1002	Water Bottle	HACH 2100Q	Turbidity			9.23	NTU		180.1	USEPA			
+RKO	RKO201001:FM:PS:PH:	Field Msr/Obs	10/01/2020	09:20	1002	Probe/Sensor	HACH PHC101	pH			8.08	None		8156	HACH			
+RKO	RKO201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	09:20	1002	Probe/Sensor	HACH CDC401	Salinity			34.2	ppt		8160	HACH			
+RKO	RKO201001:SR:WB:	Sample-Routine	10/01/2020	09:20	1002	Water Bottle		Total Nitrogen, mixed forms	as N		156.80	ug/l	Filtered, field	4500-N	APHA			
+RKO	RKO201001:SR:WB:	Sample-Routine	10/01/2020	09:20	1002	Water Bottle		Total Phosphorus, mixed forms	as P		13.17	ug/l	Filtered, field	4500-P	APHA			
+RKO	RKO201001:SR:WB:	Sample-Routine	10/01/2020	09:20	1002	Water Bottle		Orthophosphate	as P		10.02	ug/l	Filtered, field	365.5	USEPA			
+RKO	RKO201001:SR:WB:	Sample-Routine	10/01/2020	09:20	1002	Water Bottle		Silicate			601.61	ug/l	Filtered, field	366	USEPA			
+RKO	RKO201001:SR:WB:	Sample-Routine	10/01/2020	09:20	1002	Water Bottle		Nitrate + Nitrite	as N		65.62	ug/l	Filtered, field	353.4	USEPA			
+RKO	RKO201001:SR:WB:	Sample-Routine	10/01/2020	09:20	1002	Water Bottle		Ammonium	as N		1.82	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RKV	RKV201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	09:40	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.9	deg C		2550	APHA			
+RKV	RKV201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	09:40	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.96	mg/l		8157	HACH			
+RKV	RKV201001:FM:PS:DO:	Field Msr/Obs	10/01/2020	09:40	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			107.7	%		8157	HACH			
+RKV	RKV201001:FM:WB:	Field Msr/Obs	10/01/2020	09:40	1002	Water Bottle	HACH 2100Q	Turbidity			6.60	NTU		180.1	USEPA			
+RKV	RKV201001:FM:PS:PH:	Field Msr/Obs	10/01/2020	09:40	1002	Probe/Sensor	HACH PHC101	pH			8.21	None		8156	HACH			
+RKV	RKV201001:FM:PS:TS:	Field Msr/Obs	10/01/2020	09:40	1002	Probe/Sensor	HACH CDC401	Salinity			34.9	ppt		8160	HACH			
+RKV	RKV201001:SR:WB:	Sample-Routine	10/01/2020	09:40	1002	Water Bottle		Total Nitrogen, mixed forms	as N		117.04	ug/l	Filtered, field	4500-N	APHA			
+RKV	RKV201001:SR:WB:	Sample-Routine	10/01/2020	09:40	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.84	ug/l	Filtered, field	4500-P	APHA			
+RKV	RKV201001:SR:WB:	Sample-Routine	10/01/2020	09:40	1002	Water Bottle		Orthophosphate	as P		5.40	ug/l	Filtered, field	365.5	USEPA			
+RKV	RKV201001:SR:WB:	Sample-Routine	10/01/2020	09:40	1002	Water Bottle		Silicate			261.18	ug/l	Filtered, field	366	USEPA			
+RKV	RKV201001:SR:WB:	Sample-Routine	10/01/2020	09:40	1002	Water Bottle		Nitrate + Nitrite	as N		15.59	ug/l	Filtered, field	353.4	USEPA			
+RKV	RKV201001:SR:WB:	Sample-Routine	10/01/2020	09:40	1002	Water Bottle		Ammonium	as N		1.52	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NKN	NKN201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	07:50	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.2	deg C		2550	APHA			
+NKN	NKN201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	07:50	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			5.82	mg/l		8157	HACH			
+NKN	NKN201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	07:50	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			88.5	%		8157	HACH			
+NKN	NKN201013:FM:WB:	Field Msr/Obs	10/13/2020	07:50	1002	Water Bottle	HACH 2100Q	Turbidity			2.69	NTU		180.1	USEPA			
+NKN	NKN201013:FM:PS:PH:	Field Msr/Obs	10/13/2020	07:50	1002	Probe/Sensor	HACH PHC101	pH			8.10	None		8156	HACH			
+NKN	NKN201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	07:50	1002	Probe/Sensor	HACH CDC401	Salinity			33.4	ppt		8160	HACH			
+NKN	NKN201013:SR:WB:	Sample-Routine	10/13/2020	07:50	1002	Water Bottle		Total Nitrogen, mixed forms	as N		190.47	ug/l	Filtered, field	4500-N	APHA			
+NKN	NKN201013:SR:WB:	Sample-Routine	10/13/2020	07:50	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.48	ug/l	Filtered, field	4500-P	APHA			
+NKN	NKN201013:SR:WB:	Sample-Routine	10/13/2020	07:50	1002	Water Bottle		Orthophosphate	as P		6.62	ug/l	Filtered, field	365.5	USEPA			
+NKN	NKN201013:SR:WB:	Sample-Routine	10/13/2020	07:50	1002	Water Bottle		Silicate			972.82	ug/l	Filtered, field	366	USEPA			
+NKN	NKN201013:SR:WB:	Sample-Routine	10/13/2020	07:50	1002	Water Bottle		Nitrate + Nitrite	as N		103.32	ug/l	Filtered, field	353.4	USEPA			
+NKN	NKN201013:SR:WB:	Sample-Routine	10/13/2020	07:50	1002	Water Bottle		Ammonium	as N		4.24	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+KWP	KWP201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	08:07	1002	Probe/Sensor	HACH CDC401	Temperature, water			25.9	deg C		2550	APHA			
+KWP	KWP201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	08:07	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.18	mg/l		8157	HACH			
+KWP	KWP201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	08:07	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			91.2	%		8157	HACH			
+KWP	KWP201013:FM:WB:	Field Msr/Obs	10/13/2020	08:07	1002	Water Bottle	HACH 2100Q	Turbidity			15.27	NTU		180.1	USEPA			
+KWP	KWP201013:FM:PS:PH:	Field Msr/Obs	10/13/2020	08:07	1002	Probe/Sensor	HACH PHC101	pH			8.05	None		8156	HACH			
+KWP	KWP201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	08:07	1002	Probe/Sensor	HACH CDC401	Salinity			31.9	ppt		8160	HACH			
+KWP	KWP201013:SR:WB:	Sample-Routine	10/13/2020	08:07	1002	Water Bottle		Total Nitrogen, mixed forms	as N		112.61	ug/l	Filtered, field	4500-N	APHA			
+KWP	KWP201013:SR:WB:	Sample-Routine	10/13/2020	08:07	1002	Water Bottle		Total Phosphorus, mixed forms	as P		12.80	ug/l	Filtered, field	4500-P	APHA			
+KWP	KWP201013:SR:WB:	Sample-Routine	10/13/2020	08:07	1002	Water Bottle		Orthophosphate	as P		11.69	ug/l	Filtered, field	365.5	USEPA			
+KWP	KWP201013:SR:WB:	Sample-Routine	10/13/2020	08:07	1002	Water Bottle		Silicate			1112.05	ug/l	Filtered, field	366	USEPA			
+KWP	KWP201013:SR:WB:	Sample-Routine	10/13/2020	08:07	1002	Water Bottle		Nitrate + Nitrite	as N		38.56	ug/l	Filtered, field	353.4	USEPA			
+KWP	KWP201013:SR:WB:	Sample-Routine	10/13/2020	08:07	1002	Water Bottle		Ammonium	as N		3.52	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+KKS	KKS201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	08:25	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.2	deg C		2550	APHA			
+KKS	KKS201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	08:25	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			5.33	mg/l		8157	HACH			
+KKS	KKS201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	08:25	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			81.3	%		8157	HACH			
+KKS	KKS201013:FM:WB:	Field Msr/Obs	10/13/2020	08:25	1002	Water Bottle	HACH 2100Q	Turbidity			4.68	NTU		180.1	USEPA			
+KKS	KKS201013:FM:PS:PH:	Field Msr/Obs	10/13/2020	08:25	1002	Probe/Sensor	HACH PHC101	pH			8.07	None		8156	HACH			
+KKS	KKS201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	08:25	1002	Probe/Sensor	HACH CDC401	Salinity			34.0	ppt		8160	HACH			
+KKS	KKS201013:SR:WB:	Sample-Routine	10/13/2020	08:25	1002	Water Bottle		Total Nitrogen, mixed forms	as N		141.00	ug/l	Filtered, field	4500-N	APHA			
+KKS	KKS201013:SR:WB:	Sample-Routine	10/13/2020	08:25	1002	Water Bottle		Total Phosphorus, mixed forms	as P		7.38	ug/l	Filtered, field	4500-P	APHA			
+KKS	KKS201013:SR:WB:	Sample-Routine	10/13/2020	08:25	1002	Water Bottle		Orthophosphate	as P		5.31	ug/l	Filtered, field	365.5	USEPA			
+KKS	KKS201013:SR:WB:	Sample-Routine	10/13/2020	08:25	1002	Water Bottle		Silicate			569.66	ug/l	Filtered, field	366	USEPA			
+KKS	KKS201013:SR:WB:	Sample-Routine	10/13/2020	08:25	1002	Water Bottle		Nitrate + Nitrite	as N		48.73	ug/l	Filtered, field	353.4	USEPA			
+KKS	KKS201013:SR:WB:	Sample-Routine	10/13/2020	08:25	1002	Water Bottle		Ammonium	as N		7.06	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+KKP	KKP201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	08:45	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.9	deg C		2550	APHA			
+KKP	KKP201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	08:45	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.29	mg/l		8157	HACH			
+KKP	KKP201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	08:45	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			95.5	%		8157	HACH			
+KKP	KKP201013:FM:WB:	Field Msr/Obs	10/13/2020	08:45	1002	Water Bottle	HACH 2100Q	Turbidity			7.57	NTU		180.1	USEPA			
+KKP	KKP201013:FM:PS:PH:	Field Msr/Obs	10/13/2020	08:45	1002	Probe/Sensor	HACH PHC101	pH			8.10	None		8156	HACH			
+KKP	KKP201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	08:45	1002	Probe/Sensor	HACH CDC401	Salinity			34.1	ppt		8160	HACH			
+KKP	KKP201013:SR:WB:	Sample-Routine	10/13/2020	08:45	1002	Water Bottle		Total Nitrogen, mixed forms	as N		126.98	ug/l	Filtered, field	4500-N	APHA			
+KKP	KKP201013:SR:WB:	Sample-Routine	10/13/2020	08:45	1002	Water Bottle		Total Phosphorus, mixed forms	as P		7.78	ug/l	Filtered, field	4500-P	APHA			
+KKP	KKP201013:SR:WB:	Sample-Routine	10/13/2020	08:45	1002	Water Bottle		Orthophosphate	as P		5.97	ug/l	Filtered, field	365.5	USEPA			
+KKP	KKP201013:SR:WB:	Sample-Routine	10/13/2020	08:45	1002	Water Bottle		Silicate			449.35	ug/l	Filtered, field	366	USEPA			
+KKP	KKP201013:SR:WB:	Sample-Routine	10/13/2020	08:45	1002	Water Bottle		Nitrate + Nitrite	as N		51.40	ug/l	Filtered, field	353.4	USEPA			
+KKP	KKP201013:SR:WB:	Sample-Routine	10/13/2020	08:45	1002	Water Bottle		Ammonium	as N		4.36	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+KCP	KCP201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	09:02	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.8	deg C		2550	APHA			
+KCP	KCP201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	09:02	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.18	mg/l		8157	HACH			
+KCP	KCP201013:FM:PS:DO:	Field Msr/Obs	10/13/2020	09:02	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			94.0	%		8157	HACH			
+KCP	KCP201013:FM:WB:	Field Msr/Obs	10/13/2020	09:02	1002	Water Bottle	HACH 2100Q	Turbidity			5.32	NTU		180.1	USEPA			
+KCP	KCP201013:FM:PS:PH:	Field Msr/Obs	10/13/2020	09:02	1002	Probe/Sensor	HACH PHC101	pH			8.08	None		8156	HACH			
+KCP	KCP201013:FM:PS:TS:	Field Msr/Obs	10/13/2020	09:02	1002	Probe/Sensor	HACH CDC401	Salinity			32.0	ppt		8160	HACH			
+KCP	KCP201013:SR:WB:	Sample-Routine	10/13/2020	09:02	1002	Water Bottle		Total Nitrogen, mixed forms	as N		590.93	ug/l	Filtered, field	4500-N	APHA			
+KCP	KCP201013:SR:WB:	Sample-Routine	10/13/2020	09:02	1002	Water Bottle		Total Phosphorus, mixed forms	as P		28.33	ug/l	Filtered, field	4500-P	APHA			
+KCP	KCP201013:SR:WB:	Sample-Routine	10/13/2020	09:02	1002	Water Bottle		Orthophosphate	as P		25.84	ug/l	Filtered, field	365.5	USEPA			
+KCP	KCP201013:SR:WB:	Sample-Routine	10/13/2020	09:02	1002	Water Bottle		Silicate			2697.28	ug/l	Filtered, field	366	USEPA			
+KCP	KCP201013:SR:WB:	Sample-Routine	10/13/2020	09:02	1002	Water Bottle		Nitrate + Nitrite	as N		520.10	ug/l	Filtered, field	353.4	USEPA			
+KCP	KCP201013:SR:WB:	Sample-Routine	10/13/2020	09:02	1002	Water Bottle		Ammonium	as N		3.99	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+WKD	WKD201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	08:00	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.0	deg C		2550	APHA			
+WKD	WKD201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	08:00	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.65	mg/l		8157	HACH			
+WKD	WKD201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	08:00	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			101.8	%		8157	HACH			
+WKD	WKD201014:FM:WB:	Field Msr/Obs	10/14/2020	08:00	1002	Water Bottle	HACH 2100Q	Turbidity			1.43	NTU		180.1	USEPA			
+WKD	WKD201014:FM:PS:PH:	Field Msr/Obs	10/14/2020	08:00	1002	Probe/Sensor	HACH PHC101	pH			8.12	None		8156	HACH			
+WKD	WKD201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	08:00	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+WKD	WKD201014:SR:WB:	Sample-Routine	10/14/2020	08:00	1002	Water Bottle		Total Nitrogen, mixed forms	as N		135.61	ug/l	Filtered, field	4500-N	APHA			
+WKD	WKD201014:SR:WB:	Sample-Routine	10/14/2020	08:00	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.09	ug/l	Filtered, field	4500-P	APHA			
+WKD	WKD201014:SR:WB:	Sample-Routine	10/14/2020	08:00	1002	Water Bottle		Orthophosphate	as P		5.24	ug/l	Filtered, field	365.5	USEPA			
+WKD	WKD201014:SR:WB:	Sample-Routine	10/14/2020	08:00	1002	Water Bottle		Silicate			220.21	ug/l	Filtered, field	366	USEPA			
+WKD	WKD201014:SR:WB:	Sample-Routine	10/14/2020	08:00	1002	Water Bottle		Nitrate + Nitrite	as N		33.63	ug/l	Filtered, field	353.4	USEPA			
+WKD	WKD201014:SR:WB:	Sample-Routine	10/14/2020	08:00	1002	Water Bottle		Ammonium	as N		5.04	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+WKB	WKB201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	08:21	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.5	deg C		2550	APHA			
+WKB	WKB201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	08:21	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.68	mg/l		8157	HACH			
+WKB	WKB201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	08:21	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			103.0	%		8157	HACH			
+WKB	WKB201014:FM:WB:	Field Msr/Obs	10/14/2020	08:21	1002	Water Bottle	HACH 2100Q	Turbidity			0.63	NTU		180.1	USEPA			
+WKB	WKB201014:FM:PS:PH:	Field Msr/Obs	10/14/2020	08:21	1002	Probe/Sensor	HACH PHC101	pH			8.13	None		8156	HACH			
+WKB	WKB201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	08:21	1002	Probe/Sensor	HACH CDC401	Salinity			35.2	ppt		8160	HACH			
+WKB	WKB201014:SR:WB:	Sample-Routine	10/14/2020	08:21	1002	Water Bottle		Total Nitrogen, mixed forms	as N		95.97	ug/l	Filtered, field	4500-N	APHA			
+WKB	WKB201014:SR:WB:	Sample-Routine	10/14/2020	08:21	1002	Water Bottle		Total Phosphorus, mixed forms	as P		7.44	ug/l	Filtered, field	4500-P	APHA			
+WKB	WKB201014:SR:WB:	Sample-Routine	10/14/2020	08:21	1002	Water Bottle		Orthophosphate	as P		3.86	ug/l	Filtered, field	365.5	USEPA			
+WKB	WKB201014:SR:WB:	Sample-Routine	10/14/2020	08:21	1002	Water Bottle		Silicate			117.07	ug/l	Filtered, field	366	USEPA			
+WKB	WKB201014:SR:WB:	Sample-Routine	10/14/2020	08:21	1002	Water Bottle		Nitrate + Nitrite	as N		11.50	ug/l	Filtered, field	353.4	USEPA			
+WKB	WKB201014:SR:WB:	Sample-Routine	10/14/2020	08:21	1002	Water Bottle		Ammonium	as N		3.19	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+WUL	WUL201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	08:37	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.4	deg C		2550	APHA			
+WUL	WUL201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	08:37	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.55	mg/l		8157	HACH			
+WUL	WUL201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	08:37	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			100.5	%		8157	HACH			
+WUL	WUL201014:FM:WB:	Field Msr/Obs	10/14/2020	08:37	1002	Water Bottle	HACH 2100Q	Turbidity			1.70	NTU		180.1	USEPA			
+WUL	WUL201014:FM:PS:PH:	Field Msr/Obs	10/14/2020	08:37	1002	Probe/Sensor	HACH PHC101	pH			8.09	None		8156	HACH			
+WUL	WUL201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	08:37	1002	Probe/Sensor	HACH CDC401	Salinity			34.6	ppt		8160	HACH			
+WUL	WUL201014:SR:WB:	Sample-Routine	10/14/2020	08:37	1002	Water Bottle		Total Nitrogen, mixed forms	as N		146.77	ug/l	Filtered, field	4500-N	APHA			
+WUL	WUL201014:SR:WB:	Sample-Routine	10/14/2020	08:37	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.59	ug/l	Filtered, field	4500-P	APHA			
+WUL	WUL201014:SR:WB:	Sample-Routine	10/14/2020	08:37	1002	Water Bottle		Orthophosphate	as P		4.77	ug/l	Filtered, field	365.5	USEPA			
+WUL	WUL201014:SR:WB:	Sample-Routine	10/14/2020	08:37	1002	Water Bottle		Silicate			223.38	ug/l	Filtered, field	366	USEPA			
+WUL	WUL201014:SR:WB:	Sample-Routine	10/14/2020	08:37	1002	Water Bottle		Nitrate + Nitrite	as N		91.44	ug/l	Filtered, field	353.4	USEPA			
+WUL	WUL201014:SR:WB:	Sample-Routine	10/14/2020	08:37	1002	Water Bottle		Ammonium	as N		3.44	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+MMB	MMB201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	08:59	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.6	deg C		2550	APHA			
+MMB	MMB201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	08:59	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.49	mg/l		8157	HACH			
+MMB	MMB201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	08:59	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			99.7	%		8157	HACH			
+MMB	MMB201014:FM:WB:	Field Msr/Obs	10/14/2020	08:59	1002	Water Bottle	HACH 2100Q	Turbidity			0.84	NTU		180.1	USEPA			
+MMB	MMB201014:FM:PS:PH:	Field Msr/Obs	10/14/2020	08:59	1002	Probe/Sensor	HACH PHC101	pH			8.11	None		8156	HACH			
+MMB	MMB201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	08:59	1002	Probe/Sensor	HACH CDC401	Salinity			34.3	ppt		8160	HACH			
+MMB	MMB201014:SR:WB:	Sample-Routine	10/14/2020	08:59	1002	Water Bottle		Total Nitrogen, mixed forms	as N		154.49	ug/l	Filtered, field	4500-N	APHA			
+MMB	MMB201014:SR:WB:	Sample-Routine	10/14/2020	08:59	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.69	ug/l	Filtered, field	4500-P	APHA			
+MMB	MMB201014:SR:WB:	Sample-Routine	10/14/2020	08:59	1002	Water Bottle		Orthophosphate	as P		4.25	ug/l	Filtered, field	365.5	USEPA			
+MMB	MMB201014:SR:WB:	Sample-Routine	10/14/2020	08:59	1002	Water Bottle		Silicate			361.32	ug/l	Filtered, field	366	USEPA			
+MMB	MMB201014:SR:WB:	Sample-Routine	10/14/2020	08:59	1002	Water Bottle		Nitrate + Nitrite	as N		111.19	ug/l	Filtered, field	353.4	USEPA			
+MMB	MMB201014:SR:WB:	Sample-Routine	10/14/2020	08:59	1002	Water Bottle		Ammonium	as N		6.36	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+MAN	MAN201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	09:18	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.6	deg C		2550	APHA			
+MAN	MAN201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	09:18	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			7.58	mg/l		8157	HACH			
+MAN	MAN201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	09:18	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			116.9	%		8157	HACH			
+MAN	MAN201014:FM:WB:	Field Msr/Obs	10/14/2020	09:18	1002	Water Bottle	HACH 2100Q	Turbidity			1.10	NTU		180.1	USEPA			
+MAN	MAN201014:FM:PS:PH:	Field Msr/Obs	10/14/2020	09:18	1002	Probe/Sensor	HACH PHC101	pH			8.14	None		8156	HACH			
+MAN	MAN201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	09:18	1002	Probe/Sensor	HACH CDC401	Salinity			34.8	ppt		8160	HACH			
+MAN	MAN201014:SR:WB:	Sample-Routine	10/14/2020	09:18	1002	Water Bottle		Total Nitrogen, mixed forms	as N		87.81	ug/l	Filtered, field	4500-N	APHA			
+MAN	MAN201014:SR:WB:	Sample-Routine	10/14/2020	09:18	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.20	ug/l	Filtered, field	4500-P	APHA			
+MAN	MAN201014:SR:WB:	Sample-Routine	10/14/2020	09:18	1002	Water Bottle		Orthophosphate	as P		6.30	ug/l	Filtered, field	365.5	USEPA			
+MAN	MAN201014:SR:WB:	Sample-Routine	10/14/2020	09:18	1002	Water Bottle		Silicate			356.31	ug/l	Filtered, field	366	USEPA			
+MAN	MAN201014:SR:WB:	Sample-Routine	10/14/2020	09:18	1002	Water Bottle		Nitrate + Nitrite	as N		10.60	ug/l	Filtered, field	353.4	USEPA			
+MAN	MAN201014:SR:WB:	Sample-Routine	10/14/2020	09:18	1002	Water Bottle		Ammonium	as N		5.54	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+MAS	MAS201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	09:38	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.6	deg C		2550	APHA			
+MAS	MAS201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	09:38	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.81	mg/l		8157	HACH			
+MAS	MAS201014:FM:PS:DO:	Field Msr/Obs	10/14/2020	09:38	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			105.4	%		8157	HACH			
+MAS	MAS201014:FM:WB:	Field Msr/Obs	10/14/2020	09:38	1002	Water Bottle	HACH 2100Q	Turbidity			1.28	NTU		180.1	USEPA			
+MAS	MAS201014:FM:PS:PH:	Field Msr/Obs	10/14/2020	09:38	1002	Probe/Sensor	HACH PHC101	pH			8.11	None		8156	HACH			
+MAS	MAS201014:FM:PS:TS:	Field Msr/Obs	10/14/2020	09:38	1002	Probe/Sensor	HACH CDC401	Salinity			34.6	ppt		8160	HACH			
+MAS	MAS201014:SR:WB:	Sample-Routine	10/14/2020	09:38	1002	Water Bottle		Total Nitrogen, mixed forms	as N		82.20	ug/l	Filtered, field	4500-N	APHA			
+MAS	MAS201014:SR:WB:	Sample-Routine	10/14/2020	09:38	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.81	ug/l	Filtered, field	4500-P	APHA			
+MAS	MAS201014:SR:WB:	Sample-Routine	10/14/2020	09:38	1002	Water Bottle		Orthophosphate	as P		7.58	ug/l	Filtered, field	365.5	USEPA			
+MAS	MAS201014:SR:WB:	Sample-Routine	10/14/2020	09:38	1002	Water Bottle		Silicate			457.34	ug/l	Filtered, field	366	USEPA			
+MAS	MAS201014:SR:WB:	Sample-Routine	10/14/2020	09:38	1002	Water Bottle		Nitrate + Nitrite	as N		15.60	ug/l	Filtered, field	353.4	USEPA			
+MAS	MAS201014:SR:WB:	Sample-Routine	10/14/2020	09:38	1002	Water Bottle		Ammonium	as N		5.21	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NMH	NMH201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	07:50	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.9	deg C		2550	APHA			
+NMH	NMH201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	07:50	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.30	mg/l		8157	HACH			
+NMH	NMH201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	07:50	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			95.9	%		8157	HACH			
+NMH	NMH201015:FM:WB:	Field Msr/Obs	10/15/2020	07:50	1002	Water Bottle	HACH 2100Q	Turbidity			1.83	NTU		180.1	USEPA			
+NMH	NMH201015:FM:PS:PH:	Field Msr/Obs	10/15/2020	07:50	1002	Probe/Sensor	HACH PHC101	pH			8.11	None		8156	HACH			
+NMH	NMH201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	07:50	1002	Probe/Sensor	HACH CDC401	Salinity			34.4	ppt		8160	HACH			
+NMH	NMH201015:SR:WB:	Sample-Routine	10/15/2020	07:50	1002	Water Bottle		Total Nitrogen, mixed forms	as N		119.36	ug/l	Filtered, field	4500-N	APHA			
+NMH	NMH201015:SR:WB:	Sample-Routine	10/15/2020	07:50	1002	Water Bottle		Total Phosphorus, mixed forms	as P		12.94	ug/l	Filtered, field	4500-P	APHA			
+NMH	NMH201015:SR:WB:	Sample-Routine	10/15/2020	07:50	1002	Water Bottle		Orthophosphate	as P		7.83	ug/l	Filtered, field	365.5	USEPA			
+NMH	NMH201015:SR:WB:	Sample-Routine	10/15/2020	07:50	1002	Water Bottle		Silicate			482.09	ug/l	Filtered, field	366	USEPA			
+NMH	NMH201015:SR:WB:	Sample-Routine	10/15/2020	07:50	1002	Water Bottle		Nitrate + Nitrite	as N		57.92	ug/l	Filtered, field	353.4	USEPA			
+NMH	NMH201015:SR:WB:	Sample-Routine	10/15/2020	07:50	1002	Water Bottle		Ammonium	as N		7.98	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NMC	NMC201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	08:10	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.1	deg C		2550	APHA			
+NMC	NMC201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	08:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			7.00	mg/l		8157	HACH			
+NMC	NMC201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	08:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			106.1	%		8157	HACH			
+NMC	NMC201015:FM:WB:	Field Msr/Obs	10/15/2020	08:10	1002	Water Bottle	HACH 2100Q	Turbidity			1.64	NTU		180.1	USEPA			
+NMC	NMC201015:FM:PS:PH:	Field Msr/Obs	10/15/2020	08:10	1002	Probe/Sensor	HACH PHC101	pH			8.05	None		8156	HACH			
+NMC	NMC201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	08:10	1002	Probe/Sensor	HACH CDC401	Salinity			33.1	ppt		8160	HACH			
+NMC	NMC201015:SR:WB:	Sample-Routine	10/15/2020	08:10	1002	Water Bottle		Total Nitrogen, mixed forms	as N		245.91	ug/l	Filtered, field	4500-N	APHA			
+NMC	NMC201015:SR:WB:	Sample-Routine	10/15/2020	08:10	1002	Water Bottle		Total Phosphorus, mixed forms	as P		12.96	ug/l	Filtered, field	4500-P	APHA			
+NMC	NMC201015:SR:WB:	Sample-Routine	10/15/2020	08:10	1002	Water Bottle		Orthophosphate	as P		9.09	ug/l	Filtered, field	365.5	USEPA			
+NMC	NMC201015:SR:WB:	Sample-Routine	10/15/2020	08:10	1002	Water Bottle		Silicate			818.62	ug/l	Filtered, field	366	USEPA			
+NMC	NMC201015:SR:WB:	Sample-Routine	10/15/2020	08:10	1002	Water Bottle		Nitrate + Nitrite	as N		207.72	ug/l	Filtered, field	353.4	USEPA			
+NMC	NMC201015:SR:WB:	Sample-Routine	10/15/2020	08:10	1002	Water Bottle		Ammonium	as N		5.56	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NHP	NHP201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	08:28	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.0	deg C		2550	APHA			
+NHP	NHP201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	08:28	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.85	mg/l		8157	HACH			
+NHP	NHP201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	08:28	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			104.7	%		8157	HACH			
+NHP	NHP201015:FM:WB:	Field Msr/Obs	10/15/2020	08:28	1002	Water Bottle	HACH 2100Q	Turbidity			4.27	NTU		180.1	USEPA			
+NHP	NHP201015:FM:PS:PH:	Field Msr/Obs	10/15/2020	08:28	1002	Probe/Sensor	HACH PHC101	pH			8.10	None		8156	HACH			
+NHP	NHP201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	08:28	1002	Probe/Sensor	HACH CDC401	Salinity			34.4	ppt		8160	HACH			
+NHP	NHP201015:SR:WB:	Sample-Routine	10/15/2020	08:28	1002	Water Bottle		Total Nitrogen, mixed forms	as N		105.43	ug/l	Filtered, field	4500-N	APHA			
+NHP	NHP201015:SR:WB:	Sample-Routine	10/15/2020	08:28	1002	Water Bottle		Total Phosphorus, mixed forms	as P		11.13	ug/l	Filtered, field	4500-P	APHA			
+NHP	NHP201015:SR:WB:	Sample-Routine	10/15/2020	08:28	1002	Water Bottle		Orthophosphate	as P		5.40	ug/l	Filtered, field	365.5	USEPA			
+NHP	NHP201015:SR:WB:	Sample-Routine	10/15/2020	08:28	1002	Water Bottle		Silicate			328.04	ug/l	Filtered, field	366	USEPA			
+NHP	NHP201015:SR:WB:	Sample-Routine	10/15/2020	08:28	1002	Water Bottle		Nitrate + Nitrite	as N		38.84	ug/l	Filtered, field	353.4	USEPA			
+NHP	NHP201015:SR:WB:	Sample-Routine	10/15/2020	08:28	1002	Water Bottle		Ammonium	as N		3.43	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NKP	NKP201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	08:52	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.5	deg C		2550	APHA			
+NKP	NKP201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	08:52	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.74	mg/l		8157	HACH			
+NKP	NKP201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	08:52	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			104.0	%		8157	HACH			
+NKP	NKP201015:FM:WB:	Field Msr/Obs	10/15/2020	08:52	1002	Water Bottle	HACH 2100Q	Turbidity			1.22	NTU		180.1	USEPA			
+NKP	NKP201015:FM:PS:PH:	Field Msr/Obs	10/15/2020	08:52	1002	Probe/Sensor	HACH PHC101	pH			8.14	None		8156	HACH			
+NKP	NKP201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	08:52	1002	Probe/Sensor	HACH CDC401	Salinity			34.9	ppt		8160	HACH			
+NKP	NKP201015:SR:WB:	Sample-Routine	10/15/2020	08:52	1002	Water Bottle		Total Nitrogen, mixed forms	as N		68.84	ug/l	Filtered, field	4500-N	APHA			
+NKP	NKP201015:SR:WB:	Sample-Routine	10/15/2020	08:52	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.16	ug/l	Filtered, field	4500-P	APHA			
+NKP	NKP201015:SR:WB:	Sample-Routine	10/15/2020	08:52	1002	Water Bottle		Orthophosphate	as P		3.45	ug/l	Filtered, field	365.5	USEPA			
+NKP	NKP201015:SR:WB:	Sample-Routine	10/15/2020	08:52	1002	Water Bottle		Silicate			114.62	ug/l	Filtered, field	366	USEPA			
+NKP	NKP201015:SR:WB:	Sample-Routine	10/15/2020	08:52	1002	Water Bottle		Nitrate + Nitrite	as N		3.92	ug/l	Filtered, field	353.4	USEPA			
+NKP	NKP201015:SR:WB:	Sample-Routine	10/15/2020	08:52	1002	Water Bottle		Ammonium	as N		1.28	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+NKC	NKC201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	09:12	1002	Probe/Sensor	HACH CDC401	Temperature, water			28.0	deg C		2550	APHA			
+NKC	NKC201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	09:12	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.54	mg/l		8157	HACH			
+NKC	NKC201015:FM:PS:DO:	Field Msr/Obs	10/15/2020	09:12	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			101.3	%		8157	HACH			
+NKC	NKC201015:FM:WB:	Field Msr/Obs	10/15/2020	09:12	1002	Water Bottle	HACH 2100Q	Turbidity			2.58	NTU		180.1	USEPA			
+NKC	NKC201015:FM:PS:PH:	Field Msr/Obs	10/15/2020	09:12	1002	Probe/Sensor	HACH PHC101	pH			8.09	None		8156	HACH			
+NKC	NKC201015:FM:PS:TS:	Field Msr/Obs	10/15/2020	09:12	1002	Probe/Sensor	HACH CDC401	Salinity			34.4	ppt		8160	HACH			
+NKC	NKC201015:SR:WB:	Sample-Routine	10/15/2020	09:12	1002	Water Bottle		Total Nitrogen, mixed forms	as N		221.22	ug/l	Filtered, field	4500-N	APHA			
+NKC	NKC201015:SR:WB:	Sample-Routine	10/15/2020	09:12	1002	Water Bottle		Total Phosphorus, mixed forms	as P		11.50	ug/l	Filtered, field	4500-P	APHA			
+NKC	NKC201015:SR:WB:	Sample-Routine	10/15/2020	09:12	1002	Water Bottle		Orthophosphate	as P		6.70	ug/l	Filtered, field	365.5	USEPA			
+NKC	NKC201015:SR:WB:	Sample-Routine	10/15/2020	09:12	1002	Water Bottle		Silicate			565.16	ug/l	Filtered, field	366	USEPA			
+NKC	NKC201015:SR:WB:	Sample-Routine	10/15/2020	09:12	1002	Water Bottle		Nitrate + Nitrite	as N		176.45	ug/l	Filtered, field	353.4	USEPA			
+NKC	NKC201015:SR:WB:	Sample-Routine	10/15/2020	09:12	1002	Water Bottle		Ammonium	as N		1.00	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RNS	RNS201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	08:10	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.0	deg C		2550	APHA			
+RNS	RNS201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	08:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.30	mg/l		8157	HACH			
+RNS	RNS201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	08:10	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			96.5	%		8157	HACH			
+RNS	RNS201020:FM:WB:	Field Msr/Obs	10/20/2020	08:10	1002	Water Bottle	HACH 2100Q	Turbidity			1.46	NTU		180.1	USEPA			
+RNS	RNS201020:FM:PS:PH:	Field Msr/Obs	10/20/2020	08:10	1002	Probe/Sensor	HACH PHC101	pH			8.08	None		8156	HACH			
+RNS	RNS201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	08:10	1002	Probe/Sensor	HACH CDC401	Salinity			35.1	ppt		8160	HACH			
+RNS	RNS201020:SR:WB:	Sample-Routine	10/20/2020	08:10	1002	Water Bottle		Total Nitrogen, mixed forms	as N		157.20	ug/l	Filtered, field	4500-N	APHA			
+RNS	RNS201020:SR:WB:	Sample-Routine	10/20/2020	08:10	1002	Water Bottle		Total Phosphorus, mixed forms	as P		11.63	ug/l	Filtered, field	4500-P	APHA			
+RNS	RNS201020:SR:WB:	Sample-Routine	10/20/2020	08:10	1002	Water Bottle		Orthophosphate	as P		7.66	ug/l	Filtered, field	365.5	USEPA			
+RNS	RNS201020:SR:WB:	Sample-Routine	10/20/2020	08:10	1002	Water Bottle		Silicate			190.39	ug/l	Filtered, field	366	USEPA			
+RNS	RNS201020:SR:WB:	Sample-Routine	10/20/2020	08:10	1002	Water Bottle		Nitrate + Nitrite	as N		10.03	ug/l	Filtered, field	353.4	USEPA			
+RNS	RNS201020:SR:WB:	Sample-Routine	10/20/2020	08:10	1002	Water Bottle		Ammonium	as N		8.92	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RPO	RPO201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	08:51	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.3	deg C		2550	APHA			
+RPO	RPO201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	08:51	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.25	mg/l		8157	HACH			
+RPO	RPO201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	08:51	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			96.1	%		8157	HACH			
+RPO	RPO201020:FM:WB:	Field Msr/Obs	10/20/2020	08:51	1002	Water Bottle	HACH 2100Q	Turbidity			4.87	NTU		180.1	USEPA			
+RPO	RPO201020:FM:PS:PH:	Field Msr/Obs	10/20/2020	08:51	1002	Probe/Sensor	HACH PHC101	pH			8.11	None		8156	HACH			
+RPO	RPO201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	08:51	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+RPO	RPO201020:SR:WB:	Sample-Routine	10/20/2020	08:51	1002	Water Bottle		Total Nitrogen, mixed forms	as N		84.73	ug/l	Filtered, field	4500-N	APHA			
+RPO	RPO201020:SR:WB:	Sample-Routine	10/20/2020	08:51	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.26	ug/l	Filtered, field	4500-P	APHA			
+RPO	RPO201020:SR:WB:	Sample-Routine	10/20/2020	08:51	1002	Water Bottle		Orthophosphate	as P		6.48	ug/l	Filtered, field	365.5	USEPA			
+RPO	RPO201020:SR:WB:	Sample-Routine	10/20/2020	08:51	1002	Water Bottle		Silicate			232.29	ug/l	Filtered, field	366	USEPA			
+RPO	RPO201020:SR:WB:	Sample-Routine	10/20/2020	08:51	1002	Water Bottle		Nitrate + Nitrite	as N		12.63	ug/l	Filtered, field	353.4	USEPA			
+RPO	RPO201020:SR:WB:	Sample-Routine	10/20/2020	08:51	1002	Water Bottle		Ammonium	as N		2.64	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RKS	RKS201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	09:21	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.9	deg C		2550	APHA			
+RKS	RKS201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	09:21	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.34	mg/l		8157	HACH			
+RKS	RKS201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	09:21	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			96.7	%		8157	HACH			
+RKS	RKS201020:FM:WB:	Field Msr/Obs	10/20/2020	09:21	1002	Water Bottle	HACH 2100Q	Turbidity			4.05	NTU		180.1	USEPA			
+RKS	RKS201020:FM:PS:PH:	Field Msr/Obs	10/20/2020	09:21	1002	Probe/Sensor	HACH PHC101	pH			8.05	None		8156	HACH			
+RKS	RKS201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	09:21	1002	Probe/Sensor	HACH CDC401	Salinity			34.9	ppt		8160	HACH			
+RKS	RKS201020:SR:WB:	Sample-Routine	10/20/2020	09:21	1002	Water Bottle		Total Nitrogen, mixed forms	as N		138.77	ug/l	Filtered, field	4500-N	APHA			
+RKS	RKS201020:SR:WB:	Sample-Routine	10/20/2020	09:21	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.41	ug/l	Filtered, field	4500-P	APHA			
+RKS	RKS201020:SR:WB:	Sample-Routine	10/20/2020	09:21	1002	Water Bottle		Orthophosphate	as P		5.20	ug/l	Filtered, field	365.5	USEPA			
+RKS	RKS201020:SR:WB:	Sample-Routine	10/20/2020	09:21	1002	Water Bottle		Silicate			158.93	ug/l	Filtered, field	366	USEPA			
+RKS	RKS201020:SR:WB:	Sample-Routine	10/20/2020	09:21	1002	Water Bottle		Nitrate + Nitrite	as N		7.91	ug/l	Filtered, field	353.4	USEPA			
+RKS	RKS201020:SR:WB:	Sample-Routine	10/20/2020	09:21	1002	Water Bottle		Ammonium	as N		7.35	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RKT	RKT201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	09:55	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.7	deg C		2550	APHA			
+RKT	RKT201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	09:55	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.35	mg/l		8157	HACH			
+RKT	RKT201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	09:55	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			98.1	%		8157	HACH			
+RKT	RKT201020:FM:WB:	Field Msr/Obs	10/20/2020	09:55	1002	Water Bottle	HACH 2100Q	Turbidity			1.68	NTU		180.1	USEPA			
+RKT	RKT201020:FM:PS:PH:	Field Msr/Obs	10/20/2020	09:55	1002	Probe/Sensor	HACH PHC101	pH			8.13	None		8156	HACH			
+RKT	RKT201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	09:55	1002	Probe/Sensor	HACH CDC401	Salinity			34.8	ppt		8160	HACH			
+RKT	RKT201020:SR:WB:	Sample-Routine	10/20/2020	09:55	1002	Water Bottle		Total Nitrogen, mixed forms	as N		103.26	ug/l	Filtered, field	4500-N	APHA			
+RKT	RKT201020:SR:WB:	Sample-Routine	10/20/2020	09:55	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.04	ug/l	Filtered, field	4500-P	APHA			
+RKT	RKT201020:SR:WB:	Sample-Routine	10/20/2020	09:55	1002	Water Bottle		Orthophosphate	as P		7.43	ug/l	Filtered, field	365.5	USEPA			
+RKT	RKT201020:SR:WB:	Sample-Routine	10/20/2020	09:55	1002	Water Bottle		Silicate			335.50	ug/l	Filtered, field	366	USEPA			
+RKT	RKT201020:SR:WB:	Sample-Routine	10/20/2020	09:55	1002	Water Bottle		Nitrate + Nitrite	as N		10.38	ug/l	Filtered, field	353.4	USEPA			
+RKT	RKT201020:SR:WB:	Sample-Routine	10/20/2020	09:55	1002	Water Bottle		Ammonium	as N		6.93	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RCB	RCB201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	10:15	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.7	deg C		2550	APHA			
+RCB	RCB201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	10:15	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.59	mg/l		8157	HACH			
+RCB	RCB201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	10:15	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			101.9	%		8157	HACH			
+RCB	RCB201020:FM:WB:	Field Msr/Obs	10/20/2020	10:15	1002	Water Bottle	HACH 2100Q	Turbidity			1.54	NTU		180.1	USEPA			
+RCB	RCB201020:FM:PS:PH:	Field Msr/Obs	10/20/2020	10:15	1002	Probe/Sensor	HACH PHC101	pH			8.17	None		8156	HACH			
+RCB	RCB201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	10:15	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+RCB	RCB201020:SR:WB:	Sample-Routine	10/20/2020	10:15	1002	Water Bottle		Total Nitrogen, mixed forms	as N		83.36	ug/l	Filtered, field	4500-N	APHA			
+RCB	RCB201020:SR:WB:	Sample-Routine	10/20/2020	10:15	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.38	ug/l	Filtered, field	4500-P	APHA			
+RCB	RCB201020:SR:WB:	Sample-Routine	10/20/2020	10:15	1002	Water Bottle		Orthophosphate	as P		4.30	ug/l	Filtered, field	365.5	USEPA			
+RCB	RCB201020:SR:WB:	Sample-Routine	10/20/2020	10:15	1002	Water Bottle		Silicate			263.10	ug/l	Filtered, field	366	USEPA			
+RCB	RCB201020:SR:WB:	Sample-Routine	10/20/2020	10:15	1002	Water Bottle		Nitrate + Nitrite	as N		15.08	ug/l	Filtered, field	353.4	USEPA			
+RCB	RCB201020:SR:WB:	Sample-Routine	10/20/2020	10:15	1002	Water Bottle		Ammonium	as N		2.66	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RWA	RWA201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	10:40	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.9	deg C		2550	APHA			
+RWA	RWA201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	10:40	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.41	mg/l		8157	HACH			
+RWA	RWA201020:FM:PS:DO:	Field Msr/Obs	10/20/2020	10:40	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			99.5	%		8157	HACH			
+RWA	RWA201020:FM:WB:	Field Msr/Obs	10/20/2020	10:40	1002	Water Bottle	HACH 2100Q	Turbidity			3.66	NTU		180.1	USEPA			
+RWA	RWA201020:FM:PS:PH:	Field Msr/Obs	10/20/2020	10:40	1002	Probe/Sensor	HACH PHC101	pH			8.17	None		8156	HACH			
+RWA	RWA201020:FM:PS:TS:	Field Msr/Obs	10/20/2020	10:40	1002	Probe/Sensor	HACH CDC401	Salinity			34.9	ppt		8160	HACH			
+RWA	RWA201020:SR:WB:	Sample-Routine	10/20/2020	10:40	1002	Water Bottle		Total Nitrogen, mixed forms	as N		90.67	ug/l	Filtered, field	4500-N	APHA			
+RWA	RWA201020:SR:WB:	Sample-Routine	10/20/2020	10:40	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.48	ug/l	Filtered, field	4500-P	APHA			
+RWA	RWA201020:SR:WB:	Sample-Routine	10/20/2020	10:40	1002	Water Bottle		Orthophosphate	as P		6.50	ug/l	Filtered, field	365.5	USEPA			
+RWA	RWA201020:SR:WB:	Sample-Routine	10/20/2020	10:40	1002	Water Bottle		Silicate			372.61	ug/l	Filtered, field	366	USEPA			
+RWA	RWA201020:SR:WB:	Sample-Routine	10/20/2020	10:40	1002	Water Bottle		Nitrate + Nitrite	as N		8.00	ug/l	Filtered, field	353.4	USEPA			
+RWA	RWA201020:SR:WB:	Sample-Routine	10/20/2020	10:40	1002	Water Bottle		Ammonium	as N		2.75	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+PFF	PFF201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	08:15	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.0	deg C		2550	APHA			
+PFF	PFF201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	08:15	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.31	mg/l		8157	HACH			
+PFF	PFF201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	08:15	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			95.7	%		8157	HACH			
+PFF	PFF201021:FM:WB:	Field Msr/Obs	10/21/2020	08:15	1002	Water Bottle	HACH 2100Q	Turbidity			4.56	NTU		180.1	USEPA			
+PFF	PFF201021:FM:PS:PH:	Field Msr/Obs	10/21/2020	08:15	1002	Probe/Sensor	HACH PHC101	pH			8.08	None		8156	HACH			
+PFF	PFF201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	08:15	1002	Probe/Sensor	HACH CDC401	Salinity			33.8	ppt		8160	HACH			
+PFF	PFF201021:SR:WB:	Sample-Routine	10/21/2020	08:15	1002	Water Bottle		Total Nitrogen, mixed forms	as N		89.14	ug/l	Filtered, field	4500-N	APHA			
+PFF	PFF201021:SR:WB:	Sample-Routine	10/21/2020	08:15	1002	Water Bottle		Total Phosphorus, mixed forms	as P		12.07	ug/l	Filtered, field	4500-P	APHA			
+PFF	PFF201021:SR:WB:	Sample-Routine	10/21/2020	08:15	1002	Water Bottle		Orthophosphate	as P		10.79	ug/l	Filtered, field	365.5	USEPA			
+PFF	PFF201021:SR:WB:	Sample-Routine	10/21/2020	08:15	1002	Water Bottle		Silicate			1056.15	ug/l	Filtered, field	366	USEPA			
+PFF	PFF201021:SR:WB:	Sample-Routine	10/21/2020	08:15	1002	Water Bottle		Nitrate + Nitrite	as N		6.53	ug/l	Filtered, field	353.4	USEPA			
+PFF	PFF201021:SR:WB:	Sample-Routine	10/21/2020	08:15	1002	Water Bottle		Ammonium	as N		3.54	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+PLH	PLH201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	08:36	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.9	deg C		2550	APHA			
+PLH	PLH201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	08:36	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.30	mg/l		8157	HACH			
+PLH	PLH201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	08:36	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			96.2	%		8157	HACH			
+PLH	PLH201021:FM:WB:	Field Msr/Obs	10/21/2020	08:36	1002	Water Bottle	HACH 2100Q	Turbidity			11.67	NTU		180.1	USEPA			
+PLH	PLH201021:FM:PS:PH:	Field Msr/Obs	10/21/2020	08:36	1002	Probe/Sensor	HACH PHC101	pH			8.08	None		8156	HACH			
+PLH	PLH201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	08:36	1002	Probe/Sensor	HACH CDC401	Salinity			34.9	ppt		8160	HACH			
+PLH	PLH201021:SR:WB:	Sample-Routine	10/21/2020	08:36	1002	Water Bottle		Total Nitrogen, mixed forms	as N		75.86	ug/l	Filtered, field	4500-N	APHA			
+PLH	PLH201021:SR:WB:	Sample-Routine	10/21/2020	08:36	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.77	ug/l	Filtered, field	4500-P	APHA			
+PLH	PLH201021:SR:WB:	Sample-Routine	10/21/2020	08:36	1002	Water Bottle		Orthophosphate	as P		6.58	ug/l	Filtered, field	365.5	USEPA			
+PLH	PLH201021:SR:WB:	Sample-Routine	10/21/2020	08:36	1002	Water Bottle		Silicate			270.50	ug/l	Filtered, field	366	USEPA			
+PLH	PLH201021:SR:WB:	Sample-Routine	10/21/2020	08:36	1002	Water Bottle		Nitrate + Nitrite	as N		7.96	ug/l	Filtered, field	353.4	USEPA			
+PLH	PLH201021:SR:WB:	Sample-Routine	10/21/2020	08:36	1002	Water Bottle		Ammonium	as N		1.59	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+PLT	PLT201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	08:55	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.8	deg C		2550	APHA			
+PLT	PLT201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	08:55	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.11	mg/l		8157	HACH			
+PLT	PLT201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	08:55	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			92.8	%		8157	HACH			
+PLT	PLT201021:FM:WB:	Field Msr/Obs	10/21/2020	08:55	1002	Water Bottle	HACH 2100Q	Turbidity			15.20	NTU		180.1	USEPA			
+PLT	PLT201021:FM:PS:PH:	Field Msr/Obs	10/21/2020	08:55	1002	Probe/Sensor	HACH PHC101	pH			8.05	None		8156	HACH			
+PLT	PLT201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	08:55	1002	Probe/Sensor	HACH CDC401	Salinity			34.4	ppt		8160	HACH			
+PLT	PLT201021:SR:WB:	Sample-Routine	10/21/2020	08:55	1002	Water Bottle		Total Nitrogen, mixed forms	as N		88.31	ug/l	Filtered, field	4500-N	APHA			
+PLT	PLT201021:SR:WB:	Sample-Routine	10/21/2020	08:55	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.75	ug/l	Filtered, field	4500-P	APHA			
+PLT	PLT201021:SR:WB:	Sample-Routine	10/21/2020	08:55	1002	Water Bottle		Orthophosphate	as P		6.57	ug/l	Filtered, field	365.5	USEPA			
+PLT	PLT201021:SR:WB:	Sample-Routine	10/21/2020	08:55	1002	Water Bottle		Silicate			419.92	ug/l	Filtered, field	366	USEPA			
+PLT	PLT201021:SR:WB:	Sample-Routine	10/21/2020	08:55	1002	Water Bottle		Nitrate + Nitrite	as N		15.00	ug/l	Filtered, field	353.4	USEPA			
+PLT	PLT201021:SR:WB:	Sample-Routine	10/21/2020	08:55	1002	Water Bottle		Ammonium	as N		3.84	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+OCO	OCO201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	09:24	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.7	deg C		2550	APHA			
+OCO	OCO201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	09:24	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.05	mg/l		8157	HACH			
+OCO	OCO201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	09:24	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			93.6	%		8157	HACH			
+OCO	OCO201021:FM:WB:	Field Msr/Obs	10/21/2020	09:24	1002	Water Bottle	HACH 2100Q	Turbidity			2.90	NTU		180.1	USEPA			
+OCO	OCO201021:FM:PS:PH:	Field Msr/Obs	10/21/2020	09:24	1002	Probe/Sensor	HACH PHC101	pH			8.05	None		8156	HACH			
+OCO	OCO201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	09:24	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+OCO	OCO201021:SR:WB:	Sample-Routine	10/21/2020	09:24	1002	Water Bottle		Total Nitrogen, mixed forms	as N		76.17	ug/l	Filtered, field	4500-N	APHA			
+OCO	OCO201021:SR:WB:	Sample-Routine	10/21/2020	09:24	1002	Water Bottle		Total Phosphorus, mixed forms	as P		6.09	ug/l	Filtered, field	4500-P	APHA			
+OCO	OCO201021:SR:WB:	Sample-Routine	10/21/2020	09:24	1002	Water Bottle		Orthophosphate	as P		3.71	ug/l	Filtered, field	365.5	USEPA			
+OCO	OCO201021:SR:WB:	Sample-Routine	10/21/2020	09:24	1002	Water Bottle		Silicate			316.12	ug/l	Filtered, field	366	USEPA			
+OCO	OCO201021:SR:WB:	Sample-Routine	10/21/2020	09:24	1002	Water Bottle		Nitrate + Nitrite	as N		5.21	ug/l	Filtered, field	353.4	USEPA			
+OCO	OCO201021:SR:WB:	Sample-Routine	10/21/2020	09:24	1002	Water Bottle		Ammonium	as N		1.10	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+OPP	OPP201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	09:39	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.9	deg C		2550	APHA			
+OPP	OPP201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	09:39	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.24	mg/l		8157	HACH			
+OPP	OPP201021:FM:PS:DO:	Field Msr/Obs	10/21/2020	09:39	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			96.7	%		8157	HACH			
+OPP	OPP201021:FM:WB:	Field Msr/Obs	10/21/2020	09:39	1002	Water Bottle	HACH 2100Q	Turbidity			4.52	NTU		180.1	USEPA			
+OPP	OPP201021:FM:PS:PH:	Field Msr/Obs	10/21/2020	09:39	1002	Probe/Sensor	HACH PHC101	pH			8.09	None		8156	HACH			
+OPP	OPP201021:FM:PS:TS:	Field Msr/Obs	10/21/2020	09:39	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+OPP	OPP201021:SR:WB:	Sample-Routine	10/21/2020	09:39	1002	Water Bottle		Total Nitrogen, mixed forms	as N		69.44	ug/l	Filtered, field	4500-N	APHA			
+OPP	OPP201021:SR:WB:	Sample-Routine	10/21/2020	09:39	1002	Water Bottle		Total Phosphorus, mixed forms	as P		5.83	ug/l	Filtered, field	4500-P	APHA			
+OPP	OPP201021:SR:WB:	Sample-Routine	10/21/2020	09:39	1002	Water Bottle		Orthophosphate	as P		3.49	ug/l	Filtered, field	365.5	USEPA			
+OPP	OPP201021:SR:WB:	Sample-Routine	10/21/2020	09:39	1002	Water Bottle		Silicate			132.75	ug/l	Filtered, field	366	USEPA			
+OPP	OPP201021:SR:WB:	Sample-Routine	10/21/2020	09:39	1002	Water Bottle		Nitrate + Nitrite	as N		5.53	ug/l	Filtered, field	353.4	USEPA			
+OPP	OPP201021:SR:WB:	Sample-Routine	10/21/2020	09:39	1002	Water Bottle		Ammonium	as N	Below Method Detection Limit			Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX	Method Detection Level	0.28	ug/l
+RHL	RHL201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	08:00	1002	Probe/Sensor	HACH CDC401	Temperature, water			25.4	deg C		2550	APHA			
+RHL	RHL201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	08:00	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.21	mg/l		8157	HACH			
+RHL	RHL201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	08:00	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			92.3	%		8157	HACH			
+RHL	RHL201022:FM:WB:	Field Msr/Obs	10/22/2020	08:00	1002	Water Bottle	HACH 2100Q	Turbidity			0.44	NTU		180.1	USEPA			
+RHL	RHL201022:FM:PS:PH:	Field Msr/Obs	10/22/2020	08:00	1002	Probe/Sensor	HACH PHC101	pH			8.13	None		8156	HACH			
+RHL	RHL201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	08:00	1002	Probe/Sensor	HACH CDC401	Salinity			34.9	ppt		8160	HACH			
+RHL	RHL201022:SR:WB:	Sample-Routine	10/22/2020	08:00	1002	Water Bottle		Total Nitrogen, mixed forms	as N		88.50	ug/l	Filtered, field	4500-N	APHA			
+RHL	RHL201022:SR:WB:	Sample-Routine	10/22/2020	08:00	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.61	ug/l	Filtered, field	4500-P	APHA			
+RHL	RHL201022:SR:WB:	Sample-Routine	10/22/2020	08:00	1002	Water Bottle		Orthophosphate	as P		3.51	ug/l	Filtered, field	365.5	USEPA			
+RHL	RHL201022:SR:WB:	Sample-Routine	10/22/2020	08:00	1002	Water Bottle		Silicate			123.47	ug/l	Filtered, field	366	USEPA			
+RHL	RHL201022:SR:WB:	Sample-Routine	10/22/2020	08:00	1002	Water Bottle		Nitrate + Nitrite	as N		4.68	ug/l	Filtered, field	353.4	USEPA			
+RHL	RHL201022:SR:WB:	Sample-Routine	10/22/2020	08:00	1002	Water Bottle		Ammonium	as N		2.20	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RON	RON201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	08:35	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.5	deg C		2550	APHA			
+RON	RON201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	08:35	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.52	mg/l		8157	HACH			
+RON	RON201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	08:35	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			98.9	%		8157	HACH			
+RON	RON201022:FM:WB:	Field Msr/Obs	10/22/2020	08:35	1002	Water Bottle	HACH 2100Q	Turbidity			0.75	NTU		180.1	USEPA			
+RON	RON201022:FM:PS:PH:	Field Msr/Obs	10/22/2020	08:35	1002	Probe/Sensor	HACH PHC101	pH			8.13	None		8156	HACH			
+RON	RON201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	08:35	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+RON	RON201022:SR:WB:	Sample-Routine	10/22/2020	08:35	1002	Water Bottle		Total Nitrogen, mixed forms	as N		76.25	ug/l	Filtered, field	4500-N	APHA			
+RON	RON201022:SR:WB:	Sample-Routine	10/22/2020	08:35	1002	Water Bottle		Total Phosphorus, mixed forms	as P		7.37	ug/l	Filtered, field	4500-P	APHA			
+RON	RON201022:SR:WB:	Sample-Routine	10/22/2020	08:35	1002	Water Bottle		Orthophosphate	as P		3.29	ug/l	Filtered, field	365.5	USEPA			
+RON	RON201022:SR:WB:	Sample-Routine	10/22/2020	08:35	1002	Water Bottle		Silicate			125.70	ug/l	Filtered, field	366	USEPA			
+RON	RON201022:SR:WB:	Sample-Routine	10/22/2020	08:35	1002	Water Bottle		Nitrate + Nitrite	as N		6.19	ug/l	Filtered, field	353.4	USEPA			
+RON	RON201022:SR:WB:	Sample-Routine	10/22/2020	08:35	1002	Water Bottle		Ammonium	as N		0.59	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RFS	RFS201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	08:55	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.0	deg C		2550	APHA			
+RFS	RFS201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	08:55	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.41	mg/l		8157	HACH			
+RFS	RFS201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	08:55	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			98.1	%		8157	HACH			
+RFS	RFS201022:FM:WB:	Field Msr/Obs	10/22/2020	08:55	1002	Water Bottle	HACH 2100Q	Turbidity			1.60	NTU		180.1	USEPA			
+RFS	RFS201022:FM:PS:PH:	Field Msr/Obs	10/22/2020	08:55	1002	Probe/Sensor	HACH PHC101	pH			8.10	None		8156	HACH			
+RFS	RFS201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	08:55	1002	Probe/Sensor	HACH CDC401	Salinity			35.0	ppt		8160	HACH			
+RFS	RFS201022:SR:WB:	Sample-Routine	10/22/2020	08:55	1002	Water Bottle		Total Nitrogen, mixed forms	as N		85.56	ug/l	Filtered, field	4500-N	APHA			
+RFS	RFS201022:SR:WB:	Sample-Routine	10/22/2020	08:55	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.94	ug/l	Filtered, field	4500-P	APHA			
+RFS	RFS201022:SR:WB:	Sample-Routine	10/22/2020	08:55	1002	Water Bottle		Orthophosphate	as P		4.98	ug/l	Filtered, field	365.5	USEPA			
+RFS	RFS201022:SR:WB:	Sample-Routine	10/22/2020	08:55	1002	Water Bottle		Silicate			158.98	ug/l	Filtered, field	366	USEPA			
+RFS	RFS201022:SR:WB:	Sample-Routine	10/22/2020	08:55	1002	Water Bottle		Nitrate + Nitrite	as N		8.09	ug/l	Filtered, field	353.4	USEPA			
+RFS	RFS201022:SR:WB:	Sample-Routine	10/22/2020	08:55	1002	Water Bottle		Ammonium	as N		5.63	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RKO	RKO201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	09:15	1002	Probe/Sensor	HACH CDC401	Temperature, water			26.9	deg C		2550	APHA			
+RKO	RKO201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	09:15	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			5.91	mg/l		8157	HACH			
+RKO	RKO201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	09:15	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			89.9	%		8157	HACH			
+RKO	RKO201022:FM:WB:	Field Msr/Obs	10/22/2020	09:15	1002	Water Bottle	HACH 2100Q	Turbidity			8.48	NTU		180.1	USEPA			
+RKO	RKO201022:FM:PS:PH:	Field Msr/Obs	10/22/2020	09:15	1002	Probe/Sensor	HACH PHC101	pH			8.04	None		8156	HACH			
+RKO	RKO201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	09:15	1002	Probe/Sensor	HACH CDC401	Salinity			34.7	ppt		8160	HACH			
+RKO	RKO201022:SR:WB:	Sample-Routine	10/22/2020	09:15	1002	Water Bottle		Total Nitrogen, mixed forms	as N		83.30	ug/l	Filtered, field	4500-N	APHA			
+RKO	RKO201022:SR:WB:	Sample-Routine	10/22/2020	09:15	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.94	ug/l	Filtered, field	4500-P	APHA			
+RKO	RKO201022:SR:WB:	Sample-Routine	10/22/2020	09:15	1002	Water Bottle		Orthophosphate	as P		6.84	ug/l	Filtered, field	365.5	USEPA			
+RKO	RKO201022:SR:WB:	Sample-Routine	10/22/2020	09:15	1002	Water Bottle		Silicate			239.32	ug/l	Filtered, field	366	USEPA			
+RKO	RKO201022:SR:WB:	Sample-Routine	10/22/2020	09:15	1002	Water Bottle		Nitrate + Nitrite	as N		22.26	ug/l	Filtered, field	353.4	USEPA			
+RKO	RKO201022:SR:WB:	Sample-Routine	10/22/2020	09:15	1002	Water Bottle		Ammonium	as N		1.45	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+RKV	RKV201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	09:30	1002	Probe/Sensor	HACH CDC401	Temperature, water			27.3	deg C		2550	APHA			
+RKV	RKV201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	09:30	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.14	mg/l		8157	HACH			
+RKV	RKV201022:FM:PS:DO:	Field Msr/Obs	10/22/2020	09:30	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			93.9	%		8157	HACH			
+RKV	RKV201022:FM:WB:	Field Msr/Obs	10/22/2020	09:30	1002	Water Bottle	HACH 2100Q	Turbidity			9.40	NTU		180.1	USEPA			
+RKV	RKV201022:FM:PS:PH:	Field Msr/Obs	10/22/2020	09:30	1002	Probe/Sensor	HACH PHC101	pH			8.03	None		8156	HACH			
+RKV	RKV201022:FM:PS:TS:	Field Msr/Obs	10/22/2020	09:30	1002	Probe/Sensor	HACH CDC401	Salinity			34.5	ppt		8160	HACH			
+RKV	RKV201022:SR:WB:	Sample-Routine	10/22/2020	09:30	1002	Water Bottle		Total Nitrogen, mixed forms	as N		76.11	ug/l	Filtered, field	4500-N	APHA			
+RKV	RKV201022:SR:WB:	Sample-Routine	10/22/2020	09:30	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.30	ug/l	Filtered, field	4500-P	APHA			
+RKV	RKV201022:SR:WB:	Sample-Routine	10/22/2020	09:30	1002	Water Bottle		Orthophosphate	as P		6.62	ug/l	Filtered, field	365.5	USEPA			
+RKV	RKV201022:SR:WB:	Sample-Routine	10/22/2020	09:30	1002	Water Bottle		Silicate			345.06	ug/l	Filtered, field	366	USEPA			
+RKV	RKV201022:SR:WB:	Sample-Routine	10/22/2020	09:30	1002	Water Bottle		Nitrate + Nitrite	as N		9.57	ug/l	Filtered, field	353.4	USEPA			
+RKV	RKV201022:SR:WB:	Sample-Routine	10/22/2020	09:30	1002	Water Bottle		Ammonium	as N		0.44	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
