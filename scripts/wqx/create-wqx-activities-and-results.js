@@ -1311,9 +1311,10 @@ var compareGStoWQXSample = function(data, callback) {
     }
 
     console.log(`Found ${Object.keys(onlyInGS).length} sample(s) of a total of ${Object.keys(data.gsSamplesKV).length} in Google Sheets that need to be added to WQX`);
+    console.log(`Note: above may be some of 38 samples that are actually empty and later filtered out`);
     console.log(`Found ${Object.keys(onlyInWQX).length} sample(s) in WQX that need to be deleted from WQX`);
     console.log(`Found ${Object.keys(inCommon).length} sample(s) in common between Google Sheets and WQX`);
-    console.log(`Found ${Object.keys(inCommonButDiffer).length} sample(s) in common between Google Sheets and WQX but differ`);
+    console.log(`Found ${Object.keys(inCommonButDiffer).length} sample(s) in common between Google Sheets and WQX that differ`);
 
     data.samplesToAddKV    = onlyInGS;
     data.samplesInCommonKV = inCommon;
