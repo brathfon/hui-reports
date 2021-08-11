@@ -1,0 +1,13 @@
+Monitoring Location ID	Activity ID	Activity Type	Activity Start Date	Activity Start Time	Project ID 1	Project ID 2	Sample Collection Method ID	Sample Collection Equipment Name	Sample Collection Equipment Comment	Characteristic Name	Method Speciation	Result Detection Condition	Result Value	Result Unit	Result Sample Fraction	Result Analytical Method ID	Result Analytical Method Context	Result Detection Limit Type	Result Detection Limit Value	Result Detection Limit Unit
+RPO	RPO160628:FM:PS:TS:	Field Msr/Obs	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Temperature, water			25.7	deg C		2550	APHA			
+RPO	RPO160628:FM:PS:DO:	Field Msr/Obs	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.71	mg/l		8157	HACH			
+RPO	RPO160628:FM:PS:DO:	Field Msr/Obs	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			100.0	%		8157	HACH			
+RPO	RPO160628:FM:WB:	Field Msr/Obs	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Water Bottle	HACH 2100Q	Turbidity			11.73	NTU		180.1	USEPA			
+RPO	RPO160628:FM:PS:PH:	Field Msr/Obs	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH PHC101	pH			8.09	None		8156	HACH			
+RPO	RPO160628:FM:PS:TS:	Field Msr/Obs	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Salinity			26.4	ppt		8160	HACH			
+RPO	RPO160628:SR:WB:	Sample-Routine	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Nitrogen, mixed forms	as N		332.98	ug/l	Filtered, field	4500-N	APHA			
+RPO	RPO160628:SR:WB:	Sample-Routine	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Phosphorus, mixed forms	as P		24.80	ug/l	Filtered, field	4500-P	APHA			
+RPO	RPO160628:SR:WB:	Sample-Routine	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Water Bottle		Orthophosphate	as P		18.29	ug/l	Filtered, field	365.5	USEPA			
+RPO	RPO160628:SR:WB:	Sample-Routine	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Water Bottle		Silicate			1621.15	ug/l	Filtered, field	366	USEPA			
+RPO	RPO160628:SR:WB:	Sample-Routine	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Water Bottle		Nitrate + Nitrite	as N		259.15	ug/l	Filtered, field	353.4	USEPA			
+RPO	RPO160628:SR:WB:	Sample-Routine	06/28/2016	07:25	HUI_PCHEM	EPABEACH	1002	Water Bottle		Ammonium	as N		5.43	ug/l	Filtered, field	350.1	USEPA			

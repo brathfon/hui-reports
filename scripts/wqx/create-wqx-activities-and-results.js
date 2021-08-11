@@ -848,6 +848,8 @@ var createLineForAttribute = function (huiResultName, huiSample) {
   theLine.push(attr.activityType);
   theLine.push(huiSample.Date);
   theLine.push(huiSample.Time);
+  theLine.push('HUI_PCHEM');
+  theLine.push('EPABEACH');
   theLine.push(attr.sampleCollectionMethodID);
   //theLine.push("TBD sampleCollectionMethodContext");  // try without first
   theLine.push(attr.sampleCollectionEquipmentName);
@@ -880,6 +882,8 @@ var createFileContentFromList = function (samples, ignoreNoNutrientSamples) {
     "Activity Type",
     "Activity Start Date",
     "Activity Start Time",
+    "Project ID 1",
+    "Project ID 2",
     "Sample Collection Method ID",
     //"Ignore",   // this has something to do with Sample Collection Method Context, which we need.
     "Sample Collection Equipment Name",
