@@ -1,8 +1,10 @@
 #!/bin/bash
 
 
-wqxFileDir=20210729a-wqx-2nd-quarter-2021-sync-prep
-basename=20210729-add-2nd-quarter-2021-0
+#wqxFileDir=20211013b-wqx-3rd-quarter-2021-post-load
+wqxFileDir=20211023a-wqx-3rd-quarter-2021-post-2nd-load
+basename=20211013-add-3rd-quarter-2021-1
+basename=temp-20211013-add-3rd-quarter-2021-1
 
 ./create-wqx-activities-and-results.js  \
     -o ./load-files  \

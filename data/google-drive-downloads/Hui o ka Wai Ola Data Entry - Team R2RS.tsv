@@ -12,7 +12,7 @@ yes	yes	yes	no	no	2	R2RS	LLHS				RAB	RAB160628	2017	Airport Beach	2016-06-28	8:2
 yes	yes	yes	no	no	2	R2RS	LLHS				RCB	RCB160628	2020	Canoe Beach	2016-06-28	8:46										RCB160628	26.6	28.2	6.81	103.0	8.09	3.43	3.43	3.43	3.43	0.000								
 yes	yes	yes	no	no	2	R2RS	LLHS				RWA	RWA160628	2021	Wahikuli	2016-06-28	9:06										RWA160628	26.9	27.9	6.77	103.0	8.13	3.13	3.13	3.13	3.13	0.000								
 yes	yes	yes	no	no	3	R2RS	LLHS				RPO	RPO160712	2010	Pohaku	2016-07-12	7:19										RPO160712	26.6	33.1	6.49	97.4	8.09	5.14	5.14	5.14	5.14	0.000								
-yes	yes	yes	no	no	3	R2RS	LLHS				RKS	RKS160712	2071	Kaanapali Shores	2016-07-12	7:49										RKS160712	26.0	39.1	6.53	100.1	8.07	3.90	3.90	3.90	3.90	0.000								
+yes	yes	yes	no	no	3	R2RS	LLHS				RKS	RKS160712	2071	Kaanapali Shores	2016-07-12	7:49										RKS160712	26.0		6.53	100.1	8.07	3.90	3.90	3.90	3.90	0.000								
 yes	yes	yes	no	no	3	R2RS	LLHS				RAB	RAB160712	2017	Airport Beach	2016-07-12	8:16										RAB160712	27.0	36.3	6.46	99.5	8.09	0.94	0.94	0.94	0.94	0.000								
 yes	yes	yes	no	no	3	R2RS	LLHS				RCB	RCB160712	2020	Canoe Beach	2016-07-12	8:38										RCB160712	27.2	35.0	6.79	104.0	8.12	2.43	2.43	2.43	2.43	0.000								
 yes	yes	yes	no	no	3	R2RS	LLHS				RWA	RWA160712	2021	Wahikuli	2016-07-12	9:02										RWA160712	27.4	35.7	6.66	102.7	8.16	3.41	3.41	3.41	3.41	0.000								
@@ -492,3 +492,27 @@ yes	yes	yes	no	no	90	R2RS	KAL	TF	NS	JK	RKS	RKS210629	2159	Kaanapali Shores	2021-
 yes	yes	yes	no	no	90	R2RS	KAL	TF	NS	JK	RKT	RKT210629	N/A	Kahekili Two	2021-06-29	9:08	1	1	5	1	3					RKT210629	26.4	34.8	6.52	98.5	8.11	1.66	1.84	1.54	1.68	0.090				N	0	3	0	
 yes	yes	yes	no	no	90	R2RS	KAL	TF	NS	JK	RCB	RCB210629	2022	Canoe Beach	2021-06-29	9:40	1	1	5	1	3					RCB210629	26.9	34.3	6.58	100.0	8.16	1.88	1.94	1.66	1.83	0.081				N	0	2	0	
 yes	yes	yes	no	no	90	R2RS	KAL	TF	NS	JK	RWA	RWA210629	2023	Wahikuli	2021-06-29	10:02	1	1	5	1	3					RWA210629	26.8	34.3	6.43	97.6	8.15	2.43	2.49	2.53	2.48	0.020				N	0	9	0	
+yes	yes	yes	no	no	91	R2RS	KAL	MB	YM	JK	RNS	RNS210720	2006	Napili Bay	2021-07-20	8:15	2	NBBF	6	2	4					RNS210720	25.6	34.0	6.82	100.7	8.15	2.37	2.50	2.82	2.56	0.090				N	0	2	0	cloudy, drizzling, some swell **sprinkled in kahana last 2 days
+yes	yes	yes	no	no	91	R2RS	KAL	MB	YM	JK	RPO	RPO210720	2010	Pohaku	2021-07-20	8:45	2	NBBF	6	2	4					RPO210720	25.7	34.2	6.48	95.9	8.20	2.70	2.52	2.43	2.55	0.054				N	6	0	0	light rain, clear water, cloudy, people swimming
+yes	yes	yes	no	no	91	R2RS	KAL	MB	YM	JK	RKS	RKS210720	2071	Kaanapali Shores	2021-07-20	9:12	2	NBBF	6	2	4					RKS210720	25.3	35.0	6.72	99.1	8.15	3.14	3.42	3.41	3.32	0.048				N	0	11	0	small waves, light rain, cloudy
+yes	yes	yes	no	no	91	R2RS	KAL	MB	YM	JK	RKT	RKT210720	N/A	Kahekili Two	2021-07-20	9:36	2	NBBF	6	2	4					RKT210720	25.7	35.1	6.86	102.0	8.25	0.93	1.04	1.05	1.01	0.066				N	0	5	0	small shore break, lots of rocks exposed along the shoreline, sampled ~25ft to the right of normal spot
+yes	yes	yes	no	no	91	R2RS	KAL	MB	YM	JK	RCB	RCB210720	2020	Canoe Beach	2021-07-20	10:00	2	NBBF	6	2	4					RCB210720	26.6	34.2	6.99	105.0	8.21	1.05	1.33	1.44	1.27	0.158				N	2	8	0	nice, pretty calm
+yes	yes	yes	no	no	91	R2RS	KAL	MB	YM	JK	RWA	RWA210720	2021	Wahikuli	2021-07-20	10:22	2	NBBF	6	2	4					RWA210720	27.1	34.8	6.56	99.7	8.20	2.07	2.13	2.12	2.11	0.015				N	0	0	0	calm, slightly windy
+yes	yes	yes	no	no	92	R2RS	KAL	TF	JK	YM	RNS	RNS210810	2006	Napili Bay	2021-08-10	8:14	1	1	5	1	3					RNS210810	25.5	34.0	6.77	100.1	8.05	1.21	1.61	1.70	1.51	0.173				N	0	5	0	calm ** pH sensor slow to stabilize
+yes	yes	yes	no	no	92	R2RS	KAL	TF	JK	YM	RPO	RPO210810	2010	Pohaku	2021-08-10	8:40	1	1	5	1	3					RPO210810	25.6	33.9	6.31	93.3	8.10	4.95	4.25	4.14	4.45	0.099				N	4	3	0	small swell
+yes	yes	yes	no	no	92	R2RS	KAL	TF	JK	YM	RKS	RKS210810	2071	Kaanapali Shores	2021-08-10	8:59	1	1	5	1	3					RKS210810	25.6	35.0	6.46	96.2	8.06	3.56	4.09	3.41	3.69	0.097				N	2	22	0	calm, low tide
+yes	yes	yes	no	no	92	R2RS	KAL	TF	JK	YM	RKT	RKT210810	N/A	Kahekili Two	2021-08-10	9:20	1	1	5	1	3					RKT210810	26.2	35.1	6.38	96.0	8.08	1.77	1.64	1.61	1.67	0.051				N	0	3	0	
+yes	yes	yes	no	no	92	R2RS	KAL	TF	JK	YM	RCB	RCB210810	2020	Canoe Beach	2021-08-10	9:40	1	1	5	1	3					RCB210810	26.4	34.4	6.54	98.4	8.12	3.75	4.02	4.30	4.02	0.068				N	5	2	0	lifeguard training
+yes	yes	yes	no	no	92	R2RS	KAL	TF	JK	YM	RWA	RWA210810	2021	Wahikuli	2021-08-10	9:55	1	1	5	1	3					RWA210810	26.3	34.7	6.49	97.7	8.13	2.13	2.44	2.15	2.24	0.077				N	0	0	0	**took multiple pH readings-started at 8.09 crept up to 8.13 after about 8 readings
+yes	yes	yes	no	no	93	R2RS	KAL	MB	NS		RNS	RNS210831	2006	Napili Bay	2021-08-31	8:10	2	NBBF	6	4	4					RNS210831	26.5	34.3	6.77	102.1	8.11	1.78	1.93	1.94	1.88	0.048				N	0	1	0	
+yes	yes	yes	no	no	93	R2RS	KAL	MB	NS		RPO	RPO210831	2010	Pohaku	2021-08-31	8:42	2	NBBF	6	4	4					RPO210831	26.5	35.4	6.45	98.1	8.18	2.83	2.89	2.75	2.82	0.025				N	1	5	0	2 SUPs out further (4ppl), calm
+yes	yes	yes	no	no	93	R2RS	KAL	MB	NS		RKS	RKS210831	2071	Kaanapali Shores	2021-08-31	9:00	2	NBBF	6	4	4					RKS210831	26.4	35.6	5.68	86.5	8.10	1.65	1.66	1.51	1.61	0.052				N	0	6	0	very calm and clear, break in the sand dune, water not flowing out to sea, but seawater is flowing inland into the canal
+yes	yes	yes	no	no	93	R2RS	KAL	MB	NS		RKT	RKT210831	N/A	Kahekili Two	2021-08-31	9:15	2	NBBF	6	4	4					RKT210831	26.6	35.8	6.71	102.7	8.19	0.84	0.98	0.83	0.88	0.095				N	0	3	0	sample from 100ft to the right from regular site due to exposed rock and big wave. break on shore
+yes	yes	yes	no	no	93	R2RS	KAL	MB	NS		RCB	RCB210831	2020	Canoe Beach	2021-08-31	9:44	2	NBBF	6	4	4					RCB210831	27.1	35.4	6.62	101.7	8.22	1.72	1.89	1.93	1.85	0.060				N	0	0	0	ocean kayaker ~50 yards out, large shore break, very sandy water in sampling area
+yes	yes	yes	no	no	93	R2RS	KAL	MB	NS		RWA	RWA210831	2021	Wahikuli	2021-08-31	10:09	2	NBBF	6	4	4					RWA210831	27.3	35.4	6.59	101.5	8.20	4.31	4.42	4.24	4.32	0.021				N	0	0	0	black sand (new) in sampling area
+yes	yes	yes	no	no	94	R2RS	KAL	MB	YM	CG	RNS	RNS210921	2006	Napili Bay	2021-09-21	8:03	1	1	6	1	3					RNS210921	25.0	34.7	6.49	95.6	8.13	2.77	2.73	2.45	2.65	0.066				N	0	3	0	started pouring on way back to car
+yes	yes	yes	no	no	94	R2RS	KAL	MB	YM	CG	RPO	RPO210921	2010	Pohaku	2021-09-21	8:32	1	1	6	1	3					RPO210921	25.0	33.6	6.38	92.9	8.16	2.34	2.62	2.30	2.42	0.072				N	0	1	0	low tide
+yes	yes	yes	no	no	94	R2RS	KAL	MB	YM	CG	RKS	RKS210921	2071	Kaanapali Shores	2021-09-21	8:50	1	1	6	1	3					RKS210921	25.1	35.2	6.47	95.5	8.14	3.18	3.46	2.90	3.18	0.088				N	6	0	0	water in stream, but not flowing into ocean, blocked by sand dune
+yes	yes	yes	no	no	94	R2RS	KAL	MB	YM	CG	RKT	RKT210921	N/A	Kahekili Two	2021-09-21	9:11	1	1	6	1	3					RKT210921	25.6	35.4	6.59	98.3	8.20	1.57	1.45	1.60	1.54	0.052				N	0	1	0	walked to rthe right ~50 yards because of rocks (low tide)
+yes	yes	yes	no	no	94	R2RS	KAL	MB	YM	CG	RCB	RCB210921	2020	Canoe Beach	2021-09-21	9:35	1	1	6	1	3					RCB210921	26.4	33.8	6.81	102.2	8.24	4.23	4.61	4.36	4.40	0.044				N	0	4	0	
+yes	yes	yes	no	no	94	R2RS	KAL	MB	YM	CG	RWA	RWA210921	2021	Wahikuli	2021-09-21	9:48	1	1	6	1	3					RWA210921	26.6	34.4	6.46	97.6	8.21	2.07	2.25	2.10	2.14	0.045				N	0	4	0	
