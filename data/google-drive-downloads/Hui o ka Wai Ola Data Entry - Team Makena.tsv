@@ -348,3 +348,19 @@ yes	yes	yes	yes	no	69	Makena/Wailea	NMS	NS	BS	AW	KCP	KCP210915		Cove Park	2021-0
 yes	yes	yes	no	no	69	Makena/Wailea	NMS	NS	BS	AW	MMB	MMB210915		S Maluaka Beach	2021-09-15	9:47	1	3	3	1	3					MMB210915	27.3	35.4	6.29	97.1	8.15	0.91	1.27	0.86	1.01	0.221				N	16	14	0	
 yes	yes	yes	no	no	69	Makena/Wailea	NMS	NS	BS	AW	MAN	MAN210915		Ahihi North	2021-09-15	10:05	1	3	3	1	3					MAN210915	26.8	35.5	8.63	107.9	8.16	1.17	1.24	1.21	1.21	0.029				N	4	3	0	
 yes	yes	yes	no	no	69	Makena/Wailea	NMS	NS	BS	AW	MAS	MAS210915		Ahihi South	2021-09-15	10:25	1	3	3	1	3					MAS210915	26.7	35.6	6.65	101.6	8.15	0.90	0.87	0.95	0.91	0.045				N	7	13	0	
+yes	yes	yes	no	no	70	Makena/Wailea	NMS	NS	AW		KCP	KCP211006		Cove Park	2021-10-06	8:55	2	2	4	2	2					KCP211006	26.3	33.2	6.39	95.2	8.09	12.10	12.80	9.63	11.51	0.145				N	0	0	2	Dog in H2O at collection area. Beach side campsite. 
+yes	yes	yes	no	no	70	Makena/Wailea	NMS	NS	AW		MMB	MMB211006		S Maluaka Beach	2021-10-06	9:30	2	2	4	2	2					MMB211006	26.5	35.6	6.29	95.7	8.14	1.93	2.20	2.96	2.36	0.226				N	12	12	0	short break 3'
+yes	yes	yes	no	no	70	Makena/Wailea	NMS	NS	AW		MAN	MAN211006		Ahihi North	2021-10-06	9:50	2	2	4	2	2					MAN211006	26.2	35.7	6.83	103.2	8.12	1.03	1.99	1.63	1.55	0.313				N	2	4	0	Wanted to calibrate Turb. #2 on 10/6/21 because 16 NTU difference between high standard but calibration standards at WM lab. 
+yes	yes	yes	no	no	70	Makena/Wailea	NMS	NS	AW		MAS	MAS211006		Ahihi South	2021-10-06	10:05	2	2	4	2	2					MAS211006	26.0	35.5	6.51	98.3	8.14	2.27	2.18	1.99	2.15	0.067				N	13	9	0	
+yes	yes	yes	no	no	71	Makena/Wailea	NMS	AW	BS	MS	KCP	KCP211027		Cove Park	2021-10-27	8:30	1	2	4	1	3					KCP211027	26.3	34.9	6.01	90.4	8.15	2.86	2.34	3.01	2.74	0.128				N	0	5	2	2 dogs swimming. 
+yes	yes	yes	no	no	71	Makena/Wailea	NMS	AW	BS	MS	MMB	MMB211027		S Maluaka Beach	2021-10-27	8:55	1	2	4	1	3					MMB211027	26.7	35.8	6.37	97.0	8.19	0.68	0.56	0.56	0.60	0.115				N	3	16	0	Calm and clear water at all sites. 
+yes	yes	yes	no	no	71	Makena/Wailea	NMS	AW	BS	MS	MAN	MAN211027		Ahihi North	2021-10-27	9:20	1	2	4	1	3					MAN211027	26.5	35.8	6.71	102.0	8.17	0.63	0.66	0.71	0.67	0.061				N	0	2	0	Nancy accidentally signed in my "Team Lead" place. 
+yes	yes	yes	no	no	71	Makena/Wailea	NMS	AW	BS	MS	MAS	MAS211027		Ahihi South	2021-10-27	9:40	1	2	4	1	3					MAS211027	26.5	35.8	6.38	96.9	8.18	0.78	0.55	0.50	0.61	0.245				N	9	5	0	
+yes	yes	yes	no	no	72	Makena/Wailea	NMS	AW	BS	MS	KCP	KCP211117		Cove Park	2021-11-17	8:30	2	2	4	2	2					KCP211117	26.5	32.3	5.99	89.2	8.08	3.19	2.84	2.97	3.00	0.059				N	0	0	yes	2 dogs in H2O. Fish campers at shore = permanent site. 4th reading: 3.19
+yes	yes	yes	no	no	72	Makena/Wailea	NMS	AW	BS	MS	MMB	MMB211117		S Maluaka Beach	2021-11-17	9:10	2	2	4	2	2					MMB211117	26.7	35.2	6.51	99.0	8.16	0.63	0.58	0.68	0.63	0.079				N	4	16	0	
+yes	yes	yes	no	no	72	Makena/Wailea	NMS	AW	BS	MS	MAN	MAN211117		Ahihi North	2021-11-17	9:20	2	2	4	2	2					MAN211117	26.8	34.6	7.62	115.6	8.12	2.44	2.86	2.24	2.51	0.126				N	6	12	0	
+yes	yes	yes	no	no	72	Makena/Wailea	NMS	AW	BS	MS	MAS	MAS211117		Ahihi South	2021-11-17	9:42	2	2	4	2	2					MAS211117	26.9	34.4	6.54	99.4	8.09	0.84	0.88	0.81	0.84	0.042				N	7	5	0	
+yes	yes	yes	no	no	73	Makena/Wailea	NMS	BS	MS		KCP	KCP211215		Cove Park	2021-12-15	8:45	1	2	4	1	3					KCP211215	25.2	33.6	5.58	81.8	8.10	3.94	3.09	4.19	3.74	0.154				N	1	0	2	When do gel standards expire?
+yes	yes	yes	no	no	73	Makena/Wailea	NMS	BS	MS		MMB	MMB211215		S Maluaka Beach	2021-12-15	9:19	1	2	4	1	3					MMB211215	24.9	35.0	6.55	96.3	8.14	1.49	1.85	2.39	1.91	0.237				N	9	4	0	
+yes	yes	yes	no	no	73	Makena/Wailea	NMS	BS	MS		MAN	MAN211215		Ahihi North	2021-12-15	9:40	1	2	4	1	3					MAN211215	25.1	35.0	7.59	111.9	8.12	1.86	2.00	1.94	1.93	0.036				N	6	0	0	
+yes	yes	yes	no	no	73	Makena/Wailea	NMS	BS	MS		MAS	MAS211215		Ahihi South	2021-12-15	10:03	1	2	4	1	3					MAS211215	25.6	35.0	6.50	96.8	8.09	1.00	1.18	1.18	1.12	0.093				N	4	9	0	
