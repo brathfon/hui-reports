@@ -771,7 +771,7 @@ var initResultAttributes = function(data, callback) {
     sampleCollectionMethodID : SAMPLE_COLLECTION_METHOD_ID,
     sampleCollectionEquipmentName : WATER_BOTTLE,
     sampleCollectionEquipmentComment : "",
-    resultAnalyticalMethodID : "366",
+    resultAnalyticalMethodID : "366.0",
     resultAnalyticalMethodIDContext : USEPA
   };
 
