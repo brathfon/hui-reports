@@ -437,6 +437,11 @@ var isEmptyInsituData = function (sample) {
 };
 
 
+var isEmptyInsituAndNutrientData = function (sample) {
+  return (isEmptyInsituData(sample) && isEmptyNutrientData(sample));
+}
+
+
 var calculateAvgTurbidity = function (sample) {
 
   // if the turbidity has been QAed out, it might have #N/A as its value
@@ -939,6 +944,30 @@ var createFileContentFromList = function (samples, ignoreNoNutrientSamples) {
 }
 
 
+// This function creates the file for deleting activities, which then in turn deletes the results with that activity.
+// There have only been a few occassions when full samples sets are removed from Google Sheets, but it has happened
+// when a problem has been discovered and the whole set QAed out.
+
+var createDeleteFileContentFromList = function (samples, ignoreNoNutrientSamples) {
+
+  console.log("In createDeleteFileContent From List");
+
+  console.log("samples " + util.inspect(samples , false, null));
+
+  // start with the header
+  let fileContent = "Activity ID\n";  // first line is like a column header
+
+  let count = 0;
+  // Each sample coming from the spread sheets will result in a row for the WQX data file
+  for (let i = 0; i < samples.length; ++i) {
+    console.log(`Activity ID of an activity to delete ${samples[i]['Activity_ID']}`);
+    fileContent += samples[i]['Activity_ID'];
+
+  }
+  return fileContent;
+}
+
+
 /* get the full file path for the file that has data for all the labs */
 var getFilePath = function (data, newOrExisting) {
   let thePath = path.join(data.directoryForFiles, data.basenameForFiles);
@@ -1012,7 +1041,7 @@ var createTSVfileForImport = function (data, callback) {
     //console.dir(data.samplesInCommonButDiffer);
     //console.dir(Object.keys(data.samplesInCommonButDiffer));
     let filePath = getFilePath(data, 'delete');
-    writeFile(filePath, createFileContentFromList(Object.values(data.samplesToDeleteKV).sort(sortAscendingByDateAndTime), data.ignoreNoNutrientSamples));
+    writeFile(filePath, createDeleteFileContentFromList(Object.values(data.samplesToDeleteKV)));
     diffingStoret = true;
   }
 
@@ -1294,7 +1323,13 @@ var compareGStoWQXSample = function(data, callback) {
     for (let gsSampleID in data.gsSamplesKV) {
       if (data.wqxSamplesKV[gsSampleID]) {
         inCommon[gsSampleID] = data.gsSamplesKV[gsSampleID];
-        if ( googleSheetsAndWQXSampleDiffer(data.gsSamplesKV[gsSampleID], data.wqxSamplesKV[gsSampleID]) ) {
+        // there is a special case to catch here, which is when a sample was totally QAed out but not deleted from GS spread sheet
+        // in this case it will have time and date information, but all the initu data will be blank, along with the nutrient data
+        if (isEmptyInsituAndNutrientData(data.gsSamplesKV[gsSampleID])) {
+          console.log(`Found empty sample in Google Sheets for sampleID ${gsSampleID}. Will add to sample to be removed in WQX.`);
+          onlyInWQX[gsSampleID] = data.wqxSamplesKV[gsSampleID];
+        }
+        else if ( googleSheetsAndWQXSampleDiffer(data.gsSamplesKV[gsSampleID], data.wqxSamplesKV[gsSampleID]) ) {
           console.log(`DIFFER`);
           console.dir(data.gsSamplesKV[gsSampleID]);
           console.dir( data.wqxSamplesKV[gsSampleID]);
