@@ -1,16 +1,13 @@
 #!/bin/bash
 
 # run to check
-#wqxFileDir=20221115b-wqx-3rd-quarter-2022-post-load
-#basename=3rd-quarter-2022-check-load-temp
+wqxFileDir=20230217b-wqx-4th-quarter-2022-post-load
+basename=4th-quarter-2022-check-load-temp
 
-# run to check after fixing 3rd quarter delete issue
-wqxFileDir=20221226a-wqx-fix-delete-problems-post-load
-basename=3rd-quarter-2022-check-load-after-delete-fix-temp
 
 # run to create
-#wqxFileDir=20221115a_wqx-3rd-quarter-2022-sync-prep
-#basename=20221115-add-3rd-quarter-2022-0
+#wqxFileDir=20230217a-wqx-4th-quarter-2022-sync-prep
+#basename=20230217-add-4th-quarter-2022-0
 
 ./create-wqx-activities-and-results.js  \
     -o ./load-files  \
