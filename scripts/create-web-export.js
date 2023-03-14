@@ -854,6 +854,9 @@ var printLookupData = function (data, callback) {
   console.log("Report Constants Data:");
   console.log(util.inspect(data.reportConstantsData, false, null));
 
+  console.log("");
+  console.log("Report QA Comments Data:");
+  console.log(util.inspect(data.reportQACommentsData, false, null));
 
   console.log("");
   console.log("Area to Report Region");
