@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # run to check
-wqxFileDir=20230217b-wqx-4th-quarter-2022-post-load
-basename=4th-quarter-2022-check-load-temp
+wqxFileDir=20230509b-wqx-1st-quarter-2023-post-load
+basename=1st-quarter-2023-check-load-temp
 
 
 # run to create
-#wqxFileDir=20230217a-wqx-4th-quarter-2022-sync-prep
-#basename=20230217-add-4th-quarter-2022-0
+#wqxFileDir=20230509a-wqx-1st-quarter-2023-sync-prep
+#basename=20230509-add-1st-quarter-2023-0
 
 ./create-wqx-activities-and-results.js  \
     -o ./load-files  \
