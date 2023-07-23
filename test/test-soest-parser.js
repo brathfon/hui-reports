@@ -21,7 +21,7 @@ console.dir(`arguments passed in ${util.inspect(argv, false, null)}`);
 
 
 const printUsage = function () {
-  console.log(`Usage: ${scriptname} --gsdir <Google sheets directory> --ndir <nutrient data directory`);
+  console.log(`Usage: ${scriptname} --ndir <nutrient data directory`);
 }
 
 
@@ -32,23 +32,8 @@ if (! (argv.n || argv.ndir )) {
 }
 
 
-if (! (argv.g || argv.gsdir )) {
-  console.log("ERROR: you must specify a google spread sheet directory for reading the exported data");
-  printUsage();
-  process.exit();
-}
-
-
-
-
 // this will be passed from function to function to gather results
 const data = {};
-
-if (argv.g)     data['googleSheetsDirectory']  = argv.g;
-if (argv.gsdir) data['googleSheetsDirectory']  = argv.gsdir;
-
-// the site information comes from a downloaded sheet of the google drive spreadsheet where the insitu data is recorded
-data['siteFile'] = data['googleSheetsDirectory'] + '/' + "Hui o ka Wai Ola Data Entry - Site Codes.tsv";
 
 if (argv.n)     data['nutrientDirectory']  = argv.n;
 if (argv.ndir)  data['nutrientDirectory']  = argv.ndir;

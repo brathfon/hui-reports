@@ -1,0 +1,87 @@
+{
+   readingSuccessful: true,
+   sheets: [
+      {
+         source: one-session-baseline-data/google-drive-downloads/Hui o ka Wai Ola Data Entry - Team Kamaole.tsv,
+         sheetLines: [
+           [yes,yes,yes,no,no,1,Kamaole,NMS,MB,AQ,DH,KWP,KWP171107,,Waipuilani Park,2017-11-07,8:20,1,1,1,1,1,19,0,0,Trades,KWP171107,26.1,33.7,5.47,81.5,8.19,8.31,7.70,8.58,8.20,0.055,,0,1,,0,0,2,],
+           [yes,yes,yes,no,no,1,Kamaole,NMS,MB,AQ,DH,KKS,KKS171107,,Kihei South,2017-11-07,9:05,1,1,1,1,1,19,0,0,Trades,KKS171107,26.8,34.7,5.97,90.5,8.22,5.14,5.12,5.25,5.17,0.014,,0,1,,2,8,0,],
+           [yes,yes,yes,no,no,1,Kamaole,NMS,MB,AQ,DH,KKP,KKP171107,,Kalama Park,2017-11-07,9:27,1,1,1,1,1,19,0,0,Trades,KKP171107,27.0,34.8,6.26,95.2,8.22,8.88,8.32,8.21,8.47,0.042,,2,1,,1,0,0,Turtles visible in the water],
+           [yes,yes,yes,no,no,1,Kamaole,NMS,MB,AQ,DH,KCP,KCP171107,,Cove park,2017-11-07,9:55,1,1,1,1,1,19,0,0,Trades,KCP171107,26.9,34.3,6.24,94.5,8.24,1.31,0.98,1.08,1.12,0.151,,0,1,,20+,1,0,],
+           [yes,yes,yes,no,no,1,Kamaole,NMS,MB,AQ,DH,KKO,KKO171107,,Kamaole Beach I,2017-11-07,10:23,1,1,1,1,1,19,0,0,Trades,KKO171107,27.7,35.0,6.44,98.7,8.27,0.97,0.91,1.11,1.00,0.103,,0,0,,20+,20+,0,],
+           [yes,yes,yes,no,no,1,Kamaole,NMS,MB,AQ,DH,KKT,KKT171107,,Kamaole Beach III,2017-11-07,10:50,1,1,1,1,1,19,0,0,Trades,KKT171107,28.0,35.6,6.36,98.9,8.26,1.10,1.43,1.22,1.25,0.134,,0,1,,20+,20+,0,]
+         ]
+      }
+      {
+         source: one-session-baseline-data/google-drive-downloads/Hui o ka Wai Ola Data Entry - Team Makena.tsv,
+         sheetLines: [
+           [yes,yes,yes,no,no,1,Makena,NMS,SF,AW,TW,MML,MML171108,,Makena Landing,2017-11-08,8:30,1,1,1,1,1,20,6,1,Trades,MML171108,26.7,35.2,6.45,97.8,8.26,1.41,1.48,1.44,1.44,0.024,,1,0,,2,0,0,],
+           [yes,yes,yes,no,no,1,Makena,NMS,SF,AW,TW,MMB,MMB171108,,Maluaka Beach,2017-11-08,8:52,1,1,1,1,1,20,6,1,Trades,MMB171108,26.9,35.4,6.43,98.1,8.28,0.60,0.61,0.64,0.62,0.034,,1,0,,7,5,0,],
+           [yes,yes,yes,no,no,1,Makena,NMS,SF,AW,TW,MON,MON171108,,Oneuli,2017-11-08,9:27,1,1,1,1,1,20,6,1,Trades,MON171108,26.8,35.5,6.07,92.5,8.19,1.13,1.11,1.22,1.15,0.051,,1,0,,0,1,0,],
+           [yes,yes,yes,no,no,1,Makena,NMS,SF,AW,TW,MBS,MBS171108,,Makena Beach Shoreline,2017-11-08,9:57,1,1,1,1,1,20,6,1,Trades,MBS171108,26.7,35.4,6.55,99.5,8.26,0.71,0.71,0.75,0.72,0.032,,2,0,,2,6,0,]
+         ]
+      }
+      {
+         source: one-session-baseline-data/google-drive-downloads/Hui o ka Wai Ola Data Entry - Team North Kihei.tsv,
+         sheetLines: [
+           [yes,yes,yes,no,no,8,North Kihei,NMS,KT,BC,NG,NHP,NHP180222,,Haycraft Park,2018-02-22,8:30,2,2,2,2,2,8,8,0,0,NHP180222,24.4,34.7,6.70,97.5,8.14,6.05,6.02,6.09,6.05,0.006,,0.5,0,,0,9,0,],
+           [yes,yes,yes,no,no,8,North Kihei,NMS,KT,BC,NG,NKP,NKP180222,,Kealia Pond,2018-02-22,9:00,2,2,2,2,2,8,8,0,0,NKP180222,24.4,35.7,6.84,100.0,8.18,3.55,3.63,4.06,3.75,0.073,,1,1,,0,7,0,],
+           [yes,yes,yes,no,no,8,North Kihei,NMS,KT,BC,NG,NSB,NSB180222,,Sugar Beach,2018-02-22,9:25,2,2,2,2,2,8,8,0,0,NSB180222,24.6,35.5,6.78,99.3,8.17,6.34,6.34,6.92,6.53,0.051,,0.5,1,,0,8,0,],
+           [yes,yes,yes,no,no,8,North Kihei,NMS,KT,BC,NG,NKC,NKC180222,,Kihei Canoe Club,2018-02-22,9:48,2,2,2,2,2,8,8,0,0,NKC180222,24.8,34.9,6.72,98.5,8.14,3.00,3.69,3.55,3.41,0.107,,0.5,0,,0,7,0,],
+           [yes,yes,yes,no,no,8,North Kihei,NMS,KT,BC,NG,NMP,NMP180222,,Mai Poina Oe Iau,2018-02-22,10:00,2,2,2,2,2,8,8,0,0,NMP180222,24.7,34.3,6.65,97.1,8.14,4.62,4.34,5.12,4.69,0.084,,0,0,,0,6,0,],
+           [yes,yes,yes,no,no,8,North Kihei,NMS,KT,BC,NG,NKN,NKN180222,,Kalepolepo North,2018-02-22,10:21,2,2,2,2,2,8,8,0,0,NKN180222,24.7,33.1,6.55,95.0,8.14,14.60,15.90,13.40,14.63,0.085,,0.5,1,,0,2,0,]
+         ]
+      }
+      {
+         source: one-session-baseline-data/google-drive-downloads/Hui o ka Wai Ola Data Entry - Team Olowalu.tsv,
+         sheetLines: [
+           [yes,yes,yes,no,no,1,Olowalu,LLHS,,,,OCO,OCO160616,2028,Camp Olowalu,2016-06-16,7:45,,,,,,,,,,OCO160616,25.3,29.3,6.86,101.2,7.96,23.30,23.30,23.30,23.30,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,Olowalu,LLHS,,,,OMM,OMM160616,2029,Mile Marker 14,2016-06-16,8:20,,,,,,,,,,OMM160616,25.4,27.7,6.61,97.8,7.91,5.48,5.48,5.48,5.48,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,Olowalu,LLHS,,,,OUB,OUB160616,2032,Ukumehame,2016-06-16,9:17,,,,,,,,,,OUB160616,25.2,28.1,7.00,103.1,8.06,16.87,16.87,16.87,16.87,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,Olowalu,LLHS,,,,OPB,OPB160616,2033,Papalaua Beach,2016-06-16,9:40,,,,,,,,,,OPB160616,25.6,28.0,7.10,105.2,8.08,10.71,10.71,10.71,10.71,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,Olowalu,LLHS,,,,OPP,OPP160616,2034,Papalaua Pali,2016-06-16,10:00,,,,,,,,,,OPP160616,26.0,36.0,7.01,104.6,8.07,5.37,5.37,5.37,5.37,0.000,,,,,,,,]
+         ]
+      }
+      {
+         source: one-session-baseline-data/google-drive-downloads/Hui o ka Wai Ola Data Entry - Team Polanui.tsv,
+         sheetLines: [
+           [yes,yes,yes,no,no,1,Polanui,LLHS,,,,PFF,PFF160615,2022,505 Front St,2016-06-15,7:37,,,,,,,,,,PFF160615,26.7,27.8,6.27,94.7,8.05,2.89,2.89,2.89,2.89,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,Polanui,LLHS,,,,PLH,PLH160615,2023,Lindsey Hale,2016-06-15,8:28,,,,,,,,,,PLH160615,26.8,28.1,6.57,99.6,7.99,2.80,2.80,2.80,2.80,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,Polanui,LLHS,,,,PLT,PLT160615,2024,Lahaina Town,2016-06-15,8:59,,,,,,,,,,PLT160615,27.2,28.2,6.72,102.4,8.09,2.91,2.91,2.91,2.91,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,Polanui,LLHS,,,,OSF,OSF160615,2027,Olowalu Pier,2016-06-15,10:42,,,,,,,,,,OSF160615,27.4,29.6,6.94,106.1,8.11,1.19,1.19,1.19,1.19,0.000,,,,,,,,]
+         ]
+      }
+      {
+         source: one-session-baseline-data/google-drive-downloads/Hui o ka Wai Ola Data Entry - Team R2RN.tsv,
+         sheetLines: [
+           [yes,yes,yes,no,no,23,R2RN,LLHS,,,,RHL,RHL170623,2001,Honolua Bay,2017-06-23,7:25,,,,,,,,,,RHL170623,25.5,33.3,5.80,85.6,8.08,0.93,0.93,0.93,0.93,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,23,R2RN,LLHS,,,,RMO,RMO170623,2002,Mokuleia,2017-06-23,8:05,,,,,,,,,,RMO170623,26.0,32.3,6.56,97.2,8.18,2.18,2.18,2.18,2.18,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,23,R2RN,LLHS,,,,RFN,RFN170623,2003,Fleming North,2017-06-23,8:40,,,,,,,,,,RFN170623,26.4,33.8,6.44,96.8,8.13,1.40,1.40,1.40,1.40,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,23,R2RN,LLHS,,,,RON,RON170623,2004,Oneloa Bay,2017-06-23,9:14,,,,,,,,,,RON170623,26.7,34.2,6.72,102.0,8.20,0.43,0.43,0.43,0.43,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,23,R2RN,LLHS,,,,RFS,RFS170623,2005,Kapalua Bay,2017-06-23,9:50,,,,,,,,,,RFS170623,26.3,31.7,6.50,96.4,8.08,1.22,1.22,1.22,1.22,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,23,R2RN,LLHS,,,,RKO,RKO170623,2008,Ka'opala Bay,2017-06-23,10:20,,,,,,,,,,RKO170623,26.7,33.1,6.59,99.2,8.10,8.26,8.26,8.26,8.26,0.000,,,,,,,,]
+         ]
+      }
+      {
+         source: one-session-baseline-data/google-drive-downloads/Hui o ka Wai Ola Data Entry - Team R2RS.tsv,
+         sheetLines: [
+           [yes,yes,yes,no,no,1,R2RS,LLHS,,,,RPO,RPO160614,2010,Pohaku,2016-06-14,8:03,,,,,,,,,,RPO160614,25.7,33.3,6.86,102.1,8.11,13.90,13.90,13.90,13.90,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,R2RS,LLHS,,,,RKS,RKS160614,2071,Kaanapali Shores,2016-06-14,8:37,,,,,,,,,,RKS160614,24.9,23.8,6.86,100.6,8.07,16.80,16.80,16.80,16.80,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,R2RS,LLHS,,,,RAB,RAB160614,2017,Airport Beach,2016-06-14,9:15,,,,,,,,,,RAB160614,26.8,35.0,6.72,101.6,8.06,2.62,2.62,2.62,2.62,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,R2RS,LLHS,,,,RCB,RCB160614,2020,Canoe Beach,2016-06-14,9:50,,,,,,,,,,RCB160614,27.2,34.7,6.78,103.5,8.06,5.86,5.86,5.86,5.86,0.000,,,,,,,,],
+           [yes,yes,yes,no,no,1,R2RS,LLHS,,,,RWA,RWA160614,2021,Wahikuli,2016-06-14,10:24,,,,,,,,,,RWA160614,27.3,34.6,6.66,101.8,8.15,3.47,3.47,3.47,3.47,0.000,,,,,,,,]
+         ]
+      }
+      {
+         source: one-session-baseline-data/google-drive-downloads/Hui o ka Wai Ola Data Entry - Team Wailea.tsv,
+         sheetLines: [
+           [yes,yes,yes,no,no,8,Wailea,NMS,HH,DM,JJ,WKD,WKD180223,,Kilohana Dr,2018-02-23,8:05,2,2,2,2,2,9,7,2,Trades,WKD180223,24.3,35.7,6.87,100.5,8.18,0.68,0.73,0.73,0.71,0.040,,1,0,,2,20,0,],
+           [yes,yes,yes,no,no,8,Wailea,NMS,HH,DM,JJ,WKB,WKB180223,,Keawakapu Beach,2018-02-23,8:42,2,2,2,2,2,9,7,2,Trades,WKB180223,24.6,35.6,6.87,100.9,8.16,0.87,0.96,0.98,0.94,0.063,,1,0,,8,25,0,],
+           [yes,yes,yes,no,no,8,Wailea,NMS,HH,DM,JJ,WUL,WUL180223,,Ulua Beach,2018-02-23,9:15,2,2,2,2,2,9,7,2,Trades,WUL180223,24.9,35.3,6.92,102.1,8.16,1.45,1.65,1.58,1.56,0.065,,1,1,,30,35,0,],
+           [yes,yes,yes,no,no,8,Wailea,NMS,HH,DM,JJ,WWA,WWA180223,,Wailea Beach,2018-02-23,9:47,2,2,2,2,2,9,7,2,Trades,WWA180223,24.9,35.7,6.90,101.9,8.17,1.52,1.63,1.64,1.60,0.042,,2,1,,14,60,0,],
+           [yes,yes,yes,no,no,8,Wailea,NMS,HH,DM,JJ,WPL,WPL180223,,Palauea Beach,2018-02-23,10:19,2,2,2,2,2,9,7,2,Trades,WPL180223,24.7,35.7,6.91,101.5,8.17,1.85,2.22,2.29,2.12,0.112,,3,1,,3,11,0,],
+           [yes,yes,no,no,no,8,Wailea,NMS,HH,DM,JJ,WPO,WPO180223,,Poolenalena Beach,2018-02-23,10:40,2,2,2,2,2,9,7,2,Trades,WPO180223,24.9,35.6,6.90,101.7,8.20,0.60,0.63,0.69,0.64,0.072,,3,1,,0,8,1,Sample not sent to SOEST lab]
+         ]
+      }
+   ]
+}

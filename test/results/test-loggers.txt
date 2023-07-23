@@ -1,8 +1,19 @@
 ERROR: This is an error
-WARN: This is a warning
+WARNING: This is a warning
 INFO: This is information
 DEBUG: This is debug, and you should see me
 VERBOSE: This is vebosity, and you should see me
 -- ERROR: This is an error with sql comments added
--- WARN: This is a warning with sql comments added
+-- WARNING: This is a warning with sql comments added
 -- INFO: This is information with sql comments added
+[
+  [ 1688668033752, 'ERROR', 'This is an error' ],
+  [ 1688668033752, 'WARNING', 'This is a warning' ],
+  [ 1688668033752, 'INFO', 'This is information' ],
+  [ 1688668033752, 'DEBUG', 'This is debug, and you should see me' ],
+  [
+    1688668033752,
+    'VERBOSE',
+    'This is vebosity, and you should see me'
+  ]
+]

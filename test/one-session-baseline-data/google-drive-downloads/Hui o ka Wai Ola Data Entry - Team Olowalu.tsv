@@ -1,0 +1,8 @@
+Copied to main database by Kim/Bill 	Checked by Dana	yes/no	yes/no	yes/no	#	R2RS, R2RN, Polanui, Olowalu	LLHS	initials	initials	initials	RCB	RCB031717	2062	Canoe Beach	03/17/17	12:00										RCB031717	deg C	ppt	mg/L	%								0, 1, 2, 3, 4	0-8	0-5	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	
+		Nut_Sample	Nut_Dup	Sed_Sample	Session	Team	Lab	Sampler	Sampler2	Sampler3	Station	SampleID	Location	SiteName	Date	Time	40D#	2100Q#	pHInst#	DOInst#	SalInst#	Moon	Cloud_1_8	Rain_1_4	Wind_dir	SampleID2	Temp	Salinity	DO	DO%	pH	Turb1	Turb2	Turb 3	Average Turbidity	CV Turbidity		Waves	Wind	Stream	Swimmers	On Beach	Campers	Comments
+			Example:		26	R2RS	LLHS	CM	TF	MS	RCB	RCB170821	2020	Canoe Beach	2017-08-21	9:22:00	1	1	4	2	3	1	7	2		RCB170821	27.0	33.1	6.92	104.4	8.18	5.78	5.86	6.03	Calculated	Calculated		1	0		1	20		
+yes	yes	yes	no	no	1	Olowalu	LLHS				OCO	OCO160616	2028	Camp Olowalu	2016-06-16	7:45										OCO160616	25.3	29.3	6.86	101.2	7.96	23.30	23.30	23.30	23.30	0.000								
+yes	yes	yes	no	no	1	Olowalu	LLHS				OMM	OMM160616	2029	Mile Marker 14	2016-06-16	8:20										OMM160616	25.4	27.7	6.61	97.8	7.91	5.48	5.48	5.48	5.48	0.000								
+yes	yes	yes	no	no	1	Olowalu	LLHS				OUB	OUB160616	2032	Ukumehame	2016-06-16	9:17										OUB160616	25.2	28.1	7.00	103.1	8.06	16.87	16.87	16.87	16.87	0.000								
+yes	yes	yes	no	no	1	Olowalu	LLHS				OPB	OPB160616	2033	Papalaua Beach	2016-06-16	9:40										OPB160616	25.6	28.0	7.10	105.2	8.08	10.71	10.71	10.71	10.71	0.000								
+yes	yes	yes	no	no	1	Olowalu	LLHS				OPP	OPP160616	2034	Papalaua Pali	2016-06-16	10:00										OPP160616	26.0	36.0	7.01	104.6	8.07	5.37	5.37	5.37	5.37	0.000								

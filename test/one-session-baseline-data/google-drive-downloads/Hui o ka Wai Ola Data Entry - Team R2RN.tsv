@@ -1,0 +1,9 @@
+Copied to main database by Kim/Bill 	Checked by Dana	yes/no	yes/no	yes/no	#	R2RS, R2RN, Polanui, Olowalu	LLHS	initials	initials	initials	RCB	RCB031717	2062	Canoe Beach	03/17/17	12:00											deg C	ppt	mg/L	%								0, 1, 2, 3, 4	0-8	0-5	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	0, 1, 5, 10, 20+	
+		Nut_Sample	Nut_Dup	Sed_Sample	Session	Team	Lab	Sampler	Sampler2	Sampler3	Station	SampleID	Location	SiteName	Date	Time	40D#	2100Q#	pHInst#	DOInst#	SalInst#	Moon	Cloud_1_8	Rain_1_4	Wind_dir	SampleID2	Temp	Salinity	DO	DO%	pH	Turb1	Turb2	Turb3	Average Turbidity	CV Turbidity		Waves	Wind	Stream	Swimmers	On Beach	Campers	Comments
+			Example:		26	R2RS	LLHS	CM	TF	MS	RCB	RCB170821	2020	Canoe Beach	2017-08-21	9:22:00	1	1	4	2	3	1	7	2		RCB170821	27.0	33.1	6.92	104.4	8.18	5.78	5.86	6.03	Calculated	Calculated		1	0		1	20		
+yes	yes	yes	no	no	23	R2RN	LLHS				RHL	RHL170623	2001	Honolua Bay	2017-06-23	7:25										RHL170623	25.5	33.3	5.80	85.6	8.08	0.93	0.93	0.93	0.93	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RMO	RMO170623	2002	Mokuleia	2017-06-23	8:05										RMO170623	26.0	32.3	6.56	97.2	8.18	2.18	2.18	2.18	2.18	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RFN	RFN170623	2003	Fleming North	2017-06-23	8:40										RFN170623	26.4	33.8	6.44	96.8	8.13	1.40	1.40	1.40	1.40	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RON	RON170623	2004	Oneloa Bay	2017-06-23	9:14										RON170623	26.7	34.2	6.72	102.0	8.20	0.43	0.43	0.43	0.43	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RFS	RFS170623	2005	Kapalua Bay	2017-06-23	9:50										RFS170623	26.3	31.7	6.50	96.4	8.08	1.22	1.22	1.22	1.22	0.000								
+yes	yes	yes	no	no	23	R2RN	LLHS				RKO	RKO170623	2008	Ka'opala Bay	2017-06-23	10:20										RKO170623	26.7	33.1	6.59	99.2	8.10	8.26	8.26	8.26	8.26	0.000								
