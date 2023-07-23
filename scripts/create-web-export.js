@@ -68,6 +68,8 @@ if (argv.gsdir) data['googleSheetsDirectory']  = argv.gsdir;
 // the site information comes from a downloaded sheet of the google drive spreadsheet where the insitu data is recorded
 data['siteFile'] = data['googleSheetsDirectory'] + '/' + "Hui o ka Wai Ola Data Entry - Site Codes.tsv";
 data['reportConstantsFile'] = data['googleSheetsDirectory'] + '/' + "Hui o ka Wai Ola Data Entry - Report Constants.tsv";
+data['reportQACommentsFile'] = data['googleSheetsDirectory'] + '/' + "Hui o ka Wai Ola Data Entry - Report QA Comments.tsv";
+
 
 if (argv.n)     data['nutrientDirectory']  = argv.n;
 if (argv.ndir)  data['nutrientDirectory']  = argv.ndir;
@@ -87,6 +89,8 @@ var rss    = require('../lib/readSpreadSheets');
 var rnf    = require('../lib/readSoestFiles');
 var rrcf   = require('../lib/readReportConstantsFile');
 var rcp    = require('../lib/reportConstantsParser');
+var rrqacf = require('../lib/readReportQACommentsFile');
+var rrqacp = require('../lib/reportQACommentsParser');
 
 
 // this is mapping how the measurement or column names are stored in the structures as they are read
@@ -167,6 +171,23 @@ var getReportConstantsData = function (data, callback) {
 
 };
 
+
+var getReportQACommentsData = function (data, callback) {
+
+  console.log("In getReportQACommentsData");
+  data['reportQACommentsData'] = rrqacf.readFile(data.reportQACommentsFile, true); // 3rd arg is ignore first line
+
+  console.log("reportQACommentsData " + util.inspect(data.reportQACommentsData, false, null));
+
+  data['sampleIdToQAComments'] = rrqacp.getSampleIdToQAComments(data['reportQACommentsData']);
+
+  console.log("getSampleIdToQAComments " + util.inspect(data.sampleIdToQAComments, false, null));
+
+  if (callback) {
+    callback();
+  }
+
+};
 
 // return the latitude for this site. Set the precision of the value before returning
 // It is a critical error if there is a site called out that does data, so exit the program
@@ -650,9 +671,27 @@ var addMissingNutrientDataMsg = function(sample, msgObj) {
   }
 }
 
+const addOrOverrideQAComments = function(data, sample, msgObj){
+  if (data.sampleIdToQAComments[sample.SampleID]) {  // if the sample id of the sample matches one of the QA custom comments
+    if (data.sampleIdToQAComments[sample.SampleID]['append-or-override'] === 'Append') {
+       msgObj[data.sampleIdToQAComments[sample.SampleID]['comment']] = true;
+    }
+    else if (data.sampleIdToQAComments[sample.SampleID]['append-or-override'] === 'Override') {
+      // remove the keys from the current object, which are any other QA comments automatically generated
+       Object.keys(msgObj).forEach(function(key) {
+         delete msgObj[key];
+       });
+       msgObj[data.sampleIdToQAComments[sample.SampleID]['comment']] = true;
+    }
+    else {
+      console.error(`ERROR: unexpected value for append-or-override of ${data.sampleIdToQAComments[sample.SampleID]['append-or-override']}.`);
+      console.error(`ERROR: SampleID is ${sample.SampleID}. exiting .....`);
+      process.exit(1);
+    }
+  }
+};
 
-
-var createReportFromList = function (samples, ignoreNoNutrientSamples) {
+var createReportFromList = function (data, samples, ignoreNoNutrientSamples) {
 
   console.log("In createReport From List");
 
@@ -721,6 +760,8 @@ var createReportFromList = function (samples, ignoreNoNutrientSamples) {
 
       addMissingNutrientDataMsg(samples[i], issueDescriptions);
 
+      addOrOverrideQAComments(data, samples[i], issueDescriptions);
+
       row += descriptionObjToString(issueDescriptions);
 
       // finish the row
@@ -778,12 +819,12 @@ var createReports = function (data, callback) {
   console.log("Creating report for all samples");
 
   let filePath = getFilePathForAllAreas(data);
-  writeFile(filePath, createReportFromList(data.sortedSamples, data.ignoreNoNutrientSamples));
+  writeFile(filePath, createReportFromList(data, data.sortedSamples, data.ignoreNoNutrientSamples));
 
   for (let reportRegion in data.samplesByReportRegion) {
      console.log("Creating report for report region " + reportRegion);
      filePath = getFilePathForGeoArea(data, reportRegion);
-     writeFile(filePath, createReportFromList(data.samplesByReportRegion[reportRegion], data.ignoreNoNutrientSamples));
+     writeFile(filePath, createReportFromList(data, data.samplesByReportRegion[reportRegion], data.ignoreNoNutrientSamples));
      //if (fs.existsSync(filePath))
   }
 
@@ -818,6 +859,9 @@ var printLookupData = function (data, callback) {
   console.log("Report Constants Data:");
   console.log(util.inspect(data.reportConstantsData, false, null));
 
+  console.log("");
+  console.log("Report QA Comments Data:");
+  console.log(util.inspect(data.reportQACommentsData, false, null));
 
   console.log("");
   console.log("Area to Report Region");
@@ -982,6 +1026,7 @@ var filterSamplesByGeoArea = function(data, callback) {
 
 getSiteData(data, function () {
   getReportConstantsData(data, function () {
+    getReportQACommentsData(data, function () {
     readSpreadSheetData(data, function () {
       readNutrientData(data, function () {
         updateSamplesWithNutrientData(data, function () {
@@ -998,6 +1043,7 @@ getSiteData(data, function () {
           });
         });
       });
+    });
     });
   });
 });
