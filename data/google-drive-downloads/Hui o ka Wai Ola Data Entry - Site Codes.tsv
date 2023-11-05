@@ -20,7 +20,7 @@ HHP	Inactive	Hāna	Hana Pier		Hāna Pier			20.756083	-155.982167
 HHH	Inactive	Hāna	Helene Hall		Helene Hall			20.755472	-155.983222	
 PPU	Inactive	Polanui	Makila Point		Makila Point			20.859233	-156.669442	
 HMB	Inactive	Hāna	Mid Bay 2		Hāna Kai Resort			20.759806	-155.986611	
-OMM	Inactive	Olowalu to Pali	Mile Marker 14		Mile Marker 14			20.80915	-156.60661	
+OMM	Active	Olowalu to Pali	Mile Marker 14		Mile Marker 14			20.80915	-156.60661	
 HWB	Inactive	Hāna	Waikoloa Beach		Waikoloa Beach			20.761306	-155.985889	
 MAN	Active	Wailea-Mākena	Ahihi North	Ahihi Cove	ʻĀhihi Kīnaʻu North	740		20.618366	-156.437572	
 RFS	Active	Ridge to Reef	Kapalua Bay (Fleming S)	Fleming Beach (South)	Kapalua Bay	650		20.998924	-156.666746	
@@ -93,3 +93,7 @@ RKT	Active	Ridge to Reef	Kahekili Two	Kahekili/Airport 2	Kahekili Two	733		20.94
 		Pā‘ia			Pe‘ahi Shoreline		615	20.940953	-156.299172	
 		Pā‘ia			Sugar Cove		624	20.909661	-156.409156	
 		Waihe‘e-Waiehu			Wailuku Stream		629	20.910464	-156.484889	
+LMT	Active 	Lahaina Fire Response	Mala Tavern		Mala Tavern			20.887449	-156.685048	
+LMR	Active 	Lahaina Fire Response	Mala Ramp		Mala Ramp			20.885373	-156.686429	
+LPS	Active 	Lahaina Fire Response	Papalaua St. 		Pāpalaua St.			20.876911	-156.681359	
+LLH	Active 	Lahaina Fire Response	Lahaina Harbor		Lāhainā Harbor			20.871933	-156.678624	
