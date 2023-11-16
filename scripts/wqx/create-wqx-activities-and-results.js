@@ -12,7 +12,8 @@ const argv  = require('minimist')(process.argv.slice(2));
 var rsgs  = require('../../lib/readSiteGdriveSheet');
 var rss   = require('../../lib/readSpreadSheets');
 var rnf   = require('../../lib/readSoestFiles');
-var rrf   = require('../../lib/readWQXWebResultsFile');
+//var rrf   = require('../../lib/readWQXWebResultsFile');  // currently deprecated unless simpler ResultsExport.xlsx becomes available again from WQX
+var rrf   = require('../../lib/readWQXWebResultDetailFile');  // reads new 256 column ResultDetailExport file as of 11/6/23
 let log   = require('../../lib/logFormatter');
 
 const scriptname = path.basename(process.argv[1]);
