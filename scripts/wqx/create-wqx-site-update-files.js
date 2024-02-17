@@ -3,7 +3,7 @@
 
 // This script reads the site code sheet from gdrive and the csv version of the data in wqx web
 // from from the xcel spread sheet "MonitoringLocationsExport".
-  
+
 
 "use strict";
 
@@ -16,8 +16,9 @@ var rwwml = require('../../lib/readWQXWebMonitoringLocationsExport.js');
 const scriptname = path.basename(process.argv[1]);
 
 const printUsage = function () {
-  console.log(`Usage: ${scriptname} <tab delimited site code file> <WQX Web Monitoring Locations csv file> <directory to write report files> <basename for the files>`);
+  console.log(`Usage: ${scriptname} <tab delimited Site Codes sheet from Data Entry Spreadsheet> <tab delimited MonitoringLocationDetailExport.tsv from WQX> <directory to write report files> <basename for the files>`);
 }
+console.log(`arg count = ${process.argv.length}`);
 
 if (process.argv.length != 6 ) {
   printUsage();
@@ -57,7 +58,7 @@ var getWQXWebSiteData = function (data, callback) {
   console.log("In getWQXWebSiteData");
   data['wQXWebSites'] = rwwml.readWQXWebLocationsCsvFile(data.wqxWebSiteFile);
 
-  console.dir(data.wQXWebSites);
+  //console.dir(data.wQXWebSites);
 
   if (callback) {
     callback();
@@ -74,46 +75,13 @@ var readSiteGdriveData = function (data, callback) {
 
   data['gDriveSites'] = rsgs.readSiteGdriveSheet(data.gDriveSiteSheet);
 
-  console.dir(data.gDriveSites);
+  //console.dir(data.gDriveSites);
 
   if (callback) {
     callback();
   }
 
 };
-
-/*
-
-  Find the diffs in the sites.  Only interested in comparing a few of the attributes and
-  are using the site_id/Hui_ID is a the key.
-
-  from WQX
-  RNS: {
-    Organization_ID: 'HUIWAIOLA_WQX',
-    Monitoring_Location_ID: 'RNS',
-    Monitoring_Location_Name: 'Napili (south end)',
-    Monitoring_Location_Type: 'Ocean',
-    Latitude: '20.994222',
-    Longitude: '-156.667417',
-    Last_Changed: '05-23-2017 12:11:17 AM'
-  },
-
-   
-  from gDrive sheet
-  RNS: {
-    Hui_ID: 'RNS',
-    Status: 'Active',
-    Area: 'Ridge to Reef',
-    Site_Name: 'Napili',
-    Station_Name: 'Napili',
-    Display_Name: 'Napili Bay',
-    DOH_ID: '723',
-    Surfrider_ID: '',
-    Lat: '20.994222',
-    Long: '-156.667417',
-    Dates_Sampled: ''
-  },
-*/
 
 
 var writeFile = function (filePath, dataToWrite) {
@@ -132,7 +100,10 @@ var writeFile = function (filePath, dataToWrite) {
 };
 
 
+
 /*
+ example gDrive object:
+
  RKT: {
     Hui_ID: 'RKT',
     siteCode: 'RKT',
@@ -163,10 +134,44 @@ var gDriveSiteObjToString = function( obj, separator) {
     return  siteAsStr;
 };
 
+/*
+
+  Find the diffs in the sites.  Only interested in comparing a few of the attributes and
+  are using the site_id/Hui_ID is a the key.
+
+  from WQX
+  RNS: {
+    Organization_ID: 'HUIWAIOLA_WQX',
+    Monitoring_Location_ID: 'RNS',
+    Monitoring_Location_Name: 'Napili (south end)',
+    Monitoring_Location_Type: 'Ocean',
+    Latitude: '20.994222',
+    Longitude: '-156.667417',
+    Last_Changed: '05-23-2017 12:11:17 AM'
+  },
+
+
+  from gDrive sheet
+  RNS: {
+    Hui_ID: 'RNS',
+    Status: 'Active',
+    Area: 'Ridge to Reef',
+    Site_Name: 'Napili',
+    Station_Name: 'Napili',
+    Display_Name: 'Napili Bay',
+    DOH_ID: '723',
+    Surfrider_ID: '',
+    Lat: '20.994222',
+    Long: '-156.667417',
+    Dates_Sampled: ''
+  },
+*/
+
+
 var findDiffs = function (data, callback) {
 
   console.log("In findDiffs");
-   
+
   //console.dir(data.gDriveSites);
   //console.dir(data.wQXWebSites);
 
@@ -222,30 +227,58 @@ var findDiffs = function (data, callback) {
 
 
   let header = "Monitoring Location ID,Monitoring Location Name,Monitoring Location Latitude,Monitoring Location Longitude\n";
-  
-  // create the delete file
-  // put the data into a string with returns in between the site codes and write them to a file
-  writeFile(outputDir + '/' + outputBasename + '-delete-sites.csv', "Monitoring Location ID\n" + sitesToDelete.join("\n") + "\n");
-  
-  // write the sites to add file.
-  let sitesToAddStr = header;
-  let separator = ",";
-  for (let siteCode in sitesToAdd) {
-    sitesToAddStr += gDriveSiteObjToString(sitesToAdd[siteCode], separator);
-    sitesToAddStr += "\n";
-    
+
+  const numSitesToDelete = sitesToDelete.length;
+  const numSitesToAdd    = Object.keys(sitesToAdd).length;
+  const numSitesToUpdate = Object.keys(sitesToUpdate).length;
+
+  console.log(`Number of sites to delete : ${numSitesToDelete}`);
+  console.log(`Number of sites to add    : ${numSitesToAdd}`);
+  console.log(`Number of sites to update : ${numSitesToUpdate}`);
+
+  if (numSitesToDelete > 0 ) {
+    // create the delete file
+    // put the data into a string with returns in between the site codes and write them to a file
+    writeFile(outputDir + '/' + outputBasename + '-delete-sites.csv', "Monitoring Location ID\n" + sitesToDelete.join("\n") + "\n");
   }
-  writeFile(outputDir + '/' + outputBasename + '-add-sites.csv', sitesToAddStr);
+  else {
+    console.log("No delete gDriveSiteSheet file created");
+  }
+
+  if (numSitesToAdd > 0) {
+
+    // write the sites to add file.
+    let sitesToAddStr = header;
+    let separator = ",";
+    for (let siteCode in sitesToAdd) {
+      sitesToAddStr += gDriveSiteObjToString(sitesToAdd[siteCode], separator);
+      sitesToAddStr += "\n";
+
+    }
+    writeFile(outputDir + '/' + outputBasename + '-add-sites.csv', sitesToAddStr);
+  }
+  else {
+    console.log("No add sites file created");
+  }
 
 
-  // write the sites to update file.
-  let sitesToUpdateStr = header;
-  for (let siteCode in sitesToUpdate) {
-    sitesToUpdateStr += gDriveSiteObjToString(sitesToUpdate[siteCode], separator);
-    sitesToUpdateStr += "\n";
-    
+  if (numSitesToUpdate > 0) {
+
+    // write the sites to update file.
+    let sitesToUpdateStr = header;
+    let separator = ",";
+    for (let siteCode in sitesToUpdate) {
+      sitesToUpdateStr += gDriveSiteObjToString(sitesToUpdate[siteCode], separator);
+      sitesToUpdateStr += "\n";
+
+    }
+    writeFile(outputDir + '/' + outputBasename + '-update-sites.csv', sitesToUpdateStr);
   }
-  writeFile(outputDir + '/' + outputBasename + '-update-sites.csv', sitesToUpdateStr);
+  else {
+    console.log("No update sites file created");
+  }
+
+
 
 
 
@@ -263,4 +296,3 @@ getWQXWebSiteData(data, function () {
     findDiffs(data, null);
   });
 });
-

@@ -1,0 +1,1681 @@
+'arguments passed in [object Object]'
+'arguments passed in {\n' +
+  '  _: [],\n' +
+  "  odir: '../reports/web-export-quarterly-reports',\n" +
+  "  bname: '2023-4th-quarter.0',\n" +
+  "  gsdir: '../data/google-drive-downloads',\n" +
+  "  ndir: '../data/nutrient-data'\n" +
+  '}'
+In getSiteData
+In getReportConstantsData
+In getReportQACommentsData
+reportQACommentsData [
+  [
+    'NKP210311',
+    'Override',
+    "nutrient data QA'ed out, hold time 47 days"
+  ],
+  [
+    'RCB220906',
+    'Override',
+    "nutrient data QA'ed out, sample bottle contaminated"
+  ],
+  [
+    'RKS221108',
+    'Override',
+    "nutrient data QA'ed out, ambiguous sample ID"
+  ],
+  [
+    'RKT221108',
+    'Override',
+    "nutrient data QA'ed out, ambiguous sample ID"
+  ]
+]
+getSampleIdToQAComments {
+  NKP210311: {
+    'append-or-override': 'Override',
+    comment: "nutrient data QA'ed out, hold time 47 days"
+  },
+  RCB220906: {
+    'append-or-override': 'Override',
+    comment: "nutrient data QA'ed out, sample bottle contaminated"
+  },
+  RKS221108: {
+    'append-or-override': 'Override',
+    comment: "nutrient data QA'ed out, ambiguous sample ID"
+  },
+  RKT221108: {
+    'append-or-override': 'Override',
+    comment: "nutrient data QA'ed out, ambiguous sample ID"
+  }
+}
+In readSpreadSheetData
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MML180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MMB180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MON180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAN180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAS180912 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MML181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MMB181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MON181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAN181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAS181205 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MAS190522 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: MON200506 in Hui o ka Wai Ola Data Entry - Team Makena.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NHP180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NKP180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NSB180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NKC180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NMP180823 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NHP190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NKP190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NSB190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NKC190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: NMP190117 in Hui o ka Wai Ola Data Entry - Team North Kihei.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: OSF190807 in Hui o ka Wai Ola Data Entry - Team Polanui.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: OCO220209 in Hui o ka Wai Ola Data Entry - Team Polanui.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: OPP220209 in Hui o ka Wai Ola Data Entry - Team Polanui.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: OCO220727 in Hui o ka Wai Ola Data Entry - Team Polanui.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: OPP220727 in Hui o ka Wai Ola Data Entry - Team Polanui.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: PFF230816 in Hui o ka Wai Ola Data Entry - Team Polanui.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: PLH230816 in Hui o ka Wai Ola Data Entry - Team Polanui.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: PLT230816 in Hui o ka Wai Ola Data Entry - Team Polanui.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: RKO180720 in Hui o ka Wai Ola Data Entry - Team R2RN.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: RKV190607 in Hui o ka Wai Ola Data Entry - Team R2RN.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: RON200710 in Hui o ka Wai Ola Data Entry - Team R2RN.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: RFS200710 in Hui o ka Wai Ola Data Entry - Team R2RN.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: RHL230209 in Hui o ka Wai Ola Data Entry - Team R2RN.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WKD180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WKB180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WUL180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WPL180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- '' time is blank, which may be a uncollected sample, setting to NULL sample: WPO180824 in Hui o ka Wai Ola Data Entry - Team Wailea.tsv
+-- reading Soest file: MNMRC_180613_W.Maui.csv
+-- reading Soest file: MNMRC_180703_W.Maui.csv
+-- reading Soest file: MNMRC_180724_W.Maui.csv
+-- reading Soest file: MNMRC_180814_W.Maui.csv
+-- reading Soest file: MNMRC_180905_W.Maui.csv
+-- reading Soest file: MNMRC_180926_W.Maui.csv
+-- reading Soest file: MNMRC_181018_W.Maui.csv
+-- reading Soest file: MNMRC_181107_W.Maui.fixed.csv
+
+-- WARNING: Phosphate of 6.34 > TotalP of 6.31 from line OCO181101-N-1,11 TNC WEST,84.35,6.31,6.34,407.53,8.89,2.93,,
+-- reading Soest file: MNMRC_181212_W.Maui.csv
+-- reading Soest file: MNMRC_181812_W.Maui.csv
+-- reading Soest file: MNMRC_190115_W.Maui.csv
+-- reading Soest file: MNMRC_190206_W.Maui.csv
+-- reading Soest file: MNMRC_190227_W.Maui.fixed.csv
+-- reading Soest file: MNMRC_190320_W.Maui.csv
+-- reading Soest file: MNMRC_190416_W.Maui.csv
+-- reading Soest file: MNMRC_190501_W.Maui.csv
+-- reading Soest file: MNMRC_190523_W.Maui.csv
+-- reading Soest file: MNMRC_190613_W.Maui.csv
+-- reading Soest file: MNMRC_190703_W.Maui.csv
+-- reading Soest file: MNMRC_190724_W.Maui.csv
+-- reading Soest file: MNMRC_190813_W.Maui.csv
+-- reading Soest file: MNMRC_190904_W.Maui.csv
+-- reading Soest file: MNMRC_190924_W.Maui.csv
+-- reading Soest file: MNMRC_191015_W.Maui.csv
+-- reading Soest file: MNMRC_191105_W.Maui.csv
+-- reading Soest file: MNMRC_191127_W.Maui.csv
+-- reading Soest file: MNMRC_191212_W.Maui.csv
+-- reading Soest file: MNMRC_200115_W.Maui.csv
+-- reading Soest file: MNMRC_200205_W.Maui.csv
+-- reading Soest file: MNMRC_200225_W.Maui.csv
+-- reading Soest file: MNMRC_200319_W.Maui.csv
+-- reading Soest file: MNMRC_200520_W.Maui.csv
+-- reading Soest file: MNMRC_200624_W.Maui.csv
+-- reading Soest file: MNMRC_200716_W.Maui.csv
+-- reading Soest file: MNMRC_200806_W.Maui.csv
+-- reading Soest file: MNMRC_200827_W.Maui.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_200827_W.Maui.csv  line  31
+-- ERROR: found invalid ID King Tide Line -> |King Tide,,,,,,,,,,|
+-- reading Soest file: MNMRC_200916_W.Maui.csv
+-- reading Soest file: MNMRC_201007_W.Maui.csv
+-- reading Soest file: MNMRC_201029_W.Maui.csv
+-- reading Soest file: MNMRC_201119_W.Maui.csv
+-- reading Soest file: MNMRC_201216_W.Maui.csv
+-- reading Soest file: MNMRC_201222_W.Maui.csv
+-- reading Soest file: MNMRC_210121_W.Maui.csv
+-- reading Soest file: MNMRC_210211_W.Maui.csv
+-- reading Soest file: MNMRC_210311_W.Maui.csv
+-- reading Soest file: MNMRC_210401_W.Maui.csv
+-- reading Soest file: MNMRC_210429_W.Maui.csv
+-- reading Soest file: MNMRC_210513_W.Maui.csv
+-- reading Soest file: MNMRC_210610_W.Maui.csv
+-- reading Soest file: MNMRC_210617_W.Maui.csv
+-- reading Soest file: MNMRC_210708_2_W.Maui.csv
+-- reading Soest file: MNMRC_210729_W.Maui.csv
+-- reading Soest file: MNMRC_210817_W.Maui.csv
+-- reading Soest file: MNMRC_210914_W.Maui.csv
+-- reading Soest file: MNMRC_210930_W.Maui.csv
+-- reading Soest file: MNMRC_211019_W.Maui.csv
+-- reading Soest file: MNMRC_211109_W.Maui.csv
+-- reading Soest file: MNMRC_211207_W.Maui.csv
+-- reading Soest file: MNMRC_220104_W.Maui.csv
+-- reading Soest file: MNMRC_220125_W.Maui.csv
+-- reading Soest file: MNMRC_220216_W.Maui.csv
+-- reading Soest file: MNMRC_220308_W.Maui.csv
+-- reading Soest file: MNMRC_220329_W.Maui.csv
+-- reading Soest file: MNMRC_220419_W.Maui.csv
+-- reading Soest file: MNMRC_220511_W.Maui.csv
+-- reading Soest file: MNMRC_220602_W.Maui.csv
+-- reading Soest file: MNMRC_220623_W.Maui.csv
+-- reading Soest file: MNMRC_220713_W.Maui.csv
+-- reading Soest file: MNMRC_220804_W.Maui.csv
+-- reading Soest file: MNMRC_220824_W.Maui.csv
+-- reading Soest file: MNMRC_220915_W.Maui.csv
+-- reading Soest file: MNMRC_221005_W.Maui.csv
+-- reading Soest file: MNMRC_221026_112_W.Maui.csv
+-- reading Soest file: MNMRC_221116_113_W.Maui.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_221116_113_W.Maui.csv  line  17
+-- ERROR: found invalid ID *RKS* Line -> |*RKS*,A,80.52,8.63,3.99,96.76,6.57,3.16,,**NOTE: Bottles were labeled identically(see picture attached to email),,,|
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_221116_113_W.Maui.csv  line  18
+-- ERROR: found invalid ID *RKT* Line -> |*RKT*,B,82.36,6.69,2.87,174.66,5.67,0.37,,,,,|
+-- reading Soest file: MNMRC_221208_114_W.Maui.csv
+-- reading Soest file: MNMRC_221229_115_W.Maui.csv
+-- reading Soest file: MNMRC_230125_116_W.Maui.csv
+-- reading Soest file: MNMRC_230215_117_W.Maui.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_230215_117_W.Maui.csv  line  26
+-- ERROR: found invalid ID RHL221020-N-1-missing Line -> |RHL221020-N-1-missing,12,Missing Sample,,,,,,,,,,|
+-- reading Soest file: MNMRC_230307_118_W.Maui.csv
+-- reading Soest file: MNMRC_230329_119_W.Maui.csv
+-- reading Soest file: MNMRC_230419_120_W.Maui.csv
+-- reading Soest file: MNMRC_230510_121_W.Maui.csv
+-- reading Soest file: MNMRC_230531_122_W.Maui.csv
+-- reading Soest file: MNMRC_230621_123_W.Maui.csv
+-- reading Soest file: MNMRC_230712_124_W.Maui.csv
+-- reading Soest file: MNMRC_230802_125_W.Maui.csv
+-- reading Soest file: MNMRC_230821_126_W.Maui.csv
+-- reading Soest file: MNMRC_230906_126_1_WMFR.csv
+-- reading Soest file: MNMRC_230913_126_2_WMFR.csv
+-- reading Soest file: MNMRC_230921_127_3_WMFR.csv
+-- reading Soest file: MNMRC_230921_127_W.Maui.csv
+-- reading Soest file: MNMRC_230926_127_4_WMFR.csv
+-- reading Soest file: MNMRC_231010_128_W.Maui.csv
+-- reading Soest file: MNMRC_231010_128_WMFR.csv
+-- reading Soest file: MNMRC_231103_129_W.Maui.csv
+
+-- WARNING: Phosphate of 10.59 > TotalP of 10.46 from line RKO231026-N-1,14,134.21,10.46,10.59,721.59,62.91,2.72,,,,
+-- reading Soest file: MNMRC_231103_129_WMFR.csv
+-- reading Soest file: MNMRC_231121_130_W.Maui_corrected.csv
+-- reading Soest file: MNMRC_231213_131_W.Maui.csv
+-- reading Soest file: TNC_160616_W.Maui.fixed.csv
+-- reading Soest file: TNC_160630_W.Maui.fixed.csv
+-- reading Soest file: TNC_160714_W.Maui.fixed.csv
+-- reading Soest file: TNC_160726_W.Maui.csv
+-- reading Soest file: TNC_160817_W.Maui.csv
+-- replicate sample, skipping. siteCode: RPO sampleData: 160809 sampleIdExt: N-2
+-- replicate sample, skipping. siteCode: OPM sampleData: 160811 sampleIdExt: N-2
+-- reading Soest file: TNC_160830_W.Maui.fixed.csv
+-- reading Soest file: TNC_160915_W.Maui.csv
+-- replicate sample, skipping. siteCode: PFF sampleData: 160907 sampleIdExt: N-2
+-- reading Soest file: TNC_160927_W.Maui.csv
+-- replicate sample, skipping. siteCode: OPM sampleData: 160922 sampleIdExt: N-2
+-- reading Soest file: TNC_161011_W.Maui.csv
+-- replicate sample, skipping. siteCode: RPO sampleData: 161004 sampleIdExt: N-2
+-- reading Soest file: TNC_161026_W.Maui.csv
+-- reading Soest file: TNC_161110_W.Maui.csv
+-- replicate sample, skipping. siteCode: PLH sampleData: 161102 sampleIdExt: N-2
+-- reading Soest file: TNC_161122_W.Maui.csv
+
+-- WARNING: Phosphate of 3.54 > TotalP of 3.53 from line PPU161116-N-1,10 TNC,64.32,3.53,3.54,191.28,4.45,<1.5
+-- replicate sample, skipping. siteCode: OCO sampleData: 161117 sampleIdExt: N-2
+-- reading Soest file: TNC_161206_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKS sampleData: 161129 sampleIdExt: N-2
+-- reading Soest file: TNC_161220_W.Maui.csv
+-- replicate sample, skipping. siteCode: PLT sampleData: 161214 sampleIdExt: N-2
+-- reading Soest file: TNC_170110_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: RAB sampleData: 170103 sampleIdExt: N-2
+-- reading Soest file: TNC_170131_W.Maui.csv
+-- reading Soest file: TNC_170222_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: OSF sampleData: 170215 sampleIdExt: N-2
+-- reading Soest file: TNC_170314_W.Maui.csv
+-- replicate sample, skipping. siteCode: OUB sampleData: 170309 sampleIdExt: N-2
+-- reading Soest file: TNC_170404_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: RCB sampleData: 170328 sampleIdExt: N-2
+-- reading Soest file: TNC_170423_W.Maui.csv
+-- replicate sample, skipping. siteCode: PPU sampleData: 170419 sampleIdExt: N-2
+-- reading Soest file: TNC_170517_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: OPB sampleData: 170511 sampleIdExt: N-2
+-- reading Soest file: TNC_170606_W.Maui.fixed.csv
+-- replicate sample, skipping. siteCode: RWA sampleData: 170530 sampleIdExt: N-2
+-- reading Soest file: TNC_170627_W.Maui.fixed.csv
+-- reading Soest file: TNC_170718_W.Maui.fixed.csv
+-- reading Soest file: TNC_170808_W.Maui.csv
+-- replicate sample, skipping. siteCode: RFS sampleData: 170804 sampleIdExt: N-2
+-- reading Soest file: TNC_170828_W.Maui.csv
+-- replicate sample, skipping. siteCode: RFS sampleData: 170825 sampleIdExt: N-2
+-- reading Soest file: TNC_170919_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKO sampleData: 170915 sampleIdExt: N-2
+-- reading Soest file: TNC_171013_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKV sampleData: 171006 sampleIdExt: N-2
+-- reading Soest file: TNC_171031_W.Maui.csv
+-- replicate sample, skipping. siteCode: RHL sampleData: 171027 sampleIdExt: N-2
+-- reading Soest file: TNC_171121_W.Maui.csv
+-- replicate sample, skipping. siteCode: RFS sampleData: 171117 sampleIdExt: N-2
+-- reading Soest file: TNC_171213_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKO sampleData: 171208 sampleIdExt: N-2
+-- reading Soest file: TNC_171227_W.Maui.csv
+-- replicate sample, skipping. siteCode: RKV sampleData: 171222 sampleIdExt: N-2
+-- reading Soest file: TNC_180117_W.Maui.csv
+-- reading Soest file: TNC_180206_W.Maui.csv
+-- reading Soest file: TNC_180227_W.Maui.csv
+
+-- WARNING: Phosphate of 9.83 > TotalP of 9.68 from line RPO180220-N-1,20 TNC WEST,114.19,9.68,9.83,544.20,64.31,2.28
+-- reading Soest file: TNC_180320_W.Maui.csv
+-- reading Soest file: TNC_180411_W.Maui.csv
+-- reading Soest file: TNC_180501_W.Maui.csv
+-- reading Soest file: TNC_180522_W.Maui.csv
+-- reading Soest file: MNMRC_180626_S.Maui.csv
+-- reading Soest file: MNMRC_180717_S.Maui.csv
+-- reading Soest file: MNMRC_180807_S.Maui.csv
+-- reading Soest file: MNMRC_180828_S.Maui.csv
+-- reading Soest file: MNMRC_180918_S.Maui.csv
+-- reading Soest file: MNMRC_181010_S.Maui.csv
+-- reading Soest file: MNMRC_181030_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_181120_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_181211_S.Maui.rerun-by-soest.fixed.csv
+
+-- WARNING: Phosphate of 12.12 > TotalP of 11.89 from line KWP181204-N-1,MNMRC 2,180.16,11.89,12.12,973.81,68.82,10.36,,
+-- reading Soest file: MNMRC_190117_S.Maui.csv
+-- reading Soest file: MNMRC_190122_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_190212_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_190305_S.Maui.csv
+-- reading Soest file: MNMRC_190328_S.Maui.csv
+-- reading Soest file: MNMRC_190416_S.Maui.csv
+-- reading Soest file: MNMRC_190510_S.Maui.csv
+-- reading Soest file: MNMRC_190531_S.Maui.csv
+-- reading Soest file: MNMRC_190619_S.Maui.csv
+-- reading Soest file: MNMRC_190712_S.Maui.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_190712_S.Maui.csv  line  35
+-- ERROR: found unknown site name of NHC. from line NHC190703-N-1,21,424.22,22.03,20.89,1347.58,343.69,6.59,,
+-- reading Soest file: MNMRC_190802_S.Maui.csv
+-- reading Soest file: MNMRC_190823_S.Maui_KKP_KCP_Corrected.csv
+-- reading Soest file: MNMRC_190913_S.Maui.fixed.csv
+-- reading Soest file: MNMRC_191001_S.Maui.csv
+-- reading Soest file: MNMRC_191022_S.Maui.fixed.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_191022_S.Maui.fixed.csv  line  36
+-- ERROR: found invalid ID BADWPO191018-N-1 Line -> |BADWPO191018-N-1,22,269.11,15.94,11.65,39.65,64.52,45.73,Nutrient Data likely contaminated - bottle cracked when S-lab received sample,,|
+-- reading Soest file: MNMRC_191114_S.Maui.csv
+-- reading Soest file: MNMRC_191127_S.Maui.csv
+-- reading Soest file: MNMRC_191220_S.Maui.csv
+-- reading Soest file: MNMRC_200123_S.Maui.csv
+-- reading Soest file: MNMRC_200214_S.Maui.csv
+-- reading Soest file: MNMRC_200304_S.Maui.csv
+-- reading Soest file: MNMRC_200519_S.Maui.csv
+-- reading Soest file: MNMRC_200616_S.Maui.csv
+-- reading Soest file: MNMRC_200707_S.Maui.csv
+-- reading Soest file: MNMRC_200806_S.Maui.csv
+-- reading Soest file: MNMRC_200826_S.Maui.csv
+-- reading Soest file: MNMRC_200911_S.Maui.csv
+-- reading Soest file: MNMRC_201002_S.Maui.csv
+-- reading Soest file: MNMRC_201022_S.Maui.csv
+-- replicate sample, skipping. siteCode: KKS sampleData: 201013 sampleIdExt: N-2
+-- replicate sample, skipping. siteCode: KKS sampleData: 201013 sampleIdExt: N-3
+-- replicate sample, skipping. siteCode: KCP sampleData: 201013 sampleIdExt: N-2
+-- replicate sample, skipping. siteCode: KCP sampleData: 201013 sampleIdExt: N-3
+-- replicate sample, skipping. siteCode: NKP sampleData: 201015 sampleIdExt: N-2
+-- replicate sample, skipping. siteCode: NKP sampleData: 201015 sampleIdExt: N-3
+-- reading Soest file: MNMRC_201112_S.Maui.csv
+-- reading Soest file: MNMRC_201201_S.Maui.csv
+-- reading Soest file: MNMRC_201216_S.Maui.csv
+-- reading Soest file: MNMRC_210113_S.Maui.csv
+-- reading Soest file: MNMRC_210203_S.Maui.csv
+-- reading Soest file: MNMRC_210225_S.Maui.csv
+-- reading Soest file: MNMRC_210318_S.Maui.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_210318_S.Maui.csv  line  22
+-- ERROR: found invalid ID TOO-OLD-NKP210311-N-1 Line -> |TOO-OLD-NKP210311-N-1,8,67.89,9.66,4.39,119.84,1.38,1.78,,Later it was determined that NKP was too delayed so will eliminate it by making the ID invalid,,|
+-- reading Soest file: MNMRC_210415_S.Maui.csv
+-- reading Soest file: MNMRC_210513_S.Maui.csv
+-- reading Soest file: MNMRC_210610_S.Maui.csv
+-- reading Soest file: MNMRC_210617_S.Maui.csv
+-- reading Soest file: MNMRC_210629_2.1_S.Maui.csv
+-- reading Soest file: MNMRC_210721_S.Maui.csv
+-- reading Soest file: MNMRC_210812_S.Maui.csv
+-- reading Soest file: MNMRC_210902_S.Maui.csv
+-- reading Soest file: MNMRC_210922_S.Maui.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_210922_S.Maui.csv  line  17
+-- ERROR: found invalid ID KKS210914-N-1-trip Line -> |KKS210914-N-1-trip,3,155.82,11.93,7.56,879.15,66.47,3.51,,,|
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_210922_S.Maui.csv  line  19
+-- ERROR: found invalid ID KKS210914-N-1-trip Line -> |KKS210914-N-1-trip,3,161.53,12.38,8.38,868.45,66.76,3.32,,,|
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_210922_S.Maui.csv  line  21
+-- ERROR: found invalid ID KCP210915-N-1-trip Line -> |KCP210915-N-1-trip,5,484.14,26.29,24.29,2451.58,362.92,14.28,,,|
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_210922_S.Maui.csv  line  23
+-- ERROR: found invalid ID KCP210915-N-1-trip Line -> |KCP210915-N-1-trip,5,489.37,26.11,24.25,2397.74,355.84,14.55,,,|
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_210922_S.Maui.csv  line  30
+-- ERROR: found invalid ID NKP210916-N-1-trip Line -> |NKP210916-N-1-trip,12,79.40,10.93,3.18,70.89,1.52,2.54,,,|
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  MNMRC_210922_S.Maui.csv  line  32
+-- ERROR: found invalid ID NKP210916-N-1-trip Line -> |NKP210916-N-1-trip,12,81.77,9.74,4.00,70.43,1.45,2.48,,,|
+-- reading Soest file: MNMRC_211013_S.Maui.csv
+-- reading Soest file: MNMRC_211104_S.Maui.csv
+-- reading Soest file: MNMRC_211126_S.Maui.csv
+-- reading Soest file: MNMRC_211224_S.Maui.csv
+-- reading Soest file: MNMRC_220113_S.Maui.csv
+-- reading Soest file: MNMRC_220204_S.Maui.csv
+-- reading Soest file: MNMRC_220224_S.Maui.csv
+-- reading Soest file: MNMRC_220317_S.Maui.csv
+-- reading Soest file: MNMRC_220407_S.Maui.csv
+-- reading Soest file: MNMRC_220428_S.Maui.csv
+-- reading Soest file: MNMRC_220519_S.Maui.csv
+-- reading Soest file: MNMRC_220609_S.Maui.csv
+-- reading Soest file: MNMRC_220629_S.Maui.csv
+-- reading Soest file: MNMRC_220719_S.Maui.csv
+-- reading Soest file: MNMRC_220809_S.Maui.csv
+-- reading Soest file: MNMRC_220901_S.Maui.csv
+-- reading Soest file: MNMRC_220922_S.Maui.csv
+-- reading Soest file: MNMRC_221026_87_S.Maui.csv
+-- reading Soest file: MNMRC_221103_88_S.Maui.csv
+-- reading Soest file: MNMRC_221123_89_S.Maui.csv
+-- reading Soest file: MNMRC_221213_90_S.Maui.csv
+-- reading Soest file: MNMRC_230111_91_S.Maui.csv
+-- reading Soest file: MNMRC_230202_92_S.Maui.csv
+-- reading Soest file: MNMRC_230223_93_S.Maui.csv
+-- reading Soest file: MNMRC_230315_94_S.Maui.csv
+-- reading Soest file: MNMRC_230404_95_S.Maui.csv
+-- reading Soest file: MNMRC_230425_96_S.Maui.csv
+-- reading Soest file: MNMRC_230517_97_S.Maui.csv
+-- reading Soest file: MNMRC_230614_98_S.Maui.csv
+-- reading Soest file: MNMRC_230706_99_S.Maui.csv
+-- reading Soest file: MNMRC_230725_100_S.Maui.csv
+-- reading Soest file: MNMRC_230816_101_S.Maui.csv
+-- reading Soest file: MNMRC_230906_102_S.Maui.csv
+-- reading Soest file: MNMRC_231003_103_S.Maui.csv
+-- reading Soest file: MNMRC_231025_104_S.Maui.csv
+-- reading Soest file: MNMRC_231115_105_S.Maui.csv
+-- reading Soest file: MNMRC_231206_106_S.Maui.csv
+-- reading Soest file: TNC_171114_S.Maui.fixed.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  TNC_171114_S.Maui.fixed.csv  line  25
+-- ERROR: found invalid ID DR171104-N-1 Line -> |DR171104-N-1,11 TNC SOUTH,640.08,215.91,184.48,*,22.08,164.34,|
+-- reading Soest file: TNC_171128_S.Maui.fixed.csv
+-- reading Soest file: TNC_171213_S.Maui.csv
+-- reading Soest file: TNC_171227_S.Maui.fixed.csv
+-- reading Soest file: TNC_180118_S.Maui.csv
+-- reading Soest file: TNC_180130_S.Maui.csv
+-- reading Soest file: TNC_180130_S.Maui.fixed.csv
+-- reading Soest file: TNC_180215_S.Maui.csv
+-- reading Soest file: TNC_180227_S.Maui.csv
+
+-- ********************* ERROR ERROR ERROR ERROR ********************* in  TNC_180227_S.Maui.csv  line  38
+-- ERROR: found invalid ID **WPO180223-N-1     no sample received  Line -> |**WPO180223-N-1     no sample received ,,,,,,,|
+-- reading Soest file: TNC_180314_S.Maui.csv
+-- reading Soest file: TNC_180328_S.Maui.csv
+-- reading Soest file: TNC_180412_S.Maui.csv
+-- reading Soest file: TNC_180424_S.Maui.csv
+-- reading Soest file: TNC_180508_S.Maui.csv
+-- reading Soest file: TNC_180522_S.Maui.csv
+
+-- WARNING: NNN of 445.89 + NH4 of 5.54 > TotalN of 346.50 from line KCP180515-N-1,4 TNC SOUTH,346.50,31.68,25.54,1581.70,445.89,5.54,
+-- reading Soest file: TNC_180605_S.Maui.csv
+-- reading Soest file: MNMRC_230621_1_Lanai.csv
+-- reading Soest file: MNMRC_230712_2_Lanai.csv
+-- reading Soest file: MNMRC_230802_3_Lanai.csv
+-- reading Soest file: MNMRC_230921_4_Lanai.csv
+-- reading Soest file: MNMRC_231003_5_Lanai.csv
+-- reading Soest file: MNMRC_231025_6_Lanai.csv
+-- reading Soest file: MNMRC_231115_7_Lanai.csv
+-- reading Soest file: MNMRC_231206_8_Lanai.csv
+-- Number of west Maui nutrient samples : 2340
+-- Number of south Maui nutrient samples : 1694
+-- Number of south Lanai nutrient samples : 16
+-- Combined : 4050
+-- WARNING: did not find matching insitu sample ID for nutrient sample ID: RNS200817 site: RNS date: 8/17/20
+-- WARNING: did not find matching insitu sample ID for nutrient sample ID: RKO200817 site: RKO date: 8/17/20
+-- WARNING: did not find matching insitu sample ID for nutrient sample ID: RPO200817 site: RPO date: 8/17/20
+-- WARNING: did not find matching insitu sample ID for nutrient sample ID: RKS200817 site: RKS date: 8/17/20
+-- WARNING: did not find matching insitu sample ID for nutrient sample ID: OUB200817 site: OUB date: 8/17/20
+In updateSamplesWithNutrientData
+Number of samples:          4204
+Number of nutrient samples: 4050
+In printLookupData
+Number of sites: 63
+sites loop:
+siteCode : PFF
+{
+  Hui_ID: 'PFF',
+  siteCode: 'PFF',
+  Status: 'Active',
+  Area: 'Polanui',
+  Site_Name: '505 Front Street',
+  long_name: '505 Front Street',
+  Station_Name: '',
+  Display_Name: '505 Front St',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.86732',
+  lat: '20.86732',
+  Long: '-156.67605',
+  lon: '-156.67605',
+  Dates_Sampled: ''
+}
+siteCode : MAS
+{
+  Hui_ID: 'MAS',
+  siteCode: 'MAS',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Ahihi South',
+  long_name: 'Ahihi South',
+  Station_Name: '',
+  Display_Name: 'ʻĀhihi Kīnaʻu South',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.6138',
+  lat: '20.6138',
+  Long: '-156.436853',
+  lon: '-156.436853',
+  Dates_Sampled: ''
+}
+siteCode : OCO
+{
+  Hui_ID: 'OCO',
+  siteCode: 'OCO',
+  Status: 'Active',
+  Area: 'Olowalu to Pali',
+  Site_Name: 'Camp Olowalu',
+  long_name: 'Camp Olowalu',
+  Station_Name: '',
+  Display_Name: 'Camp Olowalu',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.80986',
+  lat: '20.80986',
+  Long: '-156.61369',
+  lon: '-156.61369',
+  Dates_Sampled: ''
+}
+siteCode : RKV
+{
+  Hui_ID: 'RKV',
+  siteCode: 'RKV',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Kahana Village',
+  long_name: 'Kahana Village',
+  Station_Name: '',
+  Display_Name: 'Kahana Village',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.976561',
+  lat: '20.976561',
+  Long: '-156.678',
+  lon: '-156.678',
+  Dates_Sampled: ''
+}
+siteCode : NKN
+{
+  Hui_ID: 'NKN',
+  siteCode: 'NKN',
+  Status: 'Active',
+  Area: 'Kīhei',
+  Site_Name: 'Kalepolepo North',
+  long_name: 'Kalepolepo North',
+  Station_Name: '',
+  Display_Name: 'Kalepolepo Park',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.765132',
+  lat: '20.765132',
+  Long: '-156.459344',
+  lon: '-156.459344',
+  Dates_Sampled: ''
+}
+siteCode : RKO
+{
+  Hui_ID: 'RKO',
+  siteCode: 'RKO',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: "Ka'opala",
+  long_name: "Ka'opala",
+  Station_Name: '',
+  Display_Name: 'Kaʻopala Bay',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.982074',
+  lat: '20.982074',
+  Long: '-156.673398',
+  lon: '-156.673398',
+  Dates_Sampled: ''
+}
+siteCode : NKC
+{
+  Hui_ID: 'NKC',
+  siteCode: 'NKC',
+  Status: 'Active',
+  Area: 'Kīhei',
+  Site_Name: 'Kihei Canoe Club',
+  long_name: 'Kihei Canoe Club',
+  Station_Name: '',
+  Display_Name: 'Kīhei Canoe Club',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.781403',
+  lat: '20.781403',
+  Long: '-156.463176',
+  lon: '-156.463176',
+  Dates_Sampled: ''
+}
+siteCode : PLH
+{
+  Hui_ID: 'PLH',
+  siteCode: 'PLH',
+  Status: 'Active',
+  Area: 'Polanui',
+  Site_Name: 'Lindsey Hale',
+  long_name: 'Lindsey Hale',
+  Station_Name: '',
+  Display_Name: 'Polanui-Uhailio',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.86485',
+  lat: '20.86485',
+  Long: '-156.67374',
+  lon: '-156.67374',
+  Dates_Sampled: ''
+}
+siteCode : NMC
+{
+  Hui_ID: 'NMC',
+  siteCode: 'NMC',
+  Status: 'Active',
+  Area: 'Māʻalaea',
+  Site_Name: 'Maalaea Condos',
+  long_name: 'Maalaea Condos',
+  Station_Name: '',
+  Display_Name: 'Māʻalaea Condos',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.794917',
+  lat: '20.794917',
+  Long: '-156.506735',
+  lon: '-156.506735',
+  Dates_Sampled: ''
+}
+siteCode : NMH
+{
+  Hui_ID: 'NMH',
+  siteCode: 'NMH',
+  Status: 'Active',
+  Area: 'Māʻalaea',
+  Site_Name: 'Maalaea Harbor',
+  long_name: 'Maalaea Harbor',
+  Station_Name: '',
+  Display_Name: 'Māʻalaea Harbor',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.790305',
+  lat: '20.790305',
+  Long: '-156.510825',
+  lon: '-156.510825',
+  Dates_Sampled: ''
+}
+siteCode : NMP
+{
+  Hui_ID: 'NMP',
+  siteCode: 'NMP',
+  Status: 'Active',
+  Area: 'Kīhei',
+  Site_Name: "Mai Poina 'Oe Ia'u",
+  long_name: "Mai Poina 'Oe Ia'u",
+  Station_Name: '',
+  Display_Name: 'Mai Poina Park',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.774894',
+  lat: '20.774894',
+  Long: '-156.460776',
+  lon: '-156.460776',
+  Dates_Sampled: ''
+}
+siteCode : MMB
+{
+  Hui_ID: 'MMB',
+  siteCode: 'MMB',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Maluaka Beach',
+  long_name: 'Maluaka Beach',
+  Station_Name: '',
+  Display_Name: 'Maluaka Beach',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.645598',
+  lat: '20.645598',
+  Long: '-156.443859',
+  lon: '-156.443859',
+  Dates_Sampled: ''
+}
+siteCode : MON
+{
+  Hui_ID: 'MON',
+  siteCode: 'MON',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Oneuli',
+  long_name: 'Oneuli',
+  Station_Name: '',
+  Display_Name: "One'uli Beach",
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.639866',
+  lat: '20.639866',
+  Long: '-156.447406',
+  lon: '-156.447406',
+  Dates_Sampled: ''
+}
+siteCode : OPP
+{
+  Hui_ID: 'OPP',
+  siteCode: 'OPP',
+  Status: 'Active',
+  Area: 'Olowalu to Pali',
+  Site_Name: 'Papalaua Pali',
+  long_name: 'Papalaua Pali',
+  Station_Name: '',
+  Display_Name: 'Pāpalaua Pali',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.792747',
+  lat: '20.792747',
+  Long: '-156.567326',
+  lon: '-156.567326',
+  Dates_Sampled: ''
+}
+siteCode : OPM
+{
+  Hui_ID: 'OPM',
+  siteCode: 'OPM',
+  Status: 'Active',
+  Area: 'Olowalu to Pali',
+  Site_Name: 'Peter Martin Hale',
+  long_name: 'Peter Martin Hale',
+  Station_Name: '',
+  Display_Name: 'Olowalu Point',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.808444',
+  lat: '20.808444',
+  Long: '-156.619697',
+  lon: '-156.619697',
+  Dates_Sampled: ''
+}
+siteCode : RPO
+{
+  Hui_ID: 'RPO',
+  siteCode: 'RPO',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Pohaku',
+  long_name: 'Pohaku',
+  Station_Name: '',
+  Display_Name: 'Pōhaku Park',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.967083',
+  lat: '20.967083',
+  Long: '-156.68139',
+  lon: '-156.68139',
+  Dates_Sampled: ''
+}
+siteCode : NSB
+{
+  Hui_ID: 'NSB',
+  siteCode: 'NSB',
+  Status: 'Active',
+  Area: 'Kīhei',
+  Site_Name: 'Sugar Beach',
+  long_name: 'Sugar Beach',
+  Station_Name: '',
+  Display_Name: 'Sugar Beach',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.784204',
+  lat: '20.784204',
+  Long: '-156.466463',
+  lon: '-156.466463',
+  Dates_Sampled: ''
+}
+siteCode : HHP
+{
+  Hui_ID: 'HHP',
+  siteCode: 'HHP',
+  Status: 'Inactive',
+  Area: 'Hāna',
+  Site_Name: 'Hana Pier',
+  long_name: 'Hana Pier',
+  Station_Name: '',
+  Display_Name: 'Hāna Pier',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.756083',
+  lat: '20.756083',
+  Long: '-155.982167',
+  lon: '-155.982167',
+  Dates_Sampled: ''
+}
+siteCode : HHH
+{
+  Hui_ID: 'HHH',
+  siteCode: 'HHH',
+  Status: 'Inactive',
+  Area: 'Hāna',
+  Site_Name: 'Helene Hall',
+  long_name: 'Helene Hall',
+  Station_Name: '',
+  Display_Name: 'Helene Hall',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.755472',
+  lat: '20.755472',
+  Long: '-155.983222',
+  lon: '-155.983222',
+  Dates_Sampled: ''
+}
+siteCode : PPU
+{
+  Hui_ID: 'PPU',
+  siteCode: 'PPU',
+  Status: 'Inactive',
+  Area: 'Polanui',
+  Site_Name: 'Makila Point',
+  long_name: 'Makila Point',
+  Station_Name: '',
+  Display_Name: 'Makila Point',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.859233',
+  lat: '20.859233',
+  Long: '-156.669442',
+  lon: '-156.669442',
+  Dates_Sampled: ''
+}
+siteCode : HMB
+{
+  Hui_ID: 'HMB',
+  siteCode: 'HMB',
+  Status: 'Inactive',
+  Area: 'Hāna',
+  Site_Name: 'Mid Bay 2',
+  long_name: 'Mid Bay 2',
+  Station_Name: '',
+  Display_Name: 'Hāna Kai Resort',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.759806',
+  lat: '20.759806',
+  Long: '-155.986611',
+  lon: '-155.986611',
+  Dates_Sampled: ''
+}
+siteCode : OMM
+{
+  Hui_ID: 'OMM',
+  siteCode: 'OMM',
+  Status: 'Active',
+  Area: 'Olowalu to Pali',
+  Site_Name: 'Mile Marker 14',
+  long_name: 'Mile Marker 14',
+  Station_Name: '',
+  Display_Name: 'Mile Marker 14',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.80915',
+  lat: '20.80915',
+  Long: '-156.60661',
+  lon: '-156.60661',
+  Dates_Sampled: ''
+}
+siteCode : HWB
+{
+  Hui_ID: 'HWB',
+  siteCode: 'HWB',
+  Status: 'Inactive',
+  Area: 'Hāna',
+  Site_Name: 'Waikoloa Beach',
+  long_name: 'Waikoloa Beach',
+  Station_Name: '',
+  Display_Name: 'Waikoloa Beach',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.761306',
+  lat: '20.761306',
+  Long: '-155.985889',
+  lon: '-155.985889',
+  Dates_Sampled: ''
+}
+siteCode : MAN
+{
+  Hui_ID: 'MAN',
+  siteCode: 'MAN',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Ahihi North',
+  long_name: 'Ahihi North',
+  Station_Name: 'Ahihi Cove',
+  Display_Name: 'ʻĀhihi Kīnaʻu North',
+  DOH_ID: '740',
+  Surfrider_ID: '',
+  Lat: '20.618366',
+  lat: '20.618366',
+  Long: '-156.437572',
+  lon: '-156.437572',
+  Dates_Sampled: ''
+}
+siteCode : RFS
+{
+  Hui_ID: 'RFS',
+  siteCode: 'RFS',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Kapalua Bay (Fleming S)',
+  long_name: 'Kapalua Bay (Fleming S)',
+  Station_Name: 'Fleming Beach (South)',
+  Display_Name: 'Kapalua Bay',
+  DOH_ID: '650',
+  Surfrider_ID: '',
+  Lat: '20.998924',
+  lat: '20.998924',
+  Long: '-156.666746',
+  lon: '-156.666746',
+  Dates_Sampled: ''
+}
+siteCode : RCB
+{
+  Hui_ID: 'RCB',
+  siteCode: 'RCB',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Canoe Beach',
+  long_name: 'Canoe Beach',
+  Station_Name: 'Hanakaoo',
+  Display_Name: 'Hanakaʻōʻō',
+  DOH_ID: '693',
+  Surfrider_ID: '',
+  Lat: '20.910347',
+  lat: '20.910347',
+  Long: '-156.689382',
+  lon: '-156.689382',
+  Dates_Sampled: ''
+}
+siteCode : RHL
+{
+  Hui_ID: 'RHL',
+  siteCode: 'RHL',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Honolua',
+  long_name: 'Honolua',
+  Station_Name: 'Honolua Bay',
+  Display_Name: 'Honolua Bay',
+  DOH_ID: '707',
+  Surfrider_ID: '',
+  Lat: '21.013058',
+  lat: '21.013058',
+  Long: '-156.63834',
+  lon: '-156.63834',
+  Dates_Sampled: ''
+}
+siteCode : KKP
+{
+  Hui_ID: 'KKP',
+  siteCode: 'KKP',
+  Status: 'Active',
+  Area: 'Kīhei',
+  Site_Name: 'Kalama Park',
+  long_name: 'Kalama Park',
+  Station_Name: 'Kalama Beach',
+  Display_Name: 'Kalama Park',
+  DOH_ID: '679',
+  Surfrider_ID: '',
+  Lat: '20.730973',
+  lat: '20.730973',
+  Long: '-156.45372',
+  lon: '-156.45372',
+  Dates_Sampled: ''
+}
+siteCode : WKB
+{
+  Hui_ID: 'WKB',
+  siteCode: 'WKB',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Keawekapu Beach',
+  long_name: 'Keawekapu Beach',
+  Station_Name: 'Keawekapu Beach',
+  Display_Name: 'Keawekapu Beach',
+  DOH_ID: '685',
+  Surfrider_ID: '',
+  Lat: '20.695939',
+  lat: '20.695939',
+  Long: '-156.444632',
+  lon: '-156.444632',
+  Dates_Sampled: ''
+}
+siteCode : PLT
+{
+  Hui_ID: 'PLT',
+  siteCode: 'PLT',
+  Status: 'Active',
+  Area: 'Polanui',
+  Site_Name: 'Lahaina Town',
+  long_name: 'Lahaina Town',
+  Station_Name: 'Lahaina Town (#202)',
+  Display_Name: "Kaua'ula Road",
+  DOH_ID: '726',
+  Surfrider_ID: '',
+  Lat: '20.86356',
+  lat: '20.86356',
+  Long: '-156.67297',
+  lon: '-156.67297',
+  Dates_Sampled: ''
+}
+siteCode : NHP
+{
+  Hui_ID: 'NHP',
+  siteCode: 'NHP',
+  Status: 'Active',
+  Area: 'Māʻalaea',
+  Site_Name: 'Haycraft Park',
+  long_name: 'Haycraft Park',
+  Station_Name: 'Maalaea Condos',
+  Display_Name: 'Haycraft Park',
+  DOH_ID: '687',
+  Surfrider_ID: '',
+  Lat: '20.796414',
+  lat: '20.796414',
+  Long: '-156.503198',
+  lon: '-156.503198',
+  Dates_Sampled: ''
+}
+siteCode : MML
+{
+  Hui_ID: 'MML',
+  siteCode: 'MML',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Makena Landing',
+  long_name: 'Makena Landing',
+  Station_Name: 'Makena Landing',
+  Display_Name: 'Mākena Landing',
+  DOH_ID: '717',
+  Surfrider_ID: '',
+  Lat: '20.653913',
+  lat: '20.653913',
+  Long: '-156.441174',
+  lon: '-156.441174',
+  Dates_Sampled: ''
+}
+siteCode : RNS
+{
+  Hui_ID: 'RNS',
+  siteCode: 'RNS',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Napili',
+  long_name: 'Napili',
+  Station_Name: 'Napili',
+  Display_Name: 'Napili Bay',
+  DOH_ID: '723',
+  Surfrider_ID: '',
+  Lat: '20.994222',
+  lat: '20.994222',
+  Long: '-156.667417',
+  lon: '-156.667417',
+  Dates_Sampled: ''
+}
+siteCode : OSF
+{
+  Hui_ID: 'OSF',
+  siteCode: 'OSF',
+  Status: 'Active',
+  Area: 'Olowalu to Pali',
+  Site_Name: 'Olowalu Shore Front',
+  long_name: 'Olowalu Shore Front',
+  Station_Name: 'Olowalu Shore Front',
+  Display_Name: 'Olowalu Landing',
+  DOH_ID: '663',
+  Surfrider_ID: '',
+  Lat: '20.80916',
+  lat: '20.80916',
+  Long: '-156.62289',
+  lon: '-156.62289',
+  Dates_Sampled: ''
+}
+siteCode : RON
+{
+  Hui_ID: 'RON',
+  siteCode: 'RON',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Oneloa',
+  long_name: 'Oneloa',
+  Station_Name: 'Oneloa',
+  Display_Name: 'Oneloa Bay',
+  DOH_ID: '722',
+  Surfrider_ID: '',
+  Lat: '21.004056',
+  lat: '21.004056',
+  Long: '-156.65894',
+  lon: '-156.65894',
+  Dates_Sampled: ''
+}
+siteCode : WPL
+{
+  Hui_ID: 'WPL',
+  siteCode: 'WPL',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Palauea',
+  long_name: 'Palauea',
+  Station_Name: 'Palauea',
+  Display_Name: 'Palauea Beach',
+  DOH_ID: '715',
+  Surfrider_ID: '',
+  Lat: '20.669565',
+  lat: '20.669565',
+  Long: '-156.442907',
+  lon: '-156.442907',
+  Dates_Sampled: ''
+}
+siteCode : OPB
+{
+  Hui_ID: 'OPB',
+  siteCode: 'OPB',
+  Status: 'Active',
+  Area: 'Olowalu to Pali',
+  Site_Name: 'Papalaua',
+  long_name: 'Papalaua',
+  Station_Name: 'Papalaua',
+  Display_Name: 'Pāpalaua Park',
+  DOH_ID: '728',
+  Surfrider_ID: '',
+  Lat: '20.793809',
+  lat: '20.793809',
+  Long: '-156.575211',
+  lon: '-156.575211',
+  Dates_Sampled: ''
+}
+siteCode : WPO
+{
+  Hui_ID: 'WPO',
+  siteCode: 'WPO',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: "Poolenalena (Chang's Beach)",
+  long_name: "Poolenalena (Chang's Beach)",
+  Station_Name: 'Poolenalena',
+  Display_Name: "Po'olenalena Park",
+  DOH_ID: '716',
+  Surfrider_ID: '',
+  Lat: '20.66339',
+  lat: '20.66339',
+  Long: '-156.441968',
+  lon: '-156.441968',
+  Dates_Sampled: ''
+}
+siteCode : RKS
+{
+  Hui_ID: 'RKS',
+  siteCode: 'RKS',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Kaanapali Shores',
+  long_name: 'Kaanapali Shores',
+  Station_Name: 'Sheraton Kaanapali Shoreline',
+  Display_Name: 'Kā‘anapali Shores',
+  DOH_ID: '666',
+  Surfrider_ID: '',
+  Lat: '20.949331',
+  lat: '20.949331',
+  Long: '-156.691124',
+  lon: '-156.691124',
+  Dates_Sampled: ''
+}
+siteCode : OUB
+{
+  Hui_ID: 'OUB',
+  siteCode: 'OUB',
+  Status: 'Active',
+  Area: 'Olowalu to Pali',
+  Site_Name: 'Ukumehame Beach',
+  long_name: 'Ukumehame Beach',
+  Station_Name: 'Ukumehame',
+  Display_Name: 'Ukumehame Park',
+  DOH_ID: '698',
+  Surfrider_ID: '',
+  Lat: '20.79448',
+  lat: '20.79448',
+  Long: '-156.58142',
+  lon: '-156.58142',
+  Dates_Sampled: ''
+}
+siteCode : WUL
+{
+  Hui_ID: 'WUL',
+  siteCode: 'WUL',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Ulua Beach',
+  long_name: 'Ulua Beach',
+  Station_Name: 'Ulua Beach',
+  Display_Name: 'Ulua Park',
+  DOH_ID: '686',
+  Surfrider_ID: '',
+  Lat: '20.69112',
+  lat: '20.69112',
+  Long: '-156.444201',
+  lon: '-156.444201',
+  Dates_Sampled: ''
+}
+siteCode : RWA
+{
+  Hui_ID: 'RWA',
+  siteCode: 'RWA',
+  Status: 'Active',
+  Area: 'Polanui',
+  Site_Name: 'Wahikuli',
+  long_name: 'Wahikuli',
+  Station_Name: 'Wahikuli Beach',
+  Display_Name: 'Wahikuli Park',
+  DOH_ID: '678',
+  Surfrider_ID: '',
+  Lat: '20.904476',
+  lat: '20.904476',
+  Long: '-156.685931',
+  lon: '-156.685931',
+  Dates_Sampled: ''
+}
+siteCode : KWP
+{
+  Hui_ID: 'KWP',
+  siteCode: 'KWP',
+  Status: 'Active',
+  Area: 'Kīhei',
+  Site_Name: 'Waipuilani Park',
+  long_name: 'Waipuilani Park',
+  Station_Name: 'Waipuilani',
+  Display_Name: 'Waipuilani Park',
+  DOH_ID: '713',
+  Surfrider_ID: '',
+  Lat: '20.755056',
+  lat: '20.755056',
+  Long: '-156.459602',
+  lon: '-156.459602',
+  Dates_Sampled: ''
+}
+siteCode : KKS
+{
+  Hui_ID: 'KKS',
+  siteCode: 'KKS',
+  Status: 'Active',
+  Area: 'Kīhei',
+  Site_Name: 'Kihei South (Lipoa)',
+  long_name: 'Kihei South (Lipoa)',
+  Station_Name: 'Kihei (South)',
+  Display_Name: 'West Lipoa Street',
+  DOH_ID: '676',
+  Surfrider_ID: '',
+  Lat: '20.747334',
+  lat: '20.747334',
+  Long: '-156.457881',
+  lon: '-156.457881',
+  Dates_Sampled: ''
+}
+siteCode : RFN
+{
+  Hui_ID: 'RFN',
+  siteCode: 'RFN',
+  Status: 'Inactive',
+  Area: 'Ridge to Reef',
+  Site_Name: 'DT Beach (Fleming N)',
+  long_name: 'DT Beach (Fleming N)',
+  Station_Name: 'Fleming Beach (North)',
+  Display_Name: 'DT Fleming Park',
+  DOH_ID: '674',
+  Surfrider_ID: '',
+  Lat: '21.005',
+  lat: '21.005',
+  Long: '-156.65084',
+  lon: '-156.65084',
+  Dates_Sampled: ''
+}
+siteCode : HBP
+{
+  Hui_ID: 'HBP',
+  siteCode: 'HBP',
+  Status: 'Inactive',
+  Area: 'Hāna',
+  Site_Name: 'Hana Beach Park',
+  long_name: 'Hana Beach Park',
+  Station_Name: 'Hana Bay Shoreline',
+  Display_Name: 'Hāna Beach Park',
+  DOH_ID: '652',
+  Surfrider_ID: '',
+  Lat: '20.75575',
+  lat: '20.75575',
+  Long: '-155.984667',
+  lon: '-155.984667',
+  Dates_Sampled: ''
+}
+siteCode : KKO
+{
+  Hui_ID: 'KKO',
+  siteCode: 'KKO',
+  Status: 'Inactive',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Kamaole Beach I',
+  long_name: 'Kamaole Beach I',
+  Station_Name: 'Kamaole Beach #1 (LG Tower)',
+  Display_Name: 'Kamaʻole Park I',
+  DOH_ID: '746',
+  Surfrider_ID: '',
+  Lat: '20.721985',
+  lat: '20.721985',
+  Long: '-156.448183',
+  lon: '-156.448183',
+  Dates_Sampled: ''
+}
+siteCode : KKT
+{
+  Hui_ID: 'KKT',
+  siteCode: 'KKT',
+  Status: 'Inactive',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Kamaole Beach III',
+  long_name: 'Kamaole Beach III',
+  Station_Name: 'Kamaole Beach #3',
+  Display_Name: 'Kamaʻole Park III',
+  DOH_ID: '683',
+  Surfrider_ID: '',
+  Lat: '20.712908',
+  lat: '20.712908',
+  Long: '-156.446596',
+  lon: '-156.446596',
+  Dates_Sampled: ''
+}
+siteCode : OLP
+{
+  Hui_ID: 'OLP',
+  siteCode: 'OLP',
+  Status: 'Inactive',
+  Area: 'Polanui',
+  Site_Name: 'Launiupoko',
+  long_name: 'Launiupoko',
+  Station_Name: 'Launiupoko',
+  Display_Name: 'Launiupoko Park',
+  DOH_ID: '694',
+  Surfrider_ID: '',
+  Lat: '20.84236',
+  lat: '20.84236',
+  Long: '-156.653035',
+  lon: '-156.653035',
+  Dates_Sampled: ''
+}
+siteCode : RMO
+{
+  Hui_ID: 'RMO',
+  siteCode: 'RMO',
+  Status: 'Inactive',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Mokuleia',
+  long_name: 'Mokuleia',
+  Station_Name: 'Mokuleia',
+  Display_Name: 'Mokuleʻia Bay',
+  DOH_ID: '721',
+  Surfrider_ID: '',
+  Lat: '21.011352',
+  lat: '21.011352',
+  Long: '-156.64227',
+  lon: '-156.64227',
+  Dates_Sampled: ''
+}
+siteCode : WWA
+{
+  Hui_ID: 'WWA',
+  siteCode: 'WWA',
+  Status: 'Inactive',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Wailea Beach',
+  long_name: 'Wailea Beach',
+  Station_Name: 'Wailea Beach',
+  Display_Name: 'Wailea Park',
+  DOH_ID: '691',
+  Surfrider_ID: '',
+  Lat: '20.68156',
+  lat: '20.68156',
+  Long: '-156.443524',
+  lon: '-156.443524',
+  Dates_Sampled: ''
+}
+siteCode : MBS
+{
+  Hui_ID: 'MBS',
+  siteCode: 'MBS',
+  Status: 'Inactive',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Makena Beach Shoreline',
+  long_name: 'Makena Beach Shoreline',
+  Station_Name: 'Makena Beach Shoreline',
+  Display_Name: 'Mākena State Park',
+  DOH_ID: '661',
+  Surfrider_ID: '',
+  Lat: '20.63061',
+  lat: '20.63061',
+  Long: '-156.446183',
+  lon: '-156.446183',
+  Dates_Sampled: ''
+}
+siteCode : NKP
+{
+  Hui_ID: 'NKP',
+  siteCode: 'NKP',
+  Status: 'Active',
+  Area: 'Māʻalaea',
+  Site_Name: 'Kealia Pond',
+  long_name: 'Kealia Pond',
+  Station_Name: 'Kealia Pond',
+  Display_Name: 'Keālia Pond',
+  DOH_ID: '711',
+  Surfrider_ID: '',
+  Lat: '20.794936',
+  lat: '20.794936',
+  Long: '-156.485587',
+  lon: '-156.485587',
+  Dates_Sampled: ''
+}
+siteCode : KCP
+{
+  Hui_ID: 'KCP',
+  siteCode: 'KCP',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Cove Park',
+  long_name: 'Cove Park',
+  Station_Name: 'Cove Park',
+  Display_Name: 'Cove Park',
+  DOH_ID: '703',
+  Surfrider_ID: '',
+  Lat: '20.727434',
+  lat: '20.727434',
+  Long: '-156.450077',
+  lon: '-156.450077',
+  Dates_Sampled: ''
+}
+siteCode : WKD
+{
+  Hui_ID: 'WKD',
+  siteCode: 'WKD',
+  Status: 'Active',
+  Area: 'Wailea-Mākena',
+  Site_Name: 'Kilohana Dr',
+  long_name: 'Kilohana Dr',
+  Station_Name: 'Keawakapu (2)',
+  Display_Name: 'Kilohana Drive',
+  DOH_ID: '704',
+  Surfrider_ID: '',
+  Lat: '20.702214',
+  lat: '20.702214',
+  Long: '-156.445921',
+  lon: '-156.445921',
+  Dates_Sampled: ''
+}
+siteCode : RAB
+{
+  Hui_ID: 'RAB',
+  siteCode: 'RAB',
+  Status: 'Inactive',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Airport Beach',
+  long_name: 'Airport Beach',
+  Station_Name: 'Airport (Kahekili) Beach',
+  Display_Name: 'Kahekili Park',
+  DOH_ID: '695',
+  Surfrider_ID: '',
+  Lat: '20.936669',
+  lat: '20.936669',
+  Long: '-156.69278',
+  lon: '-156.69278',
+  Dates_Sampled: ''
+}
+siteCode : RKT
+{
+  Hui_ID: 'RKT',
+  siteCode: 'RKT',
+  Status: 'Active',
+  Area: 'Ridge to Reef',
+  Site_Name: 'Kahekili Two',
+  long_name: 'Kahekili Two',
+  Station_Name: 'Kahekili/Airport 2',
+  Display_Name: 'Kahekili Two',
+  DOH_ID: '733',
+  Surfrider_ID: '',
+  Lat: '20.941269',
+  lat: '20.941269',
+  Long: '-156.692439',
+  lon: '-156.692439',
+  Dates_Sampled: ''
+}
+siteCode : LMT
+{
+  Hui_ID: 'LMT',
+  siteCode: 'LMT',
+  Status: 'Active',
+  Area: 'Lahaina Fire Response',
+  Site_Name: 'Mala Tavern',
+  long_name: 'Mala Tavern',
+  Station_Name: '',
+  Display_Name: 'Mala Tavern',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.887449',
+  lat: '20.887449',
+  Long: '-156.685048',
+  lon: '-156.685048',
+  Dates_Sampled: ''
+}
+siteCode : LMR
+{
+  Hui_ID: 'LMR',
+  siteCode: 'LMR',
+  Status: 'Active',
+  Area: 'Lahaina Fire Response',
+  Site_Name: 'Mala Ramp',
+  long_name: 'Mala Ramp',
+  Station_Name: '',
+  Display_Name: 'Mala Ramp',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.885373',
+  lat: '20.885373',
+  Long: '-156.686429',
+  lon: '-156.686429',
+  Dates_Sampled: ''
+}
+siteCode : LPS
+{
+  Hui_ID: 'LPS',
+  siteCode: 'LPS',
+  Status: 'Active',
+  Area: 'Lahaina Fire Response',
+  Site_Name: 'Papalaua St.',
+  long_name: 'Papalaua St.',
+  Station_Name: '',
+  Display_Name: 'Pāpalaua St.',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.876911',
+  lat: '20.876911',
+  Long: '-156.681359',
+  lon: '-156.681359',
+  Dates_Sampled: ''
+}
+siteCode : LLH
+{
+  Hui_ID: 'LLH',
+  siteCode: 'LLH',
+  Status: 'Active',
+  Area: 'Lahaina Fire Response',
+  Site_Name: 'Lahaina Harbor',
+  long_name: 'Lahaina Harbor',
+  Station_Name: '',
+  Display_Name: 'Lāhainā Harbor',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.871933',
+  lat: '20.871933',
+  Long: '-156.678624',
+  lon: '-156.678624',
+  Dates_Sampled: ''
+}
+siteCode : LMN
+{
+  Hui_ID: 'LMN',
+  siteCode: 'LMN',
+  Status: 'Active',
+  Area: "Lana'i",
+  Site_Name: 'Manele Bay',
+  long_name: 'Manele Bay',
+  Station_Name: '',
+  Display_Name: '',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.7415630',
+  lat: '20.7415630',
+  Long: '-156.8879560',
+  lon: '-156.8879560',
+  Dates_Sampled: ''
+}
+siteCode : LHB
+{
+  Hui_ID: 'LHB',
+  siteCode: 'LHB',
+  Status: 'Active',
+  Area: "Lana'i",
+  Site_Name: "Hulopo'e Beach Park",
+  long_name: "Hulopo'e Beach Park",
+  Station_Name: '',
+  Display_Name: '',
+  DOH_ID: '',
+  Surfrider_ID: '',
+  Lat: '20.7388179',
+  lat: '20.7388179',
+  Long: '-156.8934794',
+  lon: '-156.8934794',
+  Dates_Sampled: ''
+}
+
+Report Measurement Names:
+{
+  Temp: 'Temp',
+  Salinity: 'Salinity',
+  DO: 'DO',
+  'DO%': 'DO_sat',
+  pH: 'pH',
+  Turbidity: 'Turbidity',
+  TotalN: 'TotalN',
+  TotalP: 'TotalP',
+  Phosphate: 'Phosphate',
+  Silicate: 'Silicate',
+  NNN: 'NNN',
+  NH4: 'NH4'
+}
+
+Report Precision:
+{
+  Temp: 1,
+  Salinity: 1,
+  DO: 2,
+  'DO%': 1,
+  pH: 2,
+  Turbidity: 2,
+  TotalN: 2,
+  TotalP: 2,
+  Phosphate: 2,
+  Silicate: 2,
+  NNN: 2,
+  NH4: 2,
+  Lat: 6,
+  Long: 6
+}
+
+Report Constants Data:
+[
+  [ 'AREA_TO_REPORT_REGION', 'Hāna', 'N/A' ],
+  [ 'AREA_TO_REPORT_REGION', 'Kīhei', 'South' ],
+  [ 'AREA_TO_REPORT_REGION', 'Māʻalaea', 'South' ],
+  [ 'AREA_TO_REPORT_REGION', 'Olowalu to Pali', 'West' ],
+  [ 'AREA_TO_REPORT_REGION', 'Polanui', 'West' ],
+  [ 'AREA_TO_REPORT_REGION', 'Pā‘ia', 'N/A' ],
+  [ 'AREA_TO_REPORT_REGION', 'Ridge to Reef', 'West' ],
+  [ 'AREA_TO_REPORT_REGION', 'Waihe‘e-Waiehu', 'South' ],
+  [ 'AREA_TO_REPORT_REGION', 'Wailea-Mākena', 'South' ],
+  [ 'AREA_TO_REPORT_REGION', 'Lahaina Fire Response', 'West' ],
+  [ 'AREA_TO_REPORT_REGION', "Lana'i", 'Lanai' ]
+]
+
+Report QA Comments Data:
+[
+  [
+    'NKP210311',
+    'Override',
+    "nutrient data QA'ed out, hold time 47 days"
+  ],
+  [
+    'RCB220906',
+    'Override',
+    "nutrient data QA'ed out, sample bottle contaminated"
+  ],
+  [
+    'RKS221108',
+    'Override',
+    "nutrient data QA'ed out, ambiguous sample ID"
+  ],
+  [
+    'RKT221108',
+    'Override',
+    "nutrient data QA'ed out, ambiguous sample ID"
+  ]
+]
+
+Area to Report Region
+{
+  'Hāna': 'N/A',
+  'Kīhei': 'South',
+  'Māʻalaea': 'South',
+  'Olowalu to Pali': 'West',
+  Polanui: 'West',
+  'Pā‘ia': 'N/A',
+  'Ridge to Reef': 'West',
+  'Waihe‘e-Waiehu': 'South',
+  'Wailea-Mākena': 'South',
+  'Lahaina Fire Response': 'West',
+  "Lana'i": 'Lanai'
+}
+In createReports
+Creating report for all samples
+In createReport From List
+Writing file to ../reports/web-export-quarterly-reports/2023-4th-quarter.0.all-areas.tsv
+Creating report for report region west
+In createReport From List
+Writing file to ../reports/web-export-quarterly-reports/2023-4th-quarter.0.west-maui.tsv
+Creating report for report region south
+In createReport From List
+Writing file to ../reports/web-export-quarterly-reports/2023-4th-quarter.0.south-maui.tsv
+Creating report for report region lanai
+In createReport From List
+Writing file to ../reports/web-export-quarterly-reports/2023-4th-quarter.0.lanai-maui.tsv

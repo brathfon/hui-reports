@@ -298,13 +298,15 @@ var readSpreadSheetData = function (data, callback) {
 
 var readNutrientData = function (data, callback) {
 
-  var westMaui = rnf.readSoestFiles(data.nutrientDirectory +  '/west-maui', data.sites);
+  var westMaui  = rnf.readSoestFiles(data.nutrientDirectory +  '/west-maui', data.sites);
   var southMaui = rnf.readSoestFiles(data.nutrientDirectory + '/south-maui', data.sites);
+  var lanai     = rnf.readSoestFiles(data.nutrientDirectory + '/lanai', data.sites);
 
   console.log("-- Number of west Maui nutrient samples : " + Object.keys(westMaui).length);
   console.log("-- Number of south Maui nutrient samples : " + Object.keys(southMaui).length);
+  console.log("-- Number of south Lanai nutrient samples : " + Object.keys(lanai).length);
 
-  let combined = Object.assign({}, westMaui, southMaui);
+  let combined = Object.assign({}, westMaui, southMaui, lanai);
 
   console.log("-- Combined : " + Object.keys(combined).length);
 
