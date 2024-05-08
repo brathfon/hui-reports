@@ -606,7 +606,7 @@ var fixTimeFormat = function (aTime) {
   let needsFixedPattern = /[1-9]:[0-9][0-9]/; // example: 9:56
   let okPattern = /[0-2][0-9]:[0-9][0-9]/; // example: 9:56
 
-  //console.log(`TEST ${aTime.search(pattern)}`);
+  //console.log(`TEST ${aTime.search(okPattern)}`);
   if (aTime.search(okPattern) === 0) {   // it matches and OK
     returnValue = aTime;
   }
@@ -1019,7 +1019,8 @@ var filterSamplesByGeoArea = function(data, callback) {
 };
 
 
-// this is the main
+// this is the main.  This style (passing the data around and the next callback to call)is a holdover from when this was a nodejs express app and the IO was to a mysql
+// database and was asyncronous.
 
 getSiteData(data, function () {
   getReportConstantsData(data, function () {

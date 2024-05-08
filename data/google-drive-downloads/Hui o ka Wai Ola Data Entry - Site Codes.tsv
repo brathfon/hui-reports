@@ -36,7 +36,7 @@ OSF	Active	Olowalu to Pali	Olowalu Shore Front	Olowalu Shore Front	Olowalu Landi
 RON	Active	Ridge to Reef	Oneloa	Oneloa	Oneloa Bay	722		21.004056	-156.65894	
 WPL	Active	Wailea-Mākena	Palauea	Palauea	Palauea Beach	715		20.669565	-156.442907	
 OPB	Active	Olowalu to Pali	Papalaua  	Papalaua	Pāpalaua Park	728		20.793809	-156.575211	
-WPO	Active	Wailea-Mākena	Poolenalena (Chang's Beach)	Poolenalena	Po'olenalena Park	716		20.66339	-156.441968	
+WPO	Active	Wailea-Mākena	Poolenalena (Chang's Beach)	Poolenalena	Poʻolenalena Park	716		20.66339	-156.441968	
 RKS	Active	Ridge to Reef	Kaanapali Shores	Sheraton Kaanapali Shoreline	Kā‘anapali Shores	666		20.949331	-156.691124	
 OUB	Active	Olowalu to Pali	Ukumehame Beach	Ukumehame	Ukumehame Park	698		20.79448	-156.58142	
 WUL	Active	Wailea-Mākena	Ulua Beach	Ulua Beach	Ulua Park	686		20.69112	-156.444201	
@@ -95,7 +95,7 @@ RKT	Active	Ridge to Reef	Kahekili Two	Kahekili/Airport 2	Kahekili Two	733		20.94
 		Waihe‘e-Waiehu			Wailuku Stream		629	20.910464	-156.484889	
 LMT	Active 	Lahaina Fire Response	Mala Tavern		Mala Tavern			20.887449	-156.685048	
 LMR	Active 	Lahaina Fire Response	Mala Ramp		Mala Ramp			20.885373	-156.686429	
-LPS	Active 	Lahaina Fire Response	Papalaua St. 		Pāpalaua St.			20.876911	-156.681359	
+LPS	Active 	Lahaina Fire Response	Papalaua St		Pāpalaua St			20.876911	-156.681359	
 LLH	Active 	Lahaina Fire Response	Lahaina Harbor		Lāhainā Harbor			20.871933	-156.678624	
-LMN	Active 	Lana'i 	Manele Bay					20.7415630	-156.8879560	
-LHB	Active 	Lana'i 	Hulopo'e Beach Park					20.7388179	-156.8934794	
+LMN	Active 	Lana'i 	Manele Bay		Mānele Bay			20.7415630	-156.8879560	
+LHB	Active 	Lana'i 	Hulopo'e Beach Park		Hulopo’e Beach Park			20.7388179	-156.8934794	
