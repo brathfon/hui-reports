@@ -224,7 +224,8 @@ const createAqualinkFile = function (data, callback) {
 
     }
     else {
-      console.error(`WARNING: station ${station} not found in hui to aqualink site lookup.`);
+      console.log(`WARNING: station ${station} not found in hui to aqualink site lookup.`);
+      //console.error(`WARNING: station ${station} not found in hui to aqualink site lookup.`);
     }
   }
 
