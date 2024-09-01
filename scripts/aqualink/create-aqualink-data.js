@@ -11,6 +11,8 @@ const path  = require('path');
 
 // app-specific requirements
 const ru = require('../../lib/reportUtils');
+const rsgs = require('../../lib/readSiteGdriveSheet');
+
 
 const scriptname = path.basename(process.argv[1]);
 console.dir(`arguments passed in ${argv}`);
@@ -82,52 +84,65 @@ const writeStringToFile = function (filePath, aString) {
   RHL: {
     aqua_link_site_ID: '3400',
     site_name: 'Honolua Bay',
-    point_location: 'POINT(-156.6384 21.0135)'
   },
   RON: {
     aqua_link_site_ID: '3401',
     site_name: 'Oneloa Bay',
-    point_location: 'POINT(-156.659 21.00406)'
   },.........
 
 */
 const getSiteData = function (data, callback) {
 
   console.log("In getSiteData");
-/* Get the site data in the form of:
-  [
-    [ 'RHL', '3400', 'Honolua Bay', 'POINT(-156.6384 21.0135)' ],
-    [ 'RON', '3401', 'Oneloa Bay', 'POINT(-156.659 21.00406)' ],
-    ....
-  ]
+
+
+  /*
+   readSiteGdriveSheet returns a object with keys as Hui Site ids and
+   and a value with is an object with site information from the "Site Codes"
+   sheet of the "Hui O Ka Wai Ola Data Entry".
+
+  {
+    PFF: {
+      Hui_ID: 'PFF',
+      siteCode: 'PFF',
+      Status: 'Active',
+      Area: 'Polanui',
+      Site_Name: '505 Front Street',
+      long_name: '505 Front Street',
+      Station_Name: '',
+      Display_Name: '505 Front St',
+      DOH_ID: '',
+      Surfrider_ID: '',
+      Lat: '20.86732',
+      lat: '20.86732',
+      Long: '-156.67605',
+      lon: '-156.67605',
+      Aqualink_ID: '3411'
+    },
+    MAS: {
+      Hui_ID: 'MAS',
+      siteCode: 'MAS',
+      Status: 'Active', ...
   */
 
-  const sites2DArray = ru.tsvFileToArrayOfArrays(data.siteFile, 1);  // skip firt header line
-  console.log("sites " + util.inspect(sites2DArray, false, null));
+  const sites = rsgs.readSiteGdriveSheet(data.siteFile);
 
-  // loop through the array of arrays and make a hash were to key is the hui site ID
-  // and the value and object with the aqualink site id and other data from aqualink.
-  data["sitesKV"] = {};  // key is Hui site ID, value is object with site data from aqualink
-  // the most important being their ID for the sight.
-  //
-  for (let i = 0; i < sites2DArray.length; ++i){
+  //console.log("sites " + util.inspect(sites, false, null));
 
-    const huiSiteID = sites2DArray[i][0];
-    const aqualinkSiteID = sites2DArray[i][1];
-    const siteName = sites2DArray[i][2];   // our site name, but probably the DOH one when available
-    const pointLocation = sites2DArray[i][3];
+  data["huiToAqualinkSitesKV"] = {};  // key is Hui site ID, value is the corresponding aqualink site ID
 
-    const value = {'aqualink_site_ID': aqualinkSiteID,
-                   'site_name': siteName,
-                   'point_location': pointLocation
-                  };
+  // loop through the keys of the site data and get the site
+  for (let [siteID, siteDataObj] of Object.entries(sites)) {
+    //console.log(siteID);
+    const huiSiteID = siteDataObj.Hui_ID;
+    const aqualinkSiteID = siteDataObj.Aqualink_ID;
 
-    data["sitesKV"][huiSiteID] = value;
-
+    if (aqualinkSiteID != "") {
+      data["huiToAqualinkSitesKV"][siteDataObj.Hui_ID] = siteDataObj.Aqualink_ID;;
+    }
   }
 
-  console.log("sitesKV " + util.inspect(data['sitesKV'], false, null));
-
+  //console.log("huiToAqualinkSitesKV " + util.inspect(data['huiToAqualinkSitesKV'], false, null));
 
   if (callback) {
     callback();
@@ -180,8 +195,6 @@ const getSamples = function (data, callback) {
   if (callback) {
     callback();
   }
-
-
 };
 
 
@@ -192,6 +205,8 @@ const createAqualinkFile = function (data, callback) {
 
   let sampleList = [];
 
+  let stationsWithNoAqualinkID = {};
+
   for (let i = 0; i < data.samples.length; ++i) {
 
     let sampleArray = data.samples[i];
@@ -199,7 +214,7 @@ const createAqualinkFile = function (data, callback) {
     const station = sampleArray[3];
 
 
-    if (data.sitesKV[station]) {
+    if (data.huiToAqualinkSitesKV[station]) {
 
       const obj = { 'sample_ID' : sampleArray[1],
                     'site_name' : sampleArray[2],
@@ -224,9 +239,13 @@ const createAqualinkFile = function (data, callback) {
 
     }
     else {
-      console.log(`WARNING: station ${station} not found in hui to aqualink site lookup.`);
-      //console.error(`WARNING: station ${station} not found in hui to aqualink site lookup.`);
+      stationsWithNoAqualinkID[station] = 1;
     }
+  }
+
+  // log that there are some sites without Aqualink IDs.  This is usually intentional.  For example: non-active sites.
+  for (let [missingID, meaninglessValue] of Object.entries(stationsWithNoAqualinkID)) {
+    console.log(`NEW WARNING: station ${missingID} not found in hui to aqualink site lookup.`);
   }
 
   //console.log("samples objs " + util.inspect(sampleList, false, null));
@@ -239,9 +258,9 @@ const createAqualinkFile = function (data, callback) {
   sampleList.forEach( function (sampleObj) {
     let sampleArray = [];
     //console.log("sample obj " + util.inspect(sampleObj.station, false, null));
-    //console.log("kv object " + util.inspect(data.sitesKV[sampleObj.station], false, null));
+    //console.log("kv object " + util.inspect(data.huiToAqualinkSitesKV[sampleObj.station], false, null));
 
-    sampleArray.push(data.sitesKV[sampleObj.station]['aqualink_site_ID']);  // first column gets Aqualinks site ID
+    sampleArray.push(data.huiToAqualinkSitesKV[sampleObj.station]);  // first column gets Aqualinks site ID
     sampleArray.push(sampleObj.the_date);
     sampleArray.push(sampleObj.the_time);
     sampleArray.push(sampleObj.temperature);

@@ -1,12 +1,28 @@
-#!/bin/bash -x
+#!/bin/bash
 
-#wxfile=../../reports/web-export-quarterly-reports/2023-2nd-quarter.0.all-areas.tsv
-wxfile=../../reports/web-export-quarterly-reports/2024-1st-quarter.0.all-areas.tsv
+#wxfile=../../reports/web-export-quarterly-reports/2024-1st-quarter.0.all-areas.tsv
 #wxfile=./test-web-export-file.tsv
 
-sites="./HUI Aqualink Site Ids.tsv"
-#csvFile="data-for-aqualink-temp.csv"
+scriptName=`basename $0`
 
-csvFile="data-for-aqualink-2024-1st-quarter.csv"
+#theDate=`date '+%Y%m%d_%H-%M-%S'`
 
-./create-aqualink-data.js -w $wxfile -s "$sites" -c "$csvFile"
+if (( $# != 1 ))
+then
+  echo "Usage: $scriptName <basename quarterly file to read ex: 2019-4th-quarter.0>"
+  exit 1
+fi
+
+reportBasename=$1
+
+wxfile=../../reports/web-export-quarterly-reports/$reportBasename.all-areas.tsv
+csvFile="./aqualink-data.$reportBasename.csv"
+
+#sites="./HUI Aqualink Site Ids.tsv"
+sites="../../data/google-drive-downloads/Hui O Ka Wai Ola Data Entry - Site Codes.tsv"
+
+
+./create-aqualink-data.js  \
+  -w $wxfile \
+  -s "$sites" \
+  -c "$csvFile"
