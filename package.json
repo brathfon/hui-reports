@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "minimist": "^1.2.3"
+    "minimist": "^1.2.6"
   },
   "devDependencies": {}
 }
