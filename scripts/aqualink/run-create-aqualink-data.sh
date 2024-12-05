@@ -20,6 +20,7 @@ scriptName=`basename $0`
 if [[ $# -ne 1 && $# -ne 2 ]]
 then
   echo "Usage: $scriptName <basename quarterly file to read ex: 2019-4th-quarter.0> [base name of output file ex: temp-test]"
+  exit 1
 fi
 
 reportBasename=$1
