@@ -17,9 +17,10 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
 
 curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/zip' -d '{"countrycode":["US"],"statecode":["US:15"],"organization":["HUIWAIOLA_WQX"],"dataProfile":"resultPhysChem","providers":["STORET"]}' 'https://www.waterqualitydata.us/data/Result/search?mimeType=tsv&zip=yes' --output "resultsPhysChem.zip"
 
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/zip' -d '{"countrycode":["US"],"statecode":["US:15"],"organization":["HUIWAIOLA_WQX"],"dataProfile":"biological","providers":["STORET"]}' 'https://www.waterqualitydata.us/data/Result/search?mimeType=tsv&zip=yes' --output "resultsBiological.zip"
+# not really needed
+#curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/zip' -d '{"countrycode":["US"],"statecode":["US:15"],"organization":["HUIWAIOLA_WQX"],"dataProfile":"biological","providers":["STORET"]}' 'https://www.waterqualitydata.us/data/Result/search?mimeType=tsv&zip=yes' --output "resultsBiological.zip"
 
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/zip' -d '{"countrycode":["US"],"statecode":["US:15"],"organization":["HUIWAIOLA_WQX"],"dataProfile":"narrowResult","providers":["STORET"]}' 'https://www.waterqualitydata.us/data/Result/search?mimeType=tsv&zip=yes' --output "resultsNarrow.zip"
+#curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/zip' -d '{"countrycode":["US"],"statecode":["US:15"],"organization":["HUIWAIOLA_WQX"],"dataProfile":"narrowResult","providers":["STORET"]}' 'https://www.waterqualitydata.us/data/Result/search?mimeType=tsv&zip=yes' --output "resultsNarrow.zip"
 
 curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/zip' -d '{"countrycode":["US"],"statecode":["US:15"],"organization":["HUIWAIOLA_WQX"],"dataProfile":"activityAll","providers":["STORET"]}' 'https://www.waterqualitydata.us/data/Activity/search?mimeType=tsv&zip=yes' --output "samplingActivity.zip"
 
