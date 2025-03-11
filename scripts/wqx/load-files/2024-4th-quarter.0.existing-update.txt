@@ -1,0 +1,87 @@
+Monitoring Location ID	Activity ID	Activity Type	Activity Start Date	Activity Start Time	Project ID 1	Project ID 2	Sample Collection Method ID	Sample Collection Equipment Name	Sample Collection Equipment Comment	Characteristic Name	Method Speciation	Result Detection Condition	Result Value	Result Unit	Result Sample Fraction	Result Analytical Method ID	Result Analytical Method Context	Result Detection Limit Type	Result Detection Limit Value	Result Detection Limit Unit
+LMT	LMT240223:FM:PS:TS:	Field Msr/Obs	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Temperature, water			23.9	deg C		2550	APHA			
+LMT	LMT240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			7.31	mg/l		8157	HACH			
+LMT	LMT240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			100.1	%		8157	HACH			
+LMT	LMT240223:FM:WB:	Field Msr/Obs	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Water Bottle	HACH 2100Q	Turbidity			2.42	NTU		180.1	USEPA			
+LMT	LMT240223:FM:PS:PH:	Field Msr/Obs	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH PHC101	pH			8.01	None		8156	HACH			
+LMT	LMT240223:SR:WB:	Sample-Routine	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Nitrogen, mixed forms	as N		161.60	ug/l	Filtered, field	4500-N	APHA			
+LMT	LMT240223:SR:WB:	Sample-Routine	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.60	ug/l	Filtered, field	4500-P	APHA			
+LMT	LMT240223:SR:WB:	Sample-Routine	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Water Bottle		Orthophosphate	as P		3.24	ug/l	Filtered, field	365.5	USEPA			
+LMT	LMT240223:SR:WB:	Sample-Routine	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Water Bottle		Silicate			241.65	ug/l	Filtered, field	366.0	USEPA			
+LMT	LMT240223:SR:WB:	Sample-Routine	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Water Bottle		Nitrate + Nitrite	as N		15.92	ug/l	Filtered, field	353.4	USEPA			
+LMT	LMT240223:SR:WB:	Sample-Routine	02/23/2024	07:49	HUI_PCHEM	EPABEACH	1002	Water Bottle		Ammonium	as N		56.77	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+LMR	LMR240223:FM:PS:TS:	Field Msr/Obs	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Temperature, water			24.0	deg C		2550	APHA			
+LMR	LMR240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			7.11	mg/l		8157	HACH			
+LMR	LMR240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			97.6	%		8157	HACH			
+LMR	LMR240223:FM:WB:	Field Msr/Obs	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Water Bottle	HACH 2100Q	Turbidity			4.10	NTU		180.1	USEPA			
+LMR	LMR240223:FM:PS:PH:	Field Msr/Obs	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH PHC101	pH			7.97	None		8156	HACH			
+LMR	LMR240223:SR:WB:	Sample-Routine	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Nitrogen, mixed forms	as N		199.51	ug/l	Filtered, field	4500-N	APHA			
+LMR	LMR240223:SR:WB:	Sample-Routine	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.55	ug/l	Filtered, field	4500-P	APHA			
+LMR	LMR240223:SR:WB:	Sample-Routine	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Water Bottle		Orthophosphate	as P		8.34	ug/l	Filtered, field	365.5	USEPA			
+LMR	LMR240223:SR:WB:	Sample-Routine	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Water Bottle		Silicate			2168.80	ug/l	Filtered, field	366.0	USEPA			
+LMR	LMR240223:SR:WB:	Sample-Routine	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Water Bottle		Nitrate + Nitrite	as N		25.56	ug/l	Filtered, field	353.4	USEPA			
+LMR	LMR240223:SR:WB:	Sample-Routine	02/23/2024	08:13	HUI_PCHEM	EPABEACH	1002	Water Bottle		Ammonium	as N		29.34	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+LPS	LPS240223:FM:PS:TS:	Field Msr/Obs	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Temperature, water			23.8	deg C		2550	APHA			
+LPS	LPS240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			7.29	mg/l		8157	HACH			
+LPS	LPS240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			100.6	%		8157	HACH			
+LPS	LPS240223:FM:WB:	Field Msr/Obs	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Water Bottle	HACH 2100Q	Turbidity			4.42	NTU		180.1	USEPA			
+LPS	LPS240223:FM:PS:PH:	Field Msr/Obs	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH PHC101	pH			8.07	None		8156	HACH			
+LPS	LPS240223:SR:WB:	Sample-Routine	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Nitrogen, mixed forms	as N		116.47	ug/l	Filtered, field	4500-N	APHA			
+LPS	LPS240223:SR:WB:	Sample-Routine	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Phosphorus, mixed forms	as P		10.28	ug/l	Filtered, field	4500-P	APHA			
+LPS	LPS240223:SR:WB:	Sample-Routine	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Water Bottle		Orthophosphate	as P		4.66	ug/l	Filtered, field	365.5	USEPA			
+LPS	LPS240223:SR:WB:	Sample-Routine	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Water Bottle		Silicate			622.55	ug/l	Filtered, field	366.0	USEPA			
+LPS	LPS240223:SR:WB:	Sample-Routine	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Water Bottle		Nitrate + Nitrite	as N		6.00	ug/l	Filtered, field	353.4	USEPA			
+LPS	LPS240223:SR:WB:	Sample-Routine	02/23/2024	08:34	HUI_PCHEM	EPABEACH	1002	Water Bottle		Ammonium	as N		9.69	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+LLH	LLH240223:FM:PS:TS:	Field Msr/Obs	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Temperature, water			25.3	deg C		2550	APHA			
+LLH	LLH240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			7.12	mg/l		8157	HACH			
+LLH	LLH240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			97.3	%		8157	HACH			
+LLH	LLH240223:FM:WB:	Field Msr/Obs	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Water Bottle	HACH 2100Q	Turbidity			1.09	NTU		180.1	USEPA			
+LLH	LLH240223:FM:PS:PH:	Field Msr/Obs	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH PHC101	pH			8.12	None		8156	HACH			
+LLH	LLH240223:SR:WB:	Sample-Routine	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Nitrogen, mixed forms	as N		87.12	ug/l	Filtered, field	4500-N	APHA			
+LLH	LLH240223:SR:WB:	Sample-Routine	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.37	ug/l	Filtered, field	4500-P	APHA			
+LLH	LLH240223:SR:WB:	Sample-Routine	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Water Bottle		Orthophosphate	as P		2.30	ug/l	Filtered, field	365.5	USEPA			
+LLH	LLH240223:SR:WB:	Sample-Routine	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Water Bottle		Silicate			136.65	ug/l	Filtered, field	366.0	USEPA			
+LLH	LLH240223:SR:WB:	Sample-Routine	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Water Bottle		Nitrate + Nitrite	as N		6.83	ug/l	Filtered, field	353.4	USEPA			
+LLH	LLH240223:SR:WB:	Sample-Routine	02/23/2024	08:55	HUI_PCHEM	EPABEACH	1002	Water Bottle		Ammonium	as N		2.29	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+PFF	PFF240223:FM:PS:TS:	Field Msr/Obs	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Temperature, water			24.5	deg C		2550	APHA			
+PFF	PFF240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.88	mg/l		8157	HACH			
+PFF	PFF240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			96.8	%		8157	HACH			
+PFF	PFF240223:FM:WB:	Field Msr/Obs	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Water Bottle	HACH 2100Q	Turbidity			2.49	NTU		180.1	USEPA			
+PFF	PFF240223:FM:PS:PH:	Field Msr/Obs	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH PHC101	pH			8.07	None		8156	HACH			
+PFF	PFF240223:SR:WB:	Sample-Routine	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Nitrogen, mixed forms	as N		73.86	ug/l	Filtered, field	4500-N	APHA			
+PFF	PFF240223:SR:WB:	Sample-Routine	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.91	ug/l	Filtered, field	4500-P	APHA			
+PFF	PFF240223:SR:WB:	Sample-Routine	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Water Bottle		Orthophosphate	as P		3.71	ug/l	Filtered, field	365.5	USEPA			
+PFF	PFF240223:SR:WB:	Sample-Routine	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Water Bottle		Silicate			205.33	ug/l	Filtered, field	366.0	USEPA			
+PFF	PFF240223:SR:WB:	Sample-Routine	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Water Bottle		Nitrate + Nitrite	as N		7.64	ug/l	Filtered, field	353.4	USEPA			
+PFF	PFF240223:SR:WB:	Sample-Routine	02/23/2024	09:30	HUI_PCHEM	EPABEACH	1002	Water Bottle		Ammonium	as N		4.10	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+PLH	PLH240223:FM:PS:TS:	Field Msr/Obs	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Temperature, water			25.7	deg C		2550	APHA			
+PLH	PLH240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.46	mg/l		8157	HACH			
+PLH	PLH240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			92.3	%		8157	HACH			
+PLH	PLH240223:FM:WB:	Field Msr/Obs	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Water Bottle	HACH 2100Q	Turbidity			9.33	NTU		180.1	USEPA			
+PLH	PLH240223:FM:PS:PH:	Field Msr/Obs	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH PHC101	pH			8.05	None		8156	HACH			
+PLH	PLH240223:SR:WB:	Sample-Routine	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Nitrogen, mixed forms	as N		73.68	ug/l	Filtered, field	4500-N	APHA			
+PLH	PLH240223:SR:WB:	Sample-Routine	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Phosphorus, mixed forms	as P		11.36	ug/l	Filtered, field	4500-P	APHA			
+PLH	PLH240223:SR:WB:	Sample-Routine	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Water Bottle		Orthophosphate	as P		6.17	ug/l	Filtered, field	365.5	USEPA			
+PLH	PLH240223:SR:WB:	Sample-Routine	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Water Bottle		Silicate			532.61	ug/l	Filtered, field	366.0	USEPA			
+PLH	PLH240223:SR:WB:	Sample-Routine	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Water Bottle		Nitrate + Nitrite	as N		6.41	ug/l	Filtered, field	353.4	USEPA			
+PLH	PLH240223:SR:WB:	Sample-Routine	02/23/2024	09:58	HUI_PCHEM	EPABEACH	1002	Water Bottle		Ammonium	as N		2.15	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+PLT	PLT240223:FM:PS:TS:	Field Msr/Obs	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Temperature, water			25.8	deg C		2550	APHA			
+PLT	PLT240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen (DO)			6.45	mg/l		8157	HACH			
+PLT	PLT240223:FM:PS:DO:	Field Msr/Obs	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH LDO101	Dissolved oxygen saturation			94.2	%		8157	HACH			
+PLT	PLT240223:FM:WB:	Field Msr/Obs	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Water Bottle	HACH 2100Q	Turbidity			3.95	NTU		180.1	USEPA			
+PLT	PLT240223:FM:PS:PH:	Field Msr/Obs	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH PHC101	pH			8.04	None		8156	HACH			
+PLT	PLT240223:SR:WB:	Sample-Routine	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Nitrogen, mixed forms	as N		73.24	ug/l	Filtered, field	4500-N	APHA			
+PLT	PLT240223:SR:WB:	Sample-Routine	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Phosphorus, mixed forms	as P		9.51	ug/l	Filtered, field	4500-P	APHA			
+PLT	PLT240223:SR:WB:	Sample-Routine	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Water Bottle		Orthophosphate	as P		4.38	ug/l	Filtered, field	365.5	USEPA			
+PLT	PLT240223:SR:WB:	Sample-Routine	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Water Bottle		Silicate			277.69	ug/l	Filtered, field	366.0	USEPA			
+PLT	PLT240223:SR:WB:	Sample-Routine	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Water Bottle		Nitrate + Nitrite	as N		6.02	ug/l	Filtered, field	353.4	USEPA			
+PLT	PLT240223:SR:WB:	Sample-Routine	02/23/2024	10:14	HUI_PCHEM	EPABEACH	1002	Water Bottle		Ammonium	as N		3.45	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			
+LMT	LMT240719:FM:PS:TS:	Field Msr/Obs	07/19/2024	07:21	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH CDC401	Temperature, water			25.6	deg C		2550	APHA			
+LMT	LMT240719:FM:WB:	Field Msr/Obs	07/19/2024	07:21	HUI_PCHEM	EPABEACH	1002	Water Bottle	HACH 2100Q	Turbidity			0.93	NTU		180.1	USEPA			
+LMT	LMT240719:FM:PS:PH:	Field Msr/Obs	07/19/2024	07:21	HUI_PCHEM	EPABEACH	1002	Probe/Sensor	HACH PHC101	pH			8.06	None		8156	HACH			
+LMT	LMT240719:SR:WB:	Sample-Routine	07/19/2024	07:21	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Nitrogen, mixed forms	as N		75.70	ug/l	Filtered, field	4500-N	APHA			
+LMT	LMT240719:SR:WB:	Sample-Routine	07/19/2024	07:21	HUI_PCHEM	EPABEACH	1002	Water Bottle		Total Phosphorus, mixed forms	as P		8.66	ug/l	Filtered, field	4500-P	APHA			
+LMT	LMT240719:SR:WB:	Sample-Routine	07/19/2024	07:21	HUI_PCHEM	EPABEACH	1002	Water Bottle		Orthophosphate	as P		3.85	ug/l	Filtered, field	365.5	USEPA			
+LMT	LMT240719:SR:WB:	Sample-Routine	07/19/2024	07:21	HUI_PCHEM	EPABEACH	1002	Water Bottle		Silicate			325.60	ug/l	Filtered, field	366.0	USEPA			
+LMT	LMT240719:SR:WB:	Sample-Routine	07/19/2024	07:21	HUI_PCHEM	EPABEACH	1002	Water Bottle		Nitrate + Nitrite	as N		8.03	ug/l	Filtered, field	353.4	USEPA			
+LMT	LMT240719:SR:WB:	Sample-Routine	07/19/2024	07:21	HUI_PCHEM	EPABEACH	1002	Water Bottle		Ammonium	as N		2.28	ug/l	Filtered, field	Ammonium-OPA	HUIWAIOLA_WQX			

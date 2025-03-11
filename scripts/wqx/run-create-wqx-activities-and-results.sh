@@ -26,7 +26,8 @@ then
   exit 1
 fi
 
-wqxDownloadsDir=~/development/water-quality/hui-reports/scripts/wqx/check-wqx/wqx-wqp-downloads
+# TODO - don't hard code path
+wqxDownloadsDir=~/hui/hui-reports/scripts/wqx/check-wqx/wqx-wqp-downloads
 wqxResultsDetailExportFile="$wqxDownloadsDir/$1/Result Detail Export.txt"
 basename=$2
 
@@ -41,8 +42,8 @@ fi
 ./create-wqx-activities-and-results.js  \
     -o ./load-files  \
     -b $basename  \
-    -g ~/development/water-quality/hui-reports/data/google-drive-downloads/ \
-    -n ~/development/water-quality/hui-reports/data/nutrient-data/  \
+    -g ~/hui/hui-reports/data/google-drive-downloads/ \
+    -n ~/hui/hui-reports/data/nutrient-data/  \
     -w "$wqxResultsDetailExportFile"
 
 exit 0

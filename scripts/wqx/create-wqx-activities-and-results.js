@@ -346,6 +346,7 @@ var readWQXData = function (data, callback) {
       printLog(data.log);  // print out the log data returned from this reader
     }
     else {
+        console.log(returnedObj.status)
       console.error("There was a problem reading the WQX file");
       data.status = "FAILURE";
     }
