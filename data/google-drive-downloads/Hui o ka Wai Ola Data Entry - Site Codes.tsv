@@ -13,15 +13,9 @@ NMP	Active	Kīhei	Mai Poina 'Oe Ia'u		Mai Poina Park			20.774894	-156.460776	342
 MMB	Active	Wailea-Mākena	Maluaka Beach		Maluaka Beach			20.645598	-156.443859	3440
 MON	Active	Wailea-Mākena	Oneuli		Oneʻuli Beach			20.639866	-156.447406	3441
 OPP	Active	Olowalu to Pali	Papalaua Pali		Pāpalaua Pali			20.792747	-156.567326	3419
-OPM	Active	Olowalu to Pali	Peter Martin Hale		Olowalu Point			20.808444	-156.619697	3416
 RPO	Active	Ridge to Reef	Pohaku		Pōhaku Park			20.967083	-156.68139	3406
 NSB	Active	Kīhei	Sugar Beach		Sugar Beach			20.784204	-156.466463	3424
-HHP	Inactive	Hāna	Hana Pier		Hāna Pier			20.756083	-155.982167	
-HHH	Inactive	Hāna	Helene Hall		Helene Hall			20.755472	-155.983222	
-PPU	Inactive	Polanui	Makila Point		Makila Point			20.859233	-156.669442	
-HMB	Inactive	Hāna	Mid Bay 2		Hāna Kai Resort			20.759806	-155.986611	
 OMM	Active	Olowalu to Pali	Mile Marker 14		Mile Marker 14			20.80915	-156.60661	3608
-HWB	Inactive	Hāna	Waikoloa Beach		Waikoloa Beach			20.761306	-155.985889	
 MAN	Active	Wailea-Mākena	Ahihi North	Ahihi Cove	ʻĀhihi Kīnaʻu North	740		20.618366	-156.437572	3443
 RFS	Active	Ridge to Reef	Kapalua Bay (Fleming S)	Fleming Beach (South)	Kapalua Bay	650		20.998924	-156.666746	3402
 RCB	Active	Ridge to Reef	Canoe Beach	Hanakaoo	Hanakaʻōʻō Park	693		20.910347	-156.689382	3409
@@ -32,36 +26,48 @@ PLT	Active	Polanui	Lahaina Town	Lahaina Town (#202)	Polanui-ʻŪhāʻīlio	726		
 NHP	Active	Māʻalaea	Haycraft Park	Maalaea Condos	Haycraft Park	687		20.796414	-156.503198	3422
 MML	Active	Wailea-Mākena	Makena Landing	Makena Landing	Mākena Landing	717		20.653913	-156.441174	3439
 RNS	Active	Ridge to Reef	Napili	Napili	Nāpili Bay	723		20.994222	-156.667417	3403
-OSF	Active	Olowalu to Pali	Olowalu Shore Front	Olowalu Shore Front	Olowalu Landing	663		20.80916	-156.62289	3415
 RON	Active	Ridge to Reef	Oneloa	Oneloa	Oneloa Bay	722		21.004056	-156.65894	3401
 WPL	Active	Wailea-Mākena	Palauea	Palauea	Palauʻea Beach	715		20.669565	-156.442907	3437
 OPB	Active	Olowalu to Pali	Papalaua  	Papalaua	Pāpalaua Park	728		20.793809	-156.575211	3418
-WPO	Active	Wailea-Mākena	Poolenalena (Chang's Beach)	Poolenalena	Poʻolenalena Park	716		20.66339	-156.441968	3438
 RKS	Active	Ridge to Reef	Kaanapali Shores	Sheraton Kaanapali Shoreline	Kā‘anapali Shores	666		20.949331	-156.691124	3408
 OUB	Active	Olowalu to Pali	Ukumehame Beach	Ukumehame	Ukumehame Park	698		20.79448	-156.58142	3417
 WUL	Active	Wailea-Mākena	Ulua Beach	Ulua Beach	Ulua Park	686		20.69112	-156.444201	3436
 RWA	Active	Polanui	Wahikuli	Wahikuli Beach	Wahikuli Park	678		20.904476	-156.685931	3410
 KWP	Active	Kīhei	Waipuilani Park	Waipuilani	Waipuʻilani Park	713		20.755056	-156.459602	3428
-KKS	Active	Kīhei	Kihei South (Lipoa)	Kihei (South)	West Līpoa St	676		20.747334	-156.457881	3429
-RFN	Inactive	Ridge to Reef	DT Beach (Fleming N)	Fleming Beach (North)	DT Fleming Park	674		21.005	-156.65084	
-HBP	Inactive	Hāna	Hana Beach Park	Hana Bay Shoreline	Hāna Beach Park	652		20.75575	-155.984667	
-KKO	Inactive	Wailea-Mākena	Kamaole Beach I	Kamaole Beach #1 (LG Tower)	Kamaʻole Park I	746		20.721985	-156.448183	3432
+LMT	Active	Lahaina Fire Response	Mala Tavern		Māla Tavern			20.887449	-156.685048	3574
+LMR	Active	Lahaina Fire Response	Mala Ramp		Māla Ramp			20.885373	-156.686429	3573
+LPS	Active	Lahaina Fire Response	Papalaua St		Pāpalaua St			20.876911	-156.681359	3575
+LLH	Active	Lahaina Fire Response	Lahaina Harbor		Lāhainā Harbor			20.871933	-156.678624	3572
+NKP	Active	Māʻalaea	Kealia Pond	Kealia Pond	Keālia Pond	711		20.794936	-156.485587	3423
+KKS	Active 	Kīhei	Kihei South (Lipoa)	Kihei (South)	West Līpoa St	676		20.747334	-156.457881	3429
+OPM	Inactive	Olowalu to Pali	Peter Martin Hale		Olowalu Point			20.808444	-156.619697	3416
+HHP	Inactive	Hāna	Hana Pier		Hāna Pier			20.756083	-155.982167	
+HHH	Inactive	Hāna	Helene Hall		Helene Hall			20.755472	-155.983222	
+PPU	Inactive	Polanui	Makila Point		Makila Point			20.859233	-156.669442	
+HMB	Inactive	Hāna	Mid Bay 2		Hāna Kai Resort			20.759806	-155.986611	
+HWB	Inactive	Hāna	Waikoloa Beach		Waikoloa Beach			20.761306	-155.985889	
+OSF	Inactive	Olowalu to Pali	Olowalu Shore Front	Olowalu Shore Front	Olowalu Landing	663		20.80916	-156.62289	3415
+WPO	Inactive	Wailea-Mākena	Poolenalena (Chang's Beach)	Poolenalena	Poʻolenalena Park	716		20.66339	-156.441968	3438
 KKT	Inactive	Wailea-Mākena	Kamaole Beach III	Kamaole Beach #3	Kamaʻole Park III	683		20.712908	-156.446596	3433
 OLP	Inactive	Polanui	Launiupoko	Launiupoko	Launiupoko Park	694		20.84236	-156.653035	
 RMO	Inactive	Ridge to Reef	Mokuleia	Mokuleia	Mokuleʻia Bay	721		21.011352	-156.64227	
 WWA	Inactive	Wailea-Mākena	Wailea Beach	Wailea Beach	Wailea Park	691		20.68156	-156.443524	
 MBS	Inactive	Wailea-Mākena	Makena Beach Shoreline	Makena Beach Shoreline	Mākena State Park	661		20.63061	-156.446183	3442
-NKP	Active	Māʻalaea	Kealia Pond	Kealia Pond	Keālia Pond	711		20.794936	-156.485587	3423
-KCP	Active	Wailea-Mākena	Cove Park	Cove Park	Cove Park	703		20.727434	-156.450077	3431
-WKD	Active	Wailea-Mākena	Kilohana Dr	Keawakapu (2)	Kilohana Dr	704		20.702214	-156.445921	3434
+KCP	Inactive	Wailea-Mākena	Cove Park	Cove Park	Cove Park	703		20.727434	-156.450077	3431
+WKD	Inactive	Wailea-Mākena	Kilohana Dr	Keawakapu (2)	Kilohana Dr	704		20.702214	-156.445921	3434
 RAB	Inactive	Ridge to Reef	Airport Beach	Airport (Kahekili) Beach	Kahekili Park	695		20.936669	-156.69278	
-RKT	Active	Ridge to Reef	Kahekili Two	Kahekili/Airport 2	Kahekili Two	733		20.941269	-156.692439	3407
-		Ridge to Reef		Honokowai	Honokowai Beach Park	725		20.955278	-156.686472	
-		Hāna		Honomanu Bay Shoreline	Honomanu Bay	653		20.860472	-156.165972	
-		Kīhei		Kalepolepo	Kalepolepo Park	712		20.763631	-156.459169	
-		Wailea-Mākena		Kamaole Beach #2	Kamaʻole Beach 2 (Iliʻiliholo Beach)	682		20.716678	-156.446944	
-		Pā‘ia		Kanaha Central Tower	Kanaha Beach Park	745		20.900392	-156.440578	
-		Kīhei		Mai Ponia Oe Iau (Windsurfer)	Mai Poina ʻOe Iaʻu Beach Park	702		20.78085	-156.461967	
+RKT	Inactive	Ridge to Reef	Kahekili Two	Kahekili/Airport 2	Kahekili Two	733		20.941269	-156.692439	3407
+	Inactive	Ridge to Reef		Honokowai	Honokowai Beach Park	725		20.955278	-156.686472	
+	Inactive	Hāna		Honomanu Bay Shoreline	Honomanu Bay	653		20.860472	-156.165972	
+	Inactive	Kīhei		Kalepolepo	Kalepolepo Park	712		20.763631	-156.459169	
+	Inactive	Wailea-Mākena		Kamaole Beach #2	Kamaʻole Beach 2 (Iliʻiliholo Beach)	682		20.716678	-156.446944	
+LMN	Inactive	Lana'i 	Manele Bay		Mānele Bay			20.7415630	-156.8879560	
+LHB	Inactive	Lana'i 	Hulopo'e Beach Park		Hulopoʻe Park			20.7388179	-156.8934794	
+RFN	Inactive 	Ridge to Reef	DT Beach (Fleming N)	Fleming Beach (North)	DT Fleming Park	674		21.005	-156.65084	
+HBP	Inactive 	Hāna	Hana Beach Park	Hana Bay Shoreline	Hāna Beach Park	652		20.75575	-155.984667	
+KKO	Inactive 	Wailea-Mākena	Kamaole Beach I	Kamaole Beach #1 (LG Tower)	Kamaʻole Park I	746		20.721985	-156.448183	3432
+	Inactive 	Pā‘ia		Kanaha Central Tower	Kanaha Beach Park	745		20.900392	-156.440578	
+	Inactive 	Kīhei		Mai Ponia Oe Iau (Windsurfer)	Mai Poina ʻOe Iaʻu Beach Park	702		20.78085	-156.461967	
 		Wailea-Mākena		Maluaka	Maluaka Beach	718		20.648058	-156.442236	
 		Wailea-Mākena		Mokapu	Mokapu Beach Park	714		20.694183	-156.444181	
 		Wailea-Mākena		Polo Beach	Polo Beach Park	705		20.676406	-156.443611	
@@ -93,9 +99,3 @@ RKT	Active	Ridge to Reef	Kahekili Two	Kahekili/Airport 2	Kahekili Two	733		20.94
 		Pā‘ia			Peʻahi Shoreline		615	20.940953	-156.299172	
 		Pā‘ia			Sugar Cove		624	20.909661	-156.409156	
 		Waihe‘e-Waiehu			Wailuku Stream		629	20.910464	-156.484889	
-LMT	Active 	Lahaina Fire Response	Mala Tavern		Māla Tavern			20.887449	-156.685048	3574
-LMR	Active 	Lahaina Fire Response	Mala Ramp		Māla Ramp			20.885373	-156.686429	3573
-LPS	Active 	Lahaina Fire Response	Papalaua St		Pāpalaua St			20.876911	-156.681359	3575
-LLH	Active 	Lahaina Fire Response	Lahaina Harbor		Lāhainā Harbor			20.871933	-156.678624	3572
-LMN	Inactive 	Lana'i 	Manele Bay		Mānele Bay			20.7415630	-156.8879560	
-LHB	Inactive 	Lana'i 	Hulopo'e Beach Park		Hulopoʻe Park			20.7388179	-156.8934794	
