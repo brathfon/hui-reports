@@ -4,7 +4,7 @@ MAS	Active	Wailea-Mākena	Ahihi South		ʻĀhihi Kīnaʻu South			20.6138	-156.43
 OCO	Active	Olowalu to Pali	Camp Olowalu		Camp Olowalu			20.80986	-156.61369	3414
 RKV	Active	Ridge to Reef	Kahana Village		Kahana Village			20.976561	-156.678	3405
 NKN	Active	Kīhei	Kalepolepo North		Kalepolepo Park			20.765132	-156.459344	3427
-RKO	Active	Ridge to Reef	Ka'opala		Kaʻōpala Bay			20.982074	-156.673398	3404
+RKO	Active	Ridge to Reef	Ka'opala	Ka'opala	Kaʻōpala Bay			20.982074	-156.673398	3404
 NKC	Active	Kīhei	Kihei Canoe Club		Kīhei Canoe Club			20.781403	-156.463176	3425
 PLH	Active	Polanui	Lindsey Hale		Kauaʻula Rd			20.86485	-156.67374	3413
 NMC	Active	Māʻalaea	Maalaea Condos		Māʻalaea Condos			20.794917	-156.506735	3421
@@ -40,6 +40,11 @@ LPS	Active	Lahaina Fire Response	Papalaua St		Pāpalaua St			20.876911	-156.6813
 LLH	Active	Lahaina Fire Response	Lahaina Harbor		Lāhainā Harbor			20.871933	-156.678624	3572
 NKP	Active	Māʻalaea	Kealia Pond	Kealia Pond	Keālia Pond	711		20.794936	-156.485587	3423
 KKS	Active 	Kīhei	Kihei South (Lipoa)	Kihei (South)	West Līpoa St	676		20.747334	-156.457881	3429
+MKL	Active 	S. Moloka'i	Kalamaula	Kalama'ula	Kalama'ula			21.0962	-157.03967	
+MKW	Active 	S. Moloka'i	Kaunakakai Wharf					21.08046	-157.02861	
+MKA	Active 	S. Moloka'i	Kapaakea	Kapa`akea	Kapa`akea			21.08406	-157.01452	
+MMS	Active 	S. Moloka'i	Molokai Shores					21.08063	-157.0045	
+MKK	Active 	S. Moloka'i	Kakahaia	Kakahai`a	Kakahai`a			21.06281	-156.94151	
 OPM	Inactive	Olowalu to Pali	Peter Martin Hale		Olowalu Point			20.808444	-156.619697	3416
 HHP	Inactive	Hāna	Hana Pier		Hāna Pier			20.756083	-155.982167	
 HHH	Inactive	Hāna	Helene Hall		Helene Hall			20.755472	-155.983222	
