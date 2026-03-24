@@ -246,16 +246,33 @@ async function main(): Promise<void> {
     const { localName, dateNote } = parsed;
     const localPath = path.join(LOCAL_NUTRIENT_DATA_DIR, df.region, localName);
 
-    // Consider the session covered if ANY local file shares the same PREFIX_YYMMDD
-    // prefix — e.g. a .fixed, a rerun-by-soest.fixed, or the plain base all count.
     const sessionPrefix = localName.match(/^((?:MNMRC|TNC)_\d{6})/)?.[1];
-    const localDir = path.dirname(localPath);
-    const existingForSession = sessionPrefix
-      ? (fs.readdirSync(localDir).some(f => f.startsWith(sessionPrefix) && f.endsWith('.csv')))
-      : fs.existsSync(localPath);
-    const status = existingForSession ? 'exists' : 'download';
+    const localDir   = path.dirname(localPath);
+    const localFiles = sessionPrefix ? fs.readdirSync(localDir) : [];
 
-    actions.push({ driveFile: df, localName, localPath, status, dateNote });
+    // When Drive has a .fixed file: only treat the session as covered if we
+    // already have a .fixed variant locally. If we only have the plain base,
+    // download the .fixed and remove the base so we always have the latest version.
+    // When Drive has a base file: any local file for the session counts as coverage.
+    const driveIsFixed = /\.fixed\.xls$/i.test(df.name);
+    let status: 'exists' | 'download';
+    let replacesBase: string | undefined;
+
+    if (driveIsFixed && sessionPrefix) {
+      const localFixed = localFiles.find(f => f.startsWith(sessionPrefix) && f.includes('.fixed') && f.endsWith('.csv'));
+      const localBase  = localFiles.find(f => f.startsWith(sessionPrefix) && !f.includes('.fixed') && f.endsWith('.csv'));
+      if (localFixed) {
+        status = 'exists';
+      } else {
+        status = 'download';
+        if (localBase) replacesBase = localBase;
+      }
+    } else {
+      const anyLocal = localFiles.some(f => f.startsWith(sessionPrefix ?? '') && f.endsWith('.csv'));
+      status = (sessionPrefix ? anyLocal : fs.existsSync(localPath)) ? 'exists' : 'download';
+    }
+
+    actions.push({ driveFile: df, localName, localPath, status, dateNote, replacesBase });
   }
 
   // Report
