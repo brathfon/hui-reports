@@ -88,8 +88,20 @@ export async function authenticate(): Promise<InstanceType<typeof google.auth.OA
   if (fs.existsSync(TOKEN_PATH)) {
     const token = JSON.parse(fs.readFileSync(TOKEN_PATH, 'utf-8'));
     oauth2Client.setCredentials(token);
-    // googleapis automatically refreshes the access token using the refresh_token
-    return oauth2Client;
+    try {
+      await oauth2Client.getAccessToken();
+      return oauth2Client;
+    } catch (err: any) {
+      // Refresh tokens for Testing-mode OAuth apps expire after 7 days.
+      // Delete the stale token and fall through to re-authenticate.
+      if (err.message?.includes('invalid_grant')) {
+        console.log('Cached Google token has expired (this happens every 7 days in Testing mode).');
+        console.log('Re-authenticating...\n');
+        fs.unlinkSync(TOKEN_PATH);
+      } else {
+        throw err;
+      }
+    }
   }
 
   // First run: open browser for OAuth consent
