@@ -43,10 +43,11 @@ const TEAM_TABS = [
   'Team Polanui',
   'Team R2RN',
   'Team Kamaole',
-  'Team Lahaina Fire Response',
+  'Team Lahaina',
   'Team Wailea-Makena',
   'Team North Kihei',
   "Team Lana'i",
+  // "Team Moloka'i",  // Moloka'i is left out until its Site Codes and Report Constants rows are complete
   'Team Olowalu',
   'Team Wailea',
 ];
@@ -204,6 +205,7 @@ async function main(): Promise<void> {
 
   const allWarnings: string[] = [];
   const allErrors:   string[] = [];
+  const writtenFiles: string[] = [];
 
   for (const tabName of [...TEAM_TABS, ...VERBATIM_TABS]) {
     process.stdout.write(`  "${tabName}"... `);
@@ -224,6 +226,20 @@ async function main(): Promise<void> {
     const tsv     = rows.map(row => row.join('\t')).join('\n');
     const outPath = path.join(OUTPUT_DIR, `${SHEET_PREFIX} - ${tabName}.tsv`);
     fs.writeFileSync(outPath, tsv, 'utf-8');
+    writtenFiles.push(path.basename(outPath));
+  }
+
+  const staleFiles = findStaleTeamFiles(OUTPUT_DIR, writtenFiles);
+  if (staleFiles.length) {
+    console.error(`\n${'─'.repeat(70)}`);
+    console.error('✗  ERROR: Team files in the download folder that were not downloaded this run');
+    console.error(`${'─'.repeat(70)}`);
+    for (const f of staleFiles) console.error(`  ${f}`);
+    console.error('\n  The quarterly scripts read every Team .tsv file in the folder, so these would be');
+    console.error('  included in the reports. If a tab was renamed, git mv the old file to the new');
+    console.error('  name before running this script. If a tab was removed, delete its file.');
+    console.error('');
+    allErrors.push(...staleFiles);
   }
 
   if (allWarnings.length) {
@@ -248,6 +264,18 @@ async function main(): Promise<void> {
   console.log(status);
 
   if (allErrors.length) process.exit(1);
+}
+
+/**
+ * Returns the Team .tsv files in the folder that were not written this run, such as one left behind
+ * when a tab is renamed. Compared ignoring case, since the existing files use "Hui o ka" and macOS
+ * keeps that case when the file is overwritten as "Hui O Ka".
+ */
+function findStaleTeamFiles(dir: string, writtenFiles: string[]): string[] {
+  const written = new Set(writtenFiles.map(f => f.toLowerCase()));
+  return fs.readdirSync(dir)
+    .filter(f => /Team/.test(f) && f.endsWith('.tsv') && !written.has(f.toLowerCase()))
+    .sort();
 }
 
 main().catch(err => {

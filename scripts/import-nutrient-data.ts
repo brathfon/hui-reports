@@ -23,6 +23,7 @@ const LOCAL_NUTRIENT_DATA_DIR = path.resolve(__dirname, '../data/nutrient-data')
 // Maps Drive top-level folder names to local subdirectory names
 const REGION_MAP: Record<string, string> = {
   'Lanai':      'lanai',
+  // 'Molokai':    'molokai',  // Moloka'i is left out until its Site Codes and Report Constants rows are complete
   'South-Maui': 'south-maui',
   'West-Maui':  'west-maui',
 };
@@ -40,7 +41,7 @@ interface FileAction {
   localPath: string;
   status: 'exists' | 'download';
   dateNote?: string;   // set if a MMDDYY → YYMMDD conversion was applied
-  replacesBase?: string; // set when downloading a .fixed that supersedes a local base file
+  replaces: string[];  // local files this revision supersedes (the original, or an older revision)
 }
 
 // ── Drive traversal ──────────────────────────────────────────────────────────
@@ -65,18 +66,27 @@ function shouldSkip(name: string): boolean {
   return SKIP_PATTERNS.some(p => p.test(name));
 }
 
+// A corrected copy of a lab file replaces the original. The QA team has named these both
+// MNMRC_X.fixed.xls and MNMRC_X_rev.xls (and _rev2, etc. for later corrections).
+const REVISION_SUFFIX = /(\.fixed|_rev\d*)(\.(?:xls|csv))$/i;
+
+function isRevision(name: string): boolean {
+  return REVISION_SUFFIX.test(name);
+}
+
+/** The name of the original file a revision replaces, ex: MNMRC_X_rev.xls -> MNMRC_X.xls */
+function originalName(name: string): string {
+  return name.replace(REVISION_SUFFIX, '$2');
+}
+
 /**
- * Given a list of .xls files in one folder, filters out base versions when a
- * .fixed counterpart exists. E.g. if both MNMRC_X.xls and MNMRC_X.fixed.xls
- * are present, only the .fixed one is kept.
+ * Given a list of .xls files in one folder, filters out original versions when a
+ * revision exists. E.g. if both MNMRC_X.xls and MNMRC_X_rev.xls are present, only
+ * the revision is kept.
  */
-function preferFixed(files: { id: string; name: string }[]): { id: string; name: string }[] {
-  const fixedBases = new Set(
-    files
-      .filter(f => /\.fixed\.xls$/i.test(f.name))
-      .map(f => f.name.replace(/\.fixed\.xls$/i, '.xls'))
-  );
-  return files.filter(f => !fixedBases.has(f.name));
+function preferRevisions(files: { id: string; name: string }[]): { id: string; name: string }[] {
+  const revisedOriginals = new Set(files.filter(f => isRevision(f.name)).map(f => originalName(f.name)));
+  return files.filter(f => !revisedOriginals.has(f.name));
 }
 
 async function listFolders(drive: any, parentId: string): Promise<{ id: string; name: string }[]> {
@@ -97,7 +107,7 @@ async function listXlsFiles(drive: any, parentId: string): Promise<{ id: string;
     pageSize: 200,
   });
   const all = (res.data.files ?? []).filter((f: any) => /\.xls$/i.test(f.name) && !shouldSkip(f.name));
-  return preferFixed(all);
+  return preferRevisions(all);
 }
 
 async function collectDriveFiles(drive: any): Promise<DriveFile[]> {
@@ -214,10 +224,9 @@ async function downloadAndConvert(drive: any, action: FileAction): Promise<void>
   fs.mkdirSync(path.dirname(action.localPath), { recursive: true });
   fs.writeFileSync(action.localPath, csv, 'utf-8');
 
-  // Remove the superseded base file if we just downloaded a .fixed replacement
-  if (action.replacesBase) {
-    const basePath = path.join(path.dirname(action.localPath), action.replacesBase);
-    fs.unlinkSync(basePath);
+  // Remove the local files this revision supersedes, so the original's data is not read too
+  for (const old of action.replaces) {
+    fs.unlinkSync(path.join(path.dirname(action.localPath), old));
   }
 }
 
@@ -248,31 +257,38 @@ async function main(): Promise<void> {
 
     const sessionPrefix = localName.match(/^((?:MNMRC|TNC)_\d{6})/)?.[1];
     const localDir   = path.dirname(localPath);
-    const localFiles = sessionPrefix ? fs.readdirSync(localDir) : [];
+    const localFiles = sessionPrefix && fs.existsSync(localDir) ? fs.readdirSync(localDir) : [];
 
-    // When Drive has a .fixed file: only treat the session as covered if we
-    // already have a .fixed variant locally. If we only have the plain base,
-    // download the .fixed and remove the base so we always have the latest version.
-    // When Drive has a base file: any local file for the session counts as coverage.
-    const driveIsFixed = /\.fixed\.xls$/i.test(df.name);
+    // When Drive has a .fixed file: only treat the session as covered if we already have a .fixed
+    // variant locally (some sessions have more than one, ex: .fixed and .rerun-by-soest.fixed).
+    // If we only have the original, download the .fixed and remove the original.
+    // When Drive has a _rev file: download it unless we already have that exact file, and remove
+    // the local files it supersedes (the original, or an older revision of it).
+    // When Drive has an original: any local file for the session counts as coverage.
     let status: 'exists' | 'download';
-    let replacesBase: string | undefined;
+    let replaces: string[] = [];
 
-    if (driveIsFixed && sessionPrefix) {
-      const localFixed = localFiles.find(f => f.startsWith(sessionPrefix) && f.includes('.fixed') && f.endsWith('.csv'));
-      const localBase  = localFiles.find(f => f.startsWith(sessionPrefix) && !f.includes('.fixed') && f.endsWith('.csv'));
-      if (localFixed) {
+    if (/\.fixed\.xls$/i.test(df.name) && sessionPrefix) {
+      const sessionCsvs = localFiles.filter(f => f.startsWith(sessionPrefix) && f.endsWith('.csv'));
+      if (sessionCsvs.some(f => f.includes('.fixed'))) {
         status = 'exists';
       } else {
         status = 'download';
-        if (localBase) replacesBase = localBase;
+        replaces = sessionCsvs;
+      }
+    } else if (isRevision(df.name)) {
+      if (localFiles.includes(localName)) {
+        status = 'exists';
+      } else {
+        status = 'download';
+        replaces = localFiles.filter(f => f !== localName && f.endsWith('.csv') && originalName(f) === originalName(localName));
       }
     } else {
       const anyLocal = localFiles.some(f => f.startsWith(sessionPrefix ?? '') && f.endsWith('.csv'));
       status = (sessionPrefix ? anyLocal : fs.existsSync(localPath)) ? 'exists' : 'download';
     }
 
-    actions.push({ driveFile: df, localName, localPath, status, dateNote, replacesBase });
+    actions.push({ driveFile: df, localName, localPath, status, dateNote, replaces });
   }
 
   // Report
@@ -290,7 +306,7 @@ async function main(): Promise<void> {
   if (toDownload.length) {
     console.log('\n── Files to download ────────────────────────────────────────');
     for (const a of toDownload) {
-      const notes = [a.dateNote, a.replacesBase ? `replaces ${a.replacesBase}` : undefined]
+      const notes = [a.dateNote, a.replaces.length ? `replaces ${a.replaces.join(', ')}` : undefined]
         .filter(Boolean).join('; ');
       console.log(`  ${a.driveFile.region}/${a.localName}${notes ? `  [${notes}]` : ''}`);
     }

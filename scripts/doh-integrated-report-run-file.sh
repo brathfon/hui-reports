@@ -20,10 +20,17 @@ fi
 
 reportBasename=$1
 
-./create-web-export.js  \
+logFile=logs/$theDate.$reportBasename.txt
+
+../node_modules/.bin/tsx create-web-export.ts  \
    --odir ../reports/doh-reports \
-   --bname $reportBasename \
+   --bname "$reportBasename" \
    --gsdir  ../data/google-drive-downloads \
    --ndir  ../data/nutrient-data \
-   --inns > logs/$theDate.$reportBasename.txt       # inns flag causes output to not output samples without nutrient data
+   --inns > "$logFile"       # inns flag causes output to not output samples without nutrient data
+status=$?
+
+echo ""
+echo "Full log: $logFile"
+exit $status
 

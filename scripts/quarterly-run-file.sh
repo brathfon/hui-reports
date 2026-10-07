@@ -13,12 +13,20 @@ fi
 reportBasename=$1
 
 output_dir=../reports/web-export-quarterly-reports
+logFile=logs/$theDate.$reportBasename.txt
 
-./create-web-export.js  \
+# stdout (progress, plus each issue as it is found) goes to the log file.
+# stderr (the summary of errors and warnings, sorted by sample date) goes to the terminal.
+../node_modules/.bin/tsx create-web-export.ts  \
    --odir $output_dir \
-   --bname $reportBasename  \
+   --bname "$reportBasename"  \
    --gsdir  ../data/google-drive-downloads \
-   --ndir  ../data/nutrient-data > logs/$theDate.$reportBasename.txt
+   --ndir  ../data/nutrient-data > "$logFile"
+status=$?
+
+echo ""
+echo "Full log: $logFile"
+exit $status
 
 
 #   --inns   # this is for removing data without nutrients option

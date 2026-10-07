@@ -1,0 +1,259 @@
+#!/usr/bin/env -S npx tsx
+
+
+// This script reads the site code sheet from gdrive and the csv version of the data in wqx web
+// from from the xcel spread sheet "MonitoringLocationsExport".
+
+
+import * as fs from 'fs';
+import * as path from 'path';
+import * as rsgs from '../../lib/readSiteGdriveSheet';
+import * as rwwml from '../../lib/readWQXWebMonitoringLocationsExport';
+import type { Site, Sites } from '../../lib/readSiteGdriveSheet';
+import type { WQXLocations } from '../../lib/readWQXWebMonitoringLocationsExport';
+
+const scriptname = path.basename(process.argv[1]);
+
+const printUsage = function () {
+  console.log(`Usage: ${scriptname} <tab delimited Site Codes sheet from Data Entry Spreadsheet> <tab delimited MonitoringLocationDetailExport.tsv from WQX> <directory to write report files> <basename for the files>`);
+}
+console.log(`arg count = ${process.argv.length}`);
+
+if (process.argv.length != 6 ) {
+  printUsage();
+  process.exit(1);
+}
+
+const gDriveSiteSheet = process.argv[2];
+const wqxWebSiteFile  = process.argv[3];
+const outputDir       = process.argv[4];  // out files go here
+const outputBasename  = process.argv[5];  // out files go here
+
+if (! fs.existsSync(wqxWebSiteFile)) {
+  console.error(`${wqxWebSiteFile} does not exist .... exiting`);
+  process.exit(1);
+}
+
+if (! fs.existsSync(gDriveSiteSheet)) {
+  console.error(`${gDriveSiteSheet} does not exist .... exiting`);
+  process.exit(1);
+}
+
+if (! fs.existsSync(outputDir)) {
+  console.error(`${outputDir} does not exist .... exiting`);
+  process.exit(1);
+}
+
+// read the original site data that is used in the database and HUI reports
+
+const getWQXWebSiteData = function (): WQXLocations {
+
+  console.log("In getWQXWebSiteData");
+  return rwwml.readWQXWebLocationsCsvFile(wqxWebSiteFile);
+};
+
+
+// Read the tab separated data from the Google Sheets for each site
+
+const readSiteGdriveData = function (): Sites {
+
+  console.log("In readSiteGdriveData");
+  return rsgs.readSiteGdriveSheet(gDriveSiteSheet);
+};
+
+
+const writeFile = function (filePath: string, dataToWrite: string): void {
+
+  console.log(`Writing file to ${filePath}`);
+  fs.writeFileSync(filePath, dataToWrite);
+};
+
+
+
+/*
+ example gDrive object:
+
+ RKT: {
+    Hui_ID: 'RKT',
+    siteCode: 'RKT',
+    Status: 'Active',
+    Area: 'Ridge to Reef',
+    Site_Name: 'Kahekili Two',
+    long_name: 'Kahekili Two',
+    Station_Name: 'Kahekili/Airport 2',
+    Display_Name: 'Kahekili Two',
+    DOH_ID: '733',
+    Surfrider_ID: '',
+    Lat: '20.941269',
+    lat: '20.941269',
+    Long: '-156.692439',
+    lon: '-156.692439',
+    Dates_Sampled: ''
+  }
+*/
+
+
+const gDriveSiteObjToString = function( obj: Site, separator: string): string {
+
+    let siteAsStr = "";
+    siteAsStr += obj.Hui_ID + separator;
+    siteAsStr += obj.Site_Name + separator;
+    siteAsStr += obj.Lat + separator;
+    siteAsStr += obj.Long;
+    return  siteAsStr;
+};
+
+/*
+
+  Find the diffs in the sites.  Only interested in comparing a few of the attributes and
+  are using the site_id/Hui_ID is a the key.
+
+  from WQX
+  RNS: {
+    Organization_ID: 'HUIWAIOLA_WQX',
+    Monitoring_Location_ID: 'RNS',
+    Monitoring_Location_Name: 'Napili (south end)',
+    Monitoring_Location_Type: 'Ocean',
+    Latitude: '20.994222',
+    Longitude: '-156.667417',
+    Last_Changed: '05-23-2017 12:11:17 AM'
+  },
+
+
+  from gDrive sheet
+  RNS: {
+    Hui_ID: 'RNS',
+    Status: 'Active',
+    Area: 'Ridge to Reef',
+    Site_Name: 'Napili',
+    Station_Name: 'Napili',
+    Display_Name: 'Napili Bay',
+    DOH_ID: '723',
+    Surfrider_ID: '',
+    Lat: '20.994222',
+    Long: '-156.667417',
+    Dates_Sampled: ''
+  },
+*/
+
+
+// WQX and the Site Codes sheet can write the same coordinate differently, ex: 20.9942 and 20.994200
+const sameCoordinate = function (a: string, b: string): boolean {
+  return a === b || parseFloat(a) === parseFloat(b);
+};
+
+
+const findDiffs = function (wQXWebSites: WQXLocations, gDriveSites: Sites): void {
+
+  console.log("In findDiffs");
+
+  console.log(`Number of key IDs in WQX:         ${Object.keys(wQXWebSites).length}`);
+  console.log(`Number of key IDs in gDriveSites: ${Object.keys(gDriveSites).length}`);
+
+  const sitesToDelete: string[] = [];
+  const sitesToAdd: Sites    = {};  // key is site code, value is data from gDriveSites hash
+  const sitesToUpdate: Sites = {};  // key is site code, value is data from gDriveSites hash
+
+  // look for sites only in WQX Web sites - these will be deleted
+  for (let wqxSite in wQXWebSites) {
+    if (! gDriveSites[wqxSite]) {
+      sitesToDelete.push(wqxSite);
+      console.log(`site ${wqxSite} missing from gDrive sites`);
+    }
+  }
+
+  // look for sites only in gDrive sheet - these will be added
+  for (let gDriveSite in gDriveSites) {
+    if (! wQXWebSites[gDriveSite]) {
+      let obj = gDriveSites[gDriveSite];  // convenience ref
+      sitesToAdd[gDriveSite] = obj;
+      console.log(`site ${gDriveSite} missing from WQX sites ${obj.Site_Name}`);
+    }
+  }
+
+  // now compare the common sites by matching IDs and then looking at several attributes
+  // these will be updated
+  for (let wqxSite in wQXWebSites) {
+    let wqxObj    = wQXWebSites[wqxSite];
+    let gDriveObj = gDriveSites[wqxSite];
+
+    if (gDriveObj != null) {
+
+      // if any of these don't match, add this site to the key-value array
+      if (wqxObj.Monitoring_Location_Name != gDriveObj.Site_Name) {
+         console.log(`${wqxSite} names do not match. WQX: ${wqxObj.Monitoring_Location_Name} gDrive: ${gDriveObj.Site_Name}`);
+         sitesToUpdate[wqxSite] = gDriveObj;
+      }
+
+      if (! sameCoordinate(wqxObj.Latitude, gDriveObj.Lat)) {
+         console.log(`${wqxSite} latitudes do not match. WQX: ${wqxObj.Latitude} gDrive: ${gDriveObj.Lat}`);
+         sitesToUpdate[wqxSite] = gDriveObj;
+      }
+
+      if (! sameCoordinate(wqxObj.Longitude, gDriveObj.Long)) {
+         console.log(`${wqxSite} longitudes do not match. WQX: ${wqxObj.Longitude} gDrive: ${gDriveObj.Long}`);
+         sitesToUpdate[wqxSite] = gDriveObj;
+      }
+    }
+  }
+
+
+  let header = "Monitoring Location ID,Monitoring Location Name,Monitoring Location Latitude,Monitoring Location Longitude\n";
+
+  const numSitesToDelete = sitesToDelete.length;
+  const numSitesToAdd    = Object.keys(sitesToAdd).length;
+  const numSitesToUpdate = Object.keys(sitesToUpdate).length;
+
+  console.log(`Number of sites to delete : ${numSitesToDelete}`);
+  console.log(`Number of sites to add    : ${numSitesToAdd}`);
+  console.log(`Number of sites to update : ${numSitesToUpdate}`);
+
+  if (numSitesToDelete > 0 ) {
+    // create the delete file
+    // put the data into a string with returns in between the site codes and write them to a file
+    writeFile(path.join(outputDir, outputBasename + '-delete-sites.csv'), "Monitoring Location ID\n" + sitesToDelete.join("\n") + "\n");
+  }
+  else {
+    console.log("No delete gDriveSiteSheet file created");
+  }
+
+  if (numSitesToAdd > 0) {
+
+    // write the sites to add file.
+    let sitesToAddStr = header;
+    let separator = ",";
+    for (let siteCode in sitesToAdd) {
+      sitesToAddStr += gDriveSiteObjToString(sitesToAdd[siteCode], separator);
+      sitesToAddStr += "\n";
+
+    }
+    writeFile(path.join(outputDir, outputBasename + '-add-sites.csv'), sitesToAddStr);
+  }
+  else {
+    console.log("No add sites file created");
+  }
+
+
+  if (numSitesToUpdate > 0) {
+
+    // write the sites to update file.
+    let sitesToUpdateStr = header;
+    let separator = ",";
+    for (let siteCode in sitesToUpdate) {
+      sitesToUpdateStr += gDriveSiteObjToString(sitesToUpdate[siteCode], separator);
+      sitesToUpdateStr += "\n";
+
+    }
+    writeFile(path.join(outputDir, outputBasename + '-update-sites.csv'), sitesToUpdateStr);
+  }
+  else {
+    console.log("No update sites file created");
+  }
+
+
+};
+
+
+// this is the main
+
+findDiffs(getWQXWebSiteData(), readSiteGdriveData());

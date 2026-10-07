@@ -11,7 +11,7 @@
 wqxFileDir=20221115a_wqx-3rd-quarter-2022-sync-prep
 basename=20221115-add-3rd-quarter-2022-0-check-repeat-temp
 
-./create-wqx-activities-and-results.js  \
+./create-wqx-activities-and-results.ts  \
     -o ./load-files  \
     -b $basename  \
     -g ~/development/water-quality/hui-reports/scripts/wqx/test-data-for-deletes-problem/google-drive-downloads-2022-3rd-quarter/ \

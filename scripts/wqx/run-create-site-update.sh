@@ -10,7 +10,7 @@ wqxLocationFile=MonitoringLocationDetailExport.tsv
 
 basename=20240206-add-lanai-sites
 
-./create-wqx-site-update-files.js  \
+./create-wqx-site-update-files.ts  \
     $huiDataDir/"$huiSiteCodesFile" \
     $wqxDataDir/$wqxLocationFile \
     ./load-files  \

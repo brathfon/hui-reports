@@ -53,7 +53,7 @@ import { URL } from 'url';
 
 // ── OAuth2 credentials (Desktop app) ────────────────────────────────────────
 // Paste values from: console.cloud.google.com → APIs & Services → Credentials
-const CLIENT_ID     = '812820386704-4ca921736t8her42s80reok1runv2584.apps.googleusercontent.com';
+const CLIENT_ID: string     = '812820386704-4ca921736t8her42s80reok1runv2584.apps.googleusercontent.com';
 const CLIENT_SECRET = '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';
 // ────────────────────────────────────────────────────────────────────────────
 
@@ -64,9 +64,7 @@ const SCOPES = [
 ];
 const TOKEN_PATH = path.join(os.homedir(), '.config', 'hui-reports', 'token.json');
 
-export type AuthClient = ReturnType<typeof google.auth.OAuth2.prototype.constructor> & {
-  getAccessToken(): Promise<any>;
-};
+export type AuthClient = InstanceType<typeof google.auth.OAuth2>;
 
 /**
  * Returns an authenticated OAuth2 client.
@@ -75,7 +73,7 @@ export type AuthClient = ReturnType<typeof google.auth.OAuth2.prototype.construc
  * to ~/.config/hui-reports/token.json. Subsequent runs use the cached token,
  * refreshing it automatically when it expires.
  */
-export async function authenticate(): Promise<InstanceType<typeof google.auth.OAuth2>> {
+export async function authenticate(): Promise<AuthClient> {
   if (CLIENT_ID === 'YOUR_CLIENT_ID_HERE') {
     console.error('Error: OAuth2 credentials not configured.');
     console.error('Edit scripts/google-auth.ts and fill in CLIENT_ID and CLIENT_SECRET.');

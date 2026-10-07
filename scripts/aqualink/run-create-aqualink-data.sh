@@ -3,7 +3,7 @@
 
 ###################################################################################
 #
-# This script wraps the create-aqualink-data.js script, passing in the needed
+# This script wraps the create-aqualink-data.ts script, passing in the needed
 # arguments. The csv output file is written to the current directory in the form
 # "aqualink-data.arg1.csv", unless argument 2 (optional) is supplied, then it is
 # "aqualink-data.arg2.csv".
@@ -47,7 +47,7 @@ then
 fi
 
 
-./create-aqualink-data.js  \
+./create-aqualink-data.ts  \
   -w "$samplesAllAreasFile" \
   -s "$sites" \
   -c "$csvOutputOutToAqualink"

@@ -51,19 +51,29 @@ function parseBasename(basename: string): { region: string; yearQuarter: string;
   };
 }
 
+// The web export names its files after the report region with "-maui" on the end, even for
+// Lanai and Molokai (ex: 2026-2nd-quarter.0.lanai-maui.tsv), so accept both forms.
+const REGIONS: Record<string, { template: string; outputRegion: string }> = {
+  'south-maui':   { template: 'South-Maui', outputRegion: 'south-maui' },
+  'west-maui':    { template: 'West-Maui',  outputRegion: 'west-maui' },
+  'lanai':        { template: 'Lanai',      outputRegion: 'lanai' },
+  'lanai-maui':   { template: 'Lanai',      outputRegion: 'lanai' },
+  'molokai':      { template: 'Molokai',    outputRegion: 'molokai' },
+  'molokai-maui': { template: 'Molokai',    outputRegion: 'molokai' },
+};
+
+function regionInfo(region: string): { template: string; outputRegion: string } {
+  const info = REGIONS[region];
+  if (!info) throw new Error(`Unknown region "${region}". Expected one of: ${Object.keys(REGIONS).join(', ')}`);
+  return info;
+}
+
 function regionToTemplateFile(region: string): string {
-  const mapping: Record<string, string> = {
-    'south-maui': 'South-Maui',
-    'west-maui':  'West-Maui',
-    'lanai':      'Lanai',
-  };
-  const key = mapping[region];
-  if (!key) throw new Error(`Unknown region "${region}". Expected: south-maui, west-maui, or lanai`);
-  return path.join(REPORTS_DIR, `web-export-starting-file-${key}.xlsx`);
+  return path.join(REPORTS_DIR, `web-export-starting-file-${regionInfo(region).template}.xlsx`);
 }
 
 function outputFilename(region: string, yearQuarter: string, version: string): string {
-  return `hui-${region}-thru-${yearQuarter}.${version}.xlsx`;
+  return `hui-${regionInfo(region).outputRegion}-thru-${yearQuarter}.${version}.xlsx`;
 }
 
 // Parse MM/DD/YY date strings (as used in the TSV) into Date objects
